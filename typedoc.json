@@ -1,0 +1,11 @@
+{
+    "_Comment": "Run 'npx typedoc' to generate documentation",
+    "mode": "modules",
+    "out": "docs",
+    "includeDeclarations": true,
+    "excludeExternals": true,
+    "theme": "markdown",
+    "disableOutputCheck": false,
+    "readme" : "none",
+    "name": "Typedoc project reference documentation"
+}
