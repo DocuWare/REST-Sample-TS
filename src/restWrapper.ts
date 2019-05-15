@@ -9,6 +9,7 @@ import request, { RequestPromiseOptions } from 'request-promise-native';
 import { DWRequestPromiseExtension } from './types/DW_Request_Promise_Extension';
 
 import http from 'http'; //https://nodejs.org/api/http.html
+import https from 'https'; // just in case of https endpoint
 import fs from 'fs'; //https://nodejs.org/api/fs.html
 import mime, { contentType } from 'mime-types'; //https://www.npmjs.com/package/mime-types
 import querystring from 'querystring'; //https://nodejs.org/api/querystring.html
@@ -40,7 +41,7 @@ class RestCallWrapper {
             },
             withCredentials: true,
             maxRedirects: 5,
-            agent: new http.Agent({ keepAlive: false }), //Seperated calls, can be changed to true. False is better for development
+            agent: (this.platformRoot.startsWith('https')) ? new https.Agent({ keepAlive: false }) : new http.Agent({ keepAlive: false }), //Seperated calls, can be changed to true. False is better for development. Do https/http switch
             json: true,
             resolveWithFullResponse: false //We want to get json objects returned directly, in some cases we set it to true during method call
         }

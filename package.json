@@ -15,6 +15,7 @@
   "dependencies": {
     "archiver": "^3.0.0",
     "content-disposition": "^0.5.3",
+    "https": "^1.0.0",
     "mime-types": "^2.1.23",
     "polly-js": "^1.6.3",
     "request": "^2.88.0",
