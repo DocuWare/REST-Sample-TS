@@ -27,6 +27,7 @@ Original IncomingMessage does not contain body property, so we enhance it
 ### Properties
 
 * [body](_types_dw_request_promise_extension_d_.dwrequestpromiseextension.ilogonresponsewrapper.md#body)
+* [complete](_types_dw_request_promise_extension_d_.dwrequestpromiseextension.ilogonresponsewrapper.md#complete)
 * [connection](_types_dw_request_promise_extension_d_.dwrequestpromiseextension.ilogonresponsewrapper.md#connection)
 * [headers](_types_dw_request_promise_extension_d_.dwrequestpromiseextension.ilogonresponsewrapper.md#headers)
 * [httpVersion](_types_dw_request_promise_extension_d_.dwrequestpromiseextension.ilogonresponsewrapper.md#httpversion)
@@ -93,7 +94,7 @@ Original IncomingMessage does not contain body property, so we enhance it
 
 *Overrides Readable.__constructor*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/http.d.ts:176*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/http.d.ts:177*
 
 **Parameters:**
 
@@ -113,7 +114,18 @@ ___
 
 **● body**: *[ILogonResponse](_types_dw_rest_d_.dwrest.ilogonresponse.md)*
 
-*Defined in [types/DW_Request_Promise_Extension.d.ts:28](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Request_Promise_Extension.d.ts#L28)*
+*Defined in [types/DW_Request_Promise_Extension.d.ts:28](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Request_Promise_Extension.d.ts#L28)*
+
+___
+<a id="complete"></a>
+
+###  complete
+
+**● complete**: *`boolean`*
+
+*Inherited from IncomingMessage.complete*
+
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/http.d.ts:183*
 
 ___
 <a id="connection"></a>
@@ -124,7 +136,7 @@ ___
 
 *Inherited from IncomingMessage.connection*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/http.d.ts:182*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/http.d.ts:184*
 
 ___
 <a id="headers"></a>
@@ -135,7 +147,7 @@ ___
 
 *Inherited from IncomingMessage.headers*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/http.d.ts:183*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/http.d.ts:185*
 
 ___
 <a id="httpversion"></a>
@@ -146,7 +158,7 @@ ___
 
 *Inherited from IncomingMessage.httpVersion*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/http.d.ts:179*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/http.d.ts:180*
 
 ___
 <a id="httpversionmajor"></a>
@@ -157,7 +169,7 @@ ___
 
 *Inherited from IncomingMessage.httpVersionMajor*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/http.d.ts:180*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/http.d.ts:181*
 
 ___
 <a id="httpversionminor"></a>
@@ -168,7 +180,7 @@ ___
 
 *Inherited from IncomingMessage.httpVersionMinor*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/http.d.ts:181*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/http.d.ts:182*
 
 ___
 <a id="method"></a>
@@ -179,7 +191,7 @@ ___
 
 *Inherited from IncomingMessage.method*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/http.d.ts:191*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/http.d.ts:193*
 
 Only valid for request obtained from http.Server.
 
@@ -192,7 +204,7 @@ ___
 
 *Inherited from IncomingMessage.rawHeaders*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/http.d.ts:184*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/http.d.ts:186*
 
 ___
 <a id="rawtrailers"></a>
@@ -203,7 +215,7 @@ ___
 
 *Inherited from IncomingMessage.rawTrailers*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/http.d.ts:186*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/http.d.ts:188*
 
 ___
 <a id="readable"></a>
@@ -214,7 +226,7 @@ ___
 
 *Inherited from Readable.readable*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:21*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:21*
 
 ___
 <a id="readablehighwatermark"></a>
@@ -225,7 +237,7 @@ ___
 
 *Inherited from Readable.readableHighWaterMark*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:22*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:22*
 
 ___
 <a id="readablelength"></a>
@@ -236,7 +248,7 @@ ___
 
 *Inherited from Readable.readableLength*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:23*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:23*
 
 ___
 <a id="socket"></a>
@@ -247,7 +259,7 @@ ___
 
 *Inherited from IncomingMessage.socket*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/http.d.ts:204*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/http.d.ts:206*
 
 ___
 <a id="statuscode"></a>
@@ -258,7 +270,7 @@ ___
 
 *Inherited from IncomingMessage.statusCode*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/http.d.ts:199*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/http.d.ts:201*
 
 Only valid for response obtained from http.ClientRequest.
 
@@ -271,7 +283,7 @@ ___
 
 *Inherited from IncomingMessage.statusMessage*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/http.d.ts:203*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/http.d.ts:205*
 
 Only valid for response obtained from http.ClientRequest.
 
@@ -284,7 +296,7 @@ ___
 
 *Inherited from IncomingMessage.trailers*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/http.d.ts:185*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/http.d.ts:187*
 
 #### Type declaration
 
@@ -299,7 +311,7 @@ ___
 
 *Inherited from IncomingMessage.url*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/http.d.ts:195*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/http.d.ts:197*
 
 Only valid for request obtained from http.Server.
 
@@ -312,7 +324,7 @@ ___
 
 *Inherited from EventEmitter.defaultMaxListeners*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/events.d.ts:9*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/events.d.ts:9*
 
 ___
 
@@ -326,7 +338,7 @@ ___
 
 *Inherited from Readable.[Symbol.asyncIterator]*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:96*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:96*
 
 **Returns:** `AsyncIterableIterator`<`any`>
 
@@ -339,7 +351,7 @@ ___
 
 *Inherited from Readable._destroy*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:35*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:35*
 
 **Parameters:**
 
@@ -359,7 +371,7 @@ ___
 
 *Inherited from Readable._read*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:25*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:25*
 
 **Parameters:**
 
@@ -390,7 +402,7 @@ ___
 
 *Overrides EventEmitter.addListener*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:47*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:47*
 
 Event emitter The defined events on documents including:
 
@@ -413,7 +425,7 @@ Event emitter The defined events on documents including:
 
 *Overrides EventEmitter.addListener*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:48*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:48*
 
 **Parameters:**
 
@@ -428,7 +440,7 @@ Event emitter The defined events on documents including:
 
 *Overrides EventEmitter.addListener*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:49*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:49*
 
 **Parameters:**
 
@@ -443,7 +455,7 @@ Event emitter The defined events on documents including:
 
 *Overrides EventEmitter.addListener*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:50*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:50*
 
 **Parameters:**
 
@@ -458,7 +470,7 @@ Event emitter The defined events on documents including:
 
 *Overrides EventEmitter.addListener*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:51*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:51*
 
 **Parameters:**
 
@@ -473,7 +485,7 @@ Event emitter The defined events on documents including:
 
 *Overrides EventEmitter.addListener*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:52*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:52*
 
 **Parameters:**
 
@@ -495,7 +507,7 @@ ___
 
 *Overrides Readable.destroy*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/http.d.ts:205*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/http.d.ts:207*
 
 **Parameters:**
 
@@ -526,7 +538,7 @@ ___
 
 *Overrides EventEmitter.emit*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:54*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:54*
 
 **Parameters:**
 
@@ -540,7 +552,7 @@ ___
 
 *Overrides EventEmitter.emit*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:55*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:55*
 
 **Parameters:**
 
@@ -555,7 +567,7 @@ ___
 
 *Overrides EventEmitter.emit*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:56*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:56*
 
 **Parameters:**
 
@@ -569,7 +581,7 @@ ___
 
 *Overrides EventEmitter.emit*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:57*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:57*
 
 **Parameters:**
 
@@ -583,7 +595,7 @@ ___
 
 *Overrides EventEmitter.emit*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:58*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:58*
 
 **Parameters:**
 
@@ -598,7 +610,7 @@ ___
 
 *Overrides EventEmitter.emit*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:59*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:59*
 
 **Parameters:**
 
@@ -620,7 +632,7 @@ ___
 
 *Overrides EventEmitter.eventNames*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/events.d.ts:24*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/events.d.ts:24*
 
 **Returns:** `Array`<`string` \| `symbol`>
 
@@ -635,7 +647,7 @@ ___
 
 *Overrides EventEmitter.getMaxListeners*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/events.d.ts:20*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/events.d.ts:20*
 
 **Returns:** `number`
 
@@ -648,7 +660,7 @@ ___
 
 *Inherited from Readable.isPaused*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:30*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:30*
 
 **Returns:** `boolean`
 
@@ -663,7 +675,7 @@ ___
 
 *Overrides EventEmitter.listenerCount*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/events.d.ts:25*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/events.d.ts:25*
 
 **Parameters:**
 
@@ -684,7 +696,7 @@ ___
 
 *Overrides EventEmitter.listeners*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/events.d.ts:21*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/events.d.ts:21*
 
 **Parameters:**
 
@@ -705,7 +717,7 @@ ___
 
 *Overrides EventEmitter.off*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/events.d.ts:17*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/events.d.ts:17*
 
 **Parameters:**
 
@@ -737,7 +749,7 @@ ___
 
 *Overrides EventEmitter.on*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:61*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:61*
 
 **Parameters:**
 
@@ -752,7 +764,7 @@ ___
 
 *Overrides EventEmitter.on*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:62*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:62*
 
 **Parameters:**
 
@@ -767,7 +779,7 @@ ___
 
 *Overrides EventEmitter.on*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:63*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:63*
 
 **Parameters:**
 
@@ -782,7 +794,7 @@ ___
 
 *Overrides EventEmitter.on*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:64*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:64*
 
 **Parameters:**
 
@@ -797,7 +809,7 @@ ___
 
 *Overrides EventEmitter.on*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:65*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:65*
 
 **Parameters:**
 
@@ -812,7 +824,7 @@ ___
 
 *Overrides EventEmitter.on*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:66*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:66*
 
 **Parameters:**
 
@@ -844,7 +856,7 @@ ___
 
 *Overrides EventEmitter.once*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:68*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:68*
 
 **Parameters:**
 
@@ -859,7 +871,7 @@ ___
 
 *Overrides EventEmitter.once*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:69*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:69*
 
 **Parameters:**
 
@@ -874,7 +886,7 @@ ___
 
 *Overrides EventEmitter.once*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:70*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:70*
 
 **Parameters:**
 
@@ -889,7 +901,7 @@ ___
 
 *Overrides EventEmitter.once*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:71*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:71*
 
 **Parameters:**
 
@@ -904,7 +916,7 @@ ___
 
 *Overrides EventEmitter.once*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:72*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:72*
 
 **Parameters:**
 
@@ -919,7 +931,7 @@ ___
 
 *Overrides EventEmitter.once*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:73*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:73*
 
 **Parameters:**
 
@@ -939,7 +951,7 @@ ___
 
 *Inherited from Readable.pause*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:28*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:28*
 
 **Returns:** `this`
 
@@ -952,7 +964,7 @@ ___
 
 *Inherited from internal.pipe*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:5*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:5*
 
 **Type parameters:**
 
@@ -987,7 +999,7 @@ ___
 
 *Overrides EventEmitter.prependListener*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:75*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:75*
 
 **Parameters:**
 
@@ -1002,7 +1014,7 @@ ___
 
 *Overrides EventEmitter.prependListener*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:76*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:76*
 
 **Parameters:**
 
@@ -1017,7 +1029,7 @@ ___
 
 *Overrides EventEmitter.prependListener*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:77*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:77*
 
 **Parameters:**
 
@@ -1032,7 +1044,7 @@ ___
 
 *Overrides EventEmitter.prependListener*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:78*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:78*
 
 **Parameters:**
 
@@ -1047,7 +1059,7 @@ ___
 
 *Overrides EventEmitter.prependListener*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:79*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:79*
 
 **Parameters:**
 
@@ -1062,7 +1074,7 @@ ___
 
 *Overrides EventEmitter.prependListener*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:80*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:80*
 
 **Parameters:**
 
@@ -1094,7 +1106,7 @@ ___
 
 *Overrides EventEmitter.prependOnceListener*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:82*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:82*
 
 **Parameters:**
 
@@ -1109,7 +1121,7 @@ ___
 
 *Overrides EventEmitter.prependOnceListener*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:83*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:83*
 
 **Parameters:**
 
@@ -1124,7 +1136,7 @@ ___
 
 *Overrides EventEmitter.prependOnceListener*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:84*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:84*
 
 **Parameters:**
 
@@ -1139,7 +1151,7 @@ ___
 
 *Overrides EventEmitter.prependOnceListener*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:85*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:85*
 
 **Parameters:**
 
@@ -1154,7 +1166,7 @@ ___
 
 *Overrides EventEmitter.prependOnceListener*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:86*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:86*
 
 **Parameters:**
 
@@ -1169,7 +1181,7 @@ ___
 
 *Overrides EventEmitter.prependOnceListener*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:87*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:87*
 
 **Parameters:**
 
@@ -1189,7 +1201,7 @@ ___
 
 *Inherited from Readable.push*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:34*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:34*
 
 **Parameters:**
 
@@ -1211,7 +1223,7 @@ ___
 
 *Overrides EventEmitter.rawListeners*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/events.d.ts:22*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/events.d.ts:22*
 
 **Parameters:**
 
@@ -1230,7 +1242,7 @@ ___
 
 *Inherited from Readable.read*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:26*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:26*
 
 **Parameters:**
 
@@ -1251,7 +1263,7 @@ ___
 
 *Overrides EventEmitter.removeAllListeners*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/events.d.ts:18*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/events.d.ts:18*
 
 **Parameters:**
 
@@ -1282,7 +1294,7 @@ ___
 
 *Overrides EventEmitter.removeListener*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:89*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:89*
 
 **Parameters:**
 
@@ -1297,7 +1309,7 @@ ___
 
 *Overrides EventEmitter.removeListener*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:90*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:90*
 
 **Parameters:**
 
@@ -1312,7 +1324,7 @@ ___
 
 *Overrides EventEmitter.removeListener*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:91*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:91*
 
 **Parameters:**
 
@@ -1327,7 +1339,7 @@ ___
 
 *Overrides EventEmitter.removeListener*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:92*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:92*
 
 **Parameters:**
 
@@ -1342,7 +1354,7 @@ ___
 
 *Overrides EventEmitter.removeListener*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:93*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:93*
 
 **Parameters:**
 
@@ -1357,7 +1369,7 @@ ___
 
 *Overrides EventEmitter.removeListener*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:94*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:94*
 
 **Parameters:**
 
@@ -1377,7 +1389,7 @@ ___
 
 *Inherited from Readable.resume*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:29*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:29*
 
 **Returns:** `this`
 
@@ -1390,7 +1402,7 @@ ___
 
 *Inherited from Readable.setEncoding*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:27*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:27*
 
 **Parameters:**
 
@@ -1411,7 +1423,7 @@ ___
 
 *Overrides EventEmitter.setMaxListeners*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/events.d.ts:19*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/events.d.ts:19*
 
 **Parameters:**
 
@@ -1430,7 +1442,7 @@ ___
 
 *Inherited from IncomingMessage.setTimeout*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/http.d.ts:187*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/http.d.ts:189*
 
 **Parameters:**
 
@@ -1450,7 +1462,7 @@ ___
 
 *Inherited from Readable.unpipe*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:31*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:31*
 
 **Parameters:**
 
@@ -1469,7 +1481,7 @@ ___
 
 *Inherited from Readable.unshift*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:32*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:32*
 
 **Parameters:**
 
@@ -1488,7 +1500,7 @@ ___
 
 *Inherited from Readable.wrap*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/stream.d.ts:33*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/stream.d.ts:33*
 
 **Parameters:**
 
@@ -1507,7 +1519,7 @@ ___
 
 *Inherited from EventEmitter.listenerCount*
 
-*Defined in D:/TFS/Git/Repos/REST-Sample-TS/node_modules/@types/node/events.d.ts:8*
+*Defined in C:/GitHub/REST-Sample-TS/node_modules/@types/node/events.d.ts:8*
 
 *__deprecated__*: since v4.0.0
 

@@ -26,7 +26,7 @@ Roles
 
 **● Item**: *[IRole](_types_dw_rest_d_.dwrest.irole.md)[]*
 
-*Defined in [types/DW_Rest.d.ts:745](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L745)*
+*Defined in [types/DW_Rest.d.ts:745](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L745)*
 
 ___
 

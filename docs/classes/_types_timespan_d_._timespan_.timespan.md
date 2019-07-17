@@ -74,7 +74,7 @@
 
 ⊕ **new TimeSpan**(milliseconds: *`any`*, seconds: *`any`*, minutes: *`any`*, hours: *`any`*, days: *`any`*): [TimeSpan](_types_timespan_d_._timespan_.timespan.md)
 
-*Defined in [types/timespan.d.ts:5](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/timespan.d.ts#L5)*
+*Defined in [types/timespan.d.ts:5](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/timespan.d.ts#L5)*
 
 **Parameters:**
 
@@ -98,7 +98,7 @@ ___
 
 **● days**: *`number`*
 
-*Defined in [types/timespan.d.ts:72](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/timespan.d.ts#L72)*
+*Defined in [types/timespan.d.ts:72](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/timespan.d.ts#L72)*
 
 ___
 <a id="hours"></a>
@@ -107,7 +107,7 @@ ___
 
 **● hours**: *`number`*
 
-*Defined in [types/timespan.d.ts:74](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/timespan.d.ts#L74)*
+*Defined in [types/timespan.d.ts:74](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/timespan.d.ts#L74)*
 
 ___
 <a id="milliseconds"></a>
@@ -116,7 +116,7 @@ ___
 
 **● milliseconds**: *`number`*
 
-*Defined in [types/timespan.d.ts:76](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/timespan.d.ts#L76)*
+*Defined in [types/timespan.d.ts:76](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/timespan.d.ts#L76)*
 
 ___
 <a id="minutes"></a>
@@ -125,7 +125,7 @@ ___
 
 **● minutes**: *`number`*
 
-*Defined in [types/timespan.d.ts:78](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/timespan.d.ts#L78)*
+*Defined in [types/timespan.d.ts:78](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/timespan.d.ts#L78)*
 
 ___
 <a id="seconds"></a>
@@ -134,7 +134,7 @@ ___
 
 **● seconds**: *`number`*
 
-*Defined in [types/timespan.d.ts:80](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/timespan.d.ts#L80)*
+*Defined in [types/timespan.d.ts:80](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/timespan.d.ts#L80)*
 
 ___
 
@@ -146,7 +146,7 @@ ___
 
 ▸ **add**(timeSpan: *`any`*): `void`
 
-*Defined in [types/timespan.d.ts:82](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/timespan.d.ts#L82)*
+*Defined in [types/timespan.d.ts:82](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/timespan.d.ts#L82)*
 
 **Parameters:**
 
@@ -163,7 +163,7 @@ ___
 
 ▸ **addDays**(days: *`any`*): `void`
 
-*Defined in [types/timespan.d.ts:84](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/timespan.d.ts#L84)*
+*Defined in [types/timespan.d.ts:84](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/timespan.d.ts#L84)*
 
 **Parameters:**
 
@@ -180,7 +180,7 @@ ___
 
 ▸ **addHours**(hours: *`any`*): `void`
 
-*Defined in [types/timespan.d.ts:86](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/timespan.d.ts#L86)*
+*Defined in [types/timespan.d.ts:86](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/timespan.d.ts#L86)*
 
 **Parameters:**
 
@@ -197,7 +197,7 @@ ___
 
 ▸ **addMilliseconds**(milliseconds: *`any`*): `void`
 
-*Defined in [types/timespan.d.ts:88](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/timespan.d.ts#L88)*
+*Defined in [types/timespan.d.ts:88](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/timespan.d.ts#L88)*
 
 **Parameters:**
 
@@ -214,7 +214,7 @@ ___
 
 ▸ **addMinutes**(minutes: *`any`*): `void`
 
-*Defined in [types/timespan.d.ts:90](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/timespan.d.ts#L90)*
+*Defined in [types/timespan.d.ts:90](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/timespan.d.ts#L90)*
 
 **Parameters:**
 
@@ -231,7 +231,7 @@ ___
 
 ▸ **addSeconds**(seconds: *`any`*): `void`
 
-*Defined in [types/timespan.d.ts:92](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/timespan.d.ts#L92)*
+*Defined in [types/timespan.d.ts:92](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/timespan.d.ts#L92)*
 
 **Parameters:**
 
@@ -248,7 +248,7 @@ ___
 
 ▸ **equals**(timeSpan: *`any`*): `any`
 
-*Defined in [types/timespan.d.ts:94](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/timespan.d.ts#L94)*
+*Defined in [types/timespan.d.ts:94](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/timespan.d.ts#L94)*
 
 **Parameters:**
 
@@ -265,7 +265,7 @@ ___
 
 ▸ **subtract**(timeSpan: *`any`*): `void`
 
-*Defined in [types/timespan.d.ts:96](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/timespan.d.ts#L96)*
+*Defined in [types/timespan.d.ts:96](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/timespan.d.ts#L96)*
 
 **Parameters:**
 
@@ -282,7 +282,7 @@ ___
 
 ▸ **subtractDays**(days: *`any`*): `void`
 
-*Defined in [types/timespan.d.ts:98](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/timespan.d.ts#L98)*
+*Defined in [types/timespan.d.ts:98](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/timespan.d.ts#L98)*
 
 **Parameters:**
 
@@ -299,7 +299,7 @@ ___
 
 ▸ **subtractHours**(hours: *`any`*): `void`
 
-*Defined in [types/timespan.d.ts:100](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/timespan.d.ts#L100)*
+*Defined in [types/timespan.d.ts:100](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/timespan.d.ts#L100)*
 
 **Parameters:**
 
@@ -316,7 +316,7 @@ ___
 
 ▸ **subtractMilliseconds**(milliseconds: *`any`*): `void`
 
-*Defined in [types/timespan.d.ts:102](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/timespan.d.ts#L102)*
+*Defined in [types/timespan.d.ts:102](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/timespan.d.ts#L102)*
 
 **Parameters:**
 
@@ -333,7 +333,7 @@ ___
 
 ▸ **subtractMinutes**(minutes: *`any`*): `void`
 
-*Defined in [types/timespan.d.ts:104](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/timespan.d.ts#L104)*
+*Defined in [types/timespan.d.ts:104](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/timespan.d.ts#L104)*
 
 **Parameters:**
 
@@ -350,7 +350,7 @@ ___
 
 ▸ **subtractSeconds**(seconds: *`any`*): `void`
 
-*Defined in [types/timespan.d.ts:106](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/timespan.d.ts#L106)*
+*Defined in [types/timespan.d.ts:106](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/timespan.d.ts#L106)*
 
 **Parameters:**
 
@@ -367,7 +367,7 @@ ___
 
 ▸ **toString**(): `any`
 
-*Defined in [types/timespan.d.ts:108](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/timespan.d.ts#L108)*
+*Defined in [types/timespan.d.ts:108](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/timespan.d.ts#L108)*
 
 **Returns:** `any`
 
@@ -378,7 +378,7 @@ ___
 
 ▸ **totalDays**(roundDown: *`any`*): `any`
 
-*Defined in [types/timespan.d.ts:110](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/timespan.d.ts#L110)*
+*Defined in [types/timespan.d.ts:110](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/timespan.d.ts#L110)*
 
 **Parameters:**
 
@@ -395,7 +395,7 @@ ___
 
 ▸ **totalHours**(roundDown: *`any`*): `any`
 
-*Defined in [types/timespan.d.ts:112](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/timespan.d.ts#L112)*
+*Defined in [types/timespan.d.ts:112](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/timespan.d.ts#L112)*
 
 **Parameters:**
 
@@ -412,7 +412,7 @@ ___
 
 ▸ **totalMilliseconds**(roundDown: *`any`*): `any`
 
-*Defined in [types/timespan.d.ts:114](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/timespan.d.ts#L114)*
+*Defined in [types/timespan.d.ts:114](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/timespan.d.ts#L114)*
 
 **Parameters:**
 
@@ -429,7 +429,7 @@ ___
 
 ▸ **totalMinutes**(roundDown: *`any`*): `any`
 
-*Defined in [types/timespan.d.ts:116](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/timespan.d.ts#L116)*
+*Defined in [types/timespan.d.ts:116](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/timespan.d.ts#L116)*
 
 **Parameters:**
 
@@ -446,7 +446,7 @@ ___
 
 ▸ **totalSeconds**(roundDown: *`any`*): `any`
 
-*Defined in [types/timespan.d.ts:118](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/timespan.d.ts#L118)*
+*Defined in [types/timespan.d.ts:118](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/timespan.d.ts#L118)*
 
 **Parameters:**
 

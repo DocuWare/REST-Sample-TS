@@ -23,7 +23,7 @@ Logical combine operation
 
 **And**:  = "And"
 
-*Defined in [types/DW_Rest.d.ts:1343](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L1343)*
+*Defined in [types/DW_Rest.d.ts:1343](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1343)*
 
 ___
 <a id="or"></a>
@@ -32,7 +32,7 @@ ___
 
 **Or**:  = "or"
 
-*Defined in [types/DW_Rest.d.ts:1344](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L1344)*
+*Defined in [types/DW_Rest.d.ts:1344](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1344)*
 
 ___
 

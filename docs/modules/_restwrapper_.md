@@ -4,6 +4,10 @@
 
 ## Index
 
+### Enumerations
+
+* [IndexFileType](../enums/_restwrapper_.indexfiletype.md)
+
 ### Classes
 
 * [RestCallWrapper](../classes/_restwrapper_.restcallwrapper.md)

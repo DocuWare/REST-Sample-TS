@@ -33,7 +33,7 @@ DocuWare Pages Model
 
 *Inherited from [ILinkModel](_types_dw_rest_d_.dwrest.ilinkmodel.md).[Links](_types_dw_rest_d_.dwrest.ilinkmodel.md#links)*
 
-*Defined in [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L10)*
+*Defined in [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L10)*
 
 ___
 <a id="page"></a>
@@ -42,7 +42,7 @@ ___
 
 **● Page**: *[IPage](_types_dw_rest_d_.dwrest.ipage.md)[]*
 
-*Defined in [types/DW_Rest.d.ts:187](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L187)*
+*Defined in [types/DW_Rest.d.ts:187](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L187)*
 
 ___
 

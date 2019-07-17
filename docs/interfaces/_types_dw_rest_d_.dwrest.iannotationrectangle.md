@@ -29,7 +29,7 @@ Annotation rectangle
 
 **● Height**: *`number`*
 
-*Defined in [types/DW_Rest.d.ts:590](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L590)*
+*Defined in [types/DW_Rest.d.ts:590](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L590)*
 
 ___
 <a id="left"></a>
@@ -38,7 +38,7 @@ ___
 
 **● Left**: *`number`*
 
-*Defined in [types/DW_Rest.d.ts:587](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L587)*
+*Defined in [types/DW_Rest.d.ts:587](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L587)*
 
 ___
 <a id="top"></a>
@@ -47,7 +47,7 @@ ___
 
 **● Top**: *`number`*
 
-*Defined in [types/DW_Rest.d.ts:588](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L588)*
+*Defined in [types/DW_Rest.d.ts:588](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L588)*
 
 ___
 <a id="width"></a>
@@ -56,7 +56,7 @@ ___
 
 **● Width**: *`number`*
 
-*Defined in [types/DW_Rest.d.ts:589](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L589)*
+*Defined in [types/DW_Rest.d.ts:589](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L589)*
 
 ___
 

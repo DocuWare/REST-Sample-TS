@@ -17,7 +17,7 @@ import path from 'path';
 import archiver from 'archiver'; //https://www.npmjs.com/package/archiver
 import contentdisposition, { ContentDisposition } from 'content-disposition'; //https://github.com/jshttp/content-disposition
 import timespan from 'timespan'; //https://www.npmjs.com/package/timespan
-
+import readChunk from 'read-chunk';
 
 /**
  *Sample wrapper for DocuWare REST API
@@ -268,6 +268,30 @@ class RestCallWrapper {
             .promise();
     }
 
+    GetDialogLink(fileCabinet: DWRest.IFileCabinet, dialogType: DWRest.DialogType){
+        var dialogs: any = {
+            [DWRest.DialogType.Search]: 'searches',
+            [DWRest.DialogType.Store]: 'stores',
+            [DWRest.DialogType.TaskList]: 'taskLists',
+            [DWRest.DialogType.ResultList]: null,
+            [DWRest.DialogType.InfoDialog]: null
+        }
+
+        var dialog = dialogs[dialogType];
+
+        //Null stands for not supported
+        if (dialog === null){
+            throw new Error('DialogType' + dialogType + ' not supported.');
+        }
+
+        var returnValue = this.GetLink(fileCabinet, dialog)
+
+        if (!returnValue) {
+            throw new Error('Missing dialog link');
+        }
+        return returnValue;
+    }
+
     /**
      * Returns a list of specified dialogs
      *
@@ -277,31 +301,14 @@ class RestCallWrapper {
      */
     GetDedicatedDialogsFromFileCabinet(fileCabinet: DWRest.IFileCabinet, dialogType: DWRest.DialogType): Promise<DWRest.IDialog[]> {
         let dialogLink: string | null = null;
-        switch (dialogType) {
-            case DWRest.DialogType.Search:
-                dialogLink = this.GetLink(fileCabinet, 'searches');
-                break;
-            case DWRest.DialogType.Store:
-                dialogLink = this.GetLink(fileCabinet, 'stores');
-                break;
-            case DWRest.DialogType.TaskList:
-                dialogLink = this.GetLink(fileCabinet, 'taskLists');
-                break;
-            case DWRest.DialogType.ResultList:
-                throw new Error('For some reason you cannot access result lists via filecabinet links.');
-            default:
-                break;
-        }
-
-        if (!dialogLink) {
-            throw new Error('Missing dialog link');
-        }
+        
+        dialogLink = this.GetDialogLink(fileCabinet, dialogType);
 
         return request.get(dialogLink, this.docuWare_request_config)
-            .promise()
-            .then((dialogResponse: DWRest.IDialogsResponse) => {
-                return dialogResponse.Dialog;
-            });
+        .promise()
+        .then((dialogResponse: DWRest.IDialogsResponse) => {
+            return dialogResponse.Dialog;
+        });
     }
 
     /**
@@ -433,8 +440,158 @@ class RestCallWrapper {
             }
         }
 
+        console.log(formData);
+
         return request.post(documentsLink, { ...this.docuWare_request_config, formData: formData })
             .promise();
+    }
+
+    /**
+     * Store big document with optional xml index entries
+     *
+     * @param {DWRest.IFileCabinet} fileCabinet
+     * @param {any} indexFields
+     * @param {string} pathToFile
+     * @returns {Promise<DWRest.IDocument>}
+     */
+    async UploadBigDocumentWithXmlIndex(fileCabinet: DWRest.IFileCabinet, pathToFile: string, indexFields: any): Promise<DWRest.IDocument>{
+        return this.UploadBigDocument(fileCabinet, pathToFile, indexFields, IndexFileType.XML);
+    }
+
+    /**
+     * Store big document with optional json index entries
+     *
+     * @param {DWRest.IFileCabinet} fileCabinet
+     * @param {any} indexFields
+     * @param {string} pathToFile
+     * @returns {Promise<DWRest.IDocument>}
+     */
+    async UploadBigDocumentWithJsonIndex(fileCabinet: DWRest.IFileCabinet, pathToFile: string, indexFields: any): Promise<DWRest.IDocument> {
+        
+        if (indexFields === null)
+        {
+            return this.UploadBigDocument(fileCabinet, pathToFile);
+        }
+        else
+        {
+            const newDocument: DWRest.IDocument = {
+                Fields: indexFields
+            };
+            var jsonValue = JSON.stringify(newDocument);
+
+            return this.UploadBigDocument(fileCabinet,pathToFile, jsonValue, IndexFileType.JSON);
+        }
+    }
+
+    /**
+     * Store big document with optional index entries as xml or json string
+     *
+     * @param {DWRest.IFileCabinet} fileCabinet
+     * @param {string} pathToFile
+     * @param {*} [indexFields=null]
+     * @param {IndexFileType} [indexFieldsType=IndexFileType.NULL]
+     * @returns {Promise<DWRest.IDocument>}
+     * @memberof RestCallWrapper
+     */
+    async UploadBigDocument(fileCabinet: DWRest.IFileCabinet, pathToFile: string, indexFields: any = null, indexFieldsType: IndexFileType = IndexFileType.NULL): Promise<DWRest.IDocument> {
+        const documentsLink: string = this.GetLink(fileCabinet, 'documents');
+
+        const origChunkSize: number = 3000000;
+        var chunkSize: number;
+        const fileName: string = path.basename(pathToFile);
+        const contentType: string | false = mime.contentType(fileName);
+
+        var lastPostResult: any;
+
+        let file: any = fs.readFileSync(pathToFile);
+        var fileSize   = file.length;
+        
+        // Get file modified date time
+        var stats = fs.statSync(pathToFile);
+        var mtime = stats.mtime;
+
+        var offset     = 0;
+        var firstCall: Boolean = true;
+
+        var runCount = 0;
+
+        var link = documentsLink;
+
+        for (var offset: number = 0; offset < fileSize; offset += origChunkSize) {
+            chunkSize = origChunkSize;
+
+            // Set last chunk to correct size
+            if((offset + origChunkSize) > fileSize) {
+                chunkSize = fileSize - offset;
+            }
+            
+            var chunk = readChunk.sync(pathToFile, offset, chunkSize);
+
+            runCount += 1;
+            var formData: any = null;
+
+            if (firstCall && indexFields !== null) {
+                formData = {
+                    document: {
+                        value: indexFields,
+                        options: {
+                            filename: 'document.' + indexFieldsType,
+                            contentType: 'application/' + indexFieldsType
+                        }
+                    },
+                    file: {
+                        value: chunk,
+                        options: {
+                            contentType: contentType,
+                            filename: fileName
+                        }
+                    }
+                };
+            }
+            else {
+                formData = {
+                    file: {
+                        value: chunk,
+                        options: {
+                            contentType: contentType,
+                            filename: fileName
+                        }
+                    }
+                };
+            }
+
+            firstCall = false;
+
+            console.log('Time ' + Date().toString());
+            console.log('Run ' + runCount.toString());
+            console.log('Type ' + indexFieldsType);
+            console.log(formData);
+
+            // Add chunk headers
+            var xFileHeaders = {...this.docuWare_request_config.headers, 
+            'X-File-Name': fileName,
+            'X-File-Size': fileSize.toString(),
+            'X-File-ModifiedDate': mtime.toISOString(),
+            'X-File-Type': contentType};
+            this.docuWare_request_config.headers = xFileHeaders;
+
+            // Set timeout to 5 minutes
+            this.docuWare_request_config.timeout = 300000;
+            
+            lastPostResult = await request.post(link, { ...this.docuWare_request_config, formData: formData}).promise();
+
+            if (lastPostResult !== null) {
+                if (lastPostResult.FileChunk === null || lastPostResult.FileChunk.Finished) {
+                    return lastPostResult;
+                }
+                else {
+                    // Get link for next chunk upload part
+                    link = lastPostResult.FileChunk.Links[0].href;
+                }
+            }
+        }
+
+        return lastPostResult;
     }
 
     /**
@@ -1145,6 +1302,18 @@ class RestCallWrapper {
         }
     }
 }
+
+/**
+     * IndexFileType Enum
+     *
+     * @export
+     * @enum {number}
+     */
+    export const enum IndexFileType {
+        XML = 'xml',
+        JSON = 'json',
+        NULL = 'null'
+    }
 
 export { RestCallWrapper };
 

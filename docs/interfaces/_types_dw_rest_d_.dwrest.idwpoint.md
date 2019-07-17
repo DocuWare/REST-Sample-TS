@@ -27,7 +27,7 @@ DWPoint
 
 **● X**: *`number`*
 
-*Defined in [types/DW_Rest.d.ts:465](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L465)*
+*Defined in [types/DW_Rest.d.ts:465](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L465)*
 
 ___
 <a id="y"></a>
@@ -36,7 +36,7 @@ ___
 
 **● Y**: *`number`*
 
-*Defined in [types/DW_Rest.d.ts:466](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L466)*
+*Defined in [types/DW_Rest.d.ts:466](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L466)*
 
 ___
 

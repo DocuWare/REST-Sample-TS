@@ -26,7 +26,7 @@ List of Fields
 
 **● Field**: *[IField](_types_dw_rest_d_.dwrest.ifield.md)[]*
 
-*Defined in [types/DW_Rest.d.ts:211](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L211)*
+*Defined in [types/DW_Rest.d.ts:211](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L211)*
 
 ___
 

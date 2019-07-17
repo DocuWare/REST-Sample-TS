@@ -47,7 +47,7 @@ DocuWare Document Model
 
 **● ContentType**: *`undefined` \| `string`*
 
-*Defined in [types/DW_Rest.d.ts:120](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L120)*
+*Defined in [types/DW_Rest.d.ts:120](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L120)*
 
 ___
 <a id="createdat"></a>
@@ -56,7 +56,7 @@ ___
 
 **● CreatedAt**: *`undefined` \| `string`*
 
-*Defined in [types/DW_Rest.d.ts:126](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L126)*
+*Defined in [types/DW_Rest.d.ts:126](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L126)*
 
 ___
 <a id="createdatspecified"></a>
@@ -65,7 +65,7 @@ ___
 
 **● CreatedAtSpecified**: *`undefined` \| `false` \| `true`*
 
-*Defined in [types/DW_Rest.d.ts:127](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L127)*
+*Defined in [types/DW_Rest.d.ts:127](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L127)*
 
 ___
 <a id="fields"></a>
@@ -74,7 +74,7 @@ ___
 
 **● Fields**: *[IField](_types_dw_rest_d_.dwrest.ifield.md)[]*
 
-*Defined in [types/DW_Rest.d.ts:107](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L107)*
+*Defined in [types/DW_Rest.d.ts:107](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L107)*
 
 ___
 <a id="filecabinetid"></a>
@@ -83,7 +83,7 @@ ___
 
 **● FileCabinetId**: *`undefined` \| `string`*
 
-*Defined in [types/DW_Rest.d.ts:132](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L132)*
+*Defined in [types/DW_Rest.d.ts:132](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L132)*
 
 ___
 <a id="filesize"></a>
@@ -92,7 +92,7 @@ ___
 
 **● FileSize**: *`undefined` \| `number`*
 
-*Defined in [types/DW_Rest.d.ts:128](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L128)*
+*Defined in [types/DW_Rest.d.ts:128](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L128)*
 
 ___
 <a id="flags"></a>
@@ -101,7 +101,7 @@ ___
 
 **● Flags**: *`undefined` \| `object`*
 
-*Defined in [types/DW_Rest.d.ts:108](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L108)*
+*Defined in [types/DW_Rest.d.ts:108](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L108)*
 
 ___
 <a id="id"></a>
@@ -110,7 +110,7 @@ ___
 
 **● Id**: *`undefined` \| `number`*
 
-*Defined in [types/DW_Rest.d.ts:122](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L122)*
+*Defined in [types/DW_Rest.d.ts:122](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L122)*
 
 ___
 <a id="intellixtrust"></a>
@@ -119,7 +119,7 @@ ___
 
 **● IntellixTrust**: *`undefined` \| `string`*
 
-*Defined in [types/DW_Rest.d.ts:130](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L130)*
+*Defined in [types/DW_Rest.d.ts:130](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L130)*
 
 ___
 <a id="lastmodified"></a>
@@ -128,7 +128,7 @@ ___
 
 **● LastModified**: *`undefined` \| `string`*
 
-*Defined in [types/DW_Rest.d.ts:124](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L124)*
+*Defined in [types/DW_Rest.d.ts:124](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L124)*
 
 ___
 <a id="lastmodifiedspecified"></a>
@@ -137,7 +137,7 @@ ___
 
 **● LastModifiedSpecified**: *`undefined` \| `false` \| `true`*
 
-*Defined in [types/DW_Rest.d.ts:125](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L125)*
+*Defined in [types/DW_Rest.d.ts:125](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L125)*
 
 ___
 <a id="links"></a>
@@ -148,7 +148,7 @@ ___
 
 *Inherited from [ILinkModel](_types_dw_rest_d_.dwrest.ilinkmodel.md).[Links](_types_dw_rest_d_.dwrest.ilinkmodel.md#links)*
 
-*Defined in [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L10)*
+*Defined in [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L10)*
 
 ___
 <a id="sectioncount"></a>
@@ -157,7 +157,7 @@ ___
 
 **● SectionCount**: *`undefined` \| `number`*
 
-*Defined in [types/DW_Rest.d.ts:129](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L129)*
+*Defined in [types/DW_Rest.d.ts:129](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L129)*
 
 ___
 <a id="sections"></a>
@@ -166,7 +166,7 @@ ___
 
 **● Sections**: *[ISection](_types_dw_rest_d_.dwrest.isection.md)[]*
 
-*Defined in [types/DW_Rest.d.ts:119](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L119)*
+*Defined in [types/DW_Rest.d.ts:119](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L119)*
 
 ___
 <a id="title"></a>
@@ -175,7 +175,7 @@ ___
 
 **● Title**: *`undefined` \| `string`*
 
-*Defined in [types/DW_Rest.d.ts:123](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L123)*
+*Defined in [types/DW_Rest.d.ts:123](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L123)*
 
 ___
 <a id="totalpages"></a>
@@ -184,7 +184,7 @@ ___
 
 **● TotalPages**: *`undefined` \| `number`*
 
-*Defined in [types/DW_Rest.d.ts:121](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L121)*
+*Defined in [types/DW_Rest.d.ts:121](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L121)*
 
 ___
 <a id="version"></a>
@@ -193,7 +193,7 @@ ___
 
 **● Version**: *[IDocumentVersion](_types_dw_rest_d_.dwrest.idocumentversion.md)*
 
-*Defined in [types/DW_Rest.d.ts:133](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L133)*
+*Defined in [types/DW_Rest.d.ts:133](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L133)*
 
 ___
 <a id="versionstatus"></a>
@@ -202,7 +202,7 @@ ___
 
 **● VersionStatus**: *`undefined` \| `string`*
 
-*Defined in [types/DW_Rest.d.ts:131](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L131)*
+*Defined in [types/DW_Rest.d.ts:131](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L131)*
 
 ___
 

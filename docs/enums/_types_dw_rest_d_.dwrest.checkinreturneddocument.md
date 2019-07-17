@@ -23,7 +23,7 @@ Expected return after checkin
 
 **CheckedIn**:  = "CheckedIn"
 
-*Defined in [types/DW_Rest.d.ts:1385](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L1385)*
+*Defined in [types/DW_Rest.d.ts:1385](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1385)*
 
 ___
 <a id="original"></a>
@@ -32,7 +32,7 @@ ___
 
 **Original**:  = "Original"
 
-*Defined in [types/DW_Rest.d.ts:1384](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L1384)*
+*Defined in [types/DW_Rest.d.ts:1384](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1384)*
 
 ___
 

@@ -27,7 +27,7 @@ Information for deviding
 
 **● Force**: *`boolean`*
 
-*Defined in [types/DW_Rest.d.ts:512](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L512)*
+*Defined in [types/DW_Rest.d.ts:512](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L512)*
 
 ___
 <a id="operation"></a>
@@ -36,7 +36,7 @@ ___
 
 **● Operation**: *[ContentDivideOperation](../enums/_types_dw_rest_d_.dwrest.contentdivideoperation.md)*
 
-*Defined in [types/DW_Rest.d.ts:511](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L511)*
+*Defined in [types/DW_Rest.d.ts:511](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L511)*
 
 ___
 

@@ -35,7 +35,7 @@ Workflow
 
 **● FileCabinetId**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:862](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L862)*
+*Defined in [types/DW_Rest.d.ts:862](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L862)*
 
 ___
 <a id="id"></a>
@@ -44,7 +44,7 @@ ___
 
 **● Id**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:859](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L859)*
+*Defined in [types/DW_Rest.d.ts:859](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L859)*
 
 ___
 <a id="links"></a>
@@ -55,7 +55,7 @@ ___
 
 *Inherited from [ILinkModel](_types_dw_rest_d_.dwrest.ilinkmodel.md).[Links](_types_dw_rest_d_.dwrest.ilinkmodel.md#links)*
 
-*Defined in [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L10)*
+*Defined in [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L10)*
 
 ___
 <a id="name"></a>
@@ -64,7 +64,7 @@ ___
 
 **● Name**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:860](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L860)*
+*Defined in [types/DW_Rest.d.ts:860](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L860)*
 
 ___
 <a id="taskcount"></a>
@@ -73,7 +73,7 @@ ___
 
 **● TaskCount**: *`number`*
 
-*Defined in [types/DW_Rest.d.ts:861](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L861)*
+*Defined in [types/DW_Rest.d.ts:861](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L861)*
 
 ___
 <a id="timestamp"></a>
@@ -82,7 +82,7 @@ ___
 
 **● TimeStamp**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:863](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L863)*
+*Defined in [types/DW_Rest.d.ts:863](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L863)*
 
 ___
 

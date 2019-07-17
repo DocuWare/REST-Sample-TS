@@ -27,7 +27,7 @@ Export Settings
 
 **● ExportHistory**: *`undefined` \| `false` \| `true`*
 
-*Defined in [types/DW_Rest.d.ts:775](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L775)*
+*Defined in [types/DW_Rest.d.ts:775](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L775)*
 
 ___
 <a id="exporttextshots"></a>
@@ -36,7 +36,7 @@ ___
 
 **● ExportTextShots**: *`undefined` \| `false` \| `true`*
 
-*Defined in [types/DW_Rest.d.ts:776](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L776)*
+*Defined in [types/DW_Rest.d.ts:776](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L776)*
 
 ___
 

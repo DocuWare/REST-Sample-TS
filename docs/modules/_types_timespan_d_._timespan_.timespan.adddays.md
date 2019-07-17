@@ -5,7 +5,7 @@
 ## Callable
 ▸ **addDays**(days: *`any`*): `void`
 
-*Defined in [types/timespan.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/timespan.d.ts#L10)*
+*Defined in [types/timespan.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/timespan.d.ts#L10)*
 
 **Parameters:**
 
@@ -31,7 +31,7 @@
 
 **● prototype**: *`__type`*
 
-*Defined in [types/timespan.d.ts:127](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/timespan.d.ts#L127)*
+*Defined in [types/timespan.d.ts:127](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/timespan.d.ts#L127)*
 
 ___
 

@@ -27,7 +27,7 @@ Import Entry Version
 
 **● Id**: *`number`*
 
-*Defined in [types/DW_Rest.d.ts:816](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L816)*
+*Defined in [types/DW_Rest.d.ts:816](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L816)*
 
 ___
 <a id="status"></a>
@@ -36,7 +36,7 @@ ___
 
 **● Status**: *[ImportEntryStatus](../enums/_types_dw_rest_d_.dwrest.importentrystatus.md)*
 
-*Defined in [types/DW_Rest.d.ts:817](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L817)*
+*Defined in [types/DW_Rest.d.ts:817](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L817)*
 
 ___
 

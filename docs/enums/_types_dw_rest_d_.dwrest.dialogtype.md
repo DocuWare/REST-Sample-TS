@@ -28,7 +28,7 @@ DocuWare Dialog Types
 
 **InfoDialog**:  = "InfoDialog"
 
-*Defined in [types/DW_Rest.d.ts:325](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L325)*
+*Defined in [types/DW_Rest.d.ts:325](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L325)*
 
 ___
 <a id="resultlist"></a>
@@ -37,7 +37,7 @@ ___
 
 **ResultList**:  = "ResultList"
 
-*Defined in [types/DW_Rest.d.ts:324](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L324)*
+*Defined in [types/DW_Rest.d.ts:324](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L324)*
 
 ___
 <a id="search"></a>
@@ -46,7 +46,7 @@ ___
 
 **Search**:  = "Search"
 
-*Defined in [types/DW_Rest.d.ts:322](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L322)*
+*Defined in [types/DW_Rest.d.ts:322](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L322)*
 
 ___
 <a id="store"></a>
@@ -55,7 +55,7 @@ ___
 
 **Store**:  = "Store"
 
-*Defined in [types/DW_Rest.d.ts:323](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L323)*
+*Defined in [types/DW_Rest.d.ts:323](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L323)*
 
 ___
 <a id="tasklist"></a>
@@ -64,7 +64,7 @@ ___
 
 **TaskList**:  = "TaskList"
 
-*Defined in [types/DW_Rest.d.ts:326](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L326)*
+*Defined in [types/DW_Rest.d.ts:326](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L326)*
 
 ___
 

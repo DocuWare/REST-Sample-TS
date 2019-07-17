@@ -26,7 +26,7 @@ Groups
 
 **● Item**: *[IGroup](_types_dw_rest_d_.dwrest.igroup.md)[]*
 
-*Defined in [types/DW_Rest.d.ts:766](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L766)*
+*Defined in [types/DW_Rest.d.ts:766](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L766)*
 
 ___
 

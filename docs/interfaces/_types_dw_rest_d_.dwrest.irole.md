@@ -34,7 +34,7 @@ A role
 
 **● Active**: *`boolean`*
 
-*Defined in [types/DW_Rest.d.ts:735](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L735)*
+*Defined in [types/DW_Rest.d.ts:735](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L735)*
 
 ___
 <a id="id"></a>
@@ -43,7 +43,7 @@ ___
 
 **● Id**: *`undefined` \| `string`*
 
-*Defined in [types/DW_Rest.d.ts:733](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L733)*
+*Defined in [types/DW_Rest.d.ts:733](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L733)*
 
 ___
 <a id="links"></a>
@@ -54,7 +54,7 @@ ___
 
 *Inherited from [ILinkModel](_types_dw_rest_d_.dwrest.ilinkmodel.md).[Links](_types_dw_rest_d_.dwrest.ilinkmodel.md#links)*
 
-*Defined in [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L10)*
+*Defined in [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L10)*
 
 ___
 <a id="name"></a>
@@ -63,7 +63,7 @@ ___
 
 **● Name**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:734](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L734)*
+*Defined in [types/DW_Rest.d.ts:734](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L734)*
 
 ___
 <a id="type"></a>
@@ -72,7 +72,7 @@ ___
 
 **● Type**: *[RoleTypes](../enums/_types_dw_rest_d_.dwrest.roletypes.md)*
 
-*Defined in [types/DW_Rest.d.ts:736](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L736)*
+*Defined in [types/DW_Rest.d.ts:736](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L736)*
 
 ___
 

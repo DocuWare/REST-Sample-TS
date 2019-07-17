@@ -33,7 +33,7 @@ Task table field
 
 **● Columns**: *[ITaskTableColumn](_types_dw_rest_d_.dwrest.itasktablecolumn.md)[]*
 
-*Defined in [types/DW_Rest.d.ts:1113](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L1113)*
+*Defined in [types/DW_Rest.d.ts:1113](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1113)*
 
 ___
 <a id="formfieldtype"></a>
@@ -44,7 +44,7 @@ ___
 
 *Inherited from [IBaseForm](_types_dw_rest_d_.dwrest.ibaseform.md).[FormFieldType](_types_dw_rest_d_.dwrest.ibaseform.md#formfieldtype)*
 
-*Defined in [types/DW_Rest.d.ts:1004](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L1004)*
+*Defined in [types/DW_Rest.d.ts:1004](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1004)*
 
 ___
 <a id="id"></a>
@@ -55,7 +55,7 @@ ___
 
 *Inherited from [IBaseForm](_types_dw_rest_d_.dwrest.ibaseform.md).[Id](_types_dw_rest_d_.dwrest.ibaseform.md#id)*
 
-*Defined in [types/DW_Rest.d.ts:1006](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L1006)*
+*Defined in [types/DW_Rest.d.ts:1006](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1006)*
 
 ___
 <a id="label"></a>
@@ -66,7 +66,7 @@ ___
 
 *Inherited from [IBaseForm](_types_dw_rest_d_.dwrest.ibaseform.md).[Label](_types_dw_rest_d_.dwrest.ibaseform.md#label)*
 
-*Defined in [types/DW_Rest.d.ts:1005](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L1005)*
+*Defined in [types/DW_Rest.d.ts:1005](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1005)*
 
 ___
 

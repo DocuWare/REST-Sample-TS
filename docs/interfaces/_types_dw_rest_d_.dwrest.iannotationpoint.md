@@ -27,7 +27,7 @@ Annotation point
 
 **● X**: *`number`*
 
-*Defined in [types/DW_Rest.d.ts:599](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L599)*
+*Defined in [types/DW_Rest.d.ts:599](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L599)*
 
 ___
 <a id="y"></a>
@@ -36,7 +36,7 @@ ___
 
 **● Y**: *`number`*
 
-*Defined in [types/DW_Rest.d.ts:600](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L600)*
+*Defined in [types/DW_Rest.d.ts:600](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L600)*
 
 ___
 

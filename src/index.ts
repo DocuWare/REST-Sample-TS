@@ -6,19 +6,21 @@
 */
 
 import { DWRequestPromiseExtension } from './types/DW_Request_Promise_Extension';
-import polly from 'polly-js';
+import polly, { Info } from 'polly-js';
 import { RestCallWrapper } from './restWrapper'
 import { LineEntry } from './Annotations';
 import { DialogExpressionCondition, DialogExpression } from './DialogExpression';
+import path from 'path';
 
 const timeToWait: number = 60 * 1000; //MS
 
 //connection data
-const rootUrl: string = 'http://localhost:8890/';
+const rootUrl: string = 'http://localhost/';
 const user: string = 'dwadmin';
 const password: string = 'admin';
 const organization: string = 'Peters Engineering';
-const hostID: string = 'de6a36e3-5c0e-456b-9d95-bdd8ab1d2e0b'; //has to be unique per machine
+const hostID: string = '7b5ed19b-bfd6-46e9-8a3b-efd2a4499666'; //has to be unique per machine
+const fileCabinetID: string = '3f3c9aff-63e5-4433-99a5-ed6dbba1bb72';
 
 //the REST Wrapper
 const restWrapper: RestCallWrapper = new RestCallWrapper(rootUrl);
@@ -45,7 +47,7 @@ polly()
         let organizations: DWRest.IOrganizations = await restWrapper.GetOrganizations(logonResponse);
         let organization: DWRest.IOrganization = await restWrapper.GetOrganization();
         let fileCabinets: DWRest.IFileCabinets = await restWrapper.GetFileCabinets(organization);
-        let fileCabinet: DWRest.IFileCabinet = await restWrapper.GetFileCabinet('5545b9d8-49d2-4ad6-8ab9-c08eee5d9451');
+        let fileCabinet: DWRest.IFileCabinet = await restWrapper.GetFileCabinet(fileCabinetID);
         //#endregion
 
         //Get a special document
@@ -67,6 +69,12 @@ polly()
         await downloadDocument(specialDocument);
 
         await storeDocument(fileCabinet);
+
+        await storeBigDocumentWithoutIndex(fileCabinet);
+
+        await storeBigDocumentXmlIndex(fileCabinet);
+
+        await storeBigDocumentJsonIndex(fileCabinet);
 
         await updateDocumentSection(specialDocument);
 
@@ -303,14 +311,53 @@ async function storeDocument(fileCabinet: DWRest.IFileCabinet) {
     let indexEntries: DWRest.IField[] = [
         {
             FieldName: 'Company',
-            Item: 'Doc Name Test Inc'
+            Item: 'Doc Name Test Inc',
+            ItemElementName: DWRest.ItemChoiceType.String
         },
         {
             FieldName: 'Status',
-            Item: 'Uploaded by REST'
+            Item: 'Uploaded by REST',
+            ItemElementName: DWRest.ItemChoiceType.String
         }
     ];
     let newCreatedDocument: DWRest.IDocument = await restWrapper.UploadDocument(fileCabinet, indexEntries, './upload/SAMPLE DOCUMENT.pdf');
+}
+
+async function storeBigDocumentWithoutIndex(fileCabinet: DWRest.IFileCabinet) {
+    let newCreatedDocument: DWRest.IDocument = await restWrapper.UploadBigDocument(fileCabinet, './upload/BIG SAMPLE DOCUMENT.pdf');
+}
+
+async function storeBigDocumentXmlIndex(fileCabinet: DWRest.IFileCabinet) {
+    let indexEntries: string = 
+    `<Document xmlns="http://dev.docuware.com/schema/public/services/platform">
+        <Fields>
+            <Field FieldName="COMPANY">
+                <String>Doc Name Big XML Test Inc</String>
+            </Field>
+            <Field FieldName="STATUS">
+                <String>Uploaded by REST</String>
+            </Field>
+        </Fields>
+    </Document>`;
+
+    let newCreatedDocument: DWRest.IDocument = await restWrapper.UploadBigDocumentWithXmlIndex(fileCabinet, './upload/BIG SAMPLE DOCUMENT.pdf', indexEntries);
+}
+
+async function storeBigDocumentJsonIndex(fileCabinet: DWRest.IFileCabinet) {
+    let indexEntries: DWRest.IField[] = [
+        {
+            FieldName: 'Company',
+            Item: 'Doc Name Big JSON Test Inc',
+            ItemElementName: DWRest.ItemChoiceType.String
+        },
+        {
+            FieldName: 'Status',
+            Item: 'Uploaded by REST',
+            ItemElementName: DWRest.ItemChoiceType.String
+        }
+    ];
+
+    let newCreatedDocument: DWRest.IDocument = await restWrapper.UploadBigDocumentWithJsonIndex(fileCabinet, './upload/BIG SAMPLE DOCUMENT.pdf', indexEntries);
 }
 
 async function downloadDocument(specialDocument: DWRest.IDocument) {
@@ -376,5 +423,5 @@ function getFieldByName(document: DWRest.IDocument, fieldName: string): DWRest.I
  * @param {Error} error
  */
 function traceError(error: Error) {
-    console.error(error.message);
+    console.error('Error message:\n\r' + error.message + '\n\rError Stack:\n\r' + error.stack);
 }

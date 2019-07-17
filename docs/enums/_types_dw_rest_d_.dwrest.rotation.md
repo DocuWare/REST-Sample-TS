@@ -25,7 +25,7 @@ Rotation
 
 **HundredEighty**:  = 180
 
-*Defined in [types/DW_Rest.d.ts:1333](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L1333)*
+*Defined in [types/DW_Rest.d.ts:1333](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1333)*
 
 ___
 <a id="ninety"></a>
@@ -34,7 +34,7 @@ ___
 
 **Ninety**:  = 90
 
-*Defined in [types/DW_Rest.d.ts:1332](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L1332)*
+*Defined in [types/DW_Rest.d.ts:1332](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1332)*
 
 ___
 <a id="twohundredseventy"></a>
@@ -43,7 +43,7 @@ ___
 
 **TwoHundredSeventy**:  = 270
 
-*Defined in [types/DW_Rest.d.ts:1334](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L1334)*
+*Defined in [types/DW_Rest.d.ts:1334](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1334)*
 
 ___
 <a id="zero"></a>
@@ -52,7 +52,7 @@ ___
 
 **Zero**:  = 0
 
-*Defined in [types/DW_Rest.d.ts:1331](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L1331)*
+*Defined in [types/DW_Rest.d.ts:1331](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1331)*
 
 ___
 

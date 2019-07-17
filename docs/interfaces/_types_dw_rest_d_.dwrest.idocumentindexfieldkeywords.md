@@ -30,7 +30,7 @@ Keywords
 
 **● Keyword**: *`string`[]*
 
-*Defined in [types/DW_Rest.d.ts:277](https://github.com/DocuWare/REST-Sample-TS/blob/master/src/types/DW_Rest.d.ts#L277)*
+*Defined in [types/DW_Rest.d.ts:277](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L277)*
 
 ___
 
