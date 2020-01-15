@@ -40,5 +40,5 @@ Just a helper to work with node module 'request-promise'
 [Project References](./docs/README.md)
 
 ## More information
-Feel free take also a look on https://developer.docuware.com
+Feel free and take also a look on https://developer.docuware.com
 
