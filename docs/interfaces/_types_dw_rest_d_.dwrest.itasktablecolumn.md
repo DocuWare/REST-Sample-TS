@@ -27,7 +27,7 @@ Task table column
 
 **● BaseData**: *[ITaskTextField](_types_dw_rest_d_.dwrest.itasktextfield.md) \| [ITaskNumberField](_types_dw_rest_d_.dwrest.itasknumberfield.md) \| [ITaskDateTimeField](_types_dw_rest_d_.dwrest.itaskdatetimefield.md) \| [ITaskTableNumberField](_types_dw_rest_d_.dwrest.itasktablenumberfield.md)*
 
-*Defined in [types/DW_Rest.d.ts:1122](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1122)*
+*Defined in [types/DW_Rest.d.ts:1122](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L1122)*
 
 ___
 <a id="fieldname"></a>
@@ -36,7 +36,7 @@ ___
 
 **● FieldName**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:1123](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1123)*
+*Defined in [types/DW_Rest.d.ts:1123](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L1123)*
 
 ___
 

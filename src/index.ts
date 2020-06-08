@@ -6,7 +6,7 @@
 */
 
 import { DWRequestPromiseExtension } from './types/DW_Request_Promise_Extension';
-import polly, { Info } from 'polly-js';
+import polly from 'polly-js';
 import { RestCallWrapper } from './restWrapper'
 import { LineEntry } from './Annotations';
 import { DialogExpressionCondition, DialogExpression } from './DialogExpression';
@@ -40,7 +40,7 @@ polly()
         return false;
     })
     .waitAndRetry([timeToWait])
-    .executeForPromise(async (info: Info) => {
+    .executeForPromise(async () => {
 
         //#region Login, list organizations and filecabinets
         let logonResponse: DWRest.ILogonResponse = await restWrapper.Logon(logonModel);

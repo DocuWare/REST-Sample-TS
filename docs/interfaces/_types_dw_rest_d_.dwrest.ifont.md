@@ -32,7 +32,7 @@ Font
 
 **● Bold**: *`boolean`*
 
-*Defined in [types/DW_Rest.d.ts:610](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L610)*
+*Defined in [types/DW_Rest.d.ts:610](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L610)*
 
 ___
 <a id="fontname"></a>
@@ -41,7 +41,7 @@ ___
 
 **● FontName**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:609](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L609)*
+*Defined in [types/DW_Rest.d.ts:609](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L609)*
 
 ___
 <a id="fontsize"></a>
@@ -50,7 +50,7 @@ ___
 
 **● FontSize**: *`number`*
 
-*Defined in [types/DW_Rest.d.ts:614](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L614)*
+*Defined in [types/DW_Rest.d.ts:614](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L614)*
 
 ___
 <a id="italic"></a>
@@ -59,7 +59,7 @@ ___
 
 **● Italic**: *`boolean`*
 
-*Defined in [types/DW_Rest.d.ts:611](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L611)*
+*Defined in [types/DW_Rest.d.ts:611](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L611)*
 
 ___
 <a id="spacing"></a>
@@ -68,7 +68,7 @@ ___
 
 **● Spacing**: *`number`*
 
-*Defined in [types/DW_Rest.d.ts:615](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L615)*
+*Defined in [types/DW_Rest.d.ts:615](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L615)*
 
 ___
 <a id="strikethrough"></a>
@@ -77,7 +77,7 @@ ___
 
 **● StrikeThrough**: *`boolean`*
 
-*Defined in [types/DW_Rest.d.ts:613](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L613)*
+*Defined in [types/DW_Rest.d.ts:613](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L613)*
 
 ___
 <a id="underlinded"></a>
@@ -86,7 +86,7 @@ ___
 
 **● Underlinded**: *`boolean`*
 
-*Defined in [types/DW_Rest.d.ts:612](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L612)*
+*Defined in [types/DW_Rest.d.ts:612](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L612)*
 
 ___
 

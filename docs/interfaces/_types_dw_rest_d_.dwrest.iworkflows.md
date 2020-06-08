@@ -26,7 +26,7 @@ List of Workflows
 
 **● Workflow**: *[IWorkflow](_types_dw_rest_d_.dwrest.iworkflow.md)[]*
 
-*Defined in [types/DW_Rest.d.ts:872](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L872)*
+*Defined in [types/DW_Rest.d.ts:872](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L872)*
 
 ___
 

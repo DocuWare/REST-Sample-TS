@@ -29,7 +29,7 @@ FileCabinet Transfer Info
 
 **● FillIntellix**: *`boolean`*
 
-*Defined in [types/DW_Rest.d.ts:491](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L491)*
+*Defined in [types/DW_Rest.d.ts:491](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L491)*
 
 ___
 <a id="keepsource"></a>
@@ -38,7 +38,7 @@ ___
 
 **● KeepSource**: *`boolean`*
 
-*Defined in [types/DW_Rest.d.ts:490](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L490)*
+*Defined in [types/DW_Rest.d.ts:490](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L490)*
 
 ___
 <a id="sourcedocid"></a>
@@ -47,7 +47,7 @@ ___
 
 **● SourceDocId**: *`number`[]*
 
-*Defined in [types/DW_Rest.d.ts:488](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L488)*
+*Defined in [types/DW_Rest.d.ts:488](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L488)*
 
 ___
 <a id="sourcefilecabinetid"></a>
@@ -56,7 +56,7 @@ ___
 
 **● SourceFileCabinetId**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:489](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L489)*
+*Defined in [types/DW_Rest.d.ts:489](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L489)*
 
 ___
 

@@ -23,7 +23,7 @@ Action for document
 
 **CheckIn**:  = "CheckIn"
 
-*Defined in [types/DW_Rest.d.ts:1374](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1374)*
+*Defined in [types/DW_Rest.d.ts:1374](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L1374)*
 
 ___
 <a id="checkout"></a>
@@ -32,7 +32,7 @@ ___
 
 **CheckOut**:  = "CheckOut"
 
-*Defined in [types/DW_Rest.d.ts:1375](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1375)*
+*Defined in [types/DW_Rest.d.ts:1375](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L1375)*
 
 ___
 

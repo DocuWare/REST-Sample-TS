@@ -33,7 +33,7 @@ Task operations
 
 **● BaseTaskOperations**: *[IBaseTaskOperations](_types_dw_rest_d_.dwrest.ibasetaskoperations.md)*
 
-*Defined in [types/DW_Rest.d.ts:916](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L916)*
+*Defined in [types/DW_Rest.d.ts:916](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L916)*
 
 ___
 <a id="extendedcontrolleroperations"></a>
@@ -42,7 +42,7 @@ ___
 
 **● ExtendedControllerOperations**: *[IExtendedControllerOperations](_types_dw_rest_d_.dwrest.iextendedcontrolleroperations.md)*
 
-*Defined in [types/DW_Rest.d.ts:917](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L917)*
+*Defined in [types/DW_Rest.d.ts:917](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L917)*
 
 ___
 <a id="extendeduseroperations"></a>
@@ -51,7 +51,7 @@ ___
 
 **● ExtendedUserOperations**: *[IExtendedUserOperations](_types_dw_rest_d_.dwrest.iextendeduseroperations.md)*
 
-*Defined in [types/DW_Rest.d.ts:918](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L918)*
+*Defined in [types/DW_Rest.d.ts:918](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L918)*
 
 ___
 <a id="links"></a>
@@ -62,7 +62,7 @@ ___
 
 *Inherited from [ILinkModel](_types_dw_rest_d_.dwrest.ilinkmodel.md).[Links](_types_dw_rest_d_.dwrest.ilinkmodel.md#links)*
 
-*Defined in [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L10)*
+*Defined in [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L10)*
 
 ___
 

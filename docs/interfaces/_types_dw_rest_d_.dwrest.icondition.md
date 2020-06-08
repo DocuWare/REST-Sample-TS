@@ -31,7 +31,7 @@ Dialog Condition
 
 **● DBName**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:398](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L398)*
+*Defined in [types/DW_Rest.d.ts:398](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L398)*
 
 ___
 <a id="value"></a>
@@ -40,7 +40,7 @@ ___
 
 **● Value**: *`string`[] \| `null`*
 
-*Defined in [types/DW_Rest.d.ts:397](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L397)*
+*Defined in [types/DW_Rest.d.ts:397](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L397)*
 
 ___
 

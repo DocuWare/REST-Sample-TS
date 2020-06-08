@@ -45,7 +45,7 @@
 
 ⊕ **new TextEntry**(value: *`string`*, font: *[IFont](../interfaces/_types_dw_rest_d_.dwrest.ifont.md)*, location: *[IAnnotationRectangle](../interfaces/_types_dw_rest_d_.dwrest.iannotationrectangle.md)*): [TextEntry](_annotations_.textentry.md)
 
-*Defined in [Annotations.ts:22](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L22)*
+*Defined in [Annotations.ts:22](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/Annotations.ts#L22)*
 
 **Parameters:**
 
@@ -69,7 +69,7 @@ ___
 
 *Implementation of [ITextEntry](../interfaces/_types_dw_rest_d_.dwrest.itextentry.md).[$type](../interfaces/_types_dw_rest_d_.dwrest.itextentry.md#_type)*
 
-*Defined in [Annotations.ts:13](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L13)*
+*Defined in [Annotations.ts:13](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/Annotations.ts#L13)*
 
 ___
 <a id="color"></a>
@@ -80,7 +80,7 @@ ___
 
 *Implementation of [ITextEntry](../interfaces/_types_dw_rest_d_.dwrest.itextentry.md).[Color](../interfaces/_types_dw_rest_d_.dwrest.itextentry.md#color)*
 
-*Defined in [Annotations.ts:18](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L18)*
+*Defined in [Annotations.ts:18](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/Annotations.ts#L18)*
 
 ___
 <a id="created"></a>
@@ -91,7 +91,7 @@ ___
 
 *Implementation of [ITextEntry](../interfaces/_types_dw_rest_d_.dwrest.itextentry.md).[Created](../interfaces/_types_dw_rest_d_.dwrest.itextentry.md#created)*
 
-*Defined in [Annotations.ts:17](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L17)*
+*Defined in [Annotations.ts:17](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/Annotations.ts#L17)*
 
 ___
 <a id="font"></a>
@@ -102,7 +102,7 @@ ___
 
 *Implementation of [ITextEntry](../interfaces/_types_dw_rest_d_.dwrest.itextentry.md).[Font](../interfaces/_types_dw_rest_d_.dwrest.itextentry.md#font)*
 
-*Defined in [Annotations.ts:15](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L15)*
+*Defined in [Annotations.ts:15](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/Annotations.ts#L15)*
 
 ___
 <a id="id"></a>
@@ -113,7 +113,7 @@ ___
 
 *Implementation of [ITextEntry](../interfaces/_types_dw_rest_d_.dwrest.itextentry.md).[Id](../interfaces/_types_dw_rest_d_.dwrest.itextentry.md#id)*
 
-*Defined in [Annotations.ts:22](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L22)*
+*Defined in [Annotations.ts:22](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/Annotations.ts#L22)*
 
 ___
 <a id="location"></a>
@@ -124,7 +124,7 @@ ___
 
 *Implementation of [ITextEntry](../interfaces/_types_dw_rest_d_.dwrest.itextentry.md).[Location](../interfaces/_types_dw_rest_d_.dwrest.itextentry.md#location)*
 
-*Defined in [Annotations.ts:16](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L16)*
+*Defined in [Annotations.ts:16](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/Annotations.ts#L16)*
 
 ___
 <a id="rotation"></a>
@@ -135,7 +135,7 @@ ___
 
 *Implementation of [ITextEntry](../interfaces/_types_dw_rest_d_.dwrest.itextentry.md).[Rotation](../interfaces/_types_dw_rest_d_.dwrest.itextentry.md#rotation)*
 
-*Defined in [Annotations.ts:19](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L19)*
+*Defined in [Annotations.ts:19](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/Annotations.ts#L19)*
 
 ___
 <a id="strokewidth"></a>
@@ -146,7 +146,7 @@ ___
 
 *Implementation of [ITextEntry](../interfaces/_types_dw_rest_d_.dwrest.itextentry.md).[StrokeWidth](../interfaces/_types_dw_rest_d_.dwrest.itextentry.md#strokewidth)*
 
-*Defined in [Annotations.ts:21](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L21)*
+*Defined in [Annotations.ts:21](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/Annotations.ts#L21)*
 
 ___
 <a id="transparent"></a>
@@ -157,7 +157,7 @@ ___
 
 *Implementation of [ITextEntry](../interfaces/_types_dw_rest_d_.dwrest.itextentry.md).[Transparent](../interfaces/_types_dw_rest_d_.dwrest.itextentry.md#transparent)*
 
-*Defined in [Annotations.ts:20](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L20)*
+*Defined in [Annotations.ts:20](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/Annotations.ts#L20)*
 
 ___
 <a id="value"></a>
@@ -168,7 +168,7 @@ ___
 
 *Implementation of [ITextEntry](../interfaces/_types_dw_rest_d_.dwrest.itextentry.md).[Value](../interfaces/_types_dw_rest_d_.dwrest.itextentry.md#value)*
 
-*Defined in [Annotations.ts:14](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L14)*
+*Defined in [Annotations.ts:14](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/Annotations.ts#L14)*
 
 ___
 

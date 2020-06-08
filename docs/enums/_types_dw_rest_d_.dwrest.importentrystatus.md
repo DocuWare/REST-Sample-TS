@@ -23,7 +23,7 @@ Status of import entry
 
 **Failed**:  = "Failed"
 
-*Defined in [types/DW_Rest.d.ts:1269](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1269)*
+*Defined in [types/DW_Rest.d.ts:1269](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L1269)*
 
 ___
 <a id="succeeded"></a>
@@ -32,7 +32,7 @@ ___
 
 **Succeeded**:  = "Succeeded"
 
-*Defined in [types/DW_Rest.d.ts:1268](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1268)*
+*Defined in [types/DW_Rest.d.ts:1268](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L1268)*
 
 ___
 

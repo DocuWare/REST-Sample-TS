@@ -33,7 +33,7 @@ DocuWare Organization Model
 
 **● AdditionalInfo**: *`object`*
 
-*Defined in [types/DW_Rest.d.ts:58](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L58)*
+*Defined in [types/DW_Rest.d.ts:58](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L58)*
 
 #### Type declaration
 
@@ -54,7 +54,7 @@ ___
 
 **● Guid**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:57](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L57)*
+*Defined in [types/DW_Rest.d.ts:57](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L57)*
 
 ___
 <a id="links"></a>
@@ -65,7 +65,7 @@ ___
 
 *Inherited from [ILinkModel](_types_dw_rest_d_.dwrest.ilinkmodel.md).[Links](_types_dw_rest_d_.dwrest.ilinkmodel.md#links)*
 
-*Defined in [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L10)*
+*Defined in [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L10)*
 
 ___
 <a id="name"></a>
@@ -74,7 +74,7 @@ ___
 
 **● Name**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:56](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L56)*
+*Defined in [types/DW_Rest.d.ts:56](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L56)*
 
 ___
 

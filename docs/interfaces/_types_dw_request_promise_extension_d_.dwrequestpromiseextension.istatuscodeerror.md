@@ -32,7 +32,7 @@ Just the definintion of StatusCodeError return
 
 **● error**: *`string`*
 
-*Defined in [types/DW_Request_Promise_Extension.d.ts:12](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Request_Promise_Extension.d.ts#L12)*
+*Defined in [types/DW_Request_Promise_Extension.d.ts:12](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Request_Promise_Extension.d.ts#L12)*
 
 ___
 <a id="message"></a>
@@ -41,7 +41,7 @@ ___
 
 **● message**: *`string`*
 
-*Defined in [types/DW_Request_Promise_Extension.d.ts:13](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Request_Promise_Extension.d.ts#L13)*
+*Defined in [types/DW_Request_Promise_Extension.d.ts:13](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Request_Promise_Extension.d.ts#L13)*
 
 ___
 <a id="options"></a>
@@ -50,7 +50,7 @@ ___
 
 **● options**: *`RequestPromiseOptions`*
 
-*Defined in [types/DW_Request_Promise_Extension.d.ts:14](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Request_Promise_Extension.d.ts#L14)*
+*Defined in [types/DW_Request_Promise_Extension.d.ts:14](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Request_Promise_Extension.d.ts#L14)*
 
 ___
 <a id="response"></a>
@@ -59,7 +59,7 @@ ___
 
 **● response**: *`IncomingMessage`*
 
-*Defined in [types/DW_Request_Promise_Extension.d.ts:15](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Request_Promise_Extension.d.ts#L15)*
+*Defined in [types/DW_Request_Promise_Extension.d.ts:15](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Request_Promise_Extension.d.ts#L15)*
 
 ___
 <a id="retryafter"></a>
@@ -68,7 +68,7 @@ ___
 
 **● retryAfter**: *`number` \| `null` \| `undefined`*
 
-*Defined in [types/DW_Request_Promise_Extension.d.ts:18](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Request_Promise_Extension.d.ts#L18)*
+*Defined in [types/DW_Request_Promise_Extension.d.ts:18](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Request_Promise_Extension.d.ts#L18)*
 
 ___
 <a id="stack"></a>
@@ -77,7 +77,7 @@ ___
 
 **● stack**: *`string`*
 
-*Defined in [types/DW_Request_Promise_Extension.d.ts:16](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Request_Promise_Extension.d.ts#L16)*
+*Defined in [types/DW_Request_Promise_Extension.d.ts:16](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Request_Promise_Extension.d.ts#L16)*
 
 ___
 <a id="statuscode"></a>
@@ -86,7 +86,7 @@ ___
 
 **● statusCode**: *`number`*
 
-*Defined in [types/DW_Request_Promise_Extension.d.ts:17](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Request_Promise_Extension.d.ts#L17)*
+*Defined in [types/DW_Request_Promise_Extension.d.ts:17](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Request_Promise_Extension.d.ts#L17)*
 
 ___
 

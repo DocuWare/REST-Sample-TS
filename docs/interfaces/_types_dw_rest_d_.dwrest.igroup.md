@@ -33,7 +33,7 @@ Group
 
 **● Active**: *`boolean`*
 
-*Defined in [types/DW_Rest.d.ts:757](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L757)*
+*Defined in [types/DW_Rest.d.ts:757](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L757)*
 
 ___
 <a id="id"></a>
@@ -42,7 +42,7 @@ ___
 
 **● Id**: *`undefined` \| `string`*
 
-*Defined in [types/DW_Rest.d.ts:755](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L755)*
+*Defined in [types/DW_Rest.d.ts:755](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L755)*
 
 ___
 <a id="links"></a>
@@ -53,7 +53,7 @@ ___
 
 *Inherited from [ILinkModel](_types_dw_rest_d_.dwrest.ilinkmodel.md).[Links](_types_dw_rest_d_.dwrest.ilinkmodel.md#links)*
 
-*Defined in [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L10)*
+*Defined in [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L10)*
 
 ___
 <a id="name"></a>
@@ -62,7 +62,7 @@ ___
 
 **● Name**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:756](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L756)*
+*Defined in [types/DW_Rest.d.ts:756](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L756)*
 
 ___
 

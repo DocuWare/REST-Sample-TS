@@ -45,7 +45,7 @@
 
 ⊕ **new RectEntry**(location: *[IAnnotationPoint](../interfaces/_types_dw_rest_d_.dwrest.iannotationpoint.md)*): [RectEntry](_annotations_.rectentry.md)
 
-*Defined in [Annotations.ts:77](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L77)*
+*Defined in [Annotations.ts:77](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/Annotations.ts#L77)*
 
 **Parameters:**
 
@@ -67,7 +67,7 @@ ___
 
 *Implementation of [IRectEntry](../interfaces/_types_dw_rest_d_.dwrest.irectentry.md).[$type](../interfaces/_types_dw_rest_d_.dwrest.irectentry.md#_type)*
 
-*Defined in [Annotations.ts:68](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L68)*
+*Defined in [Annotations.ts:68](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/Annotations.ts#L68)*
 
 ___
 <a id="color"></a>
@@ -78,7 +78,7 @@ ___
 
 *Implementation of [IRectEntry](../interfaces/_types_dw_rest_d_.dwrest.irectentry.md).[Color](../interfaces/_types_dw_rest_d_.dwrest.irectentry.md#color)*
 
-*Defined in [Annotations.ts:73](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L73)*
+*Defined in [Annotations.ts:73](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/Annotations.ts#L73)*
 
 ___
 <a id="created"></a>
@@ -89,7 +89,7 @@ ___
 
 *Implementation of [IRectEntry](../interfaces/_types_dw_rest_d_.dwrest.irectentry.md).[Created](../interfaces/_types_dw_rest_d_.dwrest.irectentry.md#created)*
 
-*Defined in [Annotations.ts:72](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L72)*
+*Defined in [Annotations.ts:72](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/Annotations.ts#L72)*
 
 ___
 <a id="ellipse"></a>
@@ -100,7 +100,7 @@ ___
 
 *Implementation of [IRectEntry](../interfaces/_types_dw_rest_d_.dwrest.irectentry.md).[Ellipse](../interfaces/_types_dw_rest_d_.dwrest.irectentry.md#ellipse)*
 
-*Defined in [Annotations.ts:71](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L71)*
+*Defined in [Annotations.ts:71](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/Annotations.ts#L71)*
 
 ___
 <a id="filled"></a>
@@ -111,7 +111,7 @@ ___
 
 *Implementation of [IRectEntry](../interfaces/_types_dw_rest_d_.dwrest.irectentry.md).[Filled](../interfaces/_types_dw_rest_d_.dwrest.irectentry.md#filled)*
 
-*Defined in [Annotations.ts:70](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L70)*
+*Defined in [Annotations.ts:70](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/Annotations.ts#L70)*
 
 ___
 <a id="id"></a>
@@ -122,7 +122,7 @@ ___
 
 *Implementation of [IRectEntry](../interfaces/_types_dw_rest_d_.dwrest.irectentry.md).[Id](../interfaces/_types_dw_rest_d_.dwrest.irectentry.md#id)*
 
-*Defined in [Annotations.ts:77](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L77)*
+*Defined in [Annotations.ts:77](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/Annotations.ts#L77)*
 
 ___
 <a id="location"></a>
@@ -133,7 +133,7 @@ ___
 
 *Implementation of [IRectEntry](../interfaces/_types_dw_rest_d_.dwrest.irectentry.md).[Location](../interfaces/_types_dw_rest_d_.dwrest.irectentry.md#location)*
 
-*Defined in [Annotations.ts:69](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L69)*
+*Defined in [Annotations.ts:69](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/Annotations.ts#L69)*
 
 ___
 <a id="rotation"></a>
@@ -144,7 +144,7 @@ ___
 
 *Implementation of [IRectEntry](../interfaces/_types_dw_rest_d_.dwrest.irectentry.md).[Rotation](../interfaces/_types_dw_rest_d_.dwrest.irectentry.md#rotation)*
 
-*Defined in [Annotations.ts:74](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L74)*
+*Defined in [Annotations.ts:74](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/Annotations.ts#L74)*
 
 ___
 <a id="strokewidth"></a>
@@ -155,7 +155,7 @@ ___
 
 *Implementation of [IRectEntry](../interfaces/_types_dw_rest_d_.dwrest.irectentry.md).[StrokeWidth](../interfaces/_types_dw_rest_d_.dwrest.irectentry.md#strokewidth)*
 
-*Defined in [Annotations.ts:76](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L76)*
+*Defined in [Annotations.ts:76](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/Annotations.ts#L76)*
 
 ___
 <a id="transparent"></a>
@@ -166,7 +166,7 @@ ___
 
 *Implementation of [IRectEntry](../interfaces/_types_dw_rest_d_.dwrest.irectentry.md).[Transparent](../interfaces/_types_dw_rest_d_.dwrest.irectentry.md#transparent)*
 
-*Defined in [Annotations.ts:75](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L75)*
+*Defined in [Annotations.ts:75](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/Annotations.ts#L75)*
 
 ___
 

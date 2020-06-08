@@ -34,7 +34,7 @@ DocuWare Query Result
 
 **● Count**: *`number`*
 
-*Defined in [types/DW_Rest.d.ts:336](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L336)*
+*Defined in [types/DW_Rest.d.ts:336](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L336)*
 
 ___
 <a id="download"></a>
@@ -43,7 +43,7 @@ ___
 
 **● Download**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:339](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L339)*
+*Defined in [types/DW_Rest.d.ts:339](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L339)*
 
 ___
 <a id="items"></a>
@@ -52,7 +52,7 @@ ___
 
 **● Items**: *[IDocument](_types_dw_rest_d_.dwrest.idocument.md)[]*
 
-*Defined in [types/DW_Rest.d.ts:337](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L337)*
+*Defined in [types/DW_Rest.d.ts:337](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L337)*
 
 ___
 <a id="links"></a>
@@ -63,7 +63,7 @@ ___
 
 *Inherited from [ILinkModel](_types_dw_rest_d_.dwrest.ilinkmodel.md).[Links](_types_dw_rest_d_.dwrest.ilinkmodel.md#links)*
 
-*Defined in [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L10)*
+*Defined in [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L10)*
 
 ___
 <a id="next"></a>
@@ -72,7 +72,7 @@ ___
 
 **● Next**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:338](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L338)*
+*Defined in [types/DW_Rest.d.ts:338](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L338)*
 
 ___
 

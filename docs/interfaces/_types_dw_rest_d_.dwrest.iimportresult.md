@@ -27,7 +27,7 @@ Import results
 
 **● FileChunk**: *[IUploadedResultChunk](_types_dw_rest_d_.dwrest.iuploadedresultchunk.md)*
 
-*Defined in [types/DW_Rest.d.ts:796](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L796)*
+*Defined in [types/DW_Rest.d.ts:796](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L796)*
 
 ___
 <a id="results"></a>
@@ -36,7 +36,7 @@ ___
 
 **● Results**: *[IImportResultEntry](_types_dw_rest_d_.dwrest.iimportresultentry.md)[]*
 
-*Defined in [types/DW_Rest.d.ts:795](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L795)*
+*Defined in [types/DW_Rest.d.ts:795](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L795)*
 
 ___
 

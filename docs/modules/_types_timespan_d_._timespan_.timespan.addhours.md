@@ -5,7 +5,7 @@
 ## Callable
 ▸ **addHours**(hours: *`any`*): `void`
 
-*Defined in [types/timespan.d.ts:12](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/timespan.d.ts#L12)*
+*Defined in [types/timespan.d.ts:12](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/timespan.d.ts#L12)*
 
 **Parameters:**
 
@@ -31,7 +31,7 @@
 
 **● prototype**: *`__type`*
 
-*Defined in [types/timespan.d.ts:133](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/timespan.d.ts#L133)*
+*Defined in [types/timespan.d.ts:133](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/timespan.d.ts#L133)*
 
 ___
 

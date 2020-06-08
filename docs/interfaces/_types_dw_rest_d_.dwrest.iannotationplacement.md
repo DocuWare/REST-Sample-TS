@@ -26,7 +26,7 @@ Annotation Placement
 
 **● Items**: *([IAnnotation](_types_dw_rest_d_.dwrest.iannotation.md) \| [IStampPlacement](_types_dw_rest_d_.dwrest.istampplacement.md))[]*
 
-*Defined in [types/DW_Rest.d.ts:442](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L442)*
+*Defined in [types/DW_Rest.d.ts:442](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L442)*
 
 ___
 

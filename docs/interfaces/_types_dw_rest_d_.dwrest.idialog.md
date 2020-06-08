@@ -42,7 +42,7 @@ DocuWare Dialog Model
 
 **● AssignedDialogId**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:354](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L354)*
+*Defined in [types/DW_Rest.d.ts:354](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L354)*
 
 ___
 <a id="color"></a>
@@ -51,7 +51,7 @@ ___
 
 **● Color**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:355](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L355)*
+*Defined in [types/DW_Rest.d.ts:355](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L355)*
 
 ___
 <a id="displayname"></a>
@@ -60,7 +60,7 @@ ___
 
 **● DisplayName**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:352](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L352)*
+*Defined in [types/DW_Rest.d.ts:352](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L352)*
 
 ___
 <a id="fields"></a>
@@ -69,7 +69,7 @@ ___
 
 **● Fields**: *[IDlgField](_types_dw_rest_d_.dwrest.idlgfield.md)[]*
 
-*Defined in [types/DW_Rest.d.ts:358](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L358)*
+*Defined in [types/DW_Rest.d.ts:358](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L358)*
 
 ___
 <a id="filecabinetid"></a>
@@ -78,7 +78,7 @@ ___
 
 **● FileCabinetId**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:350](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L350)*
+*Defined in [types/DW_Rest.d.ts:350](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L350)*
 
 ___
 <a id="filecabinetname"></a>
@@ -87,7 +87,7 @@ ___
 
 **● FileCabinetName**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:351](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L351)*
+*Defined in [types/DW_Rest.d.ts:351](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L351)*
 
 ___
 <a id="id"></a>
@@ -96,7 +96,7 @@ ___
 
 **● Id**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:349](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L349)*
+*Defined in [types/DW_Rest.d.ts:349](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L349)*
 
 ___
 <a id="isdefault"></a>
@@ -105,7 +105,7 @@ ___
 
 **● IsDefault**: *`boolean`*
 
-*Defined in [types/DW_Rest.d.ts:356](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L356)*
+*Defined in [types/DW_Rest.d.ts:356](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L356)*
 
 ___
 <a id="isformobile"></a>
@@ -114,7 +114,7 @@ ___
 
 **● IsForMobile**: *`boolean`*
 
-*Defined in [types/DW_Rest.d.ts:353](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L353)*
+*Defined in [types/DW_Rest.d.ts:353](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L353)*
 
 ___
 <a id="links"></a>
@@ -125,7 +125,7 @@ ___
 
 *Inherited from [ILinkModel](_types_dw_rest_d_.dwrest.ilinkmodel.md).[Links](_types_dw_rest_d_.dwrest.ilinkmodel.md#links)*
 
-*Defined in [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L10)*
+*Defined in [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L10)*
 
 ___
 <a id="properties"></a>
@@ -134,7 +134,7 @@ ___
 
 **● Properties**: *`object`*
 
-*Defined in [types/DW_Rest.d.ts:364](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L364)*
+*Defined in [types/DW_Rest.d.ts:364](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L364)*
 
 #### Type declaration
 
@@ -151,7 +151,7 @@ ___
 
 **● Query**: *`object`*
 
-*Defined in [types/DW_Rest.d.ts:359](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L359)*
+*Defined in [types/DW_Rest.d.ts:359](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L359)*
 
 #### Type declaration
 
@@ -168,7 +168,7 @@ ___
 
 **● Type**: *[DialogType](../enums/_types_dw_rest_d_.dwrest.dialogtype.md)*
 
-*Defined in [types/DW_Rest.d.ts:357](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L357)*
+*Defined in [types/DW_Rest.d.ts:357](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L357)*
 
 ___
 

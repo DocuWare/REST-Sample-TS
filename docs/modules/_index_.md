@@ -48,9 +48,9 @@
 
 ### `<Const>` fileCabinetID
 
-**● fileCabinetID**: *`string`* = "4530fb79-ea98-44c3-b2cc-51627033f85f"
+**● fileCabinetID**: *`string`* = "3f3c9aff-63e5-4433-99a5-ed6dbba1bb72"
 
-*Defined in [index.ts:31](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/index.ts#L31)*
+*Defined in [index.ts:23](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/index.ts#L23)*
 
 ___
 <a id="hostid"></a>
@@ -59,7 +59,7 @@ ___
 
 **● hostID**: *`string`* = "7b5ed19b-bfd6-46e9-8a3b-efd2a4499666"
 
-*Defined in [index.ts:30](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/index.ts#L30)*
+*Defined in [index.ts:22](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/index.ts#L22)*
 
 ___
 <a id="logonmodel"></a>
@@ -68,25 +68,25 @@ ___
 
 **● logonModel**: *[ILogonModel](../interfaces/_types_dw_rest_d_.dwrest.ilogonmodel.md)* =  restWrapper.CreateLogonModel(user, password, organization, hostID)
 
-*Defined in [index.ts:38](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/index.ts#L38)*
+*Defined in [index.ts:29](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/index.ts#L29)*
 
 ___
 <a id="organization"></a>
 
 ### `<Const>` organization
 
-**● organization**: *`string`* = "SDK INC"
+**● organization**: *`string`* = "Peters Engineering"
 
-*Defined in [index.ts:29](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/index.ts#L29)*
+*Defined in [index.ts:21](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/index.ts#L21)*
 
 ___
 <a id="password"></a>
 
 ### `<Const>` password
 
-**● password**: *`string`* = "Fwb4Bbfs9qkS8OkIp86B"
+**● password**: *`string`* = "admin"
 
-*Defined in [index.ts:28](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/index.ts#L28)*
+*Defined in [index.ts:20](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/index.ts#L20)*
 
 ___
 <a id="restwrapper"></a>
@@ -95,16 +95,16 @@ ___
 
 **● restWrapper**: *[RestCallWrapper](../classes/_restwrapper_.restcallwrapper.md)* =  new RestCallWrapper(rootUrl)
 
-*Defined in [index.ts:35](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/index.ts#L35)*
+*Defined in [index.ts:26](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/index.ts#L26)*
 
 ___
 <a id="rooturl"></a>
 
 ### `<Const>` rootUrl
 
-**● rootUrl**: *`string`* = "https://sdkinc.inhouse.docuware.cloud/"
+**● rootUrl**: *`string`* = "http://localhost/"
 
-*Defined in [index.ts:26](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/index.ts#L26)*
+*Defined in [index.ts:18](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/index.ts#L18)*
 
 ___
 <a id="timetowait"></a>
@@ -113,16 +113,16 @@ ___
 
 **● timeToWait**: *`number`* =  60 * 1000
 
-*Defined in [index.ts:15](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/index.ts#L15)*
+*Defined in [index.ts:15](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/index.ts#L15)*
 
 ___
 <a id="user"></a>
 
 ### `<Const>` user
 
-**● user**: *`string`* = "testuser"
+**● user**: *`string`* = "dwadmin"
 
-*Defined in [index.ts:27](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/index.ts#L27)*
+*Defined in [index.ts:19](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/index.ts#L19)*
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 ▸ **ExportADocument**(fileCabinet: *[IFileCabinet](../interfaces/_types_dw_rest_d_.dwrest.ifilecabinet.md)*): `Promise`<`string`>
 
-*Defined in [index.ts:224](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/index.ts#L224)*
+*Defined in [index.ts:215](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/index.ts#L215)*
 
 **Parameters:**
 
@@ -151,7 +151,7 @@ ___
 
 ▸ **checkoutAndCheckinDocument**(fileCabinet: *[IFileCabinet](../interfaces/_types_dw_rest_d_.dwrest.ifilecabinet.md)*, document: *[IDocument](../interfaces/_types_dw_rest_d_.dwrest.idocument.md)*): `Promise`<`void`>
 
-*Defined in [index.ts:294](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/index.ts#L294)*
+*Defined in [index.ts:285](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/index.ts#L285)*
 
 **Parameters:**
 
@@ -169,7 +169,7 @@ ___
 
 ▸ **createNewUser**(organization: *[IOrganization](../interfaces/_types_dw_rest_d_.dwrest.iorganization.md)*): `Promise`<[IUser](../interfaces/_types_dw_rest_d_.dwrest.iuser.md)>
 
-*Defined in [index.ts:230](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/index.ts#L230)*
+*Defined in [index.ts:221](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/index.ts#L221)*
 
 **Parameters:**
 
@@ -186,7 +186,7 @@ ___
 
 ▸ **doSearch**(fileCabinet: *[IFileCabinet](../interfaces/_types_dw_rest_d_.dwrest.ifilecabinet.md)*, firstDialog: *[IDialog](../interfaces/_types_dw_rest_d_.dwrest.idialog.md)*): `Promise`<[IDocumentsQueryResult](../interfaces/_types_dw_rest_d_.dwrest.idocumentsqueryresult.md)>
 
-*Defined in [index.ts:384](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/index.ts#L384)*
+*Defined in [index.ts:375](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/index.ts#L375)*
 
 **Parameters:**
 
@@ -204,7 +204,7 @@ ___
 
 ▸ **downloadDocument**(specialDocument: *[IDocument](../interfaces/_types_dw_rest_d_.dwrest.idocument.md)*): `Promise`<`void`>
 
-*Defined in [index.ts:372](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/index.ts#L372)*
+*Defined in [index.ts:363](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/index.ts#L363)*
 
 **Parameters:**
 
@@ -221,7 +221,7 @@ ___
 
 ▸ **getFieldByName**(document: *[IDocument](../interfaces/_types_dw_rest_d_.dwrest.idocument.md)*, fieldName: *`string`*): [IField](../interfaces/_types_dw_rest_d_.dwrest.ifield.md)
 
-*Defined in [index.ts:416](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/index.ts#L416)*
+*Defined in [index.ts:407](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/index.ts#L407)*
 
 Returns special field by name Also proofs if system field is tried to manipulate
 
@@ -241,7 +241,7 @@ ___
 
 ▸ **getFirstDialogOfType**(fileCabinet: *[IFileCabinet](../interfaces/_types_dw_rest_d_.dwrest.ifilecabinet.md)*, dType: *[DialogType](../enums/_types_dw_rest_d_.dwrest.dialogtype.md)*): `Promise`<[IDialog](../interfaces/_types_dw_rest_d_.dwrest.idialog.md)>
 
-*Defined in [index.ts:393](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/index.ts#L393)*
+*Defined in [index.ts:384](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/index.ts#L384)*
 
 **Parameters:**
 
@@ -259,7 +259,7 @@ ___
 
 ▸ **getPagedDocumentResults**(fileCabinet: *[IFileCabinet](../interfaces/_types_dw_rest_d_.dwrest.ifilecabinet.md)*): `Promise`<`void`>
 
-*Defined in [index.ts:398](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/index.ts#L398)*
+*Defined in [index.ts:389](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/index.ts#L389)*
 
 **Parameters:**
 
@@ -276,7 +276,7 @@ ___
 
 ▸ **importAdocument**(pathToExportedDocument: *`string`*): `Promise`<`void`>
 
-*Defined in [index.ts:214](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/index.ts#L214)*
+*Defined in [index.ts:205](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/index.ts#L205)*
 
 **Parameters:**
 
@@ -293,7 +293,7 @@ ___
 
 ▸ **setAnAnnotation**(documentForAnnotation: *[IDocument](../interfaces/_types_dw_rest_d_.dwrest.idocument.md)*): `Promise`<`void`>
 
-*Defined in [index.ts:252](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/index.ts#L252)*
+*Defined in [index.ts:243](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/index.ts#L243)*
 
 **Parameters:**
 
@@ -310,7 +310,7 @@ ___
 
 ▸ **stampAdocument**(fileCabinet: *[IFileCabinet](../interfaces/_types_dw_rest_d_.dwrest.ifilecabinet.md)*, document: *[IDocument](../interfaces/_types_dw_rest_d_.dwrest.idocument.md)*): `Promise`<`void`>
 
-*Defined in [index.ts:273](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/index.ts#L273)*
+*Defined in [index.ts:264](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/index.ts#L264)*
 
 **Parameters:**
 
@@ -328,7 +328,7 @@ ___
 
 ▸ **storeBigDocumentJsonIndex**(fileCabinet: *[IFileCabinet](../interfaces/_types_dw_rest_d_.dwrest.ifilecabinet.md)*): `Promise`<`void`>
 
-*Defined in [index.ts:355](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/index.ts#L355)*
+*Defined in [index.ts:346](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/index.ts#L346)*
 
 **Parameters:**
 
@@ -345,7 +345,7 @@ ___
 
 ▸ **storeBigDocumentWithoutIndex**(fileCabinet: *[IFileCabinet](../interfaces/_types_dw_rest_d_.dwrest.ifilecabinet.md)*): `Promise`<`void`>
 
-*Defined in [index.ts:335](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/index.ts#L335)*
+*Defined in [index.ts:326](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/index.ts#L326)*
 
 **Parameters:**
 
@@ -362,7 +362,7 @@ ___
 
 ▸ **storeBigDocumentXmlIndex**(fileCabinet: *[IFileCabinet](../interfaces/_types_dw_rest_d_.dwrest.ifilecabinet.md)*): `Promise`<`void`>
 
-*Defined in [index.ts:339](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/index.ts#L339)*
+*Defined in [index.ts:330](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/index.ts#L330)*
 
 **Parameters:**
 
@@ -379,7 +379,7 @@ ___
 
 ▸ **storeDocument**(fileCabinet: *[IFileCabinet](../interfaces/_types_dw_rest_d_.dwrest.ifilecabinet.md)*): `Promise`<`void`>
 
-*Defined in [index.ts:319](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/index.ts#L319)*
+*Defined in [index.ts:310](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/index.ts#L310)*
 
 **Parameters:**
 
@@ -396,7 +396,7 @@ ___
 
 ▸ **traceError**(error: *`Error`*): `void`
 
-*Defined in [index.ts:434](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/index.ts#L434)*
+*Defined in [index.ts:425](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/index.ts#L425)*
 
 Traces error
 
@@ -415,7 +415,7 @@ ___
 
 ▸ **transferDocumentsFromDocumentTrayToFileCabinet**(fileCabinet: *[IFileCabinet](../interfaces/_types_dw_rest_d_.dwrest.ifilecabinet.md)*, docIdsToTransfer: *`number`[]*): `Promise`<`void`>
 
-*Defined in [index.ts:241](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/index.ts#L241)*
+*Defined in [index.ts:232](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/index.ts#L232)*
 
 **Parameters:**
 
@@ -433,7 +433,7 @@ ___
 
 ▸ **transferDocumentsFromFileCabinetToFileCabinet**(sourceFileCabinet: *[IFileCabinet](../interfaces/_types_dw_rest_d_.dwrest.ifilecabinet.md)*): `Promise`<`void`>
 
-*Defined in [index.ts:246](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/index.ts#L246)*
+*Defined in [index.ts:237](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/index.ts#L237)*
 
 **Parameters:**
 
@@ -450,7 +450,7 @@ ___
 
 ▸ **updateDocumentSection**(document: *[IDocument](../interfaces/_types_dw_rest_d_.dwrest.idocument.md)*): `Promise`<`void`>
 
-*Defined in [index.ts:311](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/index.ts#L311)*
+*Defined in [index.ts:302](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/index.ts#L302)*
 
 **Parameters:**
 
@@ -467,7 +467,7 @@ ___
 
 ▸ **updateDocumentTableField**(document: *[IDocument](../interfaces/_types_dw_rest_d_.dwrest.idocument.md)*, tablefield: *[IField](../interfaces/_types_dw_rest_d_.dwrest.ifield.md)*): `Promise`<`void`>
 
-*Defined in [index.ts:404](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/index.ts#L404)*
+*Defined in [index.ts:395](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/index.ts#L395)*
 
 **Parameters:**
 
@@ -485,7 +485,7 @@ ___
 
 ▸ **updateIndexEntry**(specialDocument: *[IDocument](../interfaces/_types_dw_rest_d_.dwrest.idocument.md)*): `Promise`<[IFieldList](../interfaces/_types_dw_rest_d_.dwrest.ifieldlist.md)>
 
-*Defined in [index.ts:377](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/index.ts#L377)*
+*Defined in [index.ts:368](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/index.ts#L368)*
 
 **Parameters:**
 

@@ -23,7 +23,7 @@ Kind of merge operation
 
 **Clip**:  = "Clip"
 
-*Defined in [types/DW_Rest.d.ts:1310](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1310)*
+*Defined in [types/DW_Rest.d.ts:1310](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L1310)*
 
 ___
 <a id="staple"></a>
@@ -32,7 +32,7 @@ ___
 
 **Staple**:  = "Staple"
 
-*Defined in [types/DW_Rest.d.ts:1311](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1311)*
+*Defined in [types/DW_Rest.d.ts:1311](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L1311)*
 
 ___
 

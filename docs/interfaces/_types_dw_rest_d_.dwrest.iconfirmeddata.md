@@ -26,7 +26,7 @@ Task confirmed data object
 
 **● ConfirmedFields**: *[IConfirmedField](_types_dw_rest_d_.dwrest.iconfirmedfield.md)[]*
 
-*Defined in [types/DW_Rest.d.ts:1214](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1214)*
+*Defined in [types/DW_Rest.d.ts:1214](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L1214)*
 
 ___
 

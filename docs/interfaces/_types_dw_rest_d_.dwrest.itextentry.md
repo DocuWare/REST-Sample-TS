@@ -45,7 +45,7 @@ Text entry
 
 *Inherited from [IEntryBase](_types_dw_rest_d_.dwrest.ientrybase.md).[$type](_types_dw_rest_d_.dwrest.ientrybase.md#_type)*
 
-*Defined in [types/DW_Rest.d.ts:540](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L540)*
+*Defined in [types/DW_Rest.d.ts:540](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L540)*
 
 ___
 <a id="color"></a>
@@ -56,7 +56,7 @@ ___
 
 *Inherited from [IEntryBase](_types_dw_rest_d_.dwrest.ientrybase.md).[Color](_types_dw_rest_d_.dwrest.ientrybase.md#color)*
 
-*Defined in [types/DW_Rest.d.ts:542](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L542)*
+*Defined in [types/DW_Rest.d.ts:542](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L542)*
 
 ___
 <a id="created"></a>
@@ -67,7 +67,7 @@ ___
 
 *Inherited from [IEntryBase](_types_dw_rest_d_.dwrest.ientrybase.md).[Created](_types_dw_rest_d_.dwrest.ientrybase.md#created)*
 
-*Defined in [types/DW_Rest.d.ts:541](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L541)*
+*Defined in [types/DW_Rest.d.ts:541](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L541)*
 
 ___
 <a id="font"></a>
@@ -76,7 +76,7 @@ ___
 
 **● Font**: *[IFont](_types_dw_rest_d_.dwrest.ifont.md)*
 
-*Defined in [types/DW_Rest.d.ts:576](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L576)*
+*Defined in [types/DW_Rest.d.ts:576](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L576)*
 
 ___
 <a id="id"></a>
@@ -87,7 +87,7 @@ ___
 
 *Inherited from [IEntryBase](_types_dw_rest_d_.dwrest.ientrybase.md).[Id](_types_dw_rest_d_.dwrest.ientrybase.md#id)*
 
-*Defined in [types/DW_Rest.d.ts:546](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L546)*
+*Defined in [types/DW_Rest.d.ts:546](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L546)*
 
 ___
 <a id="location"></a>
@@ -96,7 +96,7 @@ ___
 
 **● Location**: *[IAnnotationRectangle](_types_dw_rest_d_.dwrest.iannotationrectangle.md)*
 
-*Defined in [types/DW_Rest.d.ts:578](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L578)*
+*Defined in [types/DW_Rest.d.ts:578](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L578)*
 
 ___
 <a id="rotation"></a>
@@ -107,7 +107,7 @@ ___
 
 *Inherited from [IEntryBase](_types_dw_rest_d_.dwrest.ientrybase.md).[Rotation](_types_dw_rest_d_.dwrest.ientrybase.md#rotation)*
 
-*Defined in [types/DW_Rest.d.ts:543](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L543)*
+*Defined in [types/DW_Rest.d.ts:543](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L543)*
 
 ___
 <a id="strokewidth"></a>
@@ -118,7 +118,7 @@ ___
 
 *Inherited from [IEntryBase](_types_dw_rest_d_.dwrest.ientrybase.md).[StrokeWidth](_types_dw_rest_d_.dwrest.ientrybase.md#strokewidth)*
 
-*Defined in [types/DW_Rest.d.ts:545](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L545)*
+*Defined in [types/DW_Rest.d.ts:545](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L545)*
 
 ___
 <a id="transparent"></a>
@@ -129,7 +129,7 @@ ___
 
 *Inherited from [IEntryBase](_types_dw_rest_d_.dwrest.ientrybase.md).[Transparent](_types_dw_rest_d_.dwrest.ientrybase.md#transparent)*
 
-*Defined in [types/DW_Rest.d.ts:544](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L544)*
+*Defined in [types/DW_Rest.d.ts:544](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L544)*
 
 ___
 <a id="value"></a>
@@ -138,7 +138,7 @@ ___
 
 **● Value**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:577](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L577)*
+*Defined in [types/DW_Rest.d.ts:577](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L577)*
 
 ___
 

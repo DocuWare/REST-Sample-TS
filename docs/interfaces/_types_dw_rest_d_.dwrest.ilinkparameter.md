@@ -27,7 +27,7 @@ Link parameter
 
 **● Label**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:1041](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1041)*
+*Defined in [types/DW_Rest.d.ts:1041](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L1041)*
 
 ___
 <a id="url"></a>
@@ -36,7 +36,7 @@ ___
 
 **● Url**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:1040](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1040)*
+*Defined in [types/DW_Rest.d.ts:1040](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L1040)*
 
 ___
 

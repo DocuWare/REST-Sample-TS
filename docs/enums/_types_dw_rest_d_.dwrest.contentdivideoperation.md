@@ -24,7 +24,7 @@ Kind of devide operation
 
 **Split**:  = "Split"
 
-*Defined in [types/DW_Rest.d.ts:1322](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1322)*
+*Defined in [types/DW_Rest.d.ts:1322](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L1322)*
 
 ___
 <a id="unclip"></a>
@@ -33,7 +33,7 @@ ___
 
 **Unclip**:  = "Unclip"
 
-*Defined in [types/DW_Rest.d.ts:1320](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1320)*
+*Defined in [types/DW_Rest.d.ts:1320](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L1320)*
 
 ___
 <a id="unstaple"></a>
@@ -42,7 +42,7 @@ ___
 
 **Unstaple**:  = "Unstaple"
 
-*Defined in [types/DW_Rest.d.ts:1321](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1321)*
+*Defined in [types/DW_Rest.d.ts:1321](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L1321)*
 
 ___
 

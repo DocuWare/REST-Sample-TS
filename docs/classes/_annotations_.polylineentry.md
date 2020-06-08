@@ -43,7 +43,7 @@
 
 ⊕ **new PolyLineEntry**(stroke: *[IStroke](../interfaces/_types_dw_rest_d_.dwrest.istroke.md)[]*): [PolyLineEntry](_annotations_.polylineentry.md)
 
-*Defined in [Annotations.ts:101](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L101)*
+*Defined in [Annotations.ts:101](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/Annotations.ts#L101)*
 
 **Parameters:**
 
@@ -65,7 +65,7 @@ ___
 
 *Implementation of [IPolyLineEntry](../interfaces/_types_dw_rest_d_.dwrest.ipolylineentry.md).[$type](../interfaces/_types_dw_rest_d_.dwrest.ipolylineentry.md#_type)*
 
-*Defined in [Annotations.ts:94](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L94)*
+*Defined in [Annotations.ts:94](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/Annotations.ts#L94)*
 
 ___
 <a id="color"></a>
@@ -76,7 +76,7 @@ ___
 
 *Implementation of [IPolyLineEntry](../interfaces/_types_dw_rest_d_.dwrest.ipolylineentry.md).[Color](../interfaces/_types_dw_rest_d_.dwrest.ipolylineentry.md#color)*
 
-*Defined in [Annotations.ts:97](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L97)*
+*Defined in [Annotations.ts:97](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/Annotations.ts#L97)*
 
 ___
 <a id="created"></a>
@@ -87,7 +87,7 @@ ___
 
 *Implementation of [IPolyLineEntry](../interfaces/_types_dw_rest_d_.dwrest.ipolylineentry.md).[Created](../interfaces/_types_dw_rest_d_.dwrest.ipolylineentry.md#created)*
 
-*Defined in [Annotations.ts:96](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L96)*
+*Defined in [Annotations.ts:96](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/Annotations.ts#L96)*
 
 ___
 <a id="id"></a>
@@ -98,7 +98,7 @@ ___
 
 *Implementation of [IPolyLineEntry](../interfaces/_types_dw_rest_d_.dwrest.ipolylineentry.md).[Id](../interfaces/_types_dw_rest_d_.dwrest.ipolylineentry.md#id)*
 
-*Defined in [Annotations.ts:101](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L101)*
+*Defined in [Annotations.ts:101](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/Annotations.ts#L101)*
 
 ___
 <a id="rotation"></a>
@@ -109,7 +109,7 @@ ___
 
 *Implementation of [IPolyLineEntry](../interfaces/_types_dw_rest_d_.dwrest.ipolylineentry.md).[Rotation](../interfaces/_types_dw_rest_d_.dwrest.ipolylineentry.md#rotation)*
 
-*Defined in [Annotations.ts:98](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L98)*
+*Defined in [Annotations.ts:98](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/Annotations.ts#L98)*
 
 ___
 <a id="stroke"></a>
@@ -120,7 +120,7 @@ ___
 
 *Implementation of [IPolyLineEntry](../interfaces/_types_dw_rest_d_.dwrest.ipolylineentry.md).[Stroke](../interfaces/_types_dw_rest_d_.dwrest.ipolylineentry.md#stroke)*
 
-*Defined in [Annotations.ts:95](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L95)*
+*Defined in [Annotations.ts:95](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/Annotations.ts#L95)*
 
 ___
 <a id="strokewidth"></a>
@@ -131,7 +131,7 @@ ___
 
 *Implementation of [IPolyLineEntry](../interfaces/_types_dw_rest_d_.dwrest.ipolylineentry.md).[StrokeWidth](../interfaces/_types_dw_rest_d_.dwrest.ipolylineentry.md#strokewidth)*
 
-*Defined in [Annotations.ts:100](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L100)*
+*Defined in [Annotations.ts:100](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/Annotations.ts#L100)*
 
 ___
 <a id="transparent"></a>
@@ -142,7 +142,7 @@ ___
 
 *Implementation of [IPolyLineEntry](../interfaces/_types_dw_rest_d_.dwrest.ipolylineentry.md).[Transparent](../interfaces/_types_dw_rest_d_.dwrest.ipolylineentry.md#transparent)*
 
-*Defined in [Annotations.ts:99](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L99)*
+*Defined in [Annotations.ts:99](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/Annotations.ts#L99)*
 
 ___
 
