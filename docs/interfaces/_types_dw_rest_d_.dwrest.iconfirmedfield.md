@@ -27,7 +27,7 @@ Task confirmed field
 
 **● Id**: *`undefined` \| `number`*
 
-*Defined in [types/DW_Rest.d.ts:1223](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L1223)*
+*Defined in [types/DW_Rest.d.ts:1223](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1223)*
 
 ___
 <a id="value"></a>
@@ -36,7 +36,7 @@ ___
 
 **● Value**: *`object`*
 
-*Defined in [types/DW_Rest.d.ts:1224](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L1224)*
+*Defined in [types/DW_Rest.d.ts:1224](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1224)*
 
 #### Type declaration
 

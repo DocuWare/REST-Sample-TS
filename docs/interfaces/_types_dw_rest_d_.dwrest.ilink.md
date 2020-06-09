@@ -27,7 +27,7 @@ A link
 
 **● href**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:46](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L46)*
+*Defined in [types/DW_Rest.d.ts:46](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L46)*
 
 ___
 <a id="rel"></a>
@@ -36,7 +36,7 @@ ___
 
 **● rel**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:45](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L45)*
+*Defined in [types/DW_Rest.d.ts:45](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L45)*
 
 ___
 

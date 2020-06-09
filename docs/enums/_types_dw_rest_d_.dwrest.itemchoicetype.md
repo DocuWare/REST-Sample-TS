@@ -30,7 +30,7 @@ DocuWare Field Type Enum
 
 **Date**:  = "Date"
 
-*Defined in [types/DW_Rest.d.ts:310](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L310)*
+*Defined in [types/DW_Rest.d.ts:310](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L310)*
 
 ___
 <a id="datetime"></a>
@@ -39,7 +39,7 @@ ___
 
 **DateTime**:  = "DateTime"
 
-*Defined in [types/DW_Rest.d.ts:307](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L307)*
+*Defined in [types/DW_Rest.d.ts:307](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L307)*
 
 ___
 <a id="decimal"></a>
@@ -48,7 +48,7 @@ ___
 
 **Decimal**:  = "Decimal"
 
-*Defined in [types/DW_Rest.d.ts:309](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L309)*
+*Defined in [types/DW_Rest.d.ts:309](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L309)*
 
 ___
 <a id="int"></a>
@@ -57,7 +57,7 @@ ___
 
 **Int**:  = "Int"
 
-*Defined in [types/DW_Rest.d.ts:306](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L306)*
+*Defined in [types/DW_Rest.d.ts:306](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L306)*
 
 ___
 <a id="keywords"></a>
@@ -66,7 +66,7 @@ ___
 
 **Keywords**:  = "Keywords"
 
-*Defined in [types/DW_Rest.d.ts:312](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L312)*
+*Defined in [types/DW_Rest.d.ts:312](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L312)*
 
 ___
 <a id="string"></a>
@@ -75,7 +75,7 @@ ___
 
 **String**:  = "String"
 
-*Defined in [types/DW_Rest.d.ts:308](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L308)*
+*Defined in [types/DW_Rest.d.ts:308](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L308)*
 
 ___
 <a id="table"></a>
@@ -84,7 +84,7 @@ ___
 
 **Table**:  = "Table"
 
-*Defined in [types/DW_Rest.d.ts:311](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L311)*
+*Defined in [types/DW_Rest.d.ts:311](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L311)*
 
 ___
 

@@ -5,7 +5,7 @@
 ## Callable
 ▸ **subtractHours**(hours: *`any`*): `void`
 
-*Defined in [types/timespan.d.ts:26](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/timespan.d.ts#L26)*
+*Defined in [types/timespan.d.ts:26](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/timespan.d.ts#L26)*
 
 **Parameters:**
 
@@ -31,7 +31,7 @@
 
 **● prototype**: *`__type`*
 
-*Defined in [types/timespan.d.ts:175](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/timespan.d.ts#L175)*
+*Defined in [types/timespan.d.ts:175](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/timespan.d.ts#L175)*
 
 ___
 

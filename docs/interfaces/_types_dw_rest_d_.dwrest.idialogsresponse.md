@@ -26,7 +26,7 @@ Dialog Response
 
 **● Dialog**: *[IDialog](_types_dw_rest_d_.dwrest.idialog.md)[]*
 
-*Defined in [types/DW_Rest.d.ts:378](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L378)*
+*Defined in [types/DW_Rest.d.ts:378](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L378)*
 
 ___
 

@@ -27,7 +27,7 @@ Layer
 
 **● Id**: *`number`*
 
-*Defined in [types/DW_Rest.d.ts:531](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L531)*
+*Defined in [types/DW_Rest.d.ts:531](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L531)*
 
 ___
 <a id="items"></a>
@@ -36,7 +36,7 @@ ___
 
 **● Items**: *([IDeleteEntry](_types_dw_rest_d_.dwrest.ideleteentry.md) \| [ITextEntry](_types_dw_rest_d_.dwrest.itextentry.md) \| [ILineEntry](_types_dw_rest_d_.dwrest.ilineentry.md) \| [IRectEntry](_types_dw_rest_d_.dwrest.irectentry.md) \| [IPolyLineEntry](_types_dw_rest_d_.dwrest.ipolylineentry.md))[]*
 
-*Defined in [types/DW_Rest.d.ts:530](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L530)*
+*Defined in [types/DW_Rest.d.ts:530](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L530)*
 
 ___
 

@@ -27,7 +27,7 @@ Column value
 
 **● Id**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:967](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L967)*
+*Defined in [types/DW_Rest.d.ts:967](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L967)*
 
 ___
 <a id="value"></a>
@@ -36,7 +36,7 @@ ___
 
 **● Value**: *`any`*
 
-*Defined in [types/DW_Rest.d.ts:968](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L968)*
+*Defined in [types/DW_Rest.d.ts:968](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L968)*
 
 ___
 

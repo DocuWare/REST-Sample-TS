@@ -38,7 +38,7 @@ DocuWare Dialog Field Model
 
 **● AllowExtendedSearch**: *`boolean`*
 
-*Defined in [types/DW_Rest.d.ts:226](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L226)*
+*Defined in [types/DW_Rest.d.ts:226](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L226)*
 
 ___
 <a id="allowfiltering"></a>
@@ -47,7 +47,7 @@ ___
 
 **● AllowFiltering**: *`boolean`*
 
-*Defined in [types/DW_Rest.d.ts:227](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L227)*
+*Defined in [types/DW_Rest.d.ts:227](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L227)*
 
 ___
 <a id="assignedinternalselectlist"></a>
@@ -56,7 +56,7 @@ ___
 
 **● AssignedInternalSelectList**: *`boolean`*
 
-*Defined in [types/DW_Rest.d.ts:228](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L228)*
+*Defined in [types/DW_Rest.d.ts:228](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L228)*
 
 ___
 <a id="dbfieldname"></a>
@@ -65,7 +65,7 @@ ___
 
 **● DBFieldName**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:221](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L221)*
+*Defined in [types/DW_Rest.d.ts:221](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L221)*
 
 ___
 <a id="dwfieldtype"></a>
@@ -74,7 +74,7 @@ ___
 
 **● DWFieldType**: *[ItemChoiceType](../enums/_types_dw_rest_d_.dwrest.itemchoicetype.md)*
 
-*Defined in [types/DW_Rest.d.ts:223](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L223)*
+*Defined in [types/DW_Rest.d.ts:223](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L223)*
 
 ___
 <a id="dlglabel"></a>
@@ -83,7 +83,7 @@ ___
 
 **● DlgLabel**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:222](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L222)*
+*Defined in [types/DW_Rest.d.ts:222](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L222)*
 
 ___
 <a id="length"></a>
@@ -92,7 +92,7 @@ ___
 
 **● Length**: *`undefined` \| `number`*
 
-*Defined in [types/DW_Rest.d.ts:225](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L225)*
+*Defined in [types/DW_Rest.d.ts:225](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L225)*
 
 ___
 <a id="links"></a>
@@ -103,7 +103,7 @@ ___
 
 *Inherited from [ILinkModel](_types_dw_rest_d_.dwrest.ilinkmodel.md).[Links](_types_dw_rest_d_.dwrest.ilinkmodel.md#links)*
 
-*Defined in [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L10)*
+*Defined in [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L10)*
 
 ___
 <a id="visible"></a>
@@ -112,7 +112,7 @@ ___
 
 **● Visible**: *`boolean`*
 
-*Defined in [types/DW_Rest.d.ts:224](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L224)*
+*Defined in [types/DW_Rest.d.ts:224](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L224)*
 
 ___
 

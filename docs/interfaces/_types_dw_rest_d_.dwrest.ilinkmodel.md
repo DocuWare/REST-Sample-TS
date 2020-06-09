@@ -72,7 +72,7 @@ Most of DocuWare Objects contain links so this is a base to be used
 
 **● Links**: *[ILink](_types_dw_rest_d_.dwrest.ilink.md)[]*
 
-*Defined in [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L10)*
+*Defined in [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L10)*
 
 ___
 

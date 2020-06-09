@@ -5,7 +5,7 @@
 ## Callable
 ▸ **add**(timeSpan: *`any`*): `void`
 
-*Defined in [types/timespan.d.ts:8](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/timespan.d.ts#L8)*
+*Defined in [types/timespan.d.ts:8](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/timespan.d.ts#L8)*
 
 **Parameters:**
 
@@ -31,7 +31,7 @@
 
 **● prototype**: *`__type`*
 
-*Defined in [types/timespan.d.ts:121](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/timespan.d.ts#L121)*
+*Defined in [types/timespan.d.ts:121](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/timespan.d.ts#L121)*
 
 ___
 

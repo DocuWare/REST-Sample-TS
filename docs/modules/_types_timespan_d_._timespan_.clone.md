@@ -5,7 +5,7 @@
 ## Callable
 ▸ **clone**(timeSpan: *`any`*): `any`
 
-*Defined in [types/timespan.d.ts:48](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/timespan.d.ts#L48)*
+*Defined in [types/timespan.d.ts:48](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/timespan.d.ts#L48)*
 
 **Parameters:**
 
@@ -31,7 +31,7 @@
 
 **● prototype**: *`__type`*
 
-*Defined in [types/timespan.d.ts:237](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/timespan.d.ts#L237)*
+*Defined in [types/timespan.d.ts:237](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/timespan.d.ts#L237)*
 
 ___
 

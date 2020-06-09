@@ -113,7 +113,7 @@ ___
 
 **● body**: *`any`*
 
-*Defined in [types/DW_Request_Promise_Extension.d.ts:38](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Request_Promise_Extension.d.ts#L38)*
+*Defined in [types/DW_Request_Promise_Extension.d.ts:38](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Request_Promise_Extension.d.ts#L38)*
 
 ___
 <a id="connection"></a>

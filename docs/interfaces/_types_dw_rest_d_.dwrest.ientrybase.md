@@ -42,7 +42,7 @@ Entry base
 
 **● $type**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:540](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L540)*
+*Defined in [types/DW_Rest.d.ts:540](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L540)*
 
 ___
 <a id="color"></a>
@@ -51,7 +51,7 @@ ___
 
 **● Color**: *`undefined` \| `string`*
 
-*Defined in [types/DW_Rest.d.ts:542](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L542)*
+*Defined in [types/DW_Rest.d.ts:542](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L542)*
 
 ___
 <a id="created"></a>
@@ -60,7 +60,7 @@ ___
 
 **● Created**: *[ICreateInfo](_types_dw_rest_d_.dwrest.icreateinfo.md)*
 
-*Defined in [types/DW_Rest.d.ts:541](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L541)*
+*Defined in [types/DW_Rest.d.ts:541](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L541)*
 
 ___
 <a id="id"></a>
@@ -69,7 +69,7 @@ ___
 
 **● Id**: *`undefined` \| `string`*
 
-*Defined in [types/DW_Rest.d.ts:546](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L546)*
+*Defined in [types/DW_Rest.d.ts:546](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L546)*
 
 ___
 <a id="rotation"></a>
@@ -78,7 +78,7 @@ ___
 
 **● Rotation**: *[Rotation](../enums/_types_dw_rest_d_.dwrest.rotation.md)*
 
-*Defined in [types/DW_Rest.d.ts:543](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L543)*
+*Defined in [types/DW_Rest.d.ts:543](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L543)*
 
 ___
 <a id="strokewidth"></a>
@@ -87,7 +87,7 @@ ___
 
 **● StrokeWidth**: *`undefined` \| `number`*
 
-*Defined in [types/DW_Rest.d.ts:545](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L545)*
+*Defined in [types/DW_Rest.d.ts:545](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L545)*
 
 ___
 <a id="transparent"></a>
@@ -96,7 +96,7 @@ ___
 
 **● Transparent**: *`undefined` \| `false` \| `true`*
 
-*Defined in [types/DW_Rest.d.ts:544](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L544)*
+*Defined in [types/DW_Rest.d.ts:544](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L544)*
 
 ___
 

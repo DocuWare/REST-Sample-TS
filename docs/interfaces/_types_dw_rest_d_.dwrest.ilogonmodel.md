@@ -31,7 +31,7 @@ Wraps all neccessary logon properties
 
 **● HostID**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:22](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L22)*
+*Defined in [types/DW_Rest.d.ts:22](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L22)*
 
 ___
 <a id="organization"></a>
@@ -40,7 +40,7 @@ ___
 
 **● Organization**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:21](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L21)*
+*Defined in [types/DW_Rest.d.ts:21](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L21)*
 
 ___
 <a id="password"></a>
@@ -49,7 +49,7 @@ ___
 
 **● Password**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:20](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L20)*
+*Defined in [types/DW_Rest.d.ts:20](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L20)*
 
 ___
 <a id="redirecttomyselfincaseoferror"></a>
@@ -58,7 +58,7 @@ ___
 
 **● RedirectToMyselfInCaseOfError**: *`boolean`*
 
-*Defined in [types/DW_Rest.d.ts:23](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L23)*
+*Defined in [types/DW_Rest.d.ts:23](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L23)*
 
 ___
 <a id="rememberme"></a>
@@ -67,7 +67,7 @@ ___
 
 **● RememberMe**: *`boolean`*
 
-*Defined in [types/DW_Rest.d.ts:24](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L24)*
+*Defined in [types/DW_Rest.d.ts:24](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L24)*
 
 ___
 <a id="username"></a>
@@ -76,7 +76,7 @@ ___
 
 **● Username**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:19](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L19)*
+*Defined in [types/DW_Rest.d.ts:19](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L19)*
 
 ___
 

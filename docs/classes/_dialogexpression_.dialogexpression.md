@@ -37,7 +37,7 @@
 
 ⊕ **new DialogExpression**(Operation: *[Operation](../enums/_types_dw_rest_d_.dwrest.operation.md)*, Condition: *[ICondition](../interfaces/_types_dw_rest_d_.dwrest.icondition.md)[]*): [DialogExpression](_dialogexpression_.dialogexpression.md)
 
-*Defined in [DialogExpression.ts:11](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/DialogExpression.ts#L11)*
+*Defined in [DialogExpression.ts:11](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/DialogExpression.ts#L11)*
 
 **Parameters:**
 
@@ -60,7 +60,7 @@ ___
 
 *Implementation of [IDialogExpression](../interfaces/_types_dw_rest_d_.dwrest.idialogexpression.md).[Condition](../interfaces/_types_dw_rest_d_.dwrest.idialogexpression.md#condition)*
 
-*Defined in [DialogExpression.ts:12](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/DialogExpression.ts#L12)*
+*Defined in [DialogExpression.ts:12](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/DialogExpression.ts#L12)*
 
 ___
 <a id="operation"></a>
@@ -71,7 +71,7 @@ ___
 
 *Implementation of [IDialogExpression](../interfaces/_types_dw_rest_d_.dwrest.idialogexpression.md).[Operation](../interfaces/_types_dw_rest_d_.dwrest.idialogexpression.md#operation)*
 
-*Defined in [DialogExpression.ts:12](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/DialogExpression.ts#L12)*
+*Defined in [DialogExpression.ts:12](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/DialogExpression.ts#L12)*
 
 ___
 

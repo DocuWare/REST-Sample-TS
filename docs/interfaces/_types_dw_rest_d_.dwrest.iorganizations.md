@@ -26,7 +26,7 @@ Organization Response
 
 **● Organization**: *[IOrganization](_types_dw_rest_d_.dwrest.iorganization.md)[]*
 
-*Defined in [types/DW_Rest.d.ts:73](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L73)*
+*Defined in [types/DW_Rest.d.ts:73](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L73)*
 
 ___
 

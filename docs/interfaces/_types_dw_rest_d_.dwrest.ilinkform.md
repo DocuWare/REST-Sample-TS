@@ -35,7 +35,7 @@ Link form
 
 *Inherited from [IBaseForm](_types_dw_rest_d_.dwrest.ibaseform.md).[FormFieldType](_types_dw_rest_d_.dwrest.ibaseform.md#formfieldtype)*
 
-*Defined in [types/DW_Rest.d.ts:1004](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L1004)*
+*Defined in [types/DW_Rest.d.ts:1004](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1004)*
 
 ___
 <a id="id"></a>
@@ -46,7 +46,7 @@ ___
 
 *Inherited from [IBaseForm](_types_dw_rest_d_.dwrest.ibaseform.md).[Id](_types_dw_rest_d_.dwrest.ibaseform.md#id)*
 
-*Defined in [types/DW_Rest.d.ts:1006](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L1006)*
+*Defined in [types/DW_Rest.d.ts:1006](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1006)*
 
 ___
 <a id="label"></a>
@@ -57,7 +57,7 @@ ___
 
 *Inherited from [IBaseForm](_types_dw_rest_d_.dwrest.ibaseform.md).[Label](_types_dw_rest_d_.dwrest.ibaseform.md#label)*
 
-*Defined in [types/DW_Rest.d.ts:1005](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L1005)*
+*Defined in [types/DW_Rest.d.ts:1005](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1005)*
 
 ___
 <a id="url"></a>
@@ -66,7 +66,7 @@ ___
 
 **● Url**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:1051](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L1051)*
+*Defined in [types/DW_Rest.d.ts:1051](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1051)*
 
 ___
 

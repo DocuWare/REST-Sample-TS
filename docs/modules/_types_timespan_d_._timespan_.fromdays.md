@@ -5,7 +5,7 @@
 ## Callable
 ▸ **fromDays**(days: *`any`*): `any`
 
-*Defined in [types/timespan.d.ts:52](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/timespan.d.ts#L52)*
+*Defined in [types/timespan.d.ts:52](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/timespan.d.ts#L52)*
 
 **Parameters:**
 
@@ -31,7 +31,7 @@
 
 **● prototype**: *`__type`*
 
-*Defined in [types/timespan.d.ts:249](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/timespan.d.ts#L249)*
+*Defined in [types/timespan.d.ts:249](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/timespan.d.ts#L249)*
 
 ___
 

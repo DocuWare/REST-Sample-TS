@@ -23,7 +23,7 @@ Sort order
 
 **Asc**:  = "Asc"
 
-*Defined in [types/DW_Rest.d.ts:1353](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L1353)*
+*Defined in [types/DW_Rest.d.ts:1353](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1353)*
 
 ___
 <a id="desc"></a>
@@ -32,7 +32,7 @@ ___
 
 **Desc**:  = "Desc"
 
-*Defined in [types/DW_Rest.d.ts:1354](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L1354)*
+*Defined in [types/DW_Rest.d.ts:1354](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1354)*
 
 ___
 

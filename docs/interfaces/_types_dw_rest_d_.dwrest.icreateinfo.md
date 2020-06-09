@@ -27,7 +27,7 @@ Info of creation
 
 **● Time**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:556](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L556)*
+*Defined in [types/DW_Rest.d.ts:556](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L556)*
 
 ___
 <a id="user"></a>
@@ -36,7 +36,7 @@ ___
 
 **● User**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:555](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L555)*
+*Defined in [types/DW_Rest.d.ts:555](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L555)*
 
 ___
 

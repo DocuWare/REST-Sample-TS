@@ -33,7 +33,7 @@ Upload result chunk
 
 **● BytesWritten**: *`undefined` \| `number`*
 
-*Defined in [types/DW_Rest.d.ts:829](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L829)*
+*Defined in [types/DW_Rest.d.ts:829](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L829)*
 
 ___
 <a id="finished"></a>
@@ -42,7 +42,7 @@ ___
 
 **● Finished**: *`undefined` \| `false` \| `true`*
 
-*Defined in [types/DW_Rest.d.ts:827](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L827)*
+*Defined in [types/DW_Rest.d.ts:827](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L827)*
 
 ___
 <a id="lastchunkid"></a>
@@ -51,7 +51,7 @@ ___
 
 **● LastChunkId**: *`undefined` \| `string`*
 
-*Defined in [types/DW_Rest.d.ts:828](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L828)*
+*Defined in [types/DW_Rest.d.ts:828](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L828)*
 
 ___
 <a id="links"></a>
@@ -62,7 +62,7 @@ ___
 
 *Inherited from [ILinkModel](_types_dw_rest_d_.dwrest.ilinkmodel.md).[Links](_types_dw_rest_d_.dwrest.ilinkmodel.md#links)*
 
-*Defined in [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L10)*
+*Defined in [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L10)*
 
 ___
 

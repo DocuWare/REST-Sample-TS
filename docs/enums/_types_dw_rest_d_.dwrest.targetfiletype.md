@@ -24,7 +24,7 @@ Target file type
 
 **Auto**:  = "Auto"
 
-*Defined in [types/DW_Rest.d.ts:1363](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L1363)*
+*Defined in [types/DW_Rest.d.ts:1363](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1363)*
 
 ___
 <a id="pdf"></a>
@@ -33,7 +33,7 @@ ___
 
 **PDF**:  = "PDF"
 
-*Defined in [types/DW_Rest.d.ts:1365](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L1365)*
+*Defined in [types/DW_Rest.d.ts:1365](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1365)*
 
 ___
 <a id="zip"></a>
@@ -42,7 +42,7 @@ ___
 
 **Zip**:  = "Zip"
 
-*Defined in [types/DW_Rest.d.ts:1364](https://github.com/DocuWare/REST-Sample-TS/blob/0222c3e/src/types/DW_Rest.d.ts#L1364)*
+*Defined in [types/DW_Rest.d.ts:1364](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1364)*
 
 ___
 
