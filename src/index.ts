@@ -10,17 +10,16 @@ import polly from 'polly-js';
 import { RestCallWrapper } from './restWrapper'
 import { LineEntry } from './Annotations';
 import { DialogExpressionCondition, DialogExpression } from './DialogExpression';
-import path from 'path';
 
 const timeToWait: number = 60 * 1000; //MS
 
 //connection data
-const rootUrl: string = 'http://localhost/';
-const user: string = 'dwadmin';
-const password: string = 'admin';
-const organization: string = 'Peters Engineering';
-const hostID: string = '7b5ed19b-bfd6-46e9-8a3b-efd2a4499666'; //has to be unique per machine
-const fileCabinetID: string = '3f3c9aff-63e5-4433-99a5-ed6dbba1bb72';
+const rootUrl = 'http://localhost/';
+const user = 'dwadmin';
+const password = 'admin';
+const organization = 'Peters Engineering';
+const hostID = '7b5ed19b-bfd6-46e9-8a3b-efd2a4499666'; //has to be unique per machine
+const fileCabinetID = '3f3c9aff-63e5-4433-99a5-ed6dbba1bb72';
 
 //the REST Wrapper
 const restWrapper: RestCallWrapper = new RestCallWrapper(rootUrl);
@@ -43,28 +42,28 @@ polly()
     .executeForPromise(async () => {
 
         //#region Login, list organizations and filecabinets
-        let logonResponse: DWRest.ILogonResponse = await restWrapper.Logon(logonModel);
-        let organizations: DWRest.IOrganizations = await restWrapper.GetOrganizations(logonResponse);
-        let organization: DWRest.IOrganization = await restWrapper.GetOrganization();
-        let fileCabinets: DWRest.IFileCabinets = await restWrapper.GetFileCabinets(organization);
-        let fileCabinet: DWRest.IFileCabinet = await restWrapper.GetFileCabinet(fileCabinetID);
+        const logonResponse: DWRest.ILogonResponse = await restWrapper.Logon(logonModel);
+        const organizations: DWRest.IOrganizations = await restWrapper.GetOrganizations(logonResponse);
+        const organization: DWRest.IOrganization = await restWrapper.GetOrganization();
+        const fileCabinets: DWRest.IFileCabinets = await restWrapper.GetFileCabinets(organization);
+        const fileCabinet: DWRest.IFileCabinet = await restWrapper.GetFileCabinet(fileCabinetID);
         //#endregion
 
         //Get a special document
-        let specialDocument: DWRest.IDocument = await restWrapper.GetDocumentByDocID(fileCabinet, 30);
+        const specialDocument: DWRest.IDocument = await restWrapper.GetDocumentByDocID(fileCabinet, 30);
 
         //#region get dialogs and do searches
         await getPagedDocumentResults(fileCabinet);
 
         //Get all dialogs from a file cabinet
-        let dialogs: DWRest.IDialogsResponse = await restWrapper.GetAllDialogsFromFileCabinet(fileCabinet);
+        const dialogs: DWRest.IDialogsResponse = await restWrapper.GetAllDialogsFromFileCabinet(fileCabinet);
 
-        let firstDialog: DWRest.IDialog = await getFirstDialogOfType(fileCabinet, DWRest.DialogType.Search);
+        const firstDialog: DWRest.IDialog = await getFirstDialogOfType(fileCabinet, DWRest.DialogType.Search);
 
-        let documentsQueryResult: DWRest.IDocumentsQueryResult = await doSearch(fileCabinet, firstDialog);
+        const documentsQueryResult: DWRest.IDocumentsQueryResult = await doSearch(fileCabinet, firstDialog);
         //#endregion
 
-        let updatedFieldList: DWRest.IFieldList = await updateIndexEntry(specialDocument);
+        const updatedFieldList: DWRest.IFieldList = await updateIndexEntry(specialDocument);
 
         await downloadDocument(specialDocument);
 
@@ -85,7 +84,7 @@ polly()
         //#region Stamp or set annotation on document
         await stampAdocument(fileCabinet, specialDocument);
 
-        let documentForAnnotation: DWRest.IDocument = await restWrapper.GetDocumentByDocID(fileCabinet, 1, true);
+        const documentForAnnotation: DWRest.IDocument = await restWrapper.GetDocumentByDocID(fileCabinet, 1, true);
 
         await setAnAnnotation(documentForAnnotation);
         //#endregion
@@ -98,18 +97,18 @@ polly()
 
         //#region Merge and splitting of documents
         //Merge documents
-        let mergedDocument: DWRest.IDocument = await restWrapper.MergeDocument(fileCabinet, [223, 224, 225], DWRest.ContentMergeOperation.Clip);
+        const mergedDocument: DWRest.IDocument = await restWrapper.MergeDocument(fileCabinet, [223, 224, 225], DWRest.ContentMergeOperation.Clip);
 
         //Split documents
-        let splittedDocuments: DWRest.IDocumentsQueryResult = await restWrapper.DevideDocument(mergedDocument, DWRest.ContentDivideOperation.Unclip);
+        const splittedDocuments: DWRest.IDocumentsQueryResult = await restWrapper.DevideDocument(mergedDocument, DWRest.ContentDivideOperation.Unclip);
 
-        //#endregion 
+        //#endregion
 
         //#region Create user and assign or remove roles and groups
-        let newUser: DWRest.IUser = await createNewUser(organization);
+        const newUser: DWRest.IUser = await createNewUser(organization);
 
-        let group: DWRest.IGroup = await restWrapper.GetGroupByName(organization, 'MyTestGroup');
-        let role: DWRest.IRole = await restWrapper.GetRoleByName(organization, 'MyTestRole');
+        const group: DWRest.IGroup = await restWrapper.GetGroupByName(organization, 'MyTestGroup');
+        const role: DWRest.IRole = await restWrapper.GetRoleByName(organization, 'MyTestRole');
 
         //Assign user to group
         await restWrapper.AssignUserToGroup(newUser, group).then(async () => {
@@ -130,44 +129,44 @@ polly()
         //#endregion
 
         //#region Import and export documents
-        let pathToExportedDocument: string = await ExportADocument(fileCabinet);
+        const pathToExportedDocument: string = await ExportADocument(fileCabinet);
 
         await importAdocument(pathToExportedDocument);
 
         //#endregion
 
         //#region Do manual document locking
-        let documentforLock: DWRest.IDocument = await restWrapper.GetDocumentByDocID(fileCabinet, 229, true);
+        const documentforLock: DWRest.IDocument = await restWrapper.GetDocumentByDocID(fileCabinet, 229, true);
         await restWrapper.LockDocument(documentforLock, 60);
         await restWrapper.DeleteDocumentLock(documentforLock);
         //#endregion
 
         //#region Handle document application properties
-        let documentToAddApplicationProperties: DWRest.IDocument = await restWrapper.GetDocumentByDocID(fileCabinet, 229, true);
-        let appProperties: DWRest.IDocumentApplicationProperty[] = [{
+        const documentToAddApplicationProperties: DWRest.IDocument = await restWrapper.GetDocumentByDocID(fileCabinet, 229, true);
+        const appProperties: DWRest.IDocumentApplicationProperty[] = [{
             Name: 'CustomKey',
             Value: 'REST'
         }];
 
-        let addedApplicationProperties: DWRest.IDocumentApplicationProperties = await restWrapper.AddApplicationProperties(documentToAddApplicationProperties, appProperties);
+        const addedApplicationProperties: DWRest.IDocumentApplicationProperties = await restWrapper.AddApplicationProperties(documentToAddApplicationProperties, appProperties);
         //#endregion
 
         //#region Workflow handling
-        let workflows: DWRest.IWorkflows = await restWrapper.GetWorkflows(organization);
-        let theWorkflow: DWRest.IWorkflow | undefined = workflows.Workflow.find(w => w.Name === 'TestWorkflow');
+        const workflows: DWRest.IWorkflows = await restWrapper.GetWorkflows(organization);
+        const theWorkflow: DWRest.IWorkflow | undefined = workflows.Workflow.find(w => w.Name === 'TestWorkflow');
         if (theWorkflow) {
-            let task: DWRest.IWorkflowTasks = await restWrapper.GetWorkflowTasks(theWorkflow);
-            let fullLoadedTask: DWRest.IWorkflowTask = await restWrapper.LoadFullObjectFromPlatform<DWRest.IWorkflowTask>(task.Task[0].TaskOperations.BaseTaskOperations);
-            let result: any = await restWrapper.ConfirmWorkflowTask(fullLoadedTask);
+            const task: DWRest.IWorkflowTasks = await restWrapper.GetWorkflowTasks(theWorkflow);
+            const fullLoadedTask: DWRest.IWorkflowTask = await restWrapper.LoadFullObjectFromPlatform<DWRest.IWorkflowTask>(task.Task[0].TaskOperations.BaseTaskOperations);
+            const result: any = await restWrapper.ConfirmWorkflowTask(fullLoadedTask);
         }
         //#endregion
 
         //#region Add a tablefield to a document
 
-        let indexField: DWRest.IField = {
+        const indexField: DWRest.IField = {
             FieldName: 'InvoiceParts',
             ItemElementName: DWRest.ItemChoiceType.Table,
-            Item: { 
+            Item: {
                 Rows: [
                     {
                         Columns: [
@@ -203,8 +202,8 @@ polly()
     });
 
 async function importAdocument(pathToExportedDocument: string) {
-    let fcToImportTo: DWRest.IFileCabinet = await restWrapper.GetFileCabinet('98572c4a-86d5-4cab-bd77-5fda63ff7017');
-    let importResult: DWRest.IImportResult = await restWrapper.ImportDWXArchive(pathToExportedDocument, fcToImportTo, {
+    const fcToImportTo: DWRest.IFileCabinet = await restWrapper.GetFileCabinet('98572c4a-86d5-4cab-bd77-5fda63ff7017');
+    const importResult: DWRest.IImportResult = await restWrapper.ImportDWXArchive(pathToExportedDocument, fcToImportTo, {
         FieldMappings: [{
             Destination: 'COMPANY',
             Source: 'COMPANY'
@@ -213,13 +212,13 @@ async function importAdocument(pathToExportedDocument: string) {
 }
 
 async function ExportADocument(fileCabinet: DWRest.IFileCabinet) {
-    let documentForExport: DWRest.IDocument = await restWrapper.GetDocumentByDocID(fileCabinet, 229, true);
-    let pathToExportedDocument: string = await restWrapper.ExportDWXArchive(documentForExport, { ExportHistory: true, ExportTextShots: true });
+    const documentForExport: DWRest.IDocument = await restWrapper.GetDocumentByDocID(fileCabinet, 229, true);
+    const pathToExportedDocument: string = await restWrapper.ExportDWXArchive(documentForExport, { ExportHistory: true, ExportTextShots: true });
     return pathToExportedDocument;
 }
 
 async function createNewUser(organization: DWRest.IOrganization): Promise<DWRest.IUser> {
-    let newUser: DWRest.INewUser = {
+    const newUser: DWRest.INewUser = {
         Name: 'RESTTest',
         DBName: 'RESTTest',
         Email: 'resttest@localhost.de',
@@ -230,26 +229,26 @@ async function createNewUser(organization: DWRest.IOrganization): Promise<DWRest
 }
 
 async function transferDocumentsFromDocumentTrayToFileCabinet(fileCabinet: DWRest.IFileCabinet, docIdsToTransfer: number[]) {
-    let myDocumentTray: DWRest.IFileCabinet = await restWrapper.GetFileCabinet('b_bbc77c37-993c-4873-a7bf-47ecdfdab2d0');
-    let documentsQueryResult: DWRest.IDocumentsQueryResult = await restWrapper.TransferFromDocumentTrayToFileCabinet(docIdsToTransfer, myDocumentTray.Id, fileCabinet, true);
+    const myDocumentTray: DWRest.IFileCabinet = await restWrapper.GetFileCabinet('b_bbc77c37-993c-4873-a7bf-47ecdfdab2d0');
+    const documentsQueryResult: DWRest.IDocumentsQueryResult = await restWrapper.TransferFromDocumentTrayToFileCabinet(docIdsToTransfer, myDocumentTray.Id, fileCabinet, true);
 }
 
 async function transferDocumentsFromFileCabinetToFileCabinet(sourceFileCabinet: DWRest.IFileCabinet) {
-    let destinationFileCabinet: DWRest.IFileCabinet = await restWrapper.GetFileCabinet('1e623d39-974f-4677-a942-d9c60839a264');
-    let first5DocumentsToTransfer: DWRest.IDocumentsQueryResult = await restWrapper.GetDocumentQueryResultForSpecifiedCountFromFileCabinet(sourceFileCabinet, 5);
-    let transferredDocuments: DWRest.IDocumentsQueryResult = await restWrapper.TransferFromFileCabinetToFileCabinet(first5DocumentsToTransfer.Items, sourceFileCabinet.Id, destinationFileCabinet, true);
+    const destinationFileCabinet: DWRest.IFileCabinet = await restWrapper.GetFileCabinet('1e623d39-974f-4677-a942-d9c60839a264');
+    const first5DocumentsToTransfer: DWRest.IDocumentsQueryResult = await restWrapper.GetDocumentQueryResultForSpecifiedCountFromFileCabinet(sourceFileCabinet, 5);
+    const transferredDocuments: DWRest.IDocumentsQueryResult = await restWrapper.TransferFromFileCabinetToFileCabinet(first5DocumentsToTransfer.Items, sourceFileCabinet.Id, destinationFileCabinet, true);
 }
 
 async function setAnAnnotation(documentForAnnotation: DWRest.IDocument) {
     if (documentForAnnotation && documentForAnnotation.Sections) {
-        let firstSectionForAnnotation: DWRest.ISection = await restWrapper.LoadFullObjectFromPlatform<DWRest.ISection>(documentForAnnotation.Sections[0]);
-        let firstPage: DWRest.IPage = await restWrapper.GetPageByNumber(firstSectionForAnnotation, 0, true);
-        let firstPageData = firstPage.Data;
-        let lineInMiddleOfDocument = new LineEntry({ X: 0, Y: firstPageData.Height / 2 }, { X: firstPageData.Width, Y: firstPageData.Height / 2 });
+        const firstSectionForAnnotation: DWRest.ISection = await restWrapper.LoadFullObjectFromPlatform<DWRest.ISection>(documentForAnnotation.Sections[0]);
+        const firstPage: DWRest.IPage = await restWrapper.GetPageByNumber(firstSectionForAnnotation, 0, true);
+        const firstPageData = firstPage.Data;
+        const lineInMiddleOfDocument = new LineEntry({ X: 0, Y: firstPageData.Height / 2 }, { X: firstPageData.Width, Y: firstPageData.Height / 2 });
         lineInMiddleOfDocument.Color = '#f442b9';
         lineInMiddleOfDocument.StrokeWidth = 10;
         lineInMiddleOfDocument.Transparent = false;
-        let annotationToSet: DWRest.IAnnotation = {
+        const annotationToSet: DWRest.IAnnotation = {
             Layer: [{
                 Id: 1,
                 Items: [
@@ -257,15 +256,15 @@ async function setAnAnnotation(documentForAnnotation: DWRest.IDocument) {
                 ]
             }]
         };
-        let annotation: DWRest.IAnnotation = await restWrapper.PlaceAnnotation(firstPage, annotationToSet);
+        const annotation: DWRest.IAnnotation = await restWrapper.PlaceAnnotation(firstPage, annotationToSet);
     }
 }
 
 async function stampAdocument(fileCabinet: DWRest.IFileCabinet, document: DWRest.IDocument) {
     if (document && document.Sections) {
-        let fullLoadedFirstSectionForStamping: DWRest.ISection = await restWrapper.LoadFullObjectFromPlatform<DWRest.ISection>(document.Sections[0]);
-        let firstPage: DWRest.IPage = await restWrapper.GetPageByNumber(fullLoadedFirstSectionForStamping, 0);
-        let stampPlacement: DWRest.IStampPlacement = {
+        const fullLoadedFirstSectionForStamping: DWRest.ISection = await restWrapper.LoadFullObjectFromPlatform<DWRest.ISection>(document.Sections[0]);
+        const firstPage: DWRest.IPage = await restWrapper.GetPageByNumber(fullLoadedFirstSectionForStamping, 0);
+        const stampPlacement: DWRest.IStampPlacement = {
             Layer: 0,
             StampId: '7dc2ae96-b5cb-4aca-8b0e-3c7c8a163cb0',
             Field: [{
@@ -283,32 +282,32 @@ async function stampAdocument(fileCabinet: DWRest.IFileCabinet, document: DWRest
 }
 
 async function checkoutAndCheckinDocument(fileCabinet: DWRest.IFileCabinet, document: DWRest.IDocument) {
-    let fullLoadeddocumentForCheckout: DWRest.IDocument = await restWrapper.LoadFullObjectFromPlatform<DWRest.IDocument>(document);
-    let checkedOutDocumentPath: string = await restWrapper.CheckoutToFileSystem(fullLoadeddocumentForCheckout);
+    const fullLoadeddocumentForCheckout: DWRest.IDocument = await restWrapper.LoadFullObjectFromPlatform<DWRest.IDocument>(document);
+    const checkedOutDocumentPath: string = await restWrapper.CheckoutToFileSystem(fullLoadeddocumentForCheckout);
     if (fullLoadeddocumentForCheckout && fullLoadeddocumentForCheckout.Version) {
-        let currentVersion: DWRest.IDocumentVersion = fullLoadeddocumentForCheckout.Version;
+        const currentVersion: DWRest.IDocumentVersion = fullLoadeddocumentForCheckout.Version;
         //Higher minor version by one
         currentVersion.Minor = currentVersion.Minor + 1;
-        let theCheckInParamters: DWRest.ICheckInActionParameters = {
+        const theCheckInParamters: DWRest.ICheckInActionParameters = {
             DocumentAction: DWRest.DocumentAction.CheckIn,
             Comments: 'This is a comment.',
             CheckInReturnDocument: DWRest.CheckInReturnedDocument.CheckedIn,
             DocumentVersion: currentVersion //set new version
         };
-        let checkedInDocument: DWRest.IDocument = await restWrapper.CheckInFromFileSystem(fullLoadeddocumentForCheckout, checkedOutDocumentPath, theCheckInParamters);
+        const checkedInDocument: DWRest.IDocument = await restWrapper.CheckInFromFileSystem(fullLoadeddocumentForCheckout, checkedOutDocumentPath, theCheckInParamters);
     }
 }
 
 async function updateDocumentSection(document: DWRest.IDocument) {
     if (document && document.Sections) {
-        let firstSection: DWRest.ISection = document.Sections[0];
-        let fullLoadedFirstSection: DWRest.ISection = await restWrapper.LoadFullObjectFromPlatform<DWRest.ISection>(firstSection);
-        let updatedSection: DWRest.ISection = await restWrapper.EditDocumentSection(fullLoadedFirstSection, './upload/sample.txt');
+        const firstSection: DWRest.ISection = document.Sections[0];
+        const fullLoadedFirstSection: DWRest.ISection = await restWrapper.LoadFullObjectFromPlatform<DWRest.ISection>(firstSection);
+        const updatedSection: DWRest.ISection = await restWrapper.EditDocumentSection(fullLoadedFirstSection, './upload/sample.txt');
     }
 }
 
 async function storeDocument(fileCabinet: DWRest.IFileCabinet) {
-    let indexEntries: DWRest.IField[] = [
+    const indexEntries: DWRest.IField[] = [
         {
             FieldName: 'Company',
             Item: 'Doc Name Test Inc',
@@ -320,15 +319,15 @@ async function storeDocument(fileCabinet: DWRest.IFileCabinet) {
             ItemElementName: DWRest.ItemChoiceType.String
         }
     ];
-    let newCreatedDocument: DWRest.IDocument = await restWrapper.UploadDocument(fileCabinet, indexEntries, './upload/SAMPLE DOCUMENT.pdf');
+    const newCreatedDocument: DWRest.IDocument = await restWrapper.UploadDocument(fileCabinet, indexEntries, './upload/SAMPLE DOCUMENT.pdf');
 }
 
 async function storeBigDocumentWithoutIndex(fileCabinet: DWRest.IFileCabinet) {
-    let newCreatedDocument: DWRest.IDocument = await restWrapper.UploadBigDocument(fileCabinet, './upload/BIG SAMPLE DOCUMENT.pdf');
+    const newCreatedDocument: DWRest.IDocument = await restWrapper.UploadBigDocument(fileCabinet, './upload/BIG SAMPLE DOCUMENT.pdf');
 }
 
 async function storeBigDocumentXmlIndex(fileCabinet: DWRest.IFileCabinet) {
-    let indexEntries: string = 
+    const indexEntries =
     `<Document xmlns="http://dev.docuware.com/schema/public/services/platform">
         <Fields>
             <Field FieldName="COMPANY">
@@ -340,11 +339,11 @@ async function storeBigDocumentXmlIndex(fileCabinet: DWRest.IFileCabinet) {
         </Fields>
     </Document>`;
 
-    let newCreatedDocument: DWRest.IDocument = await restWrapper.UploadBigDocumentWithXmlIndex(fileCabinet, './upload/BIG SAMPLE DOCUMENT.pdf', indexEntries);
+    const newCreatedDocument: DWRest.IDocument = await restWrapper.UploadBigDocumentWithXmlIndex(fileCabinet, './upload/BIG SAMPLE DOCUMENT.pdf', indexEntries);
 }
 
 async function storeBigDocumentJsonIndex(fileCabinet: DWRest.IFileCabinet) {
-    let indexEntries: DWRest.IField[] = [
+    const indexEntries: DWRest.IField[] = [
         {
             FieldName: 'Company',
             Item: 'Doc Name Big JSON Test Inc',
@@ -357,39 +356,39 @@ async function storeBigDocumentJsonIndex(fileCabinet: DWRest.IFileCabinet) {
         }
     ];
 
-    let newCreatedDocument: DWRest.IDocument = await restWrapper.UploadBigDocumentWithJsonIndex(fileCabinet, './upload/BIG SAMPLE DOCUMENT.pdf', indexEntries);
+    const newCreatedDocument: DWRest.IDocument = await restWrapper.UploadBigDocumentWithJsonIndex(fileCabinet, './upload/BIG SAMPLE DOCUMENT.pdf', indexEntries);
 }
 
 async function downloadDocument(specialDocument: DWRest.IDocument) {
-    let fullLoadedDocument: DWRest.IDocument = await restWrapper.LoadFullObjectFromPlatform<DWRest.IDocument>(specialDocument);
-    let downloadPath: string = await restWrapper.DownloadDocument(fullLoadedDocument, false, DWRest.TargetFileType.Auto);
+    const fullLoadedDocument: DWRest.IDocument = await restWrapper.LoadFullObjectFromPlatform<DWRest.IDocument>(specialDocument);
+    const downloadPath: string = await restWrapper.DownloadDocument(fullLoadedDocument, false, DWRest.TargetFileType.Auto);
 }
 
 async function updateIndexEntry(specialDocument: DWRest.IDocument): Promise<DWRest.IFieldList> {
-    let customFieldOfDocument: DWRest.IField = getFieldByName(specialDocument, 'Status'); //Status is a custom field in filecabinet
+    const customFieldOfDocument: DWRest.IField = getFieldByName(specialDocument, 'Status'); //Status is a custom field in filecabinet
     //Update field value
     customFieldOfDocument.Item = 'Booked!';
     return await restWrapper.UpdateDocumentIndexValues(specialDocument, { Field: [customFieldOfDocument] });
 }
 
 async function doSearch(fileCabinet: DWRest.IFileCabinet, firstDialog: DWRest.IDialog): Promise<DWRest.IDocumentsQueryResult> {
-    let dialogExpression = new DialogExpression(DWRest.Operation.And, [
+    const dialogExpression = new DialogExpression(DWRest.Operation.And, [
         new DialogExpressionCondition('COMPANY', ['Home Improvement', 'Peters Engineering']),
         new DialogExpressionCondition('DOCUMENT_TYPE', ['Invoice out'])
     ]);
-    let query: string = await restWrapper.GetQueryUrlFromFileCabinet(fileCabinet, dialogExpression, firstDialog.Id, firstDialog.Query.Fields, 'COMPANY', DWRest.SortOrder.Desc);
+    const query: string = await restWrapper.GetQueryUrlFromFileCabinet(fileCabinet, dialogExpression, firstDialog.Id, firstDialog.Query.Fields, 'COMPANY', DWRest.SortOrder.Desc);
     return await restWrapper.GetQueryResults(query);
 }
 
 async function getFirstDialogOfType(fileCabinet: DWRest.IFileCabinet, dType: DWRest.DialogType): Promise<DWRest.IDialog> {
-    let dialogs: DWRest.IDialog[] = await restWrapper.GetDedicatedDialogsFromFileCabinet(fileCabinet, dType);
+    const dialogs: DWRest.IDialog[] = await restWrapper.GetDedicatedDialogsFromFileCabinet(fileCabinet, dType);
     return await restWrapper.LoadFullObjectFromPlatform<DWRest.IDialog>(dialogs[0]);
 }
 
 async function getPagedDocumentResults(fileCabinet: DWRest.IFileCabinet) {
-    let documents: DWRest.IDocument[] = await restWrapper.GetDocumentsFromFileCabinet(fileCabinet); //Try to avoid the get all at once
-    let first1DocumentsResult: DWRest.IDocumentsQueryResult = await restWrapper.GetDocumentQueryResultForSpecifiedCountFromFileCabinet(fileCabinet, 1);
-    let next1Documents: DWRest.IDocumentsQueryResult = await restWrapper.GetNextResultFromDocumentQueryResult(first1DocumentsResult);
+    const documents: DWRest.IDocument[] = await restWrapper.GetDocumentsFromFileCabinet(fileCabinet); //Try to avoid the get all at once
+    const first1DocumentsResult: DWRest.IDocumentsQueryResult = await restWrapper.GetDocumentQueryResultForSpecifiedCountFromFileCabinet(fileCabinet, 1);
+    const next1Documents: DWRest.IDocumentsQueryResult = await restWrapper.GetNextResultFromDocumentQueryResult(first1DocumentsResult);
 }
 
 async function updateDocumentTableField(document: DWRest.IDocument, tablefield: DWRest.IField) {
@@ -399,13 +398,13 @@ async function updateDocumentTableField(document: DWRest.IDocument, tablefield: 
 /**
  * Returns special field by name
  * Also proofs if system field is tried to manipulate
- * 
+ *
  * @param {DWRest.IDocument} document
  * @param {string} fieldName
  * @returns {DWRest.IField}
  */
 function getFieldByName(document: DWRest.IDocument, fieldName: string): DWRest.IField {
-    let field = document.Fields.find(f => f.FieldName.toLowerCase() === fieldName.toLowerCase());
+    const field = document.Fields.find(f => f.FieldName.toLowerCase() === fieldName.toLowerCase());
     if (!field) {
         throw new Error(`Field '${fieldName}' does not exist on document '${document.Id}'!`);
     }
