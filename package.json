@@ -19,10 +19,10 @@
     "content-disposition": "^0.5.3",
     "https": "^1.0.0",
     "mime-types": "^2.1.23",
-    "polly-js": "^1.6.3",
+    "polly-js": "^1.6.7",
     "read-chunk": "^3.2.0",
     "request": "^2.88.0",
-    "request-promise-native": "^1.0.7",
+    "request-promise-native": "^1.0.9",
     "timespan": "^2.3.0",
     "tough-cookie": "^3.0.1"
   },
@@ -31,15 +31,15 @@
     "@types/archiver": "^2.1.3",
     "@types/content-disposition": "^0.5.2",
     "@types/mime-types": "^2.1.0",
-    "@types/node": "^11.13.4",
+    "@types/node": "^11.15.20",
     "@types/request": "^2.48.1",
     "@types/request-promise-native": "^1.0.15",
     "@types/tough-cookie": "^2.3.5",
-    "@typescript-eslint/eslint-plugin": "^3.2.0",
-    "@typescript-eslint/parser": "^3.2.0",
-    "eslint": "^7.2.0",
-    "typedoc": "^0.14.2",
+    "@typescript-eslint/eslint-plugin": "^3.7.1",
+    "@typescript-eslint/parser": "^3.7.1",
+    "eslint": "^7.5.0",
+    "typedoc": "^0.17.8",
     "typedoc-plugin-markdown": "^1.2.0",
-    "typescript": "^3.4.3"
+    "typescript": "^3.9.7"
   }
 }
