@@ -14,7 +14,6 @@ import fs from 'fs'; //https://nodejs.org/api/fs.html
 import mime, { contentType } from 'mime-types'; //https://www.npmjs.com/package/mime-types
 import querystring from 'querystring'; //https://nodejs.org/api/querystring.html
 import path from 'path';
-import archiver from 'archiver'; //https://www.npmjs.com/package/archiver
 import contentdisposition, { ContentDisposition } from 'content-disposition'; //https://github.com/jshttp/content-disposition
 import timespan from 'timespan'; //https://www.npmjs.com/package/timespan
 import readChunk from 'read-chunk';
@@ -83,9 +82,9 @@ class RestCallWrapper {
                 .then((logonResponse: DWRequestPromiseExtension.ILogonResponseWrapper) => {
                     try {
                         //Take care of errors and throttling
-                        let respondedCookies = logonResponse.headers["set-cookie"];
+                        const respondedCookies = logonResponse.headers["set-cookie"];
                         if (respondedCookies && respondedCookies.length > 0) {
-                            let cookieJar = request.jar();
+                            const cookieJar = request.jar();
                             respondedCookies.forEach((cookieString) => {
                                 //add cookies to jar
                                 cookieJar.setCookie(cookieString, this.platformRoot);
@@ -180,7 +179,7 @@ class RestCallWrapper {
      * @returns {(DWRest.IFileCabinet | undefined)}
      */
     GetDefaultDocumentTray(fileCabinets: DWRest.IFileCabinet[]): DWRest.IFileCabinet | undefined {
-        let result: DWRest.IFileCabinet | undefined = fileCabinets.find(f => f.Default === true && f.IsBasket === true);
+        const result: DWRest.IFileCabinet | undefined = fileCabinets.find(f => f.Default === true && f.IsBasket === true);
         return result;
     }
 
@@ -209,7 +208,7 @@ class RestCallWrapper {
      * @param {boolean}[fullLoad=false] fullLoad
      * @returns {Promise<DWRest.IDocument>}
      */
-    GetDocumentByDocID(fileCabinet: DWRest.IFileCabinet, docId: number, fullLoad: boolean = false): Promise<DWRest.IDocument> {
+    GetDocumentByDocID(fileCabinet: DWRest.IFileCabinet, docId: number, fullLoad = false): Promise<DWRest.IDocument> {
         const documentsLink: string = this.GetLink(fileCabinet, 'documents');
 
         return request.get(`${documentsLink}/${docId}`, this.docuWare_request_config)
@@ -269,7 +268,7 @@ class RestCallWrapper {
     }
 
     GetDialogLink(fileCabinet: DWRest.IFileCabinet, dialogType: DWRest.DialogType){
-        var dialogs: any = {
+        const dialogs: any = {
             [DWRest.DialogType.Search]: 'searches',
             [DWRest.DialogType.Store]: 'stores',
             [DWRest.DialogType.TaskList]: 'taskLists',
@@ -277,14 +276,14 @@ class RestCallWrapper {
             [DWRest.DialogType.InfoDialog]: null
         }
 
-        var dialog = dialogs[dialogType];
+        const dialog = dialogs[dialogType];
 
         //Null stands for not supported
         if (dialog === null){
             throw new Error('DialogType' + dialogType + ' not supported.');
         }
 
-        var returnValue = this.GetLink(fileCabinet, dialog)
+        const returnValue = this.GetLink(fileCabinet, dialog)
 
         if (!returnValue) {
             throw new Error('Missing dialog link');
@@ -507,7 +506,7 @@ class RestCallWrapper {
             const newDocument: DWRest.IDocument = {
                 Fields: indexFields
             };
-            var jsonValue = JSON.stringify(newDocument);
+            const jsonValue = JSON.stringify(newDocument);
 
             return this.UploadBigDocument(fileCabinet,pathToFile, jsonValue, IndexFileType.JSON);
         }
@@ -526,28 +525,27 @@ class RestCallWrapper {
     async UploadBigDocument(fileCabinet: DWRest.IFileCabinet, pathToFile: string, indexFields: any = null, indexFieldsType: IndexFileType = IndexFileType.NULL): Promise<DWRest.IDocument> {
         const documentsLink: string = this.GetLink(fileCabinet, 'documents');
 
-        const origChunkSize: number = 3000000;
-        var chunkSize: number;
+        const origChunkSize = 3000000;
+        let chunkSize: number;
         const fileName: string = path.basename(pathToFile);
         const contentType: string | false = mime.contentType(fileName);
 
-        var lastPostResult: any;
+        let lastPostResult: any;
 
-        let file: any = fs.readFileSync(pathToFile);
-        var fileSize   = file.length;
+        const file: any = fs.readFileSync(pathToFile);
+        const fileSize   = file.length;
 
         // Get file modified date time
-        var stats = fs.statSync(pathToFile);
-        var mtime = stats.mtime;
+        const stats = fs.statSync(pathToFile);
+        const mtime = stats.mtime;
 
-        var offset     = 0;
-        var firstCall: Boolean = true;
+        let firstCall = true;
 
-        var runCount = 0;
+        let runCount = 0;
 
-        var link = documentsLink;
+        let link = documentsLink;
 
-        for (var offset: number = 0; offset < fileSize; offset += origChunkSize) {
+        for (let offset = 0; offset < fileSize; offset += origChunkSize) {
             chunkSize = origChunkSize;
 
             // Set last chunk to correct size
@@ -555,10 +553,10 @@ class RestCallWrapper {
                 chunkSize = fileSize - offset;
             }
 
-            var chunk = readChunk.sync(pathToFile, offset, chunkSize);
+            const chunk = readChunk.sync(pathToFile, offset, chunkSize);
 
             runCount += 1;
-            var formData: any = null;
+            let formData: any = null;
 
             if (firstCall && indexFields !== null) {
                 formData = {
@@ -598,7 +596,7 @@ class RestCallWrapper {
             console.log(formData);
 
             // Add chunk headers
-            var xFileHeaders = {...this.docuWare_request_config.headers,
+            const xFileHeaders = {...this.docuWare_request_config.headers,
             'X-File-Name': fileName,
             'X-File-Size': fileSize.toString(),
             'X-File-ModifiedDate': mtime.toISOString(),
@@ -682,7 +680,7 @@ class RestCallWrapper {
 
         return new Promise<DWRest.IDocument>((resolve, reject) => {
 
-            const paramsPath: string = `${pathToFile}.json`;
+            const paramsPath = `${pathToFile}.json`;
 
             fs.writeFile(paramsPath, JSON.stringify(checkinParameters), async (err) => {
                 if (err) {
@@ -735,7 +733,7 @@ class RestCallWrapper {
      * @param {number} pageNumber
      * @returns {Promise<DWRest.IPage>}
      */
-    GetPageByNumber(fullLoadedSection: DWRest.ISection, pageNumber: number, fullLoad: boolean = false): Promise<DWRest.IPage> {
+    GetPageByNumber(fullLoadedSection: DWRest.ISection, pageNumber: number, fullLoad = false): Promise<DWRest.IPage> {
         return new Promise<DWRest.IPage>((resolve, reject) => {
 
             const pagesResultLink: string = this.GetLink(fullLoadedSection.Pages, 'nextBlock');
@@ -1021,7 +1019,7 @@ class RestCallWrapper {
                     throw new Error('No groups found!');
                 }
 
-                let theGroup: DWRest.IGroup | undefined = groupsResponse.Item.find(g => g.Name.toLowerCase() === name.toLowerCase());
+                const theGroup: DWRest.IGroup | undefined = groupsResponse.Item.find(g => g.Name.toLowerCase() === name.toLowerCase());
                 if (theGroup) {
                     return theGroup;
                 } else {
@@ -1047,7 +1045,7 @@ class RestCallWrapper {
                     throw new Error('No groups found!');
                 }
 
-                let theRole: DWRest.IRole | undefined = rolesResponse.Item.find(g => g.Name.toLowerCase() === name.toLowerCase());
+                const theRole: DWRest.IRole | undefined = rolesResponse.Item.find(g => g.Name.toLowerCase() === name.toLowerCase());
                 if (theRole) {
                     return theRole;
                 } else {
@@ -1069,7 +1067,7 @@ class RestCallWrapper {
         const importLink: string = this.GetLink(fileCabinet, 'importDocuments');
 
         const fileName: string = path.basename(pathOfDWX);
-        const contentType: string = 'application/vnd.docuware.platform.filescontainer+dwx';
+        const contentType = 'application/vnd.docuware.platform.filescontainer+dwx';
 
         const formData = {
             document: {
@@ -1213,13 +1211,13 @@ class RestCallWrapper {
      * @returns {Promise<void>}
      */
     ConfirmWorkflowTask(task: DWRest.IWorkflowTask): Promise<void> {
-        let firstDecision: DWRest.IDecision = task.Decisions[0];
+        const firstDecision: DWRest.IDecision = task.Decisions[0];
         if (firstDecision) {
             return this.LoadFullObjectFromPlatform<DWRest.IDecision>(firstDecision.DecisionOperations.BaseDecisionOperations)
                 .then((fullLoadedDecision: DWRest.IDecision) => {
                     const textFormField = fullLoadedDecision.TaskFormField.find(f => f.Item.FormFieldType === DWRest.FormTypeEnum.Text);
                     if (textFormField) {
-                        let confirmData: DWRest.IConfirmedData = {
+                        const confirmData: DWRest.IConfirmedData = {
                             ConfirmedFields: [
                                 {
                                     Id: textFormField.Item.Id,
@@ -1267,7 +1265,7 @@ class RestCallWrapper {
     private async DownloadFile(request: request.RequestPromise, reject: (reason?: any) => void, resolve: (value?: string) => void) {
         request.on('response', (response) => {
 
-            let cdString = response.headers['content-disposition'];
+            const cdString = response.headers['content-disposition'];
             if (cdString) {
                 const parsedContentDispositionString: ContentDisposition = contentdisposition.parse(cdString);
                 const fileName = parsedContentDispositionString.parameters['filename'];
