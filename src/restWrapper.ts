@@ -29,10 +29,11 @@ class RestCallWrapper {
      */
     platformRoot: string;
     docuWare_request_config: RequestPromiseOptions;
-    constructor(rootOfPlatform: string) {
-        this.platformRoot = rootOfPlatform;
+    constructor(rootOfPlatform: string, port?: number | undefined) {
+        this.platformRoot = port ? `${rootOfPlatform}:${port}` : rootOfPlatform;
         this.docuWare_request_config = {
             baseUrl: rootOfPlatform,
+            port,
             timeout: 1000,
             headers: {
                 'Accept': 'application/json', //to get always json as a response from DocuWare Platform
@@ -40,7 +41,7 @@ class RestCallWrapper {
             },
             withCredentials: true,
             maxRedirects: 5,
-            agent: (this.platformRoot.startsWith('https')) ? new https.Agent({ keepAlive: false }) : new http.Agent({ keepAlive: false }), //Seperated calls, can be changed to true. False is better for development. Do https/http switch
+            agent: (this.platformRoot.startsWith('https')) ? new https.Agent({ keepAlive: false, port }) : new http.Agent({ keepAlive: false }), //Seperated calls, can be changed to true. False is better for development. Do https/http switch
             json: true,
             resolveWithFullResponse: false //We want to get json objects returned directly, in some cases we set it to true during method call
         }
