@@ -1238,11 +1238,13 @@ class RestCallWrapper {
     /**
      * Helper method to download file from response
      *
-     * @param {DWRequestPromiseExtension.IMessageWithBody} response
+     * @private
+     * @param {request.RequestPromise} request
      * @param {(reason?: any) => void} reject
-     * @param {((value?: string | undefined) => void)} resolve
+     * @param {(value?: any) => void} resolve
+     * @memberof RestCallWrapper
      */
-    private async DownloadFile(request: request.RequestPromise, reject: (reason?: any) => void, resolve: (value?: string) => void) {
+    private async DownloadFile(request: request.RequestPromise, reject: (reason?: any) => void, resolve: (value?: any) => void) {
         request.on('response', (response) => {
 
             const cdString = response.headers['content-disposition'];

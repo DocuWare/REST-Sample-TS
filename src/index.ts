@@ -429,6 +429,7 @@ function getFieldByName(document: DWRest.IDocument, fieldName: string): DWRest.I
     {
         throw new Error(`document is empty!`);
     }
+    
     if (document.Fields?.length === 0) 
     {
         throw new Error(`Fields is empty!`);

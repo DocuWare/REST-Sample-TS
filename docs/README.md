@@ -1,17 +1,15 @@
+Typedoc project reference documentation
 
-#  Typedoc project reference documentation
+# Typedoc project reference documentation
 
-## Index
+## Table of contents
 
-### External modules
+### Modules
 
-* ["Annotations"](modules/_annotations_.md)
-* ["DialogExpression"](modules/_dialogexpression_.md)
-* ["index"](modules/_index_.md)
-* ["restWrapper"](modules/_restwrapper_.md)
-* ["types/DW_Request_Promise_Extension.d"](modules/_types_dw_request_promise_extension_d_.md)
-* ["types/DW_Rest.d"](modules/_types_dw_rest_d_.md)
-* ["types/timespan.d"](modules/_types_timespan_d_.md)
-
----
-
+- [Annotations](modules/annotations.md)
+- [DialogExpression](modules/dialogexpression.md)
+- [index](modules/index.md)
+- [restWrapper](modules/restwrapper.md)
+- [types/DW\_Request\_Promise\_Extension](modules/types_dw_request_promise_extension.md)
+- [types/DW\_Rest](modules/types_dw_rest.md)
+- [types/timespan](modules/types_timespan.md)
