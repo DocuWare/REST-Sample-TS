@@ -33,7 +33,7 @@ Specifies the form type of a task input
 
 **Date**:  = "Date"
 
-*Defined in [types/DW_Rest.d.ts:1253](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1253)*
+*Defined in [types/DW_Rest.d.ts:1253](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1253)*
 
 ___
 <a id="datetime"></a>
@@ -42,7 +42,7 @@ ___
 
 **DateTime**:  = "DateTime"
 
-*Defined in [types/DW_Rest.d.ts:1254](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1254)*
+*Defined in [types/DW_Rest.d.ts:1254](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1254)*
 
 ___
 <a id="decimal"></a>
@@ -51,7 +51,7 @@ ___
 
 **Decimal**:  = "Decimal"
 
-*Defined in [types/DW_Rest.d.ts:1252](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1252)*
+*Defined in [types/DW_Rest.d.ts:1252](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1252)*
 
 ___
 <a id="description"></a>
@@ -60,7 +60,7 @@ ___
 
 **Description**:  = "Description"
 
-*Defined in [types/DW_Rest.d.ts:1249](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1249)*
+*Defined in [types/DW_Rest.d.ts:1249](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1249)*
 
 ___
 <a id="keyword"></a>
@@ -69,7 +69,7 @@ ___
 
 **Keyword**:  = "Keyword"
 
-*Defined in [types/DW_Rest.d.ts:1258](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1258)*
+*Defined in [types/DW_Rest.d.ts:1258](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1258)*
 
 ___
 <a id="link"></a>
@@ -78,7 +78,7 @@ ___
 
 **Link**:  = "Link"
 
-*Defined in [types/DW_Rest.d.ts:1248](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1248)*
+*Defined in [types/DW_Rest.d.ts:1248](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1248)*
 
 ___
 <a id="password"></a>
@@ -87,7 +87,7 @@ ___
 
 **Password**:  = "Password"
 
-*Defined in [types/DW_Rest.d.ts:1250](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1250)*
+*Defined in [types/DW_Rest.d.ts:1250](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1250)*
 
 ___
 <a id="role"></a>
@@ -96,7 +96,7 @@ ___
 
 **Role**:  = "Role"
 
-*Defined in [types/DW_Rest.d.ts:1256](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1256)*
+*Defined in [types/DW_Rest.d.ts:1256](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1256)*
 
 ___
 <a id="substitutionrule"></a>
@@ -105,7 +105,7 @@ ___
 
 **SubstitutionRule**:  = "SubstituionRule"
 
-*Defined in [types/DW_Rest.d.ts:1257](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1257)*
+*Defined in [types/DW_Rest.d.ts:1257](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1257)*
 
 ___
 <a id="table"></a>
@@ -114,7 +114,7 @@ ___
 
 **Table**:  = "Table"
 
-*Defined in [types/DW_Rest.d.ts:1259](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1259)*
+*Defined in [types/DW_Rest.d.ts:1259](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1259)*
 
 ___
 <a id="text"></a>
@@ -123,7 +123,7 @@ ___
 
 **Text**:  = "Text"
 
-*Defined in [types/DW_Rest.d.ts:1251](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1251)*
+*Defined in [types/DW_Rest.d.ts:1251](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1251)*
 
 ___
 <a id="user"></a>
@@ -132,7 +132,7 @@ ___
 
 **User**:  = "User"
 
-*Defined in [types/DW_Rest.d.ts:1255](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1255)*
+*Defined in [types/DW_Rest.d.ts:1255](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1255)*
 
 ___
 

@@ -30,7 +30,7 @@ DocuWare Document Index Field Table
 
 **● Rows**: *[ITableFieldRow](_types_dw_rest_d_.dwrest.itablefieldrow.md)[]*
 
-*Defined in [types/DW_Rest.d.ts:238](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L238)*
+*Defined in [types/DW_Rest.d.ts:238](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L238)*
 
 ___
 

@@ -28,7 +28,7 @@ FormFieldValue
 
 **● Name**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:451](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L451)*
+*Defined in [types/DW_Rest.d.ts:451](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L451)*
 
 ___
 <a id="typedvalue"></a>
@@ -37,7 +37,7 @@ ___
 
 **● TypedValue**: *`object`*
 
-*Defined in [types/DW_Rest.d.ts:453](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L453)*
+*Defined in [types/DW_Rest.d.ts:453](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L453)*
 
 #### Type declaration
 
@@ -52,7 +52,7 @@ ___
 
 **● Value**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:452](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L452)*
+*Defined in [types/DW_Rest.d.ts:452](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L452)*
 
 ___
 

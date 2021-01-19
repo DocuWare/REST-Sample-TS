@@ -26,7 +26,7 @@ A single row of DocuWare table field
 
 **● Columns**: *[ITableFieldColumn](_types_dw_rest_d_.dwrest.itablefieldcolumn.md)[]*
 
-*Defined in [types/DW_Rest.d.ts:247](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L247)*
+*Defined in [types/DW_Rest.d.ts:247](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L247)*
 
 ___
 

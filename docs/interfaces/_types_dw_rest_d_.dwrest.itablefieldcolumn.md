@@ -28,7 +28,7 @@ A siongle column of DocuWare Table Field
 
 **● FieldLabel**: *`undefined` \| `string`*
 
-*Defined in [types/DW_Rest.d.ts:257](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L257)*
+*Defined in [types/DW_Rest.d.ts:257](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L257)*
 
 ___
 <a id="fieldname"></a>
@@ -37,7 +37,7 @@ ___
 
 **● FieldName**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:256](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L256)*
+*Defined in [types/DW_Rest.d.ts:256](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L256)*
 
 ___
 <a id="item"></a>
@@ -46,7 +46,7 @@ ___
 
 **● Item**: *`number` \| `string` \| `null`*
 
-*Defined in [types/DW_Rest.d.ts:258](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L258)*
+*Defined in [types/DW_Rest.d.ts:258](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L258)*
 
 ___
 

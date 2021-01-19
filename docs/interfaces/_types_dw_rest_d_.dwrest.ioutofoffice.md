@@ -28,7 +28,7 @@ Out of office
 
 **● EndDateTime**: *`undefined` \| `string`*
 
-*Defined in [types/DW_Rest.d.ts:713](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L713)*
+*Defined in [types/DW_Rest.d.ts:713](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L713)*
 
 ___
 <a id="isoutofoffice"></a>
@@ -37,7 +37,7 @@ ___
 
 **● IsOutOfOffice**: *`undefined` \| `false` \| `true`*
 
-*Defined in [types/DW_Rest.d.ts:711](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L711)*
+*Defined in [types/DW_Rest.d.ts:711](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L711)*
 
 ___
 <a id="startdatetime"></a>
@@ -46,7 +46,7 @@ ___
 
 **● StartDateTime**: *`undefined` \| `string`*
 
-*Defined in [types/DW_Rest.d.ts:712](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L712)*
+*Defined in [types/DW_Rest.d.ts:712](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L712)*
 
 ___
 

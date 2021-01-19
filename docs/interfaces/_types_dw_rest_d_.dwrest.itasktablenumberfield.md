@@ -41,7 +41,7 @@ Task table number field
 
 **● BalanceField**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:1134](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1134)*
+*Defined in [types/DW_Rest.d.ts:1134](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1134)*
 
 ___
 <a id="description"></a>
@@ -52,7 +52,7 @@ ___
 
 *Inherited from [ICommonFormField](_types_dw_rest_d_.dwrest.icommonformfield.md).[Description](_types_dw_rest_d_.dwrest.icommonformfield.md#description)*
 
-*Defined in [types/DW_Rest.d.ts:1017](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1017)*
+*Defined in [types/DW_Rest.d.ts:1017](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1017)*
 
 ___
 <a id="formfieldtype"></a>
@@ -63,7 +63,7 @@ ___
 
 *Inherited from [IBaseForm](_types_dw_rest_d_.dwrest.ibaseform.md).[FormFieldType](_types_dw_rest_d_.dwrest.ibaseform.md#formfieldtype)*
 
-*Defined in [types/DW_Rest.d.ts:1004](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1004)*
+*Defined in [types/DW_Rest.d.ts:1004](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1004)*
 
 ___
 <a id="hasselectlist"></a>
@@ -74,7 +74,7 @@ ___
 
 *Inherited from [ICommonFormField](_types_dw_rest_d_.dwrest.icommonformfield.md).[HasSelectList](_types_dw_rest_d_.dwrest.icommonformfield.md#hasselectlist)*
 
-*Defined in [types/DW_Rest.d.ts:1018](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1018)*
+*Defined in [types/DW_Rest.d.ts:1018](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1018)*
 
 ___
 <a id="id"></a>
@@ -85,7 +85,7 @@ ___
 
 *Inherited from [IBaseForm](_types_dw_rest_d_.dwrest.ibaseform.md).[Id](_types_dw_rest_d_.dwrest.ibaseform.md#id)*
 
-*Defined in [types/DW_Rest.d.ts:1006](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1006)*
+*Defined in [types/DW_Rest.d.ts:1006](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1006)*
 
 ___
 <a id="isreadonly"></a>
@@ -96,7 +96,7 @@ ___
 
 *Inherited from [ICommonFormField](_types_dw_rest_d_.dwrest.icommonformfield.md).[IsReadonly](_types_dw_rest_d_.dwrest.icommonformfield.md#isreadonly)*
 
-*Defined in [types/DW_Rest.d.ts:1019](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1019)*
+*Defined in [types/DW_Rest.d.ts:1019](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1019)*
 
 ___
 <a id="isselectlistonly"></a>
@@ -107,7 +107,7 @@ ___
 
 *Inherited from [ICommonFormField](_types_dw_rest_d_.dwrest.icommonformfield.md).[IsSelectListOnly](_types_dw_rest_d_.dwrest.icommonformfield.md#isselectlistonly)*
 
-*Defined in [types/DW_Rest.d.ts:1020](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1020)*
+*Defined in [types/DW_Rest.d.ts:1020](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1020)*
 
 ___
 <a id="label"></a>
@@ -118,7 +118,7 @@ ___
 
 *Inherited from [IBaseForm](_types_dw_rest_d_.dwrest.ibaseform.md).[Label](_types_dw_rest_d_.dwrest.ibaseform.md#label)*
 
-*Defined in [types/DW_Rest.d.ts:1005](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1005)*
+*Defined in [types/DW_Rest.d.ts:1005](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1005)*
 
 ___
 <a id="mandatory"></a>
@@ -129,7 +129,7 @@ ___
 
 *Inherited from [ICommonFormField](_types_dw_rest_d_.dwrest.icommonformfield.md).[Mandatory](_types_dw_rest_d_.dwrest.icommonformfield.md#mandatory)*
 
-*Defined in [types/DW_Rest.d.ts:1016](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1016)*
+*Defined in [types/DW_Rest.d.ts:1016](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1016)*
 
 ___
 <a id="precision"></a>
@@ -140,7 +140,7 @@ ___
 
 *Inherited from [ITaskNumberField](_types_dw_rest_d_.dwrest.itasknumberfield.md).[Precision](_types_dw_rest_d_.dwrest.itasknumberfield.md#precision)*
 
-*Defined in [types/DW_Rest.d.ts:1103](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1103)*
+*Defined in [types/DW_Rest.d.ts:1103](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1103)*
 
 ___
 <a id="prefillwithbalance"></a>
@@ -149,7 +149,7 @@ ___
 
 **● PrefillWithBalance**: *`boolean`*
 
-*Defined in [types/DW_Rest.d.ts:1133](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1133)*
+*Defined in [types/DW_Rest.d.ts:1133](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1133)*
 
 ___
 <a id="selectlistguid"></a>
@@ -160,7 +160,7 @@ ___
 
 *Inherited from [ICommonFormField](_types_dw_rest_d_.dwrest.icommonformfield.md).[SelectListGuid](_types_dw_rest_d_.dwrest.icommonformfield.md#selectlistguid)*
 
-*Defined in [types/DW_Rest.d.ts:1021](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1021)*
+*Defined in [types/DW_Rest.d.ts:1021](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1021)*
 
 ___
 

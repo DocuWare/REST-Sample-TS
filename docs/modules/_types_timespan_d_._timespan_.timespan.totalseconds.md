@@ -5,7 +5,7 @@
 ## Callable
 ▸ **totalSeconds**(roundDown: *`any`*): `any`
 
-*Defined in [types/timespan.d.ts:44](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/timespan.d.ts#L44)*
+*Defined in [types/timespan.d.ts:44](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/timespan.d.ts#L44)*
 
 **Parameters:**
 
@@ -31,7 +31,7 @@
 
 **● prototype**: *`__type`*
 
-*Defined in [types/timespan.d.ts:229](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/timespan.d.ts#L229)*
+*Defined in [types/timespan.d.ts:229](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/timespan.d.ts#L229)*
 
 ___
 

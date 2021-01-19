@@ -4,8 +4,10 @@
   "description": "Sample application to call DocuWare REST API with http client 'request'",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "start": "node ./dist/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
   },
   "keywords": [
     "docuware"
@@ -33,6 +35,9 @@
     "@types/request": "^2.48.5",
     "@types/request-promise-native": "^1.0.17",
     "@types/tough-cookie": "^2.3.7",
+    "@typescript-eslint/eslint-plugin": "^3.7.1",
+    "@typescript-eslint/parser": "^3.7.1",
+    "eslint": "^7.5.0",
     "typedoc": "^0.20.16",
     "typedoc-plugin-markdown": "^1.2.0",
     "typescript": "^3.9.7"

@@ -43,7 +43,7 @@ Workflow task
 
 **● ActivityDescription**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:902](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L902)*
+*Defined in [types/DW_Rest.d.ts:902](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L902)*
 
 ___
 <a id="activitytype"></a>
@@ -52,7 +52,7 @@ ___
 
 **● ActivityType**: *[ActivityTypeEnum](../enums/_types_dw_rest_d_.dwrest.activitytypeenum.md)*
 
-*Defined in [types/DW_Rest.d.ts:904](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L904)*
+*Defined in [types/DW_Rest.d.ts:904](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L904)*
 
 ___
 <a id="allowdecisionstamp"></a>
@@ -61,7 +61,7 @@ ___
 
 **● AllowDecisionStamp**: *`boolean`*
 
-*Defined in [types/DW_Rest.d.ts:901](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L901)*
+*Defined in [types/DW_Rest.d.ts:901](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L901)*
 
 ___
 <a id="columnvalues"></a>
@@ -70,7 +70,7 @@ ___
 
 **● ColumnValues**: *[IColumnValues](_types_dw_rest_d_.dwrest.icolumnvalues.md)*
 
-*Defined in [types/DW_Rest.d.ts:895](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L895)*
+*Defined in [types/DW_Rest.d.ts:895](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L895)*
 
 ___
 <a id="decisions"></a>
@@ -79,7 +79,7 @@ ___
 
 **● Decisions**: *[IDecision](_types_dw_rest_d_.dwrest.idecision.md)[]*
 
-*Defined in [types/DW_Rest.d.ts:896](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L896)*
+*Defined in [types/DW_Rest.d.ts:896](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L896)*
 
 ___
 <a id="defaultdecisionid"></a>
@@ -88,7 +88,7 @@ ___
 
 **● DefaultDecisionId**: *`number`*
 
-*Defined in [types/DW_Rest.d.ts:897](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L897)*
+*Defined in [types/DW_Rest.d.ts:897](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L897)*
 
 ___
 <a id="docid"></a>
@@ -97,7 +97,7 @@ ___
 
 **● DocId**: *`number`*
 
-*Defined in [types/DW_Rest.d.ts:903](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L903)*
+*Defined in [types/DW_Rest.d.ts:903](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L903)*
 
 ___
 <a id="id"></a>
@@ -106,7 +106,7 @@ ___
 
 **● Id**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:898](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L898)*
+*Defined in [types/DW_Rest.d.ts:898](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L898)*
 
 ___
 <a id="instanceid"></a>
@@ -115,7 +115,7 @@ ___
 
 **● InstanceId**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:899](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L899)*
+*Defined in [types/DW_Rest.d.ts:899](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L899)*
 
 ___
 <a id="isread"></a>
@@ -124,7 +124,7 @@ ___
 
 **● IsRead**: *`boolean`*
 
-*Defined in [types/DW_Rest.d.ts:900](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L900)*
+*Defined in [types/DW_Rest.d.ts:900](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L900)*
 
 ___
 <a id="links"></a>
@@ -135,7 +135,7 @@ ___
 
 *Inherited from [ILinkModel](_types_dw_rest_d_.dwrest.ilinkmodel.md).[Links](_types_dw_rest_d_.dwrest.ilinkmodel.md#links)*
 
-*Defined in [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L10)*
+*Defined in [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L10)*
 
 ___
 <a id="nodeid"></a>
@@ -144,7 +144,7 @@ ___
 
 **● NodeId**: *`number`*
 
-*Defined in [types/DW_Rest.d.ts:905](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L905)*
+*Defined in [types/DW_Rest.d.ts:905](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L905)*
 
 ___
 <a id="taskoperations"></a>
@@ -153,7 +153,7 @@ ___
 
 **● TaskOperations**: *[ITaskOperations](_types_dw_rest_d_.dwrest.itaskoperations.md)*
 
-*Defined in [types/DW_Rest.d.ts:894](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L894)*
+*Defined in [types/DW_Rest.d.ts:894](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L894)*
 
 ___
 <a id="workflowversionid"></a>
@@ -162,7 +162,7 @@ ___
 
 **● WorkflowVersionId**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:906](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L906)*
+*Defined in [types/DW_Rest.d.ts:906](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L906)*
 
 ___
 

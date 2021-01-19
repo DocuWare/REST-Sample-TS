@@ -14,7 +14,6 @@ import fs from 'fs'; //https://nodejs.org/api/fs.html
 import mime, { contentType } from 'mime-types'; //https://www.npmjs.com/package/mime-types
 import querystring from 'querystring'; //https://nodejs.org/api/querystring.html
 import path from 'path';
-import archiver from 'archiver'; //https://www.npmjs.com/package/archiver
 import contentdisposition, { ContentDisposition } from 'content-disposition'; //https://github.com/jshttp/content-disposition
 import timespan from 'timespan'; //https://www.npmjs.com/package/timespan
 import readChunk from 'read-chunk';
@@ -30,10 +29,11 @@ class RestCallWrapper {
      */
     platformRoot: string;
     docuWare_request_config: RequestPromiseOptions;
-    constructor(rootOfPlatform: string) {
-        this.platformRoot = rootOfPlatform;
+    constructor(rootOfPlatform: string, port?: number | undefined) {
+        this.platformRoot = port ? `${rootOfPlatform}:${port}` : rootOfPlatform;
         this.docuWare_request_config = {
             baseUrl: rootOfPlatform,
+            port,
             timeout: 1000,
             headers: {
                 'Accept': 'application/json', //to get always json as a response from DocuWare Platform
@@ -41,7 +41,7 @@ class RestCallWrapper {
             },
             withCredentials: true,
             maxRedirects: 5,
-            agent: (this.platformRoot.startsWith('https')) ? new https.Agent({ keepAlive: false }) : new http.Agent({ keepAlive: false }), //Seperated calls, can be changed to true. False is better for development. Do https/http switch
+            agent: (this.platformRoot.startsWith('https')) ? new https.Agent({ keepAlive: false, port }) : new http.Agent({ keepAlive: false }), //Seperated calls, can be changed to true. False is better for development. Do https/http switch
             json: true,
             resolveWithFullResponse: false //We want to get json objects returned directly, in some cases we set it to true during method call
         }
@@ -49,7 +49,7 @@ class RestCallWrapper {
 
     /**
      * Helper function for preparing the logon
-     * 
+     *
      * @param {string} user
      * @param {string} pw
      * @param {string} org
@@ -69,7 +69,7 @@ class RestCallWrapper {
     /**
      * Handles logon and sets cookies to 'global' {RequestPromiseOptions}
      *
-     * 
+     *
      * @param {DWRest.ILogonModel} model
      * @returns {Promise<DWRest.ILogonResponse>}
      */
@@ -83,9 +83,9 @@ class RestCallWrapper {
                 .then((logonResponse: DWRequestPromiseExtension.ILogonResponseWrapper) => {
                     try {
                         //Take care of errors and throttling
-                        let respondedCookies = logonResponse.headers["set-cookie"];
+                        const respondedCookies = logonResponse.headers["set-cookie"];
                         if (respondedCookies && respondedCookies.length > 0) {
-                            let cookieJar = request.jar();
+                            const cookieJar = request.jar();
                             respondedCookies.forEach((cookieString) => {
                                 //add cookies to jar
                                 cookieJar.setCookie(cookieString, this.platformRoot);
@@ -111,8 +111,8 @@ class RestCallWrapper {
 
     /**
      * Returns your Organization
-     * 
-     * 
+     *
+     *
      * @returns {Promise<DWRest.IOrganization>}
      */
     GetOrganization(): Promise<DWRest.IOrganization> {
@@ -123,7 +123,7 @@ class RestCallWrapper {
     /**
      * Returns all organizations
      *
-     * 
+     *
      * @param {DWRest.ILogonResponse} logonResponse
      * @returns {Promise<DWRest.IOrganizations>}
      */
@@ -137,7 +137,7 @@ class RestCallWrapper {
     /**
      * Returns list of FileCabinets
      *
-     * 
+     *
      * @param {DWRest.IOrganization} org
      * @returns {Promise<DWRest.IFileCabinet[]>}
      */
@@ -152,7 +152,7 @@ class RestCallWrapper {
     /**
      * Returns a special FileCabinet by GUID
      *
-     * 
+     *
      * @param {string} fcGuid
      * @returns {Promise<DWRest.IFileCabinet>}
      */
@@ -164,7 +164,7 @@ class RestCallWrapper {
     /**
      * Filters list of FileCabinet Objects and returns only filecabinets
      * Info: FileCabinet Object can be a document tray OR a filecabinet
-     * 
+     *
      * @param {DWRest.IFileCabinet[]} fileCabinets
      * @returns {DWRest.IFileCabinet[]}
      */
@@ -175,12 +175,12 @@ class RestCallWrapper {
     /**
      *   Filters list of FileCabinet Objects and returns only document trays
      * Info: FileCabinet Object can be a document tray OR a filecabinet
-     * 
+     *
      * @param {DWRest.IFileCabinet[]} fileCabinets
      * @returns {(DWRest.IFileCabinet | undefined)}
      */
     GetDefaultDocumentTray(fileCabinets: DWRest.IFileCabinet[]): DWRest.IFileCabinet | undefined {
-        let result: DWRest.IFileCabinet | undefined = fileCabinets.find(f => f.Default === true && f.IsBasket === true);
+        const result: DWRest.IFileCabinet | undefined = fileCabinets.find(f => f.Default === true && f.IsBasket === true);
         return result;
     }
 
@@ -209,7 +209,7 @@ class RestCallWrapper {
      * @param {boolean}[fullLoad=false] fullLoad
      * @returns {Promise<DWRest.IDocument>}
      */
-    GetDocumentByDocID(fileCabinet: DWRest.IFileCabinet, docId: number, fullLoad: boolean = false): Promise<DWRest.IDocument> {
+    GetDocumentByDocID(fileCabinet: DWRest.IFileCabinet, docId: number, fullLoad = false): Promise<DWRest.IDocument> {
         const documentsLink: string = this.GetLink(fileCabinet, 'documents');
 
         return request.get(`${documentsLink}/${docId}`, this.docuWare_request_config)
@@ -225,7 +225,7 @@ class RestCallWrapper {
 
     /**
      * Get the first x documents from a file cabinet
-     * 
+     *
      * @param {DWRest.IFileCabinet} fileCabinet
      * @param {number} count
      * @returns {Promise<DWRest.IDocumentsQueryResult>}
@@ -237,7 +237,7 @@ class RestCallWrapper {
 
     /**
      * Returns the next 'page' of document results
-     * Info: Be careful, the next result will contain same amount of results like the provided {DWRest.DocumentsQueryResult}! 
+     * Info: Be careful, the next result will contain same amount of results like the provided {DWRest.DocumentsQueryResult}!
      * So if you searched for 2 results you will only get another 2!
      * @param {DWRest.IDocumentsQueryResult} documentQueryResult
      * @returns {Promise<DWRest.IDocumentsQueryResult>}
@@ -269,7 +269,7 @@ class RestCallWrapper {
     }
 
     GetDialogLink(fileCabinet: DWRest.IFileCabinet, dialogType: DWRest.DialogType){
-        var dialogs: any = {
+        const dialogs: any = {
             [DWRest.DialogType.Search]: 'searches',
             [DWRest.DialogType.Store]: 'stores',
             [DWRest.DialogType.TaskList]: 'taskLists',
@@ -277,14 +277,14 @@ class RestCallWrapper {
             [DWRest.DialogType.InfoDialog]: null
         }
 
-        var dialog = dialogs[dialogType];
+        const dialog = dialogs[dialogType];
 
         //Null stands for not supported
         if (dialog === null){
             throw new Error('DialogType' + dialogType + ' not supported.');
         }
 
-        var returnValue = this.GetLink(fileCabinet, dialog)
+        const returnValue = this.GetLink(fileCabinet, dialog)
 
         if (!returnValue) {
             throw new Error('Missing dialog link');
@@ -301,7 +301,7 @@ class RestCallWrapper {
      */
     GetDedicatedDialogsFromFileCabinet(fileCabinet: DWRest.IFileCabinet, dialogType: DWRest.DialogType): Promise<DWRest.IDialog[]> {
         let dialogLink: string | null = null;
-        
+
         dialogLink = this.GetDialogLink(fileCabinet, dialogType);
 
         return request.get(dialogLink, this.docuWare_request_config)
@@ -505,39 +505,38 @@ class RestCallWrapper {
     async UploadBigDocumentBase(fileCabinet: DWRest.IFileCabinet, pathToFile: string, dwDocumentContent: string = '', dwDocumentContentType: ContentType = ContentType.NULL): Promise<DWRest.IDocument> {
         const documentsLink: string = this.GetLink(fileCabinet, 'documents');
 
-        const origChunkSize: number = 3000000;
-        var chunkSize: number;
+        const origChunkSize = 3000000;
+        let chunkSize: number;
         const fileName: string = path.basename(pathToFile);
         const contentType: string | false = mime.contentType(fileName);
 
-        var lastPostResult: any;
+        let lastPostResult: any;
 
-        let file: any = fs.readFileSync(pathToFile);
-        var fileSize   = file.length;
-        
+        const file: any = fs.readFileSync(pathToFile);
+        const fileSize   = file.length;
+
         // Get file modified date time
-        var stats = fs.statSync(pathToFile);
-        var mtime = stats.mtime;
+        const stats = fs.statSync(pathToFile);
+        const mtime = stats.mtime;
 
-        var offset     = 0;
-        var firstCall: Boolean = true;
+        let firstCall = true;
 
-        var runCount = 0;
+        let runCount = 0;
 
-        var link = documentsLink;
+        let link = documentsLink;
 
-        for (var offset: number = 0; offset < fileSize; offset += origChunkSize) {
+        for (let offset = 0; offset < fileSize; offset += origChunkSize) {
             chunkSize = origChunkSize;
 
             // Set last chunk to correct size
             if((offset + origChunkSize) > fileSize) {
                 chunkSize = fileSize - offset;
             }
-            
-            var chunk = readChunk.sync(pathToFile, offset, chunkSize);
+
+            const chunk = readChunk.sync(pathToFile, offset, chunkSize);
 
             runCount += 1;
-            var formData: any = null;
+            let formData: any = null;
 
             if (firstCall && dwDocumentContent.length > 0) {
                 formData = {
@@ -577,7 +576,7 @@ class RestCallWrapper {
             console.log(formData);
 
             // Add chunk headers
-            var xFileHeaders = {...this.docuWare_request_config.headers, 
+            const xFileHeaders = {...this.docuWare_request_config.headers,
             'X-File-Name': fileName,
             'X-File-Size': fileSize.toString(),
             'X-File-ModifiedDate': mtime.toISOString(),
@@ -586,7 +585,7 @@ class RestCallWrapper {
 
             // Set timeout to 5 minutes
             this.docuWare_request_config.timeout = 300000;
-            
+
             lastPostResult = await request.post(link, { ...this.docuWare_request_config, formData: formData}).promise();
 
             if (lastPostResult !== null) {
@@ -612,7 +611,7 @@ class RestCallWrapper {
      */
     EditDocumentSection(fullLoadedSection: DWRest.ISection, pathToFileForReplace: string): Promise<DWRest.ISection> {
         const sectionContentLink: string = this.GetLink(fullLoadedSection, 'content');
-        
+
         const fileName: string = path.basename(pathToFileForReplace);
         const contentType: string | false = mime.contentType(fileName)
 
@@ -661,7 +660,7 @@ class RestCallWrapper {
 
         return new Promise<DWRest.IDocument>((resolve, reject) => {
 
-            const paramsPath: string = `${pathToFile}.json`;
+            const paramsPath = `${pathToFile}.json`;
 
             fs.writeFile(paramsPath, JSON.stringify(checkinParameters), async (err) => {
                 if (err) {
@@ -714,7 +713,7 @@ class RestCallWrapper {
      * @param {number} pageNumber
      * @returns {Promise<DWRest.IPage>}
      */
-    GetPageByNumber(fullLoadedSection: DWRest.ISection, pageNumber: number, fullLoad: boolean = false): Promise<DWRest.IPage> {
+    GetPageByNumber(fullLoadedSection: DWRest.ISection, pageNumber: number, fullLoad = false): Promise<DWRest.IPage> {
         return new Promise<DWRest.IPage>((resolve, reject) => {
 
             const pagesResultLink: string = this.GetLink(fullLoadedSection.Pages, 'nextBlock');
@@ -762,7 +761,7 @@ class RestCallWrapper {
                 const stampLink: string = this.GetLink(page, 'stamp');
 
                 return request.post(stampLink, { ...this.docuWare_request_config, body: { ...stampPlacement, Location: bestCoordinates } })
-                    .promise(); 
+                    .promise();
             });
     }
 
@@ -857,7 +856,7 @@ class RestCallWrapper {
 
     /**
      * Merges a document
-     * Info: Staple is only supported for document trays    
+     * Info: Staple is only supported for document trays
      * @param {DWRest.IFileCabinet} fileCabinet
      * @param {number[]} docIds
      * @param {DWRest.ContentMergeOperation} operation
@@ -1000,7 +999,7 @@ class RestCallWrapper {
                     throw new Error('No groups found!');
                 }
 
-                let theGroup: DWRest.IGroup | undefined = groupsResponse.Item.find(g => g.Name.toLowerCase() === name.toLowerCase());
+                const theGroup: DWRest.IGroup | undefined = groupsResponse.Item.find(g => g.Name.toLowerCase() === name.toLowerCase());
                 if (theGroup) {
                     return theGroup;
                 } else {
@@ -1026,7 +1025,7 @@ class RestCallWrapper {
                     throw new Error('No groups found!');
                 }
 
-                let theRole: DWRest.IRole | undefined = rolesResponse.Item.find(g => g.Name.toLowerCase() === name.toLowerCase());
+                const theRole: DWRest.IRole | undefined = rolesResponse.Item.find(g => g.Name.toLowerCase() === name.toLowerCase());
                 if (theRole) {
                     return theRole;
                 } else {
@@ -1048,7 +1047,7 @@ class RestCallWrapper {
         const importLink: string = this.GetLink(fileCabinet, 'importDocuments');
 
         const fileName: string = path.basename(pathOfDWX);
-        const contentType: string = 'application/vnd.docuware.platform.filescontainer+dwx';
+        const contentType = 'application/vnd.docuware.platform.filescontainer+dwx';
 
         const formData = {
             document: {
@@ -1192,13 +1191,13 @@ class RestCallWrapper {
      * @returns {Promise<void>}
      */
     ConfirmWorkflowTask(task: DWRest.IWorkflowTask): Promise<void> {
-        let firstDecision: DWRest.IDecision = task.Decisions[0];
+        const firstDecision: DWRest.IDecision = task.Decisions[0];
         if (firstDecision) {
             return this.LoadFullObjectFromPlatform<DWRest.IDecision>(firstDecision.DecisionOperations.BaseDecisionOperations)
                 .then((fullLoadedDecision: DWRest.IDecision) => {
                     const textFormField = fullLoadedDecision.TaskFormField.find(f => f.Item.FormFieldType === DWRest.FormTypeEnum.Text);
                     if (textFormField) {
-                        let confirmData: DWRest.IConfirmedData = {
+                        const confirmData: DWRest.IConfirmedData = {
                             ConfirmedFields: [
                                 {
                                     Id: textFormField.Item.Id,
@@ -1246,7 +1245,7 @@ class RestCallWrapper {
     private async DownloadFile(request: request.RequestPromise, reject: (reason?: any) => void, resolve: (value?: string) => void) {
         request.on('response', (response) => {
 
-            let cdString = response.headers['content-disposition'];
+            const cdString = response.headers['content-disposition'];
             if (cdString) {
                 const parsedContentDispositionString: ContentDisposition = contentdisposition.parse(cdString);
                 const fileName = parsedContentDispositionString.parameters['filename'];
@@ -1325,4 +1324,3 @@ class RestCallWrapper {
     }
 
 export { RestCallWrapper };
-

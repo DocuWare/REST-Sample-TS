@@ -5,7 +5,7 @@
 ## Callable
 ▸ **parseDate**(str: *`any`*): `any`
 
-*Defined in [types/timespan.d.ts:66](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/timespan.d.ts#L66)*
+*Defined in [types/timespan.d.ts:66](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/timespan.d.ts#L66)*
 
 **Parameters:**
 
@@ -31,7 +31,7 @@
 
 **● prototype**: *`__type`*
 
-*Defined in [types/timespan.d.ts:291](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/timespan.d.ts#L291)*
+*Defined in [types/timespan.d.ts:291](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/timespan.d.ts#L291)*
 
 ___
 

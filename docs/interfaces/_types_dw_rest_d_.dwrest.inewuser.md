@@ -30,7 +30,7 @@ New user
 
 **● DBName**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:668](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L668)*
+*Defined in [types/DW_Rest.d.ts:668](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L668)*
 
 ___
 <a id="email"></a>
@@ -39,7 +39,7 @@ ___
 
 **● Email**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:669](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L669)*
+*Defined in [types/DW_Rest.d.ts:669](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L669)*
 
 ___
 <a id="name"></a>
@@ -48,7 +48,7 @@ ___
 
 **● Name**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:667](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L667)*
+*Defined in [types/DW_Rest.d.ts:667](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L667)*
 
 ___
 <a id="networkid"></a>
@@ -57,7 +57,7 @@ ___
 
 **● NetworkId**: *`undefined` \| `string`*
 
-*Defined in [types/DW_Rest.d.ts:671](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L671)*
+*Defined in [types/DW_Rest.d.ts:671](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L671)*
 
 ___
 <a id="password"></a>
@@ -66,7 +66,7 @@ ___
 
 **● Password**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:670](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L670)*
+*Defined in [types/DW_Rest.d.ts:670](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L670)*
 
 ___
 

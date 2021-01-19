@@ -24,7 +24,7 @@ Different kind of roles
 
 **Administrator**:  = "Administrator"
 
-*Defined in [types/DW_Rest.d.ts:1291](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1291)*
+*Defined in [types/DW_Rest.d.ts:1291](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1291)*
 
 ___
 <a id="default"></a>
@@ -33,7 +33,7 @@ ___
 
 **Default**:  = "Default"
 
-*Defined in [types/DW_Rest.d.ts:1290](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1290)*
+*Defined in [types/DW_Rest.d.ts:1290](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1290)*
 
 ___
 <a id="standard"></a>
@@ -42,7 +42,7 @@ ___
 
 **Standard**:  = "Standard"
 
-*Defined in [types/DW_Rest.d.ts:1289](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1289)*
+*Defined in [types/DW_Rest.d.ts:1289](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1289)*
 
 ___
 

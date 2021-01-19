@@ -28,7 +28,7 @@ Task field mask
 
 **● ErrorText**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:1173](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1173)*
+*Defined in [types/DW_Rest.d.ts:1173](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1173)*
 
 ___
 <a id="regularexpression"></a>
@@ -37,7 +37,7 @@ ___
 
 **● RegularExpression**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:1174](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1174)*
+*Defined in [types/DW_Rest.d.ts:1174](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1174)*
 
 ___
 <a id="sampleedittext"></a>
@@ -46,7 +46,7 @@ ___
 
 **● SampleEditText**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:1175](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1175)*
+*Defined in [types/DW_Rest.d.ts:1175](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1175)*
 
 ___
 

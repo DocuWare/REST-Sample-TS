@@ -1,6 +1,6 @@
 # DocuWare REST API Sample
-This example is written by DocuWare. Feel free to fork and play around.  
-__We do not recommend__ to use this example for __productive__ purposes.  
+This example is written by DocuWare. Feel free to fork and play around.
+__We do not recommend__ to use this example for __productive__ purposes.
 It's more like to show a possible way to use our DocuWare
 REST API.
 
@@ -16,29 +16,30 @@ We've developed this project with [Visual Studio Code](https://code.visualstudio
 
 ## Project structure
 
-Startup: index.ts    
-Javascript output dir: ./dist    
+Startup: index.ts
+Javascript output dir: ./dist
 [The REST Wrapper class](./docs/classes/_restwrapper_.restcallwrapper.md)
 
 ### Custom typescript definition files
-- ["types/DW_Rest.d"](./docs/modules/_types_dw_rest_d_.md)  
+- ["types/DW_Rest.d"](./docs/modules/_types_dw_rest_d_.md)
   Wrappes the REST Schema here, so you can work with interfaces in code
-- ["types/DW_Request_Promise_Extension.d"](./docs/modules/_types_dw_request_promise_extension_d_.md)  
+- ["types/DW_Request_Promise_Extension.d"](./docs/modules/_types_dw_request_promise_extension_d_.md)
 Just a helper to work with node module 'request-promise'
-- ["types/timespan.d"](./docs/modules/_types_timespan_d_.md)   
+- ["types/timespan.d"](./docs/modules/_types_timespan_d_.md)
   Definition for module 'timespan' so you can work better in typescript
 
 ## How to start
-1. Restore node packages (run 'npm install')
+1. Install node packages (run 'npm install')
 2. Take a look in ["index.ts"](./docs/modules/_index_.md) and [restWrapper.ts](./docs/classes/_restwrapper_.restcallwrapper.md)
 3. Change credentials, organization and root URL
-4. Play around (Press F5 in VS Code or run it by 'npm start')
-5. In case of changing code, do not forget to run typescript compile(manually or by watcher)
+4. Play around, find the functions you need
+5. Compile the code so it can be run (`npm run tsc`)
+6. Run the code (`npm run start`)
+7. In case of changing code, do not forget to rerun typescript compile(manually or by watcher)
 
 ## Typedoc project reference documentation
 
 [Project References](./docs/README.md)
 
 ## More information
-Feel free take also a look on https://developer.docuware.com
-
+Feel free and take also a look on https://developer.docuware.com

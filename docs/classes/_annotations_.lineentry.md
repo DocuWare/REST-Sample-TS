@@ -45,7 +45,7 @@
 
 ⊕ **new LineEntry**(from: *[IAnnotationPoint](../interfaces/_types_dw_rest_d_.dwrest.iannotationpoint.md)*, to: *[IAnnotationPoint](../interfaces/_types_dw_rest_d_.dwrest.iannotationpoint.md)*): [LineEntry](_annotations_.lineentry.md)
 
-*Defined in [Annotations.ts:50](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L50)*
+*Defined in [Annotations.ts:50](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/Annotations.ts#L50)*
 
 **Parameters:**
 
@@ -68,7 +68,7 @@ ___
 
 *Implementation of [ILineEntry](../interfaces/_types_dw_rest_d_.dwrest.ilineentry.md).[$type](../interfaces/_types_dw_rest_d_.dwrest.ilineentry.md#_type)*
 
-*Defined in [Annotations.ts:41](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L41)*
+*Defined in [Annotations.ts:41](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/Annotations.ts#L41)*
 
 ___
 <a id="arrow"></a>
@@ -79,7 +79,7 @@ ___
 
 *Implementation of [ILineEntry](../interfaces/_types_dw_rest_d_.dwrest.ilineentry.md).[Arrow](../interfaces/_types_dw_rest_d_.dwrest.ilineentry.md#arrow)*
 
-*Defined in [Annotations.ts:44](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L44)*
+*Defined in [Annotations.ts:44](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/Annotations.ts#L44)*
 
 ___
 <a id="color"></a>
@@ -90,7 +90,7 @@ ___
 
 *Implementation of [ILineEntry](../interfaces/_types_dw_rest_d_.dwrest.ilineentry.md).[Color](../interfaces/_types_dw_rest_d_.dwrest.ilineentry.md#color)*
 
-*Defined in [Annotations.ts:46](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L46)*
+*Defined in [Annotations.ts:46](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/Annotations.ts#L46)*
 
 ___
 <a id="created"></a>
@@ -101,7 +101,7 @@ ___
 
 *Implementation of [ILineEntry](../interfaces/_types_dw_rest_d_.dwrest.ilineentry.md).[Created](../interfaces/_types_dw_rest_d_.dwrest.ilineentry.md#created)*
 
-*Defined in [Annotations.ts:45](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L45)*
+*Defined in [Annotations.ts:45](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/Annotations.ts#L45)*
 
 ___
 <a id="from"></a>
@@ -112,7 +112,7 @@ ___
 
 *Implementation of [ILineEntry](../interfaces/_types_dw_rest_d_.dwrest.ilineentry.md).[From](../interfaces/_types_dw_rest_d_.dwrest.ilineentry.md#from)*
 
-*Defined in [Annotations.ts:42](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L42)*
+*Defined in [Annotations.ts:42](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/Annotations.ts#L42)*
 
 ___
 <a id="id"></a>
@@ -123,7 +123,7 @@ ___
 
 *Implementation of [ILineEntry](../interfaces/_types_dw_rest_d_.dwrest.ilineentry.md).[Id](../interfaces/_types_dw_rest_d_.dwrest.ilineentry.md#id)*
 
-*Defined in [Annotations.ts:50](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L50)*
+*Defined in [Annotations.ts:50](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/Annotations.ts#L50)*
 
 ___
 <a id="rotation"></a>
@@ -134,7 +134,7 @@ ___
 
 *Implementation of [ILineEntry](../interfaces/_types_dw_rest_d_.dwrest.ilineentry.md).[Rotation](../interfaces/_types_dw_rest_d_.dwrest.ilineentry.md#rotation)*
 
-*Defined in [Annotations.ts:47](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L47)*
+*Defined in [Annotations.ts:47](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/Annotations.ts#L47)*
 
 ___
 <a id="strokewidth"></a>
@@ -145,7 +145,7 @@ ___
 
 *Implementation of [ILineEntry](../interfaces/_types_dw_rest_d_.dwrest.ilineentry.md).[StrokeWidth](../interfaces/_types_dw_rest_d_.dwrest.ilineentry.md#strokewidth)*
 
-*Defined in [Annotations.ts:49](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L49)*
+*Defined in [Annotations.ts:49](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/Annotations.ts#L49)*
 
 ___
 <a id="to"></a>
@@ -156,7 +156,7 @@ ___
 
 *Implementation of [ILineEntry](../interfaces/_types_dw_rest_d_.dwrest.ilineentry.md).[To](../interfaces/_types_dw_rest_d_.dwrest.ilineentry.md#to)*
 
-*Defined in [Annotations.ts:43](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L43)*
+*Defined in [Annotations.ts:43](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/Annotations.ts#L43)*
 
 ___
 <a id="transparent"></a>
@@ -167,7 +167,7 @@ ___
 
 *Implementation of [ILineEntry](../interfaces/_types_dw_rest_d_.dwrest.ilineentry.md).[Transparent](../interfaces/_types_dw_rest_d_.dwrest.ilineentry.md#transparent)*
 
-*Defined in [Annotations.ts:48](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/Annotations.ts#L48)*
+*Defined in [Annotations.ts:48](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/Annotations.ts#L48)*
 
 ___
 

@@ -36,7 +36,7 @@ Base form
 
 **● FormFieldType**: *[FormTypeEnum](../enums/_types_dw_rest_d_.dwrest.formtypeenum.md)*
 
-*Defined in [types/DW_Rest.d.ts:1004](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1004)*
+*Defined in [types/DW_Rest.d.ts:1004](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1004)*
 
 ___
 <a id="id"></a>
@@ -45,7 +45,7 @@ ___
 
 **● Id**: *`number`*
 
-*Defined in [types/DW_Rest.d.ts:1006](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1006)*
+*Defined in [types/DW_Rest.d.ts:1006](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1006)*
 
 ___
 <a id="label"></a>
@@ -54,7 +54,7 @@ ___
 
 **● Label**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:1005](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L1005)*
+*Defined in [types/DW_Rest.d.ts:1005](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L1005)*
 
 ___
 

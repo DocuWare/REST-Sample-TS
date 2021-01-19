@@ -5,7 +5,7 @@
 ## Callable
 ▸ **subtract**(timeSpan: *`any`*): `void`
 
-*Defined in [types/timespan.d.ts:22](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/timespan.d.ts#L22)*
+*Defined in [types/timespan.d.ts:22](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/timespan.d.ts#L22)*
 
 **Parameters:**
 
@@ -31,7 +31,7 @@
 
 **● prototype**: *`__type`*
 
-*Defined in [types/timespan.d.ts:163](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/timespan.d.ts#L163)*
+*Defined in [types/timespan.d.ts:163](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/timespan.d.ts#L163)*
 
 ___
 

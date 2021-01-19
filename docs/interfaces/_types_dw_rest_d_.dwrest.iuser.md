@@ -41,7 +41,7 @@ User
 
 **● Active**: *`boolean`*
 
-*Defined in [types/DW_Rest.d.ts:687](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L687)*
+*Defined in [types/DW_Rest.d.ts:687](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L687)*
 
 ___
 <a id="dbname"></a>
@@ -50,7 +50,7 @@ ___
 
 **● DBName**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:686](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L686)*
+*Defined in [types/DW_Rest.d.ts:686](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L686)*
 
 ___
 <a id="defaultwebbasket"></a>
@@ -59,7 +59,7 @@ ___
 
 **● DefaultWebBasket**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:690](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L690)*
+*Defined in [types/DW_Rest.d.ts:690](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L690)*
 
 ___
 <a id="email"></a>
@@ -68,7 +68,7 @@ ___
 
 **● EMail**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:689](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L689)*
+*Defined in [types/DW_Rest.d.ts:689](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L689)*
 
 ___
 <a id="firstname"></a>
@@ -77,7 +77,7 @@ ___
 
 **● FirstName**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:683](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L683)*
+*Defined in [types/DW_Rest.d.ts:683](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L683)*
 
 ___
 <a id="id"></a>
@@ -86,7 +86,7 @@ ___
 
 **● Id**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:681](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L681)*
+*Defined in [types/DW_Rest.d.ts:681](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L681)*
 
 ___
 <a id="lastname"></a>
@@ -95,7 +95,7 @@ ___
 
 **● LastName**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:684](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L684)*
+*Defined in [types/DW_Rest.d.ts:684](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L684)*
 
 ___
 <a id="links"></a>
@@ -106,7 +106,7 @@ ___
 
 *Inherited from [ILinkModel](_types_dw_rest_d_.dwrest.ilinkmodel.md).[Links](_types_dw_rest_d_.dwrest.ilinkmodel.md#links)*
 
-*Defined in [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L10)*
+*Defined in [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L10)*
 
 ___
 <a id="name"></a>
@@ -115,7 +115,7 @@ ___
 
 **● Name**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:682](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L682)*
+*Defined in [types/DW_Rest.d.ts:682](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L682)*
 
 ___
 <a id="networkid"></a>
@@ -124,7 +124,7 @@ ___
 
 **● NetworkID**: *`undefined` \| `string`*
 
-*Defined in [types/DW_Rest.d.ts:688](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L688)*
+*Defined in [types/DW_Rest.d.ts:688](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L688)*
 
 ___
 <a id="outofoffice"></a>
@@ -133,7 +133,7 @@ ___
 
 **● OutOfOffice**: *[IOutOfOffice](_types_dw_rest_d_.dwrest.ioutofoffice.md)*
 
-*Defined in [types/DW_Rest.d.ts:691](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L691)*
+*Defined in [types/DW_Rest.d.ts:691](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L691)*
 
 ___
 <a id="salutation"></a>
@@ -142,7 +142,7 @@ ___
 
 **● Salutation**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:685](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L685)*
+*Defined in [types/DW_Rest.d.ts:685](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L685)*
 
 ___
 

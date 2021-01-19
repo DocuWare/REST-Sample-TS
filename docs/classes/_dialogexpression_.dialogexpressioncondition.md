@@ -37,7 +37,7 @@
 
 ⊕ **new DialogExpressionCondition**(DBName: *`string`*, Value: *`string`[] \| `null`*): [DialogExpressionCondition](_dialogexpression_.dialogexpressioncondition.md)
 
-*Defined in [DialogExpression.ts:24](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/DialogExpression.ts#L24)*
+*Defined in [DialogExpression.ts:24](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/DialogExpression.ts#L24)*
 
 **Parameters:**
 
@@ -60,7 +60,7 @@ ___
 
 *Implementation of [ICondition](../interfaces/_types_dw_rest_d_.dwrest.icondition.md).[DBName](../interfaces/_types_dw_rest_d_.dwrest.icondition.md#dbname)*
 
-*Defined in [DialogExpression.ts:25](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/DialogExpression.ts#L25)*
+*Defined in [DialogExpression.ts:25](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/DialogExpression.ts#L25)*
 
 ___
 <a id="value"></a>
@@ -71,7 +71,7 @@ ___
 
 *Implementation of [ICondition](../interfaces/_types_dw_rest_d_.dwrest.icondition.md).[Value](../interfaces/_types_dw_rest_d_.dwrest.icondition.md#value)*
 
-*Defined in [DialogExpression.ts:25](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/DialogExpression.ts#L25)*
+*Defined in [DialogExpression.ts:25](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/DialogExpression.ts#L25)*
 
 ___
 

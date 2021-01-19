@@ -32,7 +32,7 @@ DocuWare Field Model
 
 **● FieldLabel**: *`undefined` \| `string`*
 
-*Defined in [types/DW_Rest.d.ts:197](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L197)*
+*Defined in [types/DW_Rest.d.ts:197](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L197)*
 
 ___
 <a id="fieldname"></a>
@@ -41,7 +41,7 @@ ___
 
 **● FieldName**: *`string`*
 
-*Defined in [types/DW_Rest.d.ts:196](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L196)*
+*Defined in [types/DW_Rest.d.ts:196](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L196)*
 
 ___
 <a id="isnull"></a>
@@ -50,7 +50,7 @@ ___
 
 **● IsNull**: *`undefined` \| `false` \| `true`*
 
-*Defined in [types/DW_Rest.d.ts:198](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L198)*
+*Defined in [types/DW_Rest.d.ts:198](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L198)*
 
 ___
 <a id="item"></a>
@@ -59,7 +59,7 @@ ___
 
 **● Item**: *`any`*
 
-*Defined in [types/DW_Rest.d.ts:201](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L201)*
+*Defined in [types/DW_Rest.d.ts:201](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L201)*
 
 ___
 <a id="itemelementname"></a>
@@ -68,7 +68,7 @@ ___
 
 **● ItemElementName**: *[ItemChoiceType](../enums/_types_dw_rest_d_.dwrest.itemchoicetype.md)*
 
-*Defined in [types/DW_Rest.d.ts:202](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L202)*
+*Defined in [types/DW_Rest.d.ts:202](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L202)*
 
 ___
 <a id="readonly"></a>
@@ -77,7 +77,7 @@ ___
 
 **● ReadOnly**: *`undefined` \| `false` \| `true`*
 
-*Defined in [types/DW_Rest.d.ts:199](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L199)*
+*Defined in [types/DW_Rest.d.ts:199](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L199)*
 
 ___
 <a id="systemfield"></a>
@@ -86,7 +86,7 @@ ___
 
 **● SystemField**: *`undefined` \| `false` \| `true`*
 
-*Defined in [types/DW_Rest.d.ts:200](https://github.com/DocuWare/REST-Sample-TS/blob/22cf36b/src/types/DW_Rest.d.ts#L200)*
+*Defined in [types/DW_Rest.d.ts:200](https://github.com/DocuWare/REST-Sample-TS/blob/a4697e2/src/types/DW_Rest.d.ts#L200)*
 
 ___
 
