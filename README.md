@@ -9,7 +9,7 @@ _Project was created with DocuWare 7.1_
 ## Prerequesites
 Be familiar with Nodejs, Typescript and Promises:
 - [Nodejs](https://nodejs.org/en/about/)
-- [Typescript in 5 Minutes](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
+- [Typescript Tooling in 5 Minutes](https://www.typescriptlang.org/docs/handbook/typescript-tooling-in-5-minutes.html)
 - [Promises](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 
 We've developed this project with [Visual Studio Code](https://code.visualstudio.com/).
