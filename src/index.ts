@@ -70,11 +70,13 @@ polly()
 
         await storeDocument(fileCabinet);
 
-        await storeBigDocumentWithoutIndex(fileCabinet);
-
-        await storeBigDocumentXmlIndex(fileCabinet);
+        await storeBigDocumentPlainFile(fileCabinet);
 
         await storeBigDocumentJsonIndex(fileCabinet);
+
+        await storeBigDocumentJsonApplicationProperties(fileCabinet);
+
+        await storeBigDocumentJsonIndexAndApplicationProperties(fileCabinet);
 
         await updateDocumentSection(specialDocument);
 
@@ -323,31 +325,15 @@ async function storeDocument(fileCabinet: DWRest.IFileCabinet) {
     let newCreatedDocument: DWRest.IDocument = await restWrapper.UploadDocument(fileCabinet, indexEntries, './upload/SAMPLE DOCUMENT.pdf');
 }
 
-async function storeBigDocumentWithoutIndex(fileCabinet: DWRest.IFileCabinet) {
-    let newCreatedDocument: DWRest.IDocument = await restWrapper.UploadBigDocument(fileCabinet, './upload/BIG SAMPLE DOCUMENT.pdf');
-}
-
-async function storeBigDocumentXmlIndex(fileCabinet: DWRest.IFileCabinet) {
-    let indexEntries: string = 
-    `<Document xmlns="http://dev.docuware.com/schema/public/services/platform">
-        <Fields>
-            <Field FieldName="COMPANY">
-                <String>Doc Name Big XML Test Inc</String>
-            </Field>
-            <Field FieldName="STATUS">
-                <String>Uploaded by REST</String>
-            </Field>
-        </Fields>
-    </Document>`;
-
-    let newCreatedDocument: DWRest.IDocument = await restWrapper.UploadBigDocumentWithXmlIndex(fileCabinet, './upload/BIG SAMPLE DOCUMENT.pdf', indexEntries);
+async function storeBigDocumentPlainFile(fileCabinet: DWRest.IFileCabinet) {
+    let newCreatedDocument: DWRest.IDocument = await restWrapper.UploadBigDocumentBase(fileCabinet, './upload/BIG SAMPLE DOCUMENT.pdf');
 }
 
 async function storeBigDocumentJsonIndex(fileCabinet: DWRest.IFileCabinet) {
     let indexEntries: DWRest.IField[] = [
         {
             FieldName: 'Company',
-            Item: 'Doc Name Big JSON Test Inc',
+            Item: 'Doc Name Big JSON Test Inc only Index',
             ItemElementName: DWRest.ItemChoiceType.String
         },
         {
@@ -357,7 +343,42 @@ async function storeBigDocumentJsonIndex(fileCabinet: DWRest.IFileCabinet) {
         }
     ];
 
-    let newCreatedDocument: DWRest.IDocument = await restWrapper.UploadBigDocumentWithJsonIndex(fileCabinet, './upload/BIG SAMPLE DOCUMENT.pdf', indexEntries);
+    let newCreatedDocument: DWRest.IDocument = await restWrapper.UploadBigDocumentJsonContextType(fileCabinet, './upload/BIG SAMPLE DOCUMENT.pdf', indexEntries, []);
+}
+
+async function storeBigDocumentJsonApplicationProperties(fileCabinet: DWRest.IFileCabinet) {
+    let applicationProperties: DWRest.IDocumentApplicationProperty[] = [
+        {
+            Name: "DocuWare", 
+            Value: "AppValue1 ApplicationProperties"
+        }
+    ];
+
+    let newCreatedDocument: DWRest.IDocument = await restWrapper.UploadBigDocumentJsonContextType(fileCabinet, './upload/BIG SAMPLE DOCUMENT.pdf', [], applicationProperties);
+}
+
+async function storeBigDocumentJsonIndexAndApplicationProperties(fileCabinet: DWRest.IFileCabinet) {
+    let indexEntries: DWRest.IField[] = [
+        {
+            FieldName: 'Company',
+            Item: 'Doc Name Big JSON Test Inc Index & ApplicationProperties',
+            ItemElementName: DWRest.ItemChoiceType.String
+        },
+        {
+            FieldName: 'Status',
+            Item: 'Uploaded by REST',
+            ItemElementName: DWRest.ItemChoiceType.String
+        }
+    ];
+    
+    let applicationProperties: DWRest.IDocumentApplicationProperty[] = [
+        {
+            Name: "DocuWare", 
+            Value: "AppValue1 Index & ApplicationProperties"
+        }
+    ];
+
+    let newCreatedDocument: DWRest.IDocument = await restWrapper.UploadBigDocumentJsonContextType(fileCabinet, './upload/BIG SAMPLE DOCUMENT.pdf', indexEntries, applicationProperties);
 }
 
 async function downloadDocument(specialDocument: DWRest.IDocument) {
@@ -405,12 +426,24 @@ async function updateDocumentTableField(document: DWRest.IDocument, tablefield: 
  * @returns {DWRest.IField}
  */
 function getFieldByName(document: DWRest.IDocument, fieldName: string): DWRest.IField {
-    let field = document.Fields.find(f => f.FieldName.toLowerCase() === fieldName.toLowerCase());
-    if (!field) {
+    if (Object.keys(document).length === 0) 
+    {
+        throw new Error(`document is empty!`);
+    }
+    if (document.Fields?.length === 0) 
+    {
+        throw new Error(`Fields is empty!`);
+    }
+
+    let field = document.Fields?.find(f => f.FieldName.toLowerCase() === fieldName.toLowerCase());
+   
+    if (!field) 
+    {
         throw new Error(`Field '${fieldName}' does not exist on document '${document.Id}'!`);
     }
 
-    if (field.SystemField) {
+    if (field.SystemField) 
+    {
         throw new Error(`Field '${fieldName}' is a system field, do not try to manipulate!`);
     }
 

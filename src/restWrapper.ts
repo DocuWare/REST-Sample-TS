@@ -447,40 +447,49 @@ class RestCallWrapper {
     }
 
     /**
-     * Store big document with optional xml index entries
+     * Store big document with optional json index fields and/or application properties
      *
      * @param {DWRest.IFileCabinet} fileCabinet
-     * @param {any} indexFields
      * @param {string} pathToFile
+     * @param {DWRest.IField[]} indexFields
+     * @param {DWRest.IDocumentApplicationProperty[]} applicationProperties
      * @returns {Promise<DWRest.IDocument>}
+     * @memberof RestCallWrapper
      */
-    async UploadBigDocumentWithXmlIndex(fileCabinet: DWRest.IFileCabinet, pathToFile: string, indexFields: any): Promise<DWRest.IDocument>{
-        return this.UploadBigDocument(fileCabinet, pathToFile, indexFields, IndexFileType.XML);
+    async UploadBigDocumentJsonContextType(fileCabinet: DWRest.IFileCabinet, pathToFile: string, indexFields: DWRest.IField[], applicationProperties: DWRest.IDocumentApplicationProperty[]): Promise<DWRest.IDocument> {
+        let newDocument = await this.CreateNewDocumentContent(indexFields, applicationProperties);
+
+        if (Object.keys(newDocument).length !== 0)
+        {
+            let jsonValue: string = JSON.stringify(newDocument);
+            return this.UploadBigDocumentBase(fileCabinet,pathToFile, jsonValue, ContentType.JSON);
+        }
+
+        return this.UploadBigDocumentBase(fileCabinet, pathToFile);
     }
+    
+/**
+ * Creates a new document with the needed keys depending on the given parameters
+ *
+ * @param {DWRest.IField[]} indexFields
+ * @param {DWRest.IDocumentApplicationProperty[]} applicationProperties
+ * @returns {Promise<DWRest.IDocument>}
+ * @memberof RestCallWrapper
+ */
+    async CreateNewDocumentContent(indexFields: DWRest.IField[], applicationProperties: DWRest.IDocumentApplicationProperty[]): Promise<DWRest.IDocument> {
+        let newDocument : DWRest.IDocument = {};
 
-    /**
-     * Store big document with optional json index entries
-     *
-     * @param {DWRest.IFileCabinet} fileCabinet
-     * @param {any} indexFields
-     * @param {string} pathToFile
-     * @returns {Promise<DWRest.IDocument>}
-     */
-    async UploadBigDocumentWithJsonIndex(fileCabinet: DWRest.IFileCabinet, pathToFile: string, indexFields: any): Promise<DWRest.IDocument> {
-        
-        if (indexFields === null)
+        if (indexFields.length > 0)
         {
-            return this.UploadBigDocument(fileCabinet, pathToFile);
+            newDocument.Fields = indexFields;
         }
-        else
-        {
-            const newDocument: DWRest.IDocument = {
-                Fields: indexFields
-            };
-            var jsonValue = JSON.stringify(newDocument);
 
-            return this.UploadBigDocument(fileCabinet,pathToFile, jsonValue, IndexFileType.JSON);
+        if (applicationProperties.length > 0)
+        {
+            newDocument.ApplicationProperties = applicationProperties;
         }
+
+        return newDocument;
     }
 
     /**
@@ -488,12 +497,12 @@ class RestCallWrapper {
      *
      * @param {DWRest.IFileCabinet} fileCabinet
      * @param {string} pathToFile
-     * @param {*} [indexFields=null]
-     * @param {IndexFileType} [indexFieldsType=IndexFileType.NULL]
+     * @param {string} [dwDocumentContent='']
+     * @param {ContentType} [dwDocumentContentType=ContentType.NULL]
      * @returns {Promise<DWRest.IDocument>}
      * @memberof RestCallWrapper
      */
-    async UploadBigDocument(fileCabinet: DWRest.IFileCabinet, pathToFile: string, indexFields: any = null, indexFieldsType: IndexFileType = IndexFileType.NULL): Promise<DWRest.IDocument> {
+    async UploadBigDocumentBase(fileCabinet: DWRest.IFileCabinet, pathToFile: string, dwDocumentContent: string = '', dwDocumentContentType: ContentType = ContentType.NULL): Promise<DWRest.IDocument> {
         const documentsLink: string = this.GetLink(fileCabinet, 'documents');
 
         const origChunkSize: number = 3000000;
@@ -530,13 +539,13 @@ class RestCallWrapper {
             runCount += 1;
             var formData: any = null;
 
-            if (firstCall && indexFields !== null) {
+            if (firstCall && dwDocumentContent.length > 0) {
                 formData = {
                     document: {
-                        value: indexFields,
+                        value: dwDocumentContent,
                         options: {
-                            filename: 'document.' + indexFieldsType,
-                            contentType: 'application/' + indexFieldsType
+                            filename: 'document.' + dwDocumentContentType,
+                            contentType: 'application/' + dwDocumentContentType
                         }
                     },
                     file: {
@@ -564,7 +573,7 @@ class RestCallWrapper {
 
             console.log('Time ' + Date().toString());
             console.log('Run ' + runCount.toString());
-            console.log('Type ' + indexFieldsType);
+            console.log('Type ' + dwDocumentContentType);
             console.log(formData);
 
             // Add chunk headers
@@ -1309,7 +1318,7 @@ class RestCallWrapper {
      * @export
      * @enum {number}
      */
-    export const enum IndexFileType {
+    export const enum ContentType {
         XML = 'xml',
         JSON = 'json',
         NULL = 'null'

@@ -104,7 +104,7 @@ declare namespace DWRest {
      * @extends {ILinkModel}
      */
     interface IDocument extends ILinkModel {
-        Fields: IField[];
+        Fields?: IField[];
         Flags?: {
             IsCold: boolean;
             IsDBRecord: boolean;
@@ -131,6 +131,7 @@ declare namespace DWRest {
         VersionStatus?: string;
         FileCabinetId?: string;
         Version?: DWRest.IDocumentVersion;
+        ApplicationProperties?: DWRest.IDocumentApplicationProperty[];
     }
 
 
