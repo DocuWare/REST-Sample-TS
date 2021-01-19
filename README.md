@@ -6,7 +6,7 @@ REST API.
 
 _Project was created with DocuWare 7.1_
 
-## Prerequesites
+## Prerequisites
 Be familiar with Nodejs, Typescript and Promises:
 - [Nodejs](https://nodejs.org/en/about/)
 - [Typescript Tooling in 5 Minutes](https://www.typescriptlang.org/docs/handbook/typescript-tooling-in-5-minutes.html)
