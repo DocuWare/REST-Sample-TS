@@ -15,7 +15,7 @@
   "author": "DocuWare GmbH - Dominik Peukert - Team SDK",
   "license": "MIT",
   "dependencies": {
-    "archiver": "^3.1.1",
+    "archiver": "^5.2.0",
     "content-disposition": "^0.5.3",
     "https": "^1.0.0",
     "mime-types": "^2.1.28",
