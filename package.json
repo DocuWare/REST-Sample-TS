@@ -19,7 +19,7 @@
     "content-disposition": "^0.5.3",
     "https": "^1.0.0",
     "mime-types": "^2.1.28",
-    "polly-js": "^1.7.0",
+    "polly-js": "^1.8.0",
     "read-chunk": "^3.2.0",
     "request": "^2.88.2",
     "request-promise-native": "^1.0.9",
