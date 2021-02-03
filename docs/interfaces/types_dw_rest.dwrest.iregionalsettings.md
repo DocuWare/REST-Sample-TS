@@ -26,7 +26,7 @@ Regional Settings
 
 • `Optional` **Calendar**: *undefined* \| *string*
 
-Defined in: [types/DW_Rest.d.ts:703](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L703)
+Defined in: [types/DW_Rest.d.ts:703](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L703)
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 • `Optional` **Culture**: *undefined* \| *string*
 
-Defined in: [types/DW_Rest.d.ts:702](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L702)
+Defined in: [types/DW_Rest.d.ts:702](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L702)
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 • `Optional` **Language**: *undefined* \| *string*
 
-Defined in: [types/DW_Rest.d.ts:701](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L701)
+Defined in: [types/DW_Rest.d.ts:701](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L701)

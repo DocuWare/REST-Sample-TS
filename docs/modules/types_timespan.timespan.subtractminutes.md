@@ -16,4 +16,4 @@
 
 • `Const` **prototype**: *object*
 
-Defined in: [types/timespan.d.ts:187](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/timespan.d.ts#L187)
+Defined in: [types/timespan.d.ts:187](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/timespan.d.ts#L187)

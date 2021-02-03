@@ -21,7 +21,7 @@ Specifies the activity type of a task
 
 • **GeneralError**: = "GeneralError"
 
-Defined in: [types/DW_Rest.d.ts:1240](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1240)
+Defined in: [types/DW_Rest.d.ts:1240](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1240)
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 • **GeneralTask**: = "GeneralTask"
 
-Defined in: [types/DW_Rest.d.ts:1237](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1237)
+Defined in: [types/DW_Rest.d.ts:1237](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1237)
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 • **ParallelTask**: = "ParallelTask"
 
-Defined in: [types/DW_Rest.d.ts:1238](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1238)
+Defined in: [types/DW_Rest.d.ts:1238](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1238)
 
 ___
 
@@ -45,4 +45,4 @@ ___
 
 • **UserCredentials**: = "UserCredentials"
 
-Defined in: [types/DW_Rest.d.ts:1239](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1239)
+Defined in: [types/DW_Rest.d.ts:1239](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1239)

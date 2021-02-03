@@ -24,4 +24,4 @@ Column values
 
 • **ColumnValue**: [*IColumnValue*](types_dw_rest.dwrest.icolumnvalue.md)[]
 
-Defined in: [types/DW_Rest.d.ts:959](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L959)
+Defined in: [types/DW_Rest.d.ts:959](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L959)

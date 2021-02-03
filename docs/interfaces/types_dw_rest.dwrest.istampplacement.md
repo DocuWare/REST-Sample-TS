@@ -28,7 +28,7 @@ Stamp Placment
 
 • `Optional` **Field**: *undefined* \| [*IFormFieldValue*](types_dw_rest.dwrest.iformfieldvalue.md)[]
 
-Defined in: [types/DW_Rest.d.ts:433](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L433)
+Defined in: [types/DW_Rest.d.ts:433](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L433)
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 • **Layer**: *number*
 
-Defined in: [types/DW_Rest.d.ts:431](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L431)
+Defined in: [types/DW_Rest.d.ts:431](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L431)
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 • `Optional` **Location**: *undefined* \| [*IDWPoint*](types_dw_rest.dwrest.idwpoint.md)
 
-Defined in: [types/DW_Rest.d.ts:432](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L432)
+Defined in: [types/DW_Rest.d.ts:432](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L432)
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 • `Optional` **Password**: *undefined* \| *string*
 
-Defined in: [types/DW_Rest.d.ts:434](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L434)
+Defined in: [types/DW_Rest.d.ts:434](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L434)
 
 ___
 
@@ -60,4 +60,4 @@ ___
 
 • **StampId**: *string*
 
-Defined in: [types/DW_Rest.d.ts:430](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L430)
+Defined in: [types/DW_Rest.d.ts:430](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L430)

@@ -41,7 +41,7 @@ Text entry
 
 Inherited from: [IEntryBase](types_dw_rest.dwrest.ientrybase.md).[$type](types_dw_rest.dwrest.ientrybase.md#$type)
 
-Defined in: [types/DW_Rest.d.ts:541](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L541)
+Defined in: [types/DW_Rest.d.ts:541](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L541)
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 Inherited from: [IEntryBase](types_dw_rest.dwrest.ientrybase.md).[Color](types_dw_rest.dwrest.ientrybase.md#color)
 
-Defined in: [types/DW_Rest.d.ts:543](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L543)
+Defined in: [types/DW_Rest.d.ts:543](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L543)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 Inherited from: [IEntryBase](types_dw_rest.dwrest.ientrybase.md).[Created](types_dw_rest.dwrest.ientrybase.md#created)
 
-Defined in: [types/DW_Rest.d.ts:542](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L542)
+Defined in: [types/DW_Rest.d.ts:542](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L542)
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 • **Font**: [*IFont*](types_dw_rest.dwrest.ifont.md)
 
-Defined in: [types/DW_Rest.d.ts:577](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L577)
+Defined in: [types/DW_Rest.d.ts:577](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L577)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 Inherited from: [IEntryBase](types_dw_rest.dwrest.ientrybase.md).[Id](types_dw_rest.dwrest.ientrybase.md#id)
 
-Defined in: [types/DW_Rest.d.ts:547](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L547)
+Defined in: [types/DW_Rest.d.ts:547](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L547)
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 • **Location**: [*IAnnotationRectangle*](types_dw_rest.dwrest.iannotationrectangle.md)
 
-Defined in: [types/DW_Rest.d.ts:579](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L579)
+Defined in: [types/DW_Rest.d.ts:579](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L579)
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 Inherited from: [IEntryBase](types_dw_rest.dwrest.ientrybase.md).[Rotation](types_dw_rest.dwrest.ientrybase.md#rotation)
 
-Defined in: [types/DW_Rest.d.ts:544](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L544)
+Defined in: [types/DW_Rest.d.ts:544](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L544)
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 Inherited from: [IEntryBase](types_dw_rest.dwrest.ientrybase.md).[StrokeWidth](types_dw_rest.dwrest.ientrybase.md#strokewidth)
 
-Defined in: [types/DW_Rest.d.ts:546](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L546)
+Defined in: [types/DW_Rest.d.ts:546](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L546)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 Inherited from: [IEntryBase](types_dw_rest.dwrest.ientrybase.md).[Transparent](types_dw_rest.dwrest.ientrybase.md#transparent)
 
-Defined in: [types/DW_Rest.d.ts:545](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L545)
+Defined in: [types/DW_Rest.d.ts:545](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L545)
 
 ___
 
@@ -125,4 +125,4 @@ ___
 
 • **Value**: *string*
 
-Defined in: [types/DW_Rest.d.ts:578](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L578)
+Defined in: [types/DW_Rest.d.ts:578](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L578)

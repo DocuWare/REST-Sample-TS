@@ -29,7 +29,7 @@ Wraps all neccessary logon properties
 
 • **HostID**: *string*
 
-Defined in: [types/DW_Rest.d.ts:22](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L22)
+Defined in: [types/DW_Rest.d.ts:22](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L22)
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 • **Organization**: *string*
 
-Defined in: [types/DW_Rest.d.ts:21](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L21)
+Defined in: [types/DW_Rest.d.ts:21](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L21)
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 • **Password**: *string*
 
-Defined in: [types/DW_Rest.d.ts:20](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L20)
+Defined in: [types/DW_Rest.d.ts:20](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L20)
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 • **RedirectToMyselfInCaseOfError**: *boolean*
 
-Defined in: [types/DW_Rest.d.ts:23](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L23)
+Defined in: [types/DW_Rest.d.ts:23](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L23)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 • **RememberMe**: *boolean*
 
-Defined in: [types/DW_Rest.d.ts:24](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L24)
+Defined in: [types/DW_Rest.d.ts:24](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L24)
 
 ___
 
@@ -69,4 +69,4 @@ ___
 
 • **Username**: *string*
 
-Defined in: [types/DW_Rest.d.ts:19](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L19)
+Defined in: [types/DW_Rest.d.ts:19](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L19)

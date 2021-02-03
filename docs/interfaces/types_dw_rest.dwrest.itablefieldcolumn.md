@@ -26,7 +26,7 @@ A siongle column of DocuWare Table Field
 
 • `Optional` **FieldLabel**: *undefined* \| *string*
 
-Defined in: [types/DW_Rest.d.ts:258](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L258)
+Defined in: [types/DW_Rest.d.ts:258](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L258)
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 • **FieldName**: *string*
 
-Defined in: [types/DW_Rest.d.ts:257](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L257)
+Defined in: [types/DW_Rest.d.ts:257](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L257)
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 • **Item**: *null* \| *string* \| *number*
 
-Defined in: [types/DW_Rest.d.ts:259](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L259)
+Defined in: [types/DW_Rest.d.ts:259](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L259)

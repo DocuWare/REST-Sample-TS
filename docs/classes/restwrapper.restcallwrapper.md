@@ -94,7 +94,7 @@ Name | Type |
 
 **Returns:** [*RestCallWrapper*](restwrapper.restcallwrapper.md)
 
-Defined in: [restWrapper.ts:31](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L31)
+Defined in: [restWrapper.ts:31](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L31)
 
 ## Properties
 
@@ -102,7 +102,7 @@ Defined in: [restWrapper.ts:31](https://github.com/DocuWare/REST-Sample-TS/blob/
 
 • **docuWare\_request\_config**: RequestPromiseOptions
 
-Defined in: [restWrapper.ts:31](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L31)
+Defined in: [restWrapper.ts:31](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L31)
 
 ___
 
@@ -112,7 +112,7 @@ ___
 
 Set root without /DocuWare/Platform because the rel links of platform responses will contain it
 
-Defined in: [restWrapper.ts:30](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L30)
+Defined in: [restWrapper.ts:30](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L30)
 
 ## Methods
 
@@ -131,7 +131,7 @@ Name | Type |
 
 **Returns:** *Promise*<[*IDocumentApplicationProperties*](../interfaces/types_dw_rest.dwrest.idocumentapplicationproperties.md)\>
 
-Defined in: [restWrapper.ts:1137](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L1137)
+Defined in: [restWrapper.ts:1137](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L1137)
 
 ___
 
@@ -150,7 +150,7 @@ Name | Type |
 
 **Returns:** *Promise*<*void*\>
 
-Defined in: [restWrapper.ts:931](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L931)
+Defined in: [restWrapper.ts:931](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L931)
 
 ___
 
@@ -169,7 +169,7 @@ Name | Type |
 
 **Returns:** *Promise*<*void*\>
 
-Defined in: [restWrapper.ts:908](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L908)
+Defined in: [restWrapper.ts:908](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L908)
 
 ___
 
@@ -187,7 +187,7 @@ Name | Type |
 
 **Returns:** *any*
 
-Defined in: [restWrapper.ts:1231](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L1231)
+Defined in: [restWrapper.ts:1231](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L1231)
 
 ___
 
@@ -207,7 +207,7 @@ Name | Type |
 
 **Returns:** *Promise*<[*IDocument*](../interfaces/types_dw_rest.dwrest.idocument.md)\>
 
-Defined in: [restWrapper.ts:659](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L659)
+Defined in: [restWrapper.ts:659](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L659)
 
 ___
 
@@ -225,7 +225,7 @@ Name | Type |
 
 **Returns:** *Promise*<*string*\>
 
-Defined in: [restWrapper.ts:637](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L637)
+Defined in: [restWrapper.ts:637](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L637)
 
 ___
 
@@ -243,7 +243,7 @@ Name | Type |
 
 **Returns:** *Promise*<*void*\>
 
-Defined in: [restWrapper.ts:1193](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L1193)
+Defined in: [restWrapper.ts:1193](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L1193)
 
 ___
 
@@ -259,7 +259,7 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: [restWrapper.ts:1309](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L1309)
+Defined in: [restWrapper.ts:1309](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L1309)
 
 ___
 
@@ -280,7 +280,7 @@ Name | Type |
 
 **Returns:** [*ILogonModel*](../interfaces/types_dw_rest.dwrest.ilogonmodel.md)
 
-Defined in: [restWrapper.ts:58](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L58)
+Defined in: [restWrapper.ts:58](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L58)
 
 ___
 
@@ -301,7 +301,7 @@ Name | Type |
 
 **Returns:** *Promise*<[*IDocument*](../interfaces/types_dw_rest.dwrest.idocument.md)\>
 
-Defined in: [restWrapper.ts:479](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L479)
+Defined in: [restWrapper.ts:479](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L479)
 
 ___
 
@@ -320,7 +320,7 @@ Name | Type |
 
 **Returns:** *Promise*<[*IUser*](../interfaces/types_dw_rest.dwrest.iuser.md)\>
 
-Defined in: [restWrapper.ts:890](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L890)
+Defined in: [restWrapper.ts:890](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L890)
 
 ___
 
@@ -338,7 +338,7 @@ Name | Type |
 
 **Returns:** *Promise*<*void*\>
 
-Defined in: [restWrapper.ts:1123](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L1123)
+Defined in: [restWrapper.ts:1123](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L1123)
 
 ___
 
@@ -357,7 +357,7 @@ Name | Type |
 
 **Returns:** *Promise*<*any*\>
 
-Defined in: [restWrapper.ts:844](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L844)
+Defined in: [restWrapper.ts:844](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L844)
 
 ___
 
@@ -377,7 +377,7 @@ Name | Type |
 
 **Returns:** *Promise*<*string*\>
 
-Defined in: [restWrapper.ts:395](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L395)
+Defined in: [restWrapper.ts:395](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L395)
 
 ___
 
@@ -399,7 +399,7 @@ Name | Type |
 
 **Returns:** *Promise*<*void*\>
 
-Defined in: [restWrapper.ts:1247](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L1247)
+Defined in: [restWrapper.ts:1247](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L1247)
 
 ___
 
@@ -419,7 +419,7 @@ Name | Type |
 
 **Returns:** *Promise*<[*ISection*](../interfaces/types_dw_rest.dwrest.isection.md)\>
 
-Defined in: [restWrapper.ts:612](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L612)
+Defined in: [restWrapper.ts:612](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L612)
 
 ___
 
@@ -438,7 +438,7 @@ Name | Type |
 
 **Returns:** *Promise*<*string*\>
 
-Defined in: [restWrapper.ts:1080](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L1080)
+Defined in: [restWrapper.ts:1080](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L1080)
 
 ___
 
@@ -456,7 +456,7 @@ Name | Type |
 
 **Returns:** *Promise*<[*IDialogsResponse*](../interfaces/types_dw_rest.dwrest.idialogsresponse.md)\>
 
-Defined in: [restWrapper.ts:264](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L264)
+Defined in: [restWrapper.ts:264](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L264)
 
 ___
 
@@ -475,7 +475,7 @@ Name | Type |
 
 **Returns:** [*IFileCabinet*](../interfaces/types_dw_rest.dwrest.ifilecabinet.md)[]
 
-Defined in: [restWrapper.ts:171](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L171)
+Defined in: [restWrapper.ts:171](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L171)
 
 ___
 
@@ -493,7 +493,7 @@ Name | Type |
 
 **Returns:** *Promise*<[*IWorkflows*](../interfaces/types_dw_rest.dwrest.iworkflows.md)\>
 
-Defined in: [restWrapper.ts:1167](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L1167)
+Defined in: [restWrapper.ts:1167](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L1167)
 
 ___
 
@@ -512,7 +512,7 @@ Name | Type |
 
 **Returns:** *Promise*<[*IDialog*](../interfaces/types_dw_rest.dwrest.idialog.md)[]\>
 
-Defined in: [restWrapper.ts:302](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L302)
+Defined in: [restWrapper.ts:302](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L302)
 
 ___
 
@@ -531,7 +531,7 @@ Name | Type |
 
 **Returns:** *undefined* \| [*IFileCabinet*](../interfaces/types_dw_rest.dwrest.ifilecabinet.md)
 
-Defined in: [restWrapper.ts:182](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L182)
+Defined in: [restWrapper.ts:182](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L182)
 
 ___
 
@@ -548,7 +548,7 @@ Name | Type |
 
 **Returns:** *string*
 
-Defined in: [restWrapper.ts:271](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L271)
+Defined in: [restWrapper.ts:271](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L271)
 
 ___
 
@@ -568,7 +568,7 @@ Name | Type | Default value |
 
 **Returns:** *Promise*<[*IDocument*](../interfaces/types_dw_rest.dwrest.idocument.md)\>
 
-Defined in: [restWrapper.ts:212](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L212)
+Defined in: [restWrapper.ts:212](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L212)
 
 ___
 
@@ -587,7 +587,7 @@ Name | Type |
 
 **Returns:** *Promise*<[*IDocumentsQueryResult*](../interfaces/types_dw_rest.dwrest.idocumentsqueryresult.md)\>
 
-Defined in: [restWrapper.ts:233](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L233)
+Defined in: [restWrapper.ts:233](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L233)
 
 ___
 
@@ -606,7 +606,7 @@ Name | Type |
 
 **Returns:** *Promise*<[*IDocument*](../interfaces/types_dw_rest.dwrest.idocument.md)[]\>
 
-Defined in: [restWrapper.ts:194](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L194)
+Defined in: [restWrapper.ts:194](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L194)
 
 ___
 
@@ -624,7 +624,7 @@ Name | Type |
 
 **Returns:** *Promise*<[*IFileCabinet*](../interfaces/types_dw_rest.dwrest.ifilecabinet.md)\>
 
-Defined in: [restWrapper.ts:159](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L159)
+Defined in: [restWrapper.ts:159](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L159)
 
 ___
 
@@ -642,7 +642,7 @@ Name | Type |
 
 **Returns:** *Promise*<[*IFileCabinets*](../interfaces/types_dw_rest.dwrest.ifilecabinets.md)\>
 
-Defined in: [restWrapper.ts:144](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L144)
+Defined in: [restWrapper.ts:144](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L144)
 
 ___
 
@@ -661,7 +661,7 @@ Name | Type |
 
 **Returns:** *Promise*<[*IGroup*](../interfaces/types_dw_rest.dwrest.igroup.md)\>
 
-Defined in: [restWrapper.ts:992](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L992)
+Defined in: [restWrapper.ts:992](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L992)
 
 ___
 
@@ -680,7 +680,7 @@ Name | Type |
 
 **Returns:** *string*
 
-Defined in: [restWrapper.ts:1280](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L1280)
+Defined in: [restWrapper.ts:1280](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L1280)
 
 ___
 
@@ -699,7 +699,7 @@ Name | Type |
 
 **Returns:** *null* \| *string*
 
-Defined in: [restWrapper.ts:1298](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L1298)
+Defined in: [restWrapper.ts:1298](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L1298)
 
 ___
 
@@ -719,7 +719,7 @@ Name | Type |
 
 **Returns:** *Promise*<[*IDocumentsQueryResult*](../interfaces/types_dw_rest.dwrest.idocumentsqueryresult.md)\>
 
-Defined in: [restWrapper.ts:245](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L245)
+Defined in: [restWrapper.ts:245](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L245)
 
 ___
 
@@ -731,7 +731,7 @@ Returns your Organization
 
 **Returns:** *Promise*<[*IOrganization*](../interfaces/types_dw_rest.dwrest.iorganization.md)\>
 
-Defined in: [restWrapper.ts:118](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L118)
+Defined in: [restWrapper.ts:118](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L118)
 
 ___
 
@@ -749,7 +749,7 @@ Name | Type |
 
 **Returns:** *Promise*<[*IOrganizations*](../interfaces/types_dw_rest.dwrest.iorganizations.md)\>
 
-Defined in: [restWrapper.ts:130](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L130)
+Defined in: [restWrapper.ts:130](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L130)
 
 ___
 
@@ -769,7 +769,7 @@ Name | Type | Default value |
 
 **Returns:** *Promise*<[*IPage*](../interfaces/types_dw_rest.dwrest.ipage.md)\>
 
-Defined in: [restWrapper.ts:716](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L716)
+Defined in: [restWrapper.ts:716](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L716)
 
 ___
 
@@ -787,7 +787,7 @@ Name | Type |
 
 **Returns:** *Promise*<[*IDocumentsQueryResult*](../interfaces/types_dw_rest.dwrest.idocumentsqueryresult.md)\>
 
-Defined in: [restWrapper.ts:368](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L368)
+Defined in: [restWrapper.ts:368](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L368)
 
 ___
 
@@ -810,7 +810,7 @@ Name | Type |
 
 **Returns:** *Promise*<*string*\>
 
-Defined in: [restWrapper.ts:342](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L342)
+Defined in: [restWrapper.ts:342](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L342)
 
 ___
 
@@ -829,7 +829,7 @@ Name | Type |
 
 **Returns:** *Promise*<[*IRole*](../interfaces/types_dw_rest.dwrest.irole.md)\>
 
-Defined in: [restWrapper.ts:1018](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L1018)
+Defined in: [restWrapper.ts:1018](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L1018)
 
 ___
 
@@ -847,7 +847,7 @@ Name | Type |
 
 **Returns:** *Promise*<[*IWorkflowTasks*](../interfaces/types_dw_rest.dwrest.iworkflowtasks.md)\>
 
-Defined in: [restWrapper.ts:1180](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L1180)
+Defined in: [restWrapper.ts:1180](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L1180)
 
 ___
 
@@ -865,7 +865,7 @@ Name | Type |
 
 **Returns:** *Promise*<[*IWorkflows*](../interfaces/types_dw_rest.dwrest.iworkflows.md)\>
 
-Defined in: [restWrapper.ts:1154](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L1154)
+Defined in: [restWrapper.ts:1154](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L1154)
 
 ___
 
@@ -885,7 +885,7 @@ Name | Type |
 
 **Returns:** *Promise*<[*IImportResult*](../interfaces/types_dw_rest.dwrest.iimportresult.md)\>
 
-Defined in: [restWrapper.ts:1045](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L1045)
+Defined in: [restWrapper.ts:1045](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L1045)
 
 ___
 
@@ -909,7 +909,7 @@ Name | Type |
 
 **Returns:** *Promise*<T\>
 
-Defined in: [restWrapper.ts:321](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L321)
+Defined in: [restWrapper.ts:321](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L321)
 
 ___
 
@@ -928,7 +928,7 @@ Name | Type |
 
 **Returns:** *Promise*<*void*\>
 
-Defined in: [restWrapper.ts:1104](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L1104)
+Defined in: [restWrapper.ts:1104](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L1104)
 
 ___
 
@@ -946,7 +946,7 @@ Name | Type |
 
 **Returns:** *Promise*<[*ILogonResponse*](../interfaces/types_dw_rest.dwrest.ilogonresponse.md)\>
 
-Defined in: [restWrapper.ts:76](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L76)
+Defined in: [restWrapper.ts:76](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L76)
 
 ___
 
@@ -967,7 +967,7 @@ Name | Type |
 
 **Returns:** *Promise*<[*IDocument*](../interfaces/types_dw_rest.dwrest.idocument.md)\>
 
-Defined in: [restWrapper.ts:865](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L865)
+Defined in: [restWrapper.ts:865](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L865)
 
 ___
 
@@ -986,7 +986,7 @@ Name | Type |
 
 **Returns:** *Promise*<*void*\>
 
-Defined in: [restWrapper.ts:754](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L754)
+Defined in: [restWrapper.ts:754](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L754)
 
 ___
 
@@ -1005,7 +1005,7 @@ Name | Type |
 
 **Returns:** *Promise*<[*IAnnotation*](../interfaces/types_dw_rest.dwrest.iannotation.md)\>
 
-Defined in: [restWrapper.ts:830](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L830)
+Defined in: [restWrapper.ts:830](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L830)
 
 ___
 
@@ -1024,7 +1024,7 @@ Name | Type |
 
 **Returns:** *Promise*<*void*\>
 
-Defined in: [restWrapper.ts:973](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L973)
+Defined in: [restWrapper.ts:973](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L973)
 
 ___
 
@@ -1043,7 +1043,7 @@ Name | Type |
 
 **Returns:** *Promise*<*void*\>
 
-Defined in: [restWrapper.ts:954](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L954)
+Defined in: [restWrapper.ts:954](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L954)
 
 ___
 
@@ -1064,7 +1064,7 @@ Name | Type |
 
 **Returns:** *Promise*<[*IDocumentsQueryResult*](../interfaces/types_dw_rest.dwrest.idocumentsqueryresult.md)\>
 
-Defined in: [restWrapper.ts:777](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L777)
+Defined in: [restWrapper.ts:777](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L777)
 
 ___
 
@@ -1085,7 +1085,7 @@ Name | Type |
 
 **Returns:** *Promise*<[*IDocumentsQueryResult*](../interfaces/types_dw_rest.dwrest.idocumentsqueryresult.md)\>
 
-Defined in: [restWrapper.ts:804](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L804)
+Defined in: [restWrapper.ts:804](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L804)
 
 ___
 
@@ -1104,7 +1104,7 @@ Name | Type |
 
 **Returns:** *Promise*<[*IFieldList*](../interfaces/types_dw_rest.dwrest.ifieldlist.md)\>
 
-Defined in: [restWrapper.ts:380](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L380)
+Defined in: [restWrapper.ts:380](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L380)
 
 ___
 
@@ -1127,7 +1127,7 @@ Name | Type | Default value |
 
 **Returns:** *Promise*<[*IDocument*](../interfaces/types_dw_rest.dwrest.idocument.md)\>
 
-Defined in: [restWrapper.ts:505](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L505)
+Defined in: [restWrapper.ts:505](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L505)
 
 ___
 
@@ -1150,7 +1150,7 @@ Name | Type |
 
 **Returns:** *Promise*<[*IDocument*](../interfaces/types_dw_rest.dwrest.idocument.md)\>
 
-Defined in: [restWrapper.ts:459](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L459)
+Defined in: [restWrapper.ts:459](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L459)
 
 ___
 
@@ -1170,4 +1170,4 @@ Name | Type |
 
 **Returns:** *Promise*<[*IDocument*](../interfaces/types_dw_rest.dwrest.idocument.md)\>
 
-Defined in: [restWrapper.ts:416](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L416)
+Defined in: [restWrapper.ts:416](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L416)

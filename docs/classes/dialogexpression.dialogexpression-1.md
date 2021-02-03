@@ -42,7 +42,7 @@ Name | Type |
 
 **Returns:** [*DialogExpression*](dialogexpression.dialogexpression-1.md)
 
-Defined in: [DialogExpression.ts:11](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/DialogExpression.ts#L11)
+Defined in: [DialogExpression.ts:11](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/DialogExpression.ts#L11)
 
 ## Properties
 

@@ -25,7 +25,7 @@ Application property
 
 • **Name**: *string*
 
-Defined in: [types/DW_Rest.d.ts:296](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L296)
+Defined in: [types/DW_Rest.d.ts:296](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L296)
 
 ___
 
@@ -33,4 +33,4 @@ ___
 
 • **Value**: *string*
 
-Defined in: [types/DW_Rest.d.ts:297](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L297)
+Defined in: [types/DW_Rest.d.ts:297](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L297)

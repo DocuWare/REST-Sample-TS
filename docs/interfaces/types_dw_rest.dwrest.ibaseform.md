@@ -34,7 +34,7 @@ Base form
 
 • **FormFieldType**: [*FormTypeEnum*](../enums/types_dw_rest.dwrest.formtypeenum.md)
 
-Defined in: [types/DW_Rest.d.ts:1005](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1005)
+Defined in: [types/DW_Rest.d.ts:1005](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1005)
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 • **Id**: *number*
 
-Defined in: [types/DW_Rest.d.ts:1007](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1007)
+Defined in: [types/DW_Rest.d.ts:1007](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1007)
 
 ___
 
@@ -50,4 +50,4 @@ ___
 
 • **Label**: *string*
 
-Defined in: [types/DW_Rest.d.ts:1006](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1006)
+Defined in: [types/DW_Rest.d.ts:1006](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1006)

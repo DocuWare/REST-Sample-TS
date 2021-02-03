@@ -22,7 +22,7 @@ IndexFileType Enum
 
 • **JSON**: = "json"
 
-Defined in: [restWrapper.ts:1324](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L1324)
+Defined in: [restWrapper.ts:1324](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L1324)
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 • **NULL**: = "null"
 
-Defined in: [restWrapper.ts:1325](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L1325)
+Defined in: [restWrapper.ts:1325](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L1325)
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 • **XML**: = "xml"
 
-Defined in: [restWrapper.ts:1323](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/restWrapper.ts#L1323)
+Defined in: [restWrapper.ts:1323](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/restWrapper.ts#L1323)

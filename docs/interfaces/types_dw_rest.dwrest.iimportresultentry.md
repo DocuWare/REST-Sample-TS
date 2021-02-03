@@ -26,7 +26,7 @@ Import results entry
 
 • **EntryVersions**: [*IImportEntryVersion*](types_dw_rest.dwrest.iimportentryversion.md)[]
 
-Defined in: [types/DW_Rest.d.ts:806](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L806)
+Defined in: [types/DW_Rest.d.ts:806](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L806)
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 • `Optional` **ErrorMessage**: *undefined* \| *string*
 
-Defined in: [types/DW_Rest.d.ts:807](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L807)
+Defined in: [types/DW_Rest.d.ts:807](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L807)
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 • **Status**: [*ImportEntryStatus*](../enums/types_dw_rest.dwrest.importentrystatus.md)
 
-Defined in: [types/DW_Rest.d.ts:808](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L808)
+Defined in: [types/DW_Rest.d.ts:808](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L808)

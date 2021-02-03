@@ -25,7 +25,7 @@ Task decision operation
 
 • **BaseDecisionOperations**: [*IBaseDecisionOperations*](types_dw_rest.dwrest.ibasedecisionoperations.md)
 
-Defined in: [types/DW_Rest.d.ts:1185](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1185)
+Defined in: [types/DW_Rest.d.ts:1185](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1185)
 
 ___
 
@@ -33,4 +33,4 @@ ___
 
 • **ExtendedDecisionOperations**: [*IExtendedDecisionOperations*](types_dw_rest.dwrest.iextendeddecisionoperations.md)
 
-Defined in: [types/DW_Rest.d.ts:1186](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1186)
+Defined in: [types/DW_Rest.d.ts:1186](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1186)

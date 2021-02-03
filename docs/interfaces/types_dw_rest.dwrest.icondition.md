@@ -29,7 +29,7 @@ Dialog Condition
 
 • **DBName**: *string*
 
-Defined in: [types/DW_Rest.d.ts:399](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L399)
+Defined in: [types/DW_Rest.d.ts:399](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L399)
 
 ___
 
@@ -37,4 +37,4 @@ ___
 
 • **Value**: *null* \| *string*[]
 
-Defined in: [types/DW_Rest.d.ts:398](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L398)
+Defined in: [types/DW_Rest.d.ts:398](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L398)

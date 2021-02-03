@@ -25,7 +25,7 @@ Field mapping
 
 • `Optional` **Destination**: *undefined* \| *string*
 
-Defined in: [types/DW_Rest.d.ts:840](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L840)
+Defined in: [types/DW_Rest.d.ts:840](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L840)
 
 ___
 
@@ -33,4 +33,4 @@ ___
 
 • **Source**: *string*
 
-Defined in: [types/DW_Rest.d.ts:839](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L839)
+Defined in: [types/DW_Rest.d.ts:839](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L839)

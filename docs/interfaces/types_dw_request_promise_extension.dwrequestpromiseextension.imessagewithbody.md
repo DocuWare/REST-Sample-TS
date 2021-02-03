@@ -26,4 +26,4 @@ Original IncomingMessage does not contain body property, so we enhance it
 
 • **body**: *any*
 
-Defined in: [types/DW_Request_Promise_Extension.d.ts:38](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Request_Promise_Extension.d.ts#L38)
+Defined in: [types/DW_Request_Promise_Extension.d.ts:38](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Request_Promise_Extension.d.ts#L38)

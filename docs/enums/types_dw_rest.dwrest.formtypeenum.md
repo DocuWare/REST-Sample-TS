@@ -29,7 +29,7 @@ Specifies the form type of a task input
 
 • **Date**: = "Date"
 
-Defined in: [types/DW_Rest.d.ts:1254](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1254)
+Defined in: [types/DW_Rest.d.ts:1254](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1254)
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 • **DateTime**: = "DateTime"
 
-Defined in: [types/DW_Rest.d.ts:1255](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1255)
+Defined in: [types/DW_Rest.d.ts:1255](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1255)
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 • **Decimal**: = "Decimal"
 
-Defined in: [types/DW_Rest.d.ts:1253](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1253)
+Defined in: [types/DW_Rest.d.ts:1253](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1253)
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 • **Description**: = "Description"
 
-Defined in: [types/DW_Rest.d.ts:1250](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1250)
+Defined in: [types/DW_Rest.d.ts:1250](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1250)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 • **Keyword**: = "Keyword"
 
-Defined in: [types/DW_Rest.d.ts:1259](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1259)
+Defined in: [types/DW_Rest.d.ts:1259](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1259)
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 • **Link**: = "Link"
 
-Defined in: [types/DW_Rest.d.ts:1249](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1249)
+Defined in: [types/DW_Rest.d.ts:1249](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1249)
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 • **Password**: = "Password"
 
-Defined in: [types/DW_Rest.d.ts:1251](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1251)
+Defined in: [types/DW_Rest.d.ts:1251](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1251)
 
 ___
 
@@ -85,7 +85,7 @@ ___
 
 • **Role**: = "Role"
 
-Defined in: [types/DW_Rest.d.ts:1257](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1257)
+Defined in: [types/DW_Rest.d.ts:1257](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1257)
 
 ___
 
@@ -93,7 +93,7 @@ ___
 
 • **SubstitutionRule**: = "SubstituionRule"
 
-Defined in: [types/DW_Rest.d.ts:1258](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1258)
+Defined in: [types/DW_Rest.d.ts:1258](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1258)
 
 ___
 
@@ -101,7 +101,7 @@ ___
 
 • **Table**: = "Table"
 
-Defined in: [types/DW_Rest.d.ts:1260](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1260)
+Defined in: [types/DW_Rest.d.ts:1260](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1260)
 
 ___
 
@@ -109,7 +109,7 @@ ___
 
 • **Text**: = "Text"
 
-Defined in: [types/DW_Rest.d.ts:1252](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1252)
+Defined in: [types/DW_Rest.d.ts:1252](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1252)
 
 ___
 
@@ -117,4 +117,4 @@ ___
 
 • **User**: = "User"
 
-Defined in: [types/DW_Rest.d.ts:1256](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1256)
+Defined in: [types/DW_Rest.d.ts:1256](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1256)

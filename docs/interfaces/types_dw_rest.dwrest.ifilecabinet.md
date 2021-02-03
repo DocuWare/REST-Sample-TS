@@ -32,7 +32,7 @@ DocuWare FileCabinet Model
 
 • **Color**: *string*
 
-Defined in: [types/DW_Rest.d.ts:84](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L84)
+Defined in: [types/DW_Rest.d.ts:84](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L84)
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 • **Default**: *boolean*
 
-Defined in: [types/DW_Rest.d.ts:87](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L87)
+Defined in: [types/DW_Rest.d.ts:87](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L87)
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 • **Documents**: [[*IDocument*](types_dw_rest.dwrest.idocument.md)]
 
-Defined in: [types/DW_Rest.d.ts:88](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L88)
+Defined in: [types/DW_Rest.d.ts:88](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L88)
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 • **Id**: *string*
 
-Defined in: [types/DW_Rest.d.ts:85](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L85)
+Defined in: [types/DW_Rest.d.ts:85](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L85)
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 • **IsBasket**: *boolean*
 
-Defined in: [types/DW_Rest.d.ts:86](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L86)
+Defined in: [types/DW_Rest.d.ts:86](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L86)
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 Inherited from: [ILinkModel](types_dw_rest.dwrest.ilinkmodel.md).[Links](types_dw_rest.dwrest.ilinkmodel.md#links)
 
-Defined in: [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L10)
+Defined in: [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L10)
 
 ___
 
@@ -82,4 +82,4 @@ ___
 
 • **Name**: *string*
 
-Defined in: [types/DW_Rest.d.ts:83](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L83)
+Defined in: [types/DW_Rest.d.ts:83](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L83)

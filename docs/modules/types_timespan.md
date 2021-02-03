@@ -51,7 +51,7 @@ Name | Type |
 
 **Returns:** *any*
 
-Defined in: [types/timespan.d.ts:48](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/timespan.d.ts#L48)
+Defined in: [types/timespan.d.ts:48](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/timespan.d.ts#L48)
 
 ___
 
@@ -69,7 +69,7 @@ Name | Type |
 
 **Returns:** *any*
 
-Defined in: [types/timespan.d.ts:50](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/timespan.d.ts#L50)
+Defined in: [types/timespan.d.ts:50](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/timespan.d.ts#L50)
 
 ___
 
@@ -85,7 +85,7 @@ Name | Type |
 
 **Returns:** *any*
 
-Defined in: [types/timespan.d.ts:52](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/timespan.d.ts#L52)
+Defined in: [types/timespan.d.ts:52](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/timespan.d.ts#L52)
 
 ___
 
@@ -101,7 +101,7 @@ Name | Type |
 
 **Returns:** *any*
 
-Defined in: [types/timespan.d.ts:54](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/timespan.d.ts#L54)
+Defined in: [types/timespan.d.ts:54](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/timespan.d.ts#L54)
 
 ___
 
@@ -117,7 +117,7 @@ Name | Type |
 
 **Returns:** *any*
 
-Defined in: [types/timespan.d.ts:56](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/timespan.d.ts#L56)
+Defined in: [types/timespan.d.ts:56](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/timespan.d.ts#L56)
 
 ___
 
@@ -133,7 +133,7 @@ Name | Type |
 
 **Returns:** *any*
 
-Defined in: [types/timespan.d.ts:58](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/timespan.d.ts#L58)
+Defined in: [types/timespan.d.ts:58](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/timespan.d.ts#L58)
 
 ___
 
@@ -149,7 +149,7 @@ Name | Type |
 
 **Returns:** *any*
 
-Defined in: [types/timespan.d.ts:60](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/timespan.d.ts#L60)
+Defined in: [types/timespan.d.ts:60](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/timespan.d.ts#L60)
 
 ___
 
@@ -165,7 +165,7 @@ Name | Type |
 
 **Returns:** *any*
 
-Defined in: [types/timespan.d.ts:62](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/timespan.d.ts#L62)
+Defined in: [types/timespan.d.ts:62](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/timespan.d.ts#L62)
 
 ___
 
@@ -181,7 +181,7 @@ Name | Type |
 
 **Returns:** *any*
 
-Defined in: [types/timespan.d.ts:64](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/timespan.d.ts#L64)
+Defined in: [types/timespan.d.ts:64](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/timespan.d.ts#L64)
 
 ___
 
@@ -197,7 +197,7 @@ Name | Type |
 
 **Returns:** *any*
 
-Defined in: [types/timespan.d.ts:66](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/timespan.d.ts#L66)
+Defined in: [types/timespan.d.ts:66](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/timespan.d.ts#L66)
 
 ___
 
@@ -213,4 +213,4 @@ Name | Type |
 
 **Returns:** *any*
 
-Defined in: [types/timespan.d.ts:68](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/timespan.d.ts#L68)
+Defined in: [types/timespan.d.ts:68](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/timespan.d.ts#L68)

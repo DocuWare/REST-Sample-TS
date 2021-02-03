@@ -30,7 +30,7 @@ DocuWare Field Model
 
 • `Optional` **FieldLabel**: *undefined* \| *string*
 
-Defined in: [types/DW_Rest.d.ts:198](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L198)
+Defined in: [types/DW_Rest.d.ts:198](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L198)
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 • **FieldName**: *string*
 
-Defined in: [types/DW_Rest.d.ts:197](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L197)
+Defined in: [types/DW_Rest.d.ts:197](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L197)
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 • `Optional` **IsNull**: *undefined* \| *boolean*
 
-Defined in: [types/DW_Rest.d.ts:199](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L199)
+Defined in: [types/DW_Rest.d.ts:199](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L199)
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 • **Item**: *any*
 
-Defined in: [types/DW_Rest.d.ts:202](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L202)
+Defined in: [types/DW_Rest.d.ts:202](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L202)
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 • `Optional` **ItemElementName**: *undefined* \| [*Int*](../enums/types_dw_rest.dwrest.itemchoicetype.md#int) \| [*DateTime*](../enums/types_dw_rest.dwrest.itemchoicetype.md#datetime) \| [*String*](../enums/types_dw_rest.dwrest.itemchoicetype.md#string) \| [*Decimal*](../enums/types_dw_rest.dwrest.itemchoicetype.md#decimal) \| [*Date*](../enums/types_dw_rest.dwrest.itemchoicetype.md#date) \| [*Table*](../enums/types_dw_rest.dwrest.itemchoicetype.md#table) \| [*Keywords*](../enums/types_dw_rest.dwrest.itemchoicetype.md#keywords)
 
-Defined in: [types/DW_Rest.d.ts:203](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L203)
+Defined in: [types/DW_Rest.d.ts:203](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L203)
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 • `Optional` **ReadOnly**: *undefined* \| *boolean*
 
-Defined in: [types/DW_Rest.d.ts:200](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L200)
+Defined in: [types/DW_Rest.d.ts:200](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L200)
 
 ___
 
@@ -78,4 +78,4 @@ ___
 
 • `Optional` **SystemField**: *undefined* \| *boolean*
 
-Defined in: [types/DW_Rest.d.ts:201](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L201)
+Defined in: [types/DW_Rest.d.ts:201](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L201)

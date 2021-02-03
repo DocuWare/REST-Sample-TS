@@ -25,7 +25,7 @@ Import Settings
 
 • **FieldMappings**: [*IFieldMapping*](types_dw_rest.dwrest.ifieldmapping.md)[]
 
-Defined in: [types/DW_Rest.d.ts:787](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L787)
+Defined in: [types/DW_Rest.d.ts:787](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L787)
 
 ___
 
@@ -33,4 +33,4 @@ ___
 
 • `Optional` **PreserveSystemFields**: *undefined* \| *boolean*
 
-Defined in: [types/DW_Rest.d.ts:786](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L786)
+Defined in: [types/DW_Rest.d.ts:786](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L786)

@@ -26,7 +26,7 @@ DocuWare Field Type Enum
 
 • **Date**: = "Date"
 
-Defined in: [types/DW_Rest.d.ts:311](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L311)
+Defined in: [types/DW_Rest.d.ts:311](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L311)
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 • **DateTime**: = "DateTime"
 
-Defined in: [types/DW_Rest.d.ts:308](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L308)
+Defined in: [types/DW_Rest.d.ts:308](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L308)
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 • **Decimal**: = "Decimal"
 
-Defined in: [types/DW_Rest.d.ts:310](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L310)
+Defined in: [types/DW_Rest.d.ts:310](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L310)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 • **Int**: = "Int"
 
-Defined in: [types/DW_Rest.d.ts:307](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L307)
+Defined in: [types/DW_Rest.d.ts:307](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L307)
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 • **Keywords**: = "Keywords"
 
-Defined in: [types/DW_Rest.d.ts:313](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L313)
+Defined in: [types/DW_Rest.d.ts:313](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L313)
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 • **String**: = "String"
 
-Defined in: [types/DW_Rest.d.ts:309](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L309)
+Defined in: [types/DW_Rest.d.ts:309](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L309)
 
 ___
 
@@ -74,4 +74,4 @@ ___
 
 • **Table**: = "Table"
 
-Defined in: [types/DW_Rest.d.ts:312](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L312)
+Defined in: [types/DW_Rest.d.ts:312](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L312)

@@ -19,7 +19,7 @@ Action for document
 
 • **CheckIn**: = "CheckIn"
 
-Defined in: [types/DW_Rest.d.ts:1375](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1375)
+Defined in: [types/DW_Rest.d.ts:1375](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1375)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **CheckOut**: = "CheckOut"
 
-Defined in: [types/DW_Rest.d.ts:1376](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1376)
+Defined in: [types/DW_Rest.d.ts:1376](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1376)

@@ -24,4 +24,4 @@ A single row of DocuWare table field
 
 • **Columns**: [*ITableFieldColumn*](types_dw_rest.dwrest.itablefieldcolumn.md)[]
 
-Defined in: [types/DW_Rest.d.ts:248](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L248)
+Defined in: [types/DW_Rest.d.ts:248](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L248)

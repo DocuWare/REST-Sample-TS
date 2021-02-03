@@ -34,7 +34,7 @@ DocuWare Section Model
 
 • **ContentModified**: *string*
 
-Defined in: [types/DW_Rest.d.ts:150](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L150)
+Defined in: [types/DW_Rest.d.ts:150](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L150)
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 • **ContentType**: *string*
 
-Defined in: [types/DW_Rest.d.ts:145](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L145)
+Defined in: [types/DW_Rest.d.ts:145](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L145)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 • **FileSize**: *number*
 
-Defined in: [types/DW_Rest.d.ts:148](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L148)
+Defined in: [types/DW_Rest.d.ts:148](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L148)
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 • **HaveMorePages**: *boolean*
 
-Defined in: [types/DW_Rest.d.ts:146](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L146)
+Defined in: [types/DW_Rest.d.ts:146](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L146)
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 • **Id**: *string*
 
-Defined in: [types/DW_Rest.d.ts:144](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L144)
+Defined in: [types/DW_Rest.d.ts:144](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L144)
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 Inherited from: [ILinkModel](types_dw_rest.dwrest.ilinkmodel.md).[Links](types_dw_rest.dwrest.ilinkmodel.md#links)
 
-Defined in: [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L10)
+Defined in: [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L10)
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 • **OriginalFileName**: *string*
 
-Defined in: [types/DW_Rest.d.ts:149](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L149)
+Defined in: [types/DW_Rest.d.ts:149](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L149)
 
 ___
 
@@ -92,7 +92,7 @@ ___
 
 • **PageCount**: *number*
 
-Defined in: [types/DW_Rest.d.ts:147](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L147)
+Defined in: [types/DW_Rest.d.ts:147](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L147)
 
 ___
 
@@ -100,4 +100,4 @@ ___
 
 • **Pages**: [*ILinkModel*](types_dw_rest.dwrest.ilinkmodel.md)
 
-Defined in: [types/DW_Rest.d.ts:151](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L151)
+Defined in: [types/DW_Rest.d.ts:151](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L151)

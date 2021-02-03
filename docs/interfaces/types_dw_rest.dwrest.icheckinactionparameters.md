@@ -27,7 +27,7 @@ Checkin parameters in case of versioning
 
 • `Optional` **CheckInReturnDocument**: *undefined* \| [*Original*](../enums/types_dw_rest.dwrest.checkinreturneddocument.md#original) \| [*CheckedIn*](../enums/types_dw_rest.dwrest.checkinreturneddocument.md#checkedin)
 
-Defined in: [types/DW_Rest.d.ts:411](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L411)
+Defined in: [types/DW_Rest.d.ts:411](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L411)
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 • **Comments**: *string*
 
-Defined in: [types/DW_Rest.d.ts:409](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L409)
+Defined in: [types/DW_Rest.d.ts:409](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L409)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 • **DocumentAction**: [*DocumentAction*](../enums/types_dw_rest.dwrest.documentaction.md)
 
-Defined in: [types/DW_Rest.d.ts:408](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L408)
+Defined in: [types/DW_Rest.d.ts:408](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L408)
 
 ___
 
@@ -51,4 +51,4 @@ ___
 
 • **DocumentVersion**: [*IDocumentVersion*](types_dw_rest.dwrest.idocumentversion.md)
 
-Defined in: [types/DW_Rest.d.ts:410](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L410)
+Defined in: [types/DW_Rest.d.ts:410](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L410)

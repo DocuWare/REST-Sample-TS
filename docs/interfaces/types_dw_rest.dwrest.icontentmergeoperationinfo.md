@@ -26,7 +26,7 @@ Information for merging
 
 • **Documents**: *number*[]
 
-Defined in: [types/DW_Rest.d.ts:501](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L501)
+Defined in: [types/DW_Rest.d.ts:501](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L501)
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 • **Force**: *boolean*
 
-Defined in: [types/DW_Rest.d.ts:503](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L503)
+Defined in: [types/DW_Rest.d.ts:503](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L503)
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 • **Operation**: [*ContentMergeOperation*](../enums/types_dw_rest.dwrest.contentmergeoperation.md)
 
-Defined in: [types/DW_Rest.d.ts:502](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L502)
+Defined in: [types/DW_Rest.d.ts:502](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L502)

@@ -24,4 +24,4 @@ Application properties
 
 • **DocumentApplicationProperty**: [*IDocumentApplicationProperty*](types_dw_rest.dwrest.idocumentapplicationproperty.md)[]
 
-Defined in: [types/DW_Rest.d.ts:287](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L287)
+Defined in: [types/DW_Rest.d.ts:287](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L287)

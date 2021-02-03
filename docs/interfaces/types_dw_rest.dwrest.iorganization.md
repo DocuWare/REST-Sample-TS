@@ -39,7 +39,7 @@ Name | Type |
 `RuntimeVersion` | *string* |
 `SystemNumber` | *number* |
 
-Defined in: [types/DW_Rest.d.ts:58](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L58)
+Defined in: [types/DW_Rest.d.ts:58](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L58)
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 • **Guid**: *string*
 
-Defined in: [types/DW_Rest.d.ts:57](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L57)
+Defined in: [types/DW_Rest.d.ts:57](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L57)
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 Inherited from: [ILinkModel](types_dw_rest.dwrest.ilinkmodel.md).[Links](types_dw_rest.dwrest.ilinkmodel.md#links)
 
-Defined in: [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L10)
+Defined in: [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L10)
 
 ___
 
@@ -65,4 +65,4 @@ ___
 
 • **Name**: *string*
 
-Defined in: [types/DW_Rest.d.ts:56](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L56)
+Defined in: [types/DW_Rest.d.ts:56](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L56)

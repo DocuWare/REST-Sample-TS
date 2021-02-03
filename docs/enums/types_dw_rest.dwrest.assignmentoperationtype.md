@@ -19,7 +19,7 @@ Assignment type
 
 • **Add**: = "Add"
 
-Defined in: [types/DW_Rest.d.ts:1301](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1301)
+Defined in: [types/DW_Rest.d.ts:1301](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1301)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **Remove**: = "Remove"
 
-Defined in: [types/DW_Rest.d.ts:1302](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1302)
+Defined in: [types/DW_Rest.d.ts:1302](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1302)

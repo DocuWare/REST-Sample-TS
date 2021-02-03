@@ -30,7 +30,7 @@ Description form field
 
 • **DescriptionText**: *string*
 
-Defined in: [types/DW_Rest.d.ts:1063](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1063)
+Defined in: [types/DW_Rest.d.ts:1063](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1063)
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 Inherited from: [IBaseForm](types_dw_rest.dwrest.ibaseform.md).[FormFieldType](types_dw_rest.dwrest.ibaseform.md#formfieldtype)
 
-Defined in: [types/DW_Rest.d.ts:1005](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1005)
+Defined in: [types/DW_Rest.d.ts:1005](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1005)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 Inherited from: [IBaseForm](types_dw_rest.dwrest.ibaseform.md).[Id](types_dw_rest.dwrest.ibaseform.md#id)
 
-Defined in: [types/DW_Rest.d.ts:1007](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1007)
+Defined in: [types/DW_Rest.d.ts:1007](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1007)
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 Inherited from: [IBaseForm](types_dw_rest.dwrest.ibaseform.md).[Label](types_dw_rest.dwrest.ibaseform.md#label)
 
-Defined in: [types/DW_Rest.d.ts:1006](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1006)
+Defined in: [types/DW_Rest.d.ts:1006](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1006)
 
 ___
 
@@ -68,4 +68,4 @@ ___
 
 • **LinkParameters**: [*ILinkParameter*](types_dw_rest.dwrest.ilinkparameter.md)[]
 
-Defined in: [types/DW_Rest.d.ts:1062](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1062)
+Defined in: [types/DW_Rest.d.ts:1062](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1062)

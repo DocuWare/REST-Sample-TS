@@ -29,7 +29,7 @@ Dialog Expression
 
 • **Condition**: [*ICondition*](types_dw_rest.dwrest.icondition.md)[]
 
-Defined in: [types/DW_Rest.d.ts:388](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L388)
+Defined in: [types/DW_Rest.d.ts:388](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L388)
 
 ___
 
@@ -37,4 +37,4 @@ ___
 
 • **Operation**: [*Operation*](../enums/types_dw_rest.dwrest.operation.md)
 
-Defined in: [types/DW_Rest.d.ts:389](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L389)
+Defined in: [types/DW_Rest.d.ts:389](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L389)

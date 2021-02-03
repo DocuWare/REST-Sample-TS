@@ -42,7 +42,7 @@ Common form field
 
 • **Description**: *string*
 
-Defined in: [types/DW_Rest.d.ts:1018](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1018)
+Defined in: [types/DW_Rest.d.ts:1018](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1018)
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 Inherited from: [IBaseForm](types_dw_rest.dwrest.ibaseform.md).[FormFieldType](types_dw_rest.dwrest.ibaseform.md#formfieldtype)
 
-Defined in: [types/DW_Rest.d.ts:1005](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1005)
+Defined in: [types/DW_Rest.d.ts:1005](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1005)
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 • **HasSelectList**: *boolean*
 
-Defined in: [types/DW_Rest.d.ts:1019](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1019)
+Defined in: [types/DW_Rest.d.ts:1019](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1019)
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 Inherited from: [IBaseForm](types_dw_rest.dwrest.ibaseform.md).[Id](types_dw_rest.dwrest.ibaseform.md#id)
 
-Defined in: [types/DW_Rest.d.ts:1007](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1007)
+Defined in: [types/DW_Rest.d.ts:1007](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1007)
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 • **IsReadonly**: *boolean*
 
-Defined in: [types/DW_Rest.d.ts:1020](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1020)
+Defined in: [types/DW_Rest.d.ts:1020](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1020)
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 • **IsSelectListOnly**: *boolean*
 
-Defined in: [types/DW_Rest.d.ts:1021](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1021)
+Defined in: [types/DW_Rest.d.ts:1021](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1021)
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 Inherited from: [IBaseForm](types_dw_rest.dwrest.ibaseform.md).[Label](types_dw_rest.dwrest.ibaseform.md#label)
 
-Defined in: [types/DW_Rest.d.ts:1006](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1006)
+Defined in: [types/DW_Rest.d.ts:1006](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1006)
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 • **Mandatory**: *boolean*
 
-Defined in: [types/DW_Rest.d.ts:1017](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1017)
+Defined in: [types/DW_Rest.d.ts:1017](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1017)
 
 ___
 
@@ -112,4 +112,4 @@ ___
 
 • **SelectListGuid**: *string*
 
-Defined in: [types/DW_Rest.d.ts:1022](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1022)
+Defined in: [types/DW_Rest.d.ts:1022](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1022)

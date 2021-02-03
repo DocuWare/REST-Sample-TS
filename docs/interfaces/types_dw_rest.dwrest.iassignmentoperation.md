@@ -25,7 +25,7 @@ Operation about assignments
 
 • **Ids**: *string*[]
 
-Defined in: [types/DW_Rest.d.ts:723](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L723)
+Defined in: [types/DW_Rest.d.ts:723](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L723)
 
 ___
 
@@ -33,4 +33,4 @@ ___
 
 • **OperationType**: [*AssignmentOperationType*](../enums/types_dw_rest.dwrest.assignmentoperationtype.md)
 
-Defined in: [types/DW_Rest.d.ts:724](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L724)
+Defined in: [types/DW_Rest.d.ts:724](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L724)

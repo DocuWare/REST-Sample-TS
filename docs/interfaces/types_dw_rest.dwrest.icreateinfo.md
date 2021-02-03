@@ -25,7 +25,7 @@ Info of creation
 
 • **Time**: *string*
 
-Defined in: [types/DW_Rest.d.ts:557](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L557)
+Defined in: [types/DW_Rest.d.ts:557](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L557)
 
 ___
 
@@ -33,4 +33,4 @@ ___
 
 • **User**: *string*
 
-Defined in: [types/DW_Rest.d.ts:556](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L556)
+Defined in: [types/DW_Rest.d.ts:556](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L556)

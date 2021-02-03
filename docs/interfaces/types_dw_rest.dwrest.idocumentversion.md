@@ -25,7 +25,7 @@ Document version
 
 • **Major**: *number*
 
-Defined in: [types/DW_Rest.d.ts:420](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L420)
+Defined in: [types/DW_Rest.d.ts:420](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L420)
 
 ___
 
@@ -33,4 +33,4 @@ ___
 
 • **Minor**: *number*
 
-Defined in: [types/DW_Rest.d.ts:421](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L421)
+Defined in: [types/DW_Rest.d.ts:421](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L421)

@@ -40,7 +40,7 @@ Entry base
 
 • **$type**: *string*
 
-Defined in: [types/DW_Rest.d.ts:541](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L541)
+Defined in: [types/DW_Rest.d.ts:541](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L541)
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 • `Optional` **Color**: *undefined* \| *string*
 
-Defined in: [types/DW_Rest.d.ts:543](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L543)
+Defined in: [types/DW_Rest.d.ts:543](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L543)
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 • `Optional` **Created**: *undefined* \| [*ICreateInfo*](types_dw_rest.dwrest.icreateinfo.md)
 
-Defined in: [types/DW_Rest.d.ts:542](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L542)
+Defined in: [types/DW_Rest.d.ts:542](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L542)
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 • `Optional` **Id**: *undefined* \| *string*
 
-Defined in: [types/DW_Rest.d.ts:547](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L547)
+Defined in: [types/DW_Rest.d.ts:547](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L547)
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 • `Optional` **Rotation**: *undefined* \| [*Zero*](../enums/types_dw_rest.dwrest.rotation.md#zero) \| [*Ninety*](../enums/types_dw_rest.dwrest.rotation.md#ninety) \| [*HundredEighty*](../enums/types_dw_rest.dwrest.rotation.md#hundredeighty) \| [*TwoHundredSeventy*](../enums/types_dw_rest.dwrest.rotation.md#twohundredseventy)
 
-Defined in: [types/DW_Rest.d.ts:544](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L544)
+Defined in: [types/DW_Rest.d.ts:544](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L544)
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 • `Optional` **StrokeWidth**: *undefined* \| *number*
 
-Defined in: [types/DW_Rest.d.ts:546](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L546)
+Defined in: [types/DW_Rest.d.ts:546](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L546)
 
 ___
 
@@ -88,4 +88,4 @@ ___
 
 • `Optional` **Transparent**: *undefined* \| *boolean*
 
-Defined in: [types/DW_Rest.d.ts:545](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L545)
+Defined in: [types/DW_Rest.d.ts:545](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L545)

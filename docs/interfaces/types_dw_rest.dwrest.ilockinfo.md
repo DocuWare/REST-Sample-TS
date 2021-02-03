@@ -25,7 +25,7 @@ Lock information
 
 • `Optional` **Interval**: *undefined* \| *string*
 
-Defined in: [types/DW_Rest.d.ts:850](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L850)
+Defined in: [types/DW_Rest.d.ts:850](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L850)
 
 ___
 
@@ -33,4 +33,4 @@ ___
 
 • `Optional` **Operation**: *undefined* \| *string*
 
-Defined in: [types/DW_Rest.d.ts:849](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L849)
+Defined in: [types/DW_Rest.d.ts:849](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L849)

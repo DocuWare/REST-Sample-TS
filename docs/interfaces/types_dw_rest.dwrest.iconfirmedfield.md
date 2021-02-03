@@ -25,7 +25,7 @@ Task confirmed field
 
 • `Optional` **Id**: *undefined* \| *number*
 
-Defined in: [types/DW_Rest.d.ts:1224](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1224)
+Defined in: [types/DW_Rest.d.ts:1224](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1224)
 
 ___
 
@@ -40,4 +40,4 @@ Name | Type |
 `Item` | *any* |
 `ItemElementName?` | *undefined* \| [*Int*](../enums/types_dw_rest.dwrest.itemchoicetype.md#int) \| [*DateTime*](../enums/types_dw_rest.dwrest.itemchoicetype.md#datetime) \| [*String*](../enums/types_dw_rest.dwrest.itemchoicetype.md#string) \| [*Decimal*](../enums/types_dw_rest.dwrest.itemchoicetype.md#decimal) \| [*Date*](../enums/types_dw_rest.dwrest.itemchoicetype.md#date) \| [*Table*](../enums/types_dw_rest.dwrest.itemchoicetype.md#table) \| [*Keywords*](../enums/types_dw_rest.dwrest.itemchoicetype.md#keywords) |
 
-Defined in: [types/DW_Rest.d.ts:1225](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L1225)
+Defined in: [types/DW_Rest.d.ts:1225](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1225)

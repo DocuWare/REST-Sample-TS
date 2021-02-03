@@ -30,7 +30,7 @@ Font
 
 • **Bold**: *boolean*
 
-Defined in: [types/DW_Rest.d.ts:611](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L611)
+Defined in: [types/DW_Rest.d.ts:611](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L611)
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 • **FontName**: *string*
 
-Defined in: [types/DW_Rest.d.ts:610](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L610)
+Defined in: [types/DW_Rest.d.ts:610](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L610)
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 • **FontSize**: *number*
 
-Defined in: [types/DW_Rest.d.ts:615](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L615)
+Defined in: [types/DW_Rest.d.ts:615](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L615)
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 • **Italic**: *boolean*
 
-Defined in: [types/DW_Rest.d.ts:612](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L612)
+Defined in: [types/DW_Rest.d.ts:612](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L612)
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 • **Spacing**: *number*
 
-Defined in: [types/DW_Rest.d.ts:616](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L616)
+Defined in: [types/DW_Rest.d.ts:616](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L616)
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 • **StrikeThrough**: *boolean*
 
-Defined in: [types/DW_Rest.d.ts:614](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L614)
+Defined in: [types/DW_Rest.d.ts:614](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L614)
 
 ___
 
@@ -78,4 +78,4 @@ ___
 
 • **Underlinded**: *boolean*
 
-Defined in: [types/DW_Rest.d.ts:613](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L613)
+Defined in: [types/DW_Rest.d.ts:613](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L613)

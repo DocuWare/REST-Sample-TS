@@ -31,7 +31,7 @@ Workflow
 
 • **FileCabinetId**: *string*
 
-Defined in: [types/DW_Rest.d.ts:863](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L863)
+Defined in: [types/DW_Rest.d.ts:863](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L863)
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 • **Id**: *string*
 
-Defined in: [types/DW_Rest.d.ts:860](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L860)
+Defined in: [types/DW_Rest.d.ts:860](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L860)
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 Inherited from: [ILinkModel](types_dw_rest.dwrest.ilinkmodel.md).[Links](types_dw_rest.dwrest.ilinkmodel.md#links)
 
-Defined in: [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L10)
+Defined in: [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L10)
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 • **Name**: *string*
 
-Defined in: [types/DW_Rest.d.ts:861](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L861)
+Defined in: [types/DW_Rest.d.ts:861](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L861)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 • **TaskCount**: *number*
 
-Defined in: [types/DW_Rest.d.ts:862](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L862)
+Defined in: [types/DW_Rest.d.ts:862](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L862)
 
 ___
 
@@ -73,4 +73,4 @@ ___
 
 • **TimeStamp**: *string*
 
-Defined in: [types/DW_Rest.d.ts:864](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L864)
+Defined in: [types/DW_Rest.d.ts:864](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L864)

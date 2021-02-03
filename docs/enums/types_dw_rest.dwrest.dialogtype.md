@@ -24,7 +24,7 @@ DocuWare Dialog Types
 
 • **InfoDialog**: = "InfoDialog"
 
-Defined in: [types/DW_Rest.d.ts:326](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L326)
+Defined in: [types/DW_Rest.d.ts:326](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L326)
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 • **ResultList**: = "ResultList"
 
-Defined in: [types/DW_Rest.d.ts:325](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L325)
+Defined in: [types/DW_Rest.d.ts:325](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L325)
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 • **Search**: = "Search"
 
-Defined in: [types/DW_Rest.d.ts:323](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L323)
+Defined in: [types/DW_Rest.d.ts:323](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L323)
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 • **Store**: = "Store"
 
-Defined in: [types/DW_Rest.d.ts:324](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L324)
+Defined in: [types/DW_Rest.d.ts:324](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L324)
 
 ___
 
@@ -56,4 +56,4 @@ ___
 
 • **TaskList**: = "TaskList"
 
-Defined in: [types/DW_Rest.d.ts:327](https://github.com/DocuWare/REST-Sample-TS/blob/6171aa8/src/types/DW_Rest.d.ts#L327)
+Defined in: [types/DW_Rest.d.ts:327](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L327)
