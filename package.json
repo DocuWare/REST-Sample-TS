@@ -35,7 +35,7 @@
     "@types/node": "^11.15.44",
     "@types/request": "^2.48.5",
     "@types/request-promise-native": "^1.0.17",
-    "@types/tough-cookie": "^2.3.7",
+    "@types/tough-cookie": "^4.0.0",
     "@typescript-eslint/eslint-plugin": "^4.0.0",
     "@typescript-eslint/parser": "^3.7.1",
     "eslint": "^7.19.0",
