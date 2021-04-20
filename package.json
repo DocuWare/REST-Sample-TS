@@ -28,7 +28,7 @@
     "typedoc-plugin-typescript-declaration": "^0.5.0"
   },
   "devDependencies": {
-    "@microsoft/tsdoc": "^0.13.0",
+    "@microsoft/tsdoc": "^0.13.2",
     "@types/archiver": "^5.1.0",
     "@types/content-disposition": "^0.5.3",
     "@types/mime-types": "^2.1.0",
