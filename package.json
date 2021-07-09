@@ -16,7 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "@types/tar": "^4.0.5",
-    "archiver": "^5.2.0",
+    "archiver": "^5.3.0",
     "content-disposition": "^0.5.3",
     "https": "^1.0.0",
     "mime-types": "^2.1.28",
