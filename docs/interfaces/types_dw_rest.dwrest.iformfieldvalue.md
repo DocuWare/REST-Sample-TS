@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IFormFieldValue
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IFormFieldValue
 
 # Interface: IFormFieldValue
 
@@ -26,22 +26,22 @@ FormFieldValue
 
 • **Name**: *string*
 
-Defined in: [types/DW_Rest.d.ts:452](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L452)
+Defined in: types/DW_Rest.d.ts:437
 
 ___
 
 ### TypedValue
 
-• **TypedValue**: { `Item`: *any* ; `ItemElementName?`: *undefined* \| [*Int*](../enums/types_dw_rest.dwrest.itemchoicetype.md#int) \| [*DateTime*](../enums/types_dw_rest.dwrest.itemchoicetype.md#datetime) \| [*String*](../enums/types_dw_rest.dwrest.itemchoicetype.md#string) \| [*Decimal*](../enums/types_dw_rest.dwrest.itemchoicetype.md#decimal) \| [*Date*](../enums/types_dw_rest.dwrest.itemchoicetype.md#date) \| [*Table*](../enums/types_dw_rest.dwrest.itemchoicetype.md#table) \| [*Keywords*](../enums/types_dw_rest.dwrest.itemchoicetype.md#keywords)  }
+• **TypedValue**: { `Item`: *any* ; `ItemElementName?`: [*Int*](../enums/types_dw_rest.dwrest.itemchoicetype.md#int) \| [*DateTime*](../enums/types_dw_rest.dwrest.itemchoicetype.md#datetime) \| [*String*](../enums/types_dw_rest.dwrest.itemchoicetype.md#string) \| [*Decimal*](../enums/types_dw_rest.dwrest.itemchoicetype.md#decimal) \| [*Date*](../enums/types_dw_rest.dwrest.itemchoicetype.md#date) \| [*Table*](../enums/types_dw_rest.dwrest.itemchoicetype.md#table) \| [*Keywords*](../enums/types_dw_rest.dwrest.itemchoicetype.md#keywords)  }
 
 #### Type declaration:
 
 Name | Type |
 ------ | ------ |
 `Item` | *any* |
-`ItemElementName?` | *undefined* \| [*Int*](../enums/types_dw_rest.dwrest.itemchoicetype.md#int) \| [*DateTime*](../enums/types_dw_rest.dwrest.itemchoicetype.md#datetime) \| [*String*](../enums/types_dw_rest.dwrest.itemchoicetype.md#string) \| [*Decimal*](../enums/types_dw_rest.dwrest.itemchoicetype.md#decimal) \| [*Date*](../enums/types_dw_rest.dwrest.itemchoicetype.md#date) \| [*Table*](../enums/types_dw_rest.dwrest.itemchoicetype.md#table) \| [*Keywords*](../enums/types_dw_rest.dwrest.itemchoicetype.md#keywords) |
+`ItemElementName?` | [*Int*](../enums/types_dw_rest.dwrest.itemchoicetype.md#int) \| [*DateTime*](../enums/types_dw_rest.dwrest.itemchoicetype.md#datetime) \| [*String*](../enums/types_dw_rest.dwrest.itemchoicetype.md#string) \| [*Decimal*](../enums/types_dw_rest.dwrest.itemchoicetype.md#decimal) \| [*Date*](../enums/types_dw_rest.dwrest.itemchoicetype.md#date) \| [*Table*](../enums/types_dw_rest.dwrest.itemchoicetype.md#table) \| [*Keywords*](../enums/types_dw_rest.dwrest.itemchoicetype.md#keywords) |
 
-Defined in: [types/DW_Rest.d.ts:454](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L454)
+Defined in: types/DW_Rest.d.ts:439
 
 ___
 
@@ -49,4 +49,4 @@ ___
 
 • **Value**: *string*
 
-Defined in: [types/DW_Rest.d.ts:453](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L453)
+Defined in: types/DW_Rest.d.ts:438

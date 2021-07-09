@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / ITaskTableField
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / ITaskTableField
 
 # Interface: ITaskTableField
 
@@ -29,7 +29,7 @@ Task table field
 
 • **Columns**: [*ITaskTableColumn*](types_dw_rest.dwrest.itasktablecolumn.md)[]
 
-Defined in: [types/DW_Rest.d.ts:1114](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1114)
+Defined in: types/DW_Rest.d.ts:1105
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 Inherited from: [IBaseForm](types_dw_rest.dwrest.ibaseform.md).[FormFieldType](types_dw_rest.dwrest.ibaseform.md#formfieldtype)
 
-Defined in: [types/DW_Rest.d.ts:1005](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1005)
+Defined in: types/DW_Rest.d.ts:994
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 Inherited from: [IBaseForm](types_dw_rest.dwrest.ibaseform.md).[Id](types_dw_rest.dwrest.ibaseform.md#id)
 
-Defined in: [types/DW_Rest.d.ts:1007](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1007)
+Defined in: types/DW_Rest.d.ts:996
 
 ___
 
@@ -59,4 +59,4 @@ ___
 
 Inherited from: [IBaseForm](types_dw_rest.dwrest.ibaseform.md).[Label](types_dw_rest.dwrest.ibaseform.md#label)
 
-Defined in: [types/DW_Rest.d.ts:1006](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1006)
+Defined in: types/DW_Rest.d.ts:995

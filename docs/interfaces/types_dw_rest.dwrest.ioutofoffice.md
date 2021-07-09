@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IOutOfOffice
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IOutOfOffice
 
 # Interface: IOutOfOffice
 
@@ -24,22 +24,22 @@ Out of office
 
 ### EndDateTime
 
-• `Optional` **EndDateTime**: *undefined* \| *string*
+• `Optional` **EndDateTime**: *string*
 
-Defined in: [types/DW_Rest.d.ts:714](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L714)
+Defined in: types/DW_Rest.d.ts:700
 
 ___
 
 ### IsOutOfOffice
 
-• `Optional` **IsOutOfOffice**: *undefined* \| *boolean*
+• `Optional` **IsOutOfOffice**: *boolean*
 
-Defined in: [types/DW_Rest.d.ts:712](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L712)
+Defined in: types/DW_Rest.d.ts:698
 
 ___
 
 ### StartDateTime
 
-• `Optional` **StartDateTime**: *undefined* \| *string*
+• `Optional` **StartDateTime**: *string*
 
-Defined in: [types/DW_Rest.d.ts:713](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L713)
+Defined in: types/DW_Rest.d.ts:699

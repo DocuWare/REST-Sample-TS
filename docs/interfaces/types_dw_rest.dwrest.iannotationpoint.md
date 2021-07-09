@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IAnnotationPoint
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IAnnotationPoint
 
 # Interface: IAnnotationPoint
 
@@ -25,7 +25,7 @@ Annotation point
 
 • **X**: *number*
 
-Defined in: [types/DW_Rest.d.ts:600](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L600)
+Defined in: types/DW_Rest.d.ts:586
 
 ___
 
@@ -33,4 +33,4 @@ ___
 
 • **Y**: *number*
 
-Defined in: [types/DW_Rest.d.ts:601](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L601)
+Defined in: types/DW_Rest.d.ts:587

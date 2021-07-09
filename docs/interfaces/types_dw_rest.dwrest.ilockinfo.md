@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / ILockInfo
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / ILockInfo
 
 # Interface: ILockInfo
 
@@ -23,14 +23,14 @@ Lock information
 
 ### Interval
 
-• `Optional` **Interval**: *undefined* \| *string*
+• `Optional` **Interval**: *string*
 
-Defined in: [types/DW_Rest.d.ts:850](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L850)
+Defined in: types/DW_Rest.d.ts:836
 
 ___
 
 ### Operation
 
-• `Optional` **Operation**: *undefined* \| *string*
+• `Optional` **Operation**: *string*
 
-Defined in: [types/DW_Rest.d.ts:849](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L849)
+Defined in: types/DW_Rest.d.ts:835

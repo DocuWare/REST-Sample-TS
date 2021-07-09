@@ -1,10 +1,10 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IStampPlacement
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IStampPlacement
 
 # Interface: IStampPlacement
 
 [types/DW_Rest](../modules/types_dw_rest.md).[DWRest](../modules/types_dw_rest.dwrest.md).IStampPlacement
 
-Stamp Placment
+Stamp Placement
 
 **`interface`** IStampPlacement
 
@@ -26,9 +26,9 @@ Stamp Placment
 
 ### Field
 
-• `Optional` **Field**: *undefined* \| [*IFormFieldValue*](types_dw_rest.dwrest.iformfieldvalue.md)[]
+• `Optional` **Field**: [*IFormFieldValue*](types_dw_rest.dwrest.iformfieldvalue.md)[]
 
-Defined in: [types/DW_Rest.d.ts:433](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L433)
+Defined in: types/DW_Rest.d.ts:418
 
 ___
 
@@ -36,23 +36,23 @@ ___
 
 • **Layer**: *number*
 
-Defined in: [types/DW_Rest.d.ts:431](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L431)
+Defined in: types/DW_Rest.d.ts:416
 
 ___
 
 ### Location
 
-• `Optional` **Location**: *undefined* \| [*IDWPoint*](types_dw_rest.dwrest.idwpoint.md)
+• `Optional` **Location**: [*IDWPoint*](types_dw_rest.dwrest.idwpoint.md)
 
-Defined in: [types/DW_Rest.d.ts:432](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L432)
+Defined in: types/DW_Rest.d.ts:417
 
 ___
 
 ### Password
 
-• `Optional` **Password**: *undefined* \| *string*
+• `Optional` **Password**: *string*
 
-Defined in: [types/DW_Rest.d.ts:434](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L434)
+Defined in: types/DW_Rest.d.ts:419
 
 ___
 
@@ -60,4 +60,4 @@ ___
 
 • **StampId**: *string*
 
-Defined in: [types/DW_Rest.d.ts:430](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L430)
+Defined in: types/DW_Rest.d.ts:415

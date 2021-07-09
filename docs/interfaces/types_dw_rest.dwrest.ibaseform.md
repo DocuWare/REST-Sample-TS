@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IBaseForm
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IBaseForm
 
 # Interface: IBaseForm
 
@@ -34,7 +34,7 @@ Base form
 
 • **FormFieldType**: [*FormTypeEnum*](../enums/types_dw_rest.dwrest.formtypeenum.md)
 
-Defined in: [types/DW_Rest.d.ts:1005](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1005)
+Defined in: types/DW_Rest.d.ts:994
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 • **Id**: *number*
 
-Defined in: [types/DW_Rest.d.ts:1007](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1007)
+Defined in: types/DW_Rest.d.ts:996
 
 ___
 
@@ -50,4 +50,4 @@ ___
 
 • **Label**: *string*
 
-Defined in: [types/DW_Rest.d.ts:1006](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1006)
+Defined in: types/DW_Rest.d.ts:995

@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IDialog
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IDialog
 
 # Interface: IDialog
 
@@ -38,7 +38,7 @@ DocuWare Dialog Model
 
 • **AssignedDialogId**: *string*
 
-Defined in: [types/DW_Rest.d.ts:355](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L355)
+Defined in: types/DW_Rest.d.ts:340
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 • **Color**: *string*
 
-Defined in: [types/DW_Rest.d.ts:356](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L356)
+Defined in: types/DW_Rest.d.ts:341
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 • **DisplayName**: *string*
 
-Defined in: [types/DW_Rest.d.ts:353](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L353)
+Defined in: types/DW_Rest.d.ts:338
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 • **Fields**: [*IDlgField*](types_dw_rest.dwrest.idlgfield.md)[]
 
-Defined in: [types/DW_Rest.d.ts:359](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L359)
+Defined in: types/DW_Rest.d.ts:344
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 • **FileCabinetId**: *string*
 
-Defined in: [types/DW_Rest.d.ts:351](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L351)
+Defined in: types/DW_Rest.d.ts:336
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 • **FileCabinetName**: *string*
 
-Defined in: [types/DW_Rest.d.ts:352](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L352)
+Defined in: types/DW_Rest.d.ts:337
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 • **Id**: *string*
 
-Defined in: [types/DW_Rest.d.ts:350](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L350)
+Defined in: types/DW_Rest.d.ts:335
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
 • **IsDefault**: *boolean*
 
-Defined in: [types/DW_Rest.d.ts:357](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L357)
+Defined in: types/DW_Rest.d.ts:342
 
 ___
 
@@ -102,17 +102,17 @@ ___
 
 • **IsForMobile**: *boolean*
 
-Defined in: [types/DW_Rest.d.ts:354](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L354)
+Defined in: types/DW_Rest.d.ts:339
 
 ___
 
 ### Links
 
-• `Optional` **Links**: *undefined* \| [*ILink*](types_dw_rest.dwrest.ilink.md)[]
+• `Optional` **Links**: [*ILink*](types_dw_rest.dwrest.ilink.md)[]
 
 Inherited from: [ILinkModel](types_dw_rest.dwrest.ilinkmodel.md).[Links](types_dw_rest.dwrest.ilinkmodel.md#links)
 
-Defined in: [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L10)
+Defined in: types/DW_Rest.d.ts:10
 
 ___
 
@@ -126,7 +126,7 @@ Name | Type |
 ------ | ------ |
 `LogicalOperator` | { `DefaultOperator`: [*Operation*](../enums/types_dw_rest.dwrest.operation.md) ; `Show`: *boolean*  } |
 
-Defined in: [types/DW_Rest.d.ts:365](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L365)
+Defined in: types/DW_Rest.d.ts:350
 
 ___
 
@@ -142,7 +142,7 @@ Name | Type |
 `Fields` | *string*[] |
 `Links` | [*ILink*](types_dw_rest.dwrest.ilink.md)[] |
 
-Defined in: [types/DW_Rest.d.ts:360](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L360)
+Defined in: types/DW_Rest.d.ts:345
 
 ___
 
@@ -150,4 +150,4 @@ ___
 
 • **Type**: [*DialogType*](../enums/types_dw_rest.dwrest.dialogtype.md)
 
-Defined in: [types/DW_Rest.d.ts:358](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L358)
+Defined in: types/DW_Rest.d.ts:343

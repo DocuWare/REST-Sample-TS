@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / INewUser
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / INewUser
 
 # Interface: INewUser
 
@@ -28,7 +28,7 @@ New user
 
 • **DBName**: *string*
 
-Defined in: [types/DW_Rest.d.ts:669](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L669)
+Defined in: types/DW_Rest.d.ts:655
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 • **Email**: *string*
 
-Defined in: [types/DW_Rest.d.ts:670](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L670)
+Defined in: types/DW_Rest.d.ts:656
 
 ___
 
@@ -44,15 +44,15 @@ ___
 
 • **Name**: *string*
 
-Defined in: [types/DW_Rest.d.ts:668](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L668)
+Defined in: types/DW_Rest.d.ts:654
 
 ___
 
 ### NetworkId
 
-• `Optional` **NetworkId**: *undefined* \| *string*
+• `Optional` **NetworkId**: *string*
 
-Defined in: [types/DW_Rest.d.ts:672](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L672)
+Defined in: types/DW_Rest.d.ts:658
 
 ___
 
@@ -60,4 +60,4 @@ ___
 
 • **Password**: *string*
 
-Defined in: [types/DW_Rest.d.ts:671](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L671)
+Defined in: types/DW_Rest.d.ts:657

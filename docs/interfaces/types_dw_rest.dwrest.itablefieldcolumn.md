@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / ITableFieldColumn
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / ITableFieldColumn
 
 # Interface: ITableFieldColumn
 
@@ -24,9 +24,9 @@ A siongle column of DocuWare Table Field
 
 ### FieldLabel
 
-• `Optional` **FieldLabel**: *undefined* \| *string*
+• `Optional` **FieldLabel**: *string*
 
-Defined in: [types/DW_Rest.d.ts:258](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L258)
+Defined in: types/DW_Rest.d.ts:272
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 • **FieldName**: *string*
 
-Defined in: [types/DW_Rest.d.ts:257](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L257)
+Defined in: types/DW_Rest.d.ts:271
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 • **Item**: *null* \| *string* \| *number*
 
-Defined in: [types/DW_Rest.d.ts:259](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L259)
+Defined in: types/DW_Rest.d.ts:273

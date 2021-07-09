@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IRegionalSettings
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IRegionalSettings
 
 # Interface: IRegionalSettings
 
@@ -24,22 +24,22 @@ Regional Settings
 
 ### Calendar
 
-• `Optional` **Calendar**: *undefined* \| *string*
+• `Optional` **Calendar**: *string*
 
-Defined in: [types/DW_Rest.d.ts:703](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L703)
+Defined in: types/DW_Rest.d.ts:689
 
 ___
 
 ### Culture
 
-• `Optional` **Culture**: *undefined* \| *string*
+• `Optional` **Culture**: *string*
 
-Defined in: [types/DW_Rest.d.ts:702](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L702)
+Defined in: types/DW_Rest.d.ts:688
 
 ___
 
 ### Language
 
-• `Optional` **Language**: *undefined* \| *string*
+• `Optional` **Language**: *string*
 
-Defined in: [types/DW_Rest.d.ts:701](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L701)
+Defined in: types/DW_Rest.d.ts:687

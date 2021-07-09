@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / Operation
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / Operation
 
 # Enumeration: Operation
 
@@ -19,7 +19,7 @@ Logical combine operation
 
 • **And**: = "And"
 
-Defined in: [types/DW_Rest.d.ts:1344](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1344)
+Defined in: types/DW_Rest.d.ts:1370
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **Or**: = "or"
 
-Defined in: [types/DW_Rest.d.ts:1345](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1345)
+Defined in: types/DW_Rest.d.ts:1371

@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / ContentMergeOperation
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / ContentMergeOperation
 
 # Enumeration: ContentMergeOperation
 
@@ -19,7 +19,7 @@ Kind of merge operation
 
 • **Clip**: = "Clip"
 
-Defined in: [types/DW_Rest.d.ts:1311](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1311)
+Defined in: types/DW_Rest.d.ts:1337
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **Staple**: = "Staple"
 
-Defined in: [types/DW_Rest.d.ts:1312](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1312)
+Defined in: types/DW_Rest.d.ts:1338

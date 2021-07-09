@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [DialogExpression](../modules/dialogexpression.md) / DialogExpressionCondition
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [DialogExpression](../modules/dialogexpression.md) / DialogExpressionCondition
 
 # Class: DialogExpressionCondition
 
@@ -14,7 +14,7 @@
 
 ## Implements
 
-* [*ICondition*](../interfaces/types_dw_rest.dwrest.icondition.md)
+* [*ICondition*](../interfaces/types_dw_rest.icondition.md)
 
 ## Table of contents
 
@@ -42,7 +42,7 @@ Name | Type |
 
 **Returns:** [*DialogExpressionCondition*](dialogexpression.dialogexpressioncondition.md)
 
-Defined in: [DialogExpression.ts:24](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/DialogExpression.ts#L24)
+Defined in: DialogExpression.ts:23
 
 ## Properties
 
@@ -50,7 +50,7 @@ Defined in: [DialogExpression.ts:24](https://github.com/DocuWare/REST-Sample-TS/
 
 • **DBName**: *string*
 
-Implementation of: [ICondition](../interfaces/types_dw_rest.dwrest.icondition.md).[DBName](../interfaces/types_dw_rest.dwrest.icondition.md#dbname)
+Implementation of: [ICondition](../interfaces/types_dw_rest.icondition.md).[DBName](../interfaces/types_dw_rest.icondition.md#dbname)
 
 ___
 
@@ -58,4 +58,4 @@ ___
 
 • **Value**: *null* \| *string*[]
 
-Implementation of: [ICondition](../interfaces/types_dw_rest.dwrest.icondition.md).[Value](../interfaces/types_dw_rest.dwrest.icondition.md#value)
+Implementation of: [ICondition](../interfaces/types_dw_rest.icondition.md).[Value](../interfaces/types_dw_rest.icondition.md#value)

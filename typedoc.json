@@ -10,6 +10,7 @@
         "src/DialogExpression.ts",
         "src/index.ts",
         "src/restWrapper.ts",
+        "src/classes/StandardChunkUploadDocument.ts",
         "src/types/DW_Request_Promise_Extension.d.ts",
         "src/types/DW_Rest.d.ts",
         "src/types/timespan.d.ts"

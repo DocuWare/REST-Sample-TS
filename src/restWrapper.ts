@@ -1,12 +1,9 @@
-/// <reference path="./types/DW_Rest.d.ts" />
-/// <reference path="./types/DW_Request_Promise_Extension.d.ts" />
-/// <reference path="./types/timespan.d.ts" />
-
 //https://github.com/request/request - Http client
 //https://github.com/request/request-promise-native - Extension to make http client async
 import request, { RequestPromiseOptions } from 'request-promise-native';
 //helper typescript definition done for this Sample for easier use
 import { DWRequestPromiseExtension } from './types/DW_Request_Promise_Extension';
+import * as DWRest from './types/DW_Rest';
 
 import http from 'http'; //https://nodejs.org/api/http.html
 import https from 'https'; // just in case of https endpoint
@@ -14,9 +11,10 @@ import fs from 'fs'; //https://nodejs.org/api/fs.html
 import mime, { contentType } from 'mime-types'; //https://www.npmjs.com/package/mime-types
 import querystring from 'querystring'; //https://nodejs.org/api/querystring.html
 import path from 'path';
-import contentdisposition, { ContentDisposition } from 'content-disposition'; //https://github.com/jshttp/content-disposition
+import contentDisposition, { ContentDisposition } from 'content-disposition'; //https://github.com/jshttp/content-disposition
 import timespan from 'timespan'; //https://www.npmjs.com/package/timespan
 import readChunk from 'read-chunk';
+import { StandardChunkUploadDocument } from './classes/StandardChunkUploadDocument';
 
 /**
  *Sample wrapper for DocuWare REST API
@@ -41,7 +39,7 @@ class RestCallWrapper {
             },
             withCredentials: true,
             maxRedirects: 5,
-            agent: (this.platformRoot.startsWith('https')) ? new https.Agent({ keepAlive: false, port }) : new http.Agent({ keepAlive: false }), //Seperated calls, can be changed to true. False is better for development. Do https/http switch
+            agent: (this.platformRoot.startsWith('https')) ? new https.Agent({ keepAlive: false, port }) : new http.Agent({ keepAlive: false }), //Separated calls, can be changed to true. False is better for development. Do https/http switch
             json: true,
             resolveWithFullResponse: false //We want to get json objects returned directly, in some cases we set it to true during method call
         }
@@ -92,7 +90,7 @@ class RestCallWrapper {
                             });
                             //Set the culture so our DocuWare Platform will respond with correct formats
                             cookieJar.setCookie('DWFormatCulture=de', this.platformRoot);
-                            //set jar to const http client config, so all following requests will get the cookie jar aswell
+                            //set jar to const http client config, so all following requests will get the cookie jar as well
                             this.docuWare_request_config.jar = cookieJar;
                             resolve(logonResponse.body);
                         }
@@ -162,8 +160,8 @@ class RestCallWrapper {
     }
 
     /**
-     * Filters list of FileCabinet Objects and returns only filecabinets
-     * Info: FileCabinet Object can be a document tray OR a filecabinet
+     * Filters list of FileCabinet Objects and returns only FileCabinets
+     * Info: FileCabinet Object can be a document tray OR a FileCabinet
      *
      * @param {DWRest.IFileCabinet[]} fileCabinets
      * @returns {DWRest.IFileCabinet[]}
@@ -174,7 +172,7 @@ class RestCallWrapper {
 
     /**
      *   Filters list of FileCabinet Objects and returns only document trays
-     * Info: FileCabinet Object can be a document tray OR a filecabinet
+     * Info: FileCabinet Object can be a document tray OR a FileCabinet
      *
      * @param {DWRest.IFileCabinet[]} fileCabinets
      * @returns {(DWRest.IFileCabinet | undefined)}
@@ -185,7 +183,7 @@ class RestCallWrapper {
     }
 
     /**
-     * Returns documents of filecabinet without criteria
+     * Returns documents of FileCabinet without criteria
      * Info: Is restricted to the first 1000 per default
      *
      * @param {DWRest.IFileCabinet} fileCabinet
@@ -256,7 +254,7 @@ class RestCallWrapper {
     }
 
     /**
-     * Returns all kind of dialogs of a filecabinet
+     * Returns all kind of dialogs of a fileCabinet
      *
      * @param {DWRest.IFileCabinet} fileCabinet
      * @returns {Promise<DWRest.IDialog[]>}
@@ -315,7 +313,7 @@ class RestCallWrapper {
      * Gets the 'self' link of provided object and retrieves the full load of properties and data
      *
      * @template T
-     * @param {DWRest.ILinkModel} notYetFullLoadedObject
+     * @param {T} notYetFullLoadedObject
      * @returns {Promise<T>}
      */
     LoadFullObjectFromPlatform<T>(notYetFullLoadedObject: DWRest.ILinkModel): Promise<T> {
@@ -423,6 +421,10 @@ class RestCallWrapper {
         const fileName: string = path.basename(pathToFile);
         const contentType: string | false = mime.contentType(fileName)
 
+        // Get file modified date time
+        const stats = fs.statSync(pathToFile);
+        const mtime = stats.mtime;
+
         const formData = {
             document: {
                 value: JSON.stringify(newDocument),
@@ -442,6 +444,13 @@ class RestCallWrapper {
 
         console.log(formData);
 
+        // Add X-File headers
+        // - X-File-ModifiedDate is the last modified date that is used for example in the viewer
+        const xFileHeaders = {...this.docuWare_request_config.headers,
+            'X-File-ModifiedDate': mtime.toISOString()};
+            
+        this.docuWare_request_config.headers = xFileHeaders;
+
         return request.post(documentsLink, { ...this.docuWare_request_config, formData: formData })
             .promise();
     }
@@ -456,16 +465,36 @@ class RestCallWrapper {
      * @returns {Promise<DWRest.IDocument>}
      * @memberof RestCallWrapper
      */
-    async UploadBigDocumentJsonContextType(fileCabinet: DWRest.IFileCabinet, pathToFile: string, indexFields: DWRest.IField[], applicationProperties: DWRest.IDocumentApplicationProperty[]): Promise<DWRest.IDocument> {
-        let newDocument = await this.CreateNewDocumentContent(indexFields, applicationProperties);
+    async UploadBigDocumentJsonContextTypeSingleSection(fileCabinet: DWRest.IFileCabinet, pathToFile: string, indexFields: DWRest.IField[], applicationProperties: DWRest.IDocumentApplicationProperty[]): Promise<DWRest.IDocument> {
+        return this.UploadBigDocumentJsonContextTypMultipleSection(fileCabinet, [pathToFile], indexFields, applicationProperties);
+    }
 
+    /**
+     * Store big document with multiple sections, optional json index fields and/or application properties
+     *
+     * @param {DWRest.IFileCabinet} fileCabinet
+     * @param {string[]} pathToFiles
+     * @param {DWRest.IField[]} indexFields
+     * @param {DWRest.IDocumentApplicationProperty[]} applicationProperties
+     * @returns {Promise<DWRest.IDocument>}
+     * @memberof RestCallWrapper
+     */
+    async UploadBigDocumentJsonContextTypMultipleSection(fileCabinet: DWRest.IFileCabinet, pathToFiles: string[], indexFields: DWRest.IField[], applicationProperties: DWRest.IDocumentApplicationProperty[]): Promise<DWRest.IDocument> {
+        const newDocument = await this.CreateNewDocumentContent(indexFields, applicationProperties);
+
+        const chunkUploadDocument: DWRest.IChunkUploadDocument = new StandardChunkUploadDocument(pathToFiles);
+
+        //Proof if document is not null
         if (Object.keys(newDocument).length !== 0)
         {
-            let jsonValue: string = JSON.stringify(newDocument);
-            return this.UploadBigDocumentBase(fileCabinet,pathToFile, jsonValue, ContentType.JSON);
+            const jsonValue: string = JSON.stringify(newDocument);
+
+            //Fill data into chunk upload document
+            chunkUploadDocument.DocumentContent = jsonValue;
+            chunkUploadDocument.DocumentContentType = DWRest.DocumentContentType.JSON;
         }
 
-        return this.UploadBigDocumentBase(fileCabinet, pathToFile);
+        return this.UploadBigDocumentBase(fileCabinet, chunkUploadDocument);
     }
     
 /**
@@ -477,7 +506,7 @@ class RestCallWrapper {
  * @memberof RestCallWrapper
  */
     async CreateNewDocumentContent(indexFields: DWRest.IField[], applicationProperties: DWRest.IDocumentApplicationProperty[]): Promise<DWRest.IDocument> {
-        let newDocument : DWRest.IDocument = {};
+        const newDocument : DWRest.IDocument = {};
 
         if (indexFields.length > 0)
         {
@@ -496,27 +525,26 @@ class RestCallWrapper {
      * Store big document with optional index entries as xml or json string
      *
      * @param {DWRest.IFileCabinet} fileCabinet
-     * @param {string} pathToFile
+     * @param {string[]} pathToFile
      * @param {string} [dwDocumentContent='']
      * @param {ContentType} [dwDocumentContentType=ContentType.NULL]
      * @returns {Promise<DWRest.IDocument>}
      * @memberof RestCallWrapper
      */
-    async UploadBigDocumentBase(fileCabinet: DWRest.IFileCabinet, pathToFile: string, dwDocumentContent: string = '', dwDocumentContentType: ContentType = ContentType.NULL): Promise<DWRest.IDocument> {
+    async UploadBigDocumentBase(fileCabinet: DWRest.IFileCabinet, uploadDocument: DWRest.IChunkUploadDocument): Promise<DWRest.IDocument> {
         const documentsLink: string = this.GetLink(fileCabinet, 'documents');
 
         const origChunkSize = 3000000;
         let chunkSize: number;
-        const fileName: string = path.basename(pathToFile);
-        const contentType: string | false = mime.contentType(fileName);
+        const fileName: string = path.basename(uploadDocument.UploadFilePath);
 
-        let lastPostResult: any;
+        let response: any;
 
-        const file: any = fs.readFileSync(pathToFile);
+        const file: Buffer = fs.readFileSync(uploadDocument.UploadFilePath);
         const fileSize   = file.length;
 
         // Get file modified date time
-        const stats = fs.statSync(pathToFile);
+        const stats = fs.statSync(uploadDocument.UploadFilePath);
         const mtime = stats.mtime;
 
         let firstCall = true;
@@ -533,73 +561,79 @@ class RestCallWrapper {
                 chunkSize = fileSize - offset;
             }
 
-            const chunk = readChunk.sync(pathToFile, offset, chunkSize);
+            //Get chunk for upload and force readChunk to work synchronously
+            const chunk = readChunk.sync(uploadDocument.UploadFilePath, offset, chunkSize);
 
             runCount += 1;
             let formData: any = null;
-
-            if (firstCall && dwDocumentContent.length > 0) {
+            
+            // For chunked uploads the document content must be send with the first request.
+            if (firstCall && uploadDocument.DocumentContent.length > 0) {
                 formData = {
                     document: {
-                        value: dwDocumentContent,
+                        value: uploadDocument.DocumentContent,
                         options: {
-                            filename: 'document.' + dwDocumentContentType,
-                            contentType: 'application/' + dwDocumentContentType
+                            filename: 'document.' + uploadDocument.DocumentContentType,
+                            contentType: 'application/' + uploadDocument.DocumentContentType
                         }
                     },
                     file: {
                         value: chunk,
                         options: {
-                            contentType: contentType,
+                            contentType: uploadDocument.UploadFileContentType,
                             filename: fileName
                         }
                     }
                 };
-            }
-            else {
+
+                firstCall = false;
+            } else { // All the other requests
                 formData = {
                     file: {
                         value: chunk,
                         options: {
-                            contentType: contentType,
+                            contentType: uploadDocument.UploadFileContentType,
                             filename: fileName
                         }
                     }
                 };
             }
 
-            firstCall = false;
-
             console.log('Time ' + Date().toString());
             console.log('Run ' + runCount.toString());
-            console.log('Type ' + dwDocumentContentType);
             console.log(formData);
 
             // Add chunk headers
+            // - X-File-Name is for a single file just the file name like 'filename.pdf',
+            //   for multiple files looks like this in case of a tarball/tar container
+            //   like 'Tar file names:filename1.pdf/filename2.pdf'
+            // - X-File-Size contains the size of the file that would be uploaded
+            // - X-File-ModifiedDate is the last modified date that is used for example in the viewer
+            // - X-File-Type the content-type of the file that would be uploaded
             const xFileHeaders = {...this.docuWare_request_config.headers,
-            'X-File-Name': fileName,
+            'X-File-Name': uploadDocument.XFileName,
             'X-File-Size': fileSize.toString(),
             'X-File-ModifiedDate': mtime.toISOString(),
-            'X-File-Type': contentType};
+            'X-File-Type': uploadDocument.UploadFileContentType};
             this.docuWare_request_config.headers = xFileHeaders;
 
             // Set timeout to 5 minutes
             this.docuWare_request_config.timeout = 300000;
 
-            lastPostResult = await request.post(link, { ...this.docuWare_request_config, formData: formData}).promise();
+            response = await request.post(link, { ...this.docuWare_request_config, formData: formData}).promise();
 
-            if (lastPostResult !== null) {
-                if (lastPostResult.FileChunk === null || lastPostResult.FileChunk.Finished) {
-                    return lastPostResult;
+            if (response !== null) {
+                if (response.FileChunk === null || response.FileChunk.Finished) {
+                    return response;
                 }
                 else {
                     // Get link for next chunk upload part
-                    link = lastPostResult.FileChunk.Links[0].href;
+                    link = response.FileChunk.Links[0].href;
                 }
             }
-        }
+        } // End for
 
-        return lastPostResult;
+        return response;
     }
 
     /**
@@ -649,7 +683,7 @@ class RestCallWrapper {
     }
 
     /**
-     * Checkin a checked out document
+     * Check in a checked out document
      *
      * @param {DWRest.IDocument} fullLoadedDocument
      * @param {string} pathToFile
@@ -667,7 +701,7 @@ class RestCallWrapper {
                     reject(err);
                 }
 
-                const checkinLink: string = this.GetLink(fullLoadedDocument, 'checkInFromFileSystem');
+                const checkInLink: string = this.GetLink(fullLoadedDocument, 'checkInFromFileSystem');
 
                 const formData = {
                     file:
@@ -675,19 +709,19 @@ class RestCallWrapper {
                         value: fs.createReadStream(paramsPath),
                         options: {
                             contentType: 'application/json',
-                            filenname: path.basename(paramsPath)
+                            filename: path.basename(paramsPath)
                         }
                     },
                     file1: {
                         value: fs.createReadStream(pathToFile),
                         options: {
                             contentType: contentType(pathToFile),
-                            filenname: path.basename(pathToFile)
+                            filename: path.basename(pathToFile)
                         }
                     }
                 }
 
-                request.post(checkinLink, { ...this.docuWare_request_config, formData: formData })
+                request.post(checkInLink, { ...this.docuWare_request_config, formData: formData })
                     .promise()
                     .then((documentResponse: DWRest.IDocument) => {
                         //cleanup temp file
@@ -766,7 +800,7 @@ class RestCallWrapper {
     }
 
     /**
-     * Transfer a number documents from document tray to filecabinet
+     * Transfer a number documents from document tray to FileCabinet
      *
      * @param {number[]} docIds
      * @param {string} basketId
@@ -786,14 +820,14 @@ class RestCallWrapper {
 
         return request.post(transferLink, {
             ...this.docuWare_request_config, body: fcTransferInfo, headers: {
-                'Content-Type': 'application/vnd.docuware.platform.filecabinettransferinfo+json'
+                'Content-Type': DWRest.DocuWareSpecificContentType.FileCabinetTransferInfoJson
             }
         })
             .promise();
     }
 
     /**
-     * Transfer a document from filecabinet to another (or the same) filecabinet
+     * Transfer a document from FileCabinet to another (or the same) FileCabinet
      *
      * @param {DWRest.IDocument[]} documents
      * @param {string} sourceFileCabinetId
@@ -814,7 +848,7 @@ class RestCallWrapper {
 
         return request.post(transferLink, {
             ...this.docuWare_request_config, body: documentsTransferInfo, headers: {
-                'Content-Type': 'application/vnd.docuware.platform.documentstransferinfo+json'
+                'Content-Type': DWRest.DocuWareSpecificContentType.DocumentsTransferInfoJson
             }
         })
             .promise();
@@ -835,21 +869,21 @@ class RestCallWrapper {
     }
 
     /**
-     * Devide a document
+     * Divide a document
      *
      * @param {DWRest.IDocument} document
      * @param {DWRest.ContentDivideOperation} operation
      * @returns
      */
-    DevideDocument(document: DWRest.IDocument, operation: DWRest.ContentDivideOperation) {
-        const devideInfo: DWRest.IContentDivideOperationInfo = {
+    DivideDocument(document: DWRest.IDocument, operation: DWRest.ContentDivideOperation) {
+        const divideInfo: DWRest.IContentDivideOperationInfo = {
             Force: true,
             Operation: operation
         }
 
-        const devideLink: string = this.GetLink(document, 'contentDivideOperation');
+        const divideLink: string = this.GetLink(document, 'contentDivideOperation');
 
-        return request.put(devideLink, { ...this.docuWare_request_config, body: devideInfo })
+        return request.put(divideLink, { ...this.docuWare_request_config, body: divideInfo })
             .promise();
     }
 
@@ -865,7 +899,7 @@ class RestCallWrapper {
     MergeDocument(fileCabinet: DWRest.IFileCabinet, docIds: number[], operation: DWRest.ContentMergeOperation): Promise<DWRest.IDocument> {
 
         if (!fileCabinet.IsBasket && operation === DWRest.ContentMergeOperation.Staple) {
-            throw new Error(`Only document trays support staple. ${fileCabinet.Name} is a filecabinet!`)
+            throw new Error(`Only document trays support staple. ${fileCabinet.Name} is a FileCabinet!`)
         }
 
         const mergeInfo: DWRest.IContentMergeOperationInfo = {
@@ -892,7 +926,7 @@ class RestCallWrapper {
 
         return request.post(userCreationLink, {
             ...this.docuWare_request_config, body: newUser, headers: {
-                'Content-Type': 'application/vnd.docuware.platform.createorganizationuser+json'
+                'Content-Type': DWRest.DocuWareSpecificContentType.CreateOrganizationUserJson
             }
         })
             .promise();
@@ -1047,13 +1081,13 @@ class RestCallWrapper {
         const importLink: string = this.GetLink(fileCabinet, 'importDocuments');
 
         const fileName: string = path.basename(pathOfDWX);
-        const contentType = 'application/vnd.docuware.platform.filescontainer+dwx';
+        const contentType = DWRest.DocuWareSpecificContentType.FilesContainerDwx;
 
         const formData = {
             document: {
                 value: JSON.stringify(importSettings),
                 options: {
-                    filenname: 'importSettings.json',
+                    filename: 'importSettings.json',
                     contentType: 'application/json'
                 }
             },
@@ -1061,7 +1095,7 @@ class RestCallWrapper {
                 value: fs.createReadStream(pathOfDWX),
                 options: {
                     contentType: contentType,
-                    filenname: fileName
+                    filename: fileName
                 }
             }
         }
@@ -1185,7 +1219,7 @@ class RestCallWrapper {
     }
 
     /**
-     * Confirms a taks, this example takes the first text form and confirms with demo string
+     * Confirms a tasks, this example takes the first text form and confirms with demo string
      *
      * @param {DWRest.IWorkflowTask} task
      * @returns {Promise<void>}
@@ -1213,7 +1247,7 @@ class RestCallWrapper {
                         return request.post(confirmLink, { ...this.docuWare_request_config, body: confirmData })
                             .promise();
                     } else {
-                        throw new Error('No textfield found, sample will not work :(');
+                        throw new Error('No text field found, sample will not work :(');
                     }
                 });
         } else {
@@ -1249,10 +1283,10 @@ class RestCallWrapper {
 
             const cdString = response.headers['content-disposition'];
             if (cdString) {
-                const parsedContentDispositionString: ContentDisposition = contentdisposition.parse(cdString);
+                const parsedContentDispositionString: ContentDisposition = contentDisposition.parse(cdString);
                 const fileName = parsedContentDispositionString.parameters['filename'];
 
-                this.CreateDirectoyIfNotExist('./downloads/');
+                this.CreateDirectoryIfNotExist('./downloads/');
 
                 const fullTempPathToFile = `./downloads/${fileName}`;
 
@@ -1306,23 +1340,13 @@ class RestCallWrapper {
         return null;
     }
 
-    private CreateDirectoyIfNotExist(path: string) {
+    private CreateDirectoryIfNotExist(path: string) {
         if (!fs.existsSync(path)) {
             fs.mkdirSync(path);
         }
     }
 }
 
-/**
-     * IndexFileType Enum
-     *
-     * @export
-     * @enum {number}
-     */
-    export const enum ContentType {
-        XML = 'xml',
-        JSON = 'json',
-        NULL = 'null'
-    }
+    
 
 export { RestCallWrapper };

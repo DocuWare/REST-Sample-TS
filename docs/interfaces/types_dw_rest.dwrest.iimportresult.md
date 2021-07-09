@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IImportResult
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IImportResult
 
 # Interface: IImportResult
 
@@ -23,9 +23,9 @@ Import results
 
 ### FileChunk
 
-• `Optional` **FileChunk**: *undefined* \| [*IUploadedResultChunk*](types_dw_rest.dwrest.iuploadedresultchunk.md)
+• `Optional` **FileChunk**: [*IUploadedResultChunk*](types_dw_rest.dwrest.iuploadedresultchunk.md)
 
-Defined in: [types/DW_Rest.d.ts:797](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L797)
+Defined in: types/DW_Rest.d.ts:783
 
 ___
 
@@ -33,4 +33,4 @@ ___
 
 • **Results**: [*IImportResultEntry*](types_dw_rest.dwrest.iimportresultentry.md)[]
 
-Defined in: [types/DW_Rest.d.ts:796](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L796)
+Defined in: types/DW_Rest.d.ts:782

@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IColumnValue
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IColumnValue
 
 # Interface: IColumnValue
 
@@ -25,7 +25,7 @@ Column value
 
 • **Id**: *string*
 
-Defined in: [types/DW_Rest.d.ts:968](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L968)
+Defined in: types/DW_Rest.d.ts:957
 
 ___
 
@@ -33,4 +33,4 @@ ___
 
 • **Value**: *any*
 
-Defined in: [types/DW_Rest.d.ts:969](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L969)
+Defined in: types/DW_Rest.d.ts:958

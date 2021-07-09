@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / ILink
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / ILink
 
 # Interface: ILink
 
@@ -25,7 +25,7 @@ A link
 
 • **href**: *string*
 
-Defined in: [types/DW_Rest.d.ts:46](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L46)
+Defined in: types/DW_Rest.d.ts:46
 
 ___
 
@@ -33,4 +33,4 @@ ___
 
 • **rel**: *string*
 
-Defined in: [types/DW_Rest.d.ts:45](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L45)
+Defined in: types/DW_Rest.d.ts:45

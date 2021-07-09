@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/timespan](types_timespan.md) / [TimeSpan](types_timespan.timespan.md) / toString
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/timespan](types_timespan.md) / [TimeSpan](types_timespan.timespan.md) / toString
 
 # Namespace: toString
 
@@ -16,4 +16,4 @@
 
 • `Const` **prototype**: *object*
 
-Defined in: [types/timespan.d.ts:199](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/timespan.d.ts#L199)
+Defined in: types/timespan.d.ts:199

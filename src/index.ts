@@ -1,15 +1,14 @@
-/// <reference path="./types/DW_Rest.d.ts" />
-/// <reference path="./types/DW_Request_Promise_Extension.d.ts" />
-
 /*
     This project is a possible "How to" use the DocuWare REST API with Typescript (Javascript) and Nodejs
 */
 
 import { DWRequestPromiseExtension } from './types/DW_Request_Promise_Extension';
+import * as DWRest from './types/DW_Rest';
 import polly from 'polly-js';
 import { RestCallWrapper } from './restWrapper'
 import { LineEntry } from './Annotations';
 import { DialogExpressionCondition, DialogExpression } from './DialogExpression';
+import { StandardChunkUploadDocument } from './classes/StandardChunkUploadDocument';
 
 const timeToWait: number = 60 * 1000; //MS
 
@@ -19,7 +18,7 @@ const user = 'dwadmin';
 const password = 'admin';
 const organization = 'Peters Engineering';
 const hostID = '7b5ed19b-bfd6-46e9-8a3b-efd2a4499666'; //has to be unique per machine
-const fileCabinetID = '3f3c9aff-63e5-4433-99a5-ed6dbba1bb72';
+const fileCabinetID = '22b893c3-a3f6-4de5-923b-92011ecfae91';
 
 //the REST Wrapper
 const restWrapper: RestCallWrapper = new RestCallWrapper(rootUrl);
@@ -50,7 +49,7 @@ polly()
         //#endregion
 
         //Get a special document
-        const specialDocument: DWRest.IDocument = await restWrapper.GetDocumentByDocID(fileCabinet, 30);
+        const specialDocument: DWRest.IDocument = await restWrapper.GetDocumentByDocID(fileCabinet, 5);
 
         //#region get dialogs and do searches
         await getPagedDocumentResults(fileCabinet);
@@ -77,6 +76,8 @@ polly()
 
         await storeBigDocumentJsonIndexAndApplicationProperties(fileCabinet);
 
+        await storeBigDocumentJsonIndexAndApplicationPropertiesMulti(fileCabinet);
+
         await updateDocumentSection(specialDocument);
 
         //#region Handle checkout or checkin of a document
@@ -102,7 +103,7 @@ polly()
         const mergedDocument: DWRest.IDocument = await restWrapper.MergeDocument(fileCabinet, [223, 224, 225], DWRest.ContentMergeOperation.Clip);
 
         //Split documents
-        const splittedDocuments: DWRest.IDocumentsQueryResult = await restWrapper.DevideDocument(mergedDocument, DWRest.ContentDivideOperation.Unclip);
+        const splittedDocuments: DWRest.IDocumentsQueryResult = await restWrapper.DivideDocument(mergedDocument, DWRest.ContentDivideOperation.Unclip);
 
         //#endregion
 
@@ -325,11 +326,15 @@ async function storeDocument(fileCabinet: DWRest.IFileCabinet) {
 }
 
 async function storeBigDocumentPlainFile(fileCabinet: DWRest.IFileCabinet) {
-    let newCreatedDocument: DWRest.IDocument = await restWrapper.UploadBigDocumentBase(fileCabinet, './upload/BIG SAMPLE DOCUMENT.pdf');
+    const uploadDocument: DWRest.IChunkUploadDocument = new StandardChunkUploadDocument(['./upload/BIG SAMPLE DOCUMENT.pdf']);
+
+    const newCreatedDocument: DWRest.IDocument = await restWrapper.UploadBigDocumentBase(fileCabinet, uploadDocument);
+
+    console.log(newCreatedDocument);
 }
 
 async function storeBigDocumentJsonIndex(fileCabinet: DWRest.IFileCabinet) {
-    let indexEntries: DWRest.IField[] = [
+    const indexEntries: DWRest.IField[] = [
         {
             FieldName: 'Company',
             Item: 'Doc Name Big JSON Test Inc only Index',
@@ -342,22 +347,26 @@ async function storeBigDocumentJsonIndex(fileCabinet: DWRest.IFileCabinet) {
         }
     ];
 
-    let newCreatedDocument: DWRest.IDocument = await restWrapper.UploadBigDocumentJsonContextType(fileCabinet, './upload/BIG SAMPLE DOCUMENT.pdf', indexEntries, []);
+    const newCreatedDocument: DWRest.IDocument = await restWrapper.UploadBigDocumentJsonContextTypeSingleSection(fileCabinet, './upload/BIG SAMPLE DOCUMENT.pdf', indexEntries, []);
+
+    console.log(newCreatedDocument);
 }
 
 async function storeBigDocumentJsonApplicationProperties(fileCabinet: DWRest.IFileCabinet) {
-    let applicationProperties: DWRest.IDocumentApplicationProperty[] = [
+    const applicationProperties: DWRest.IDocumentApplicationProperty[] = [
         {
             Name: "DocuWare", 
             Value: "AppValue1 ApplicationProperties"
         }
     ];
 
-    let newCreatedDocument: DWRest.IDocument = await restWrapper.UploadBigDocumentJsonContextType(fileCabinet, './upload/BIG SAMPLE DOCUMENT.pdf', [], applicationProperties);
+    const newCreatedDocument: DWRest.IDocument = await restWrapper.UploadBigDocumentJsonContextTypeSingleSection(fileCabinet, './upload/BIG SAMPLE DOCUMENT.pdf', [], applicationProperties);
+
+    console.log(newCreatedDocument);
 }
 
 async function storeBigDocumentJsonIndexAndApplicationProperties(fileCabinet: DWRest.IFileCabinet) {
-    let indexEntries: DWRest.IField[] = [
+    const indexEntries: DWRest.IField[] = [
         {
             FieldName: 'Company',
             Item: 'Doc Name Big JSON Test Inc Index & ApplicationProperties',
@@ -370,19 +379,49 @@ async function storeBigDocumentJsonIndexAndApplicationProperties(fileCabinet: DW
         }
     ];
     
-    let applicationProperties: DWRest.IDocumentApplicationProperty[] = [
+    const applicationProperties: DWRest.IDocumentApplicationProperty[] = [
         {
             Name: "DocuWare", 
             Value: "AppValue1 Index & ApplicationProperties"
         }
     ];
 
-    let newCreatedDocument: DWRest.IDocument = await restWrapper.UploadBigDocumentJsonContextType(fileCabinet, './upload/BIG SAMPLE DOCUMENT.pdf', indexEntries, applicationProperties);
+    const newCreatedDocument: DWRest.IDocument = await restWrapper.UploadBigDocumentJsonContextTypeSingleSection(fileCabinet, './upload/BIG SAMPLE DOCUMENT.pdf', indexEntries, applicationProperties);
+
+    console.log(newCreatedDocument);
+}
+
+async function storeBigDocumentJsonIndexAndApplicationPropertiesMulti(fileCabinet: DWRest.IFileCabinet) {
+    const indexEntries: DWRest.IField[] = [
+        {
+            FieldName: 'Company',
+            Item: 'Doc Name Big JSON Test Inc Index & ApplicationProperties',
+            ItemElementName: DWRest.ItemChoiceType.String
+        },
+        {
+            FieldName: 'Status',
+            Item: 'Uploaded by REST',
+            ItemElementName: DWRest.ItemChoiceType.String
+        }
+    ];
+    
+    const applicationProperties: DWRest.IDocumentApplicationProperty[] = [
+        {
+            Name: "DocuWare", 
+            Value: "AppValue1 Index & ApplicationProperties"
+        }
+    ];
+
+    const newCreatedDocument: DWRest.IDocument = await restWrapper.UploadBigDocumentJsonContextTypMultipleSection(fileCabinet, ['./upload/BIG SAMPLE DOCUMENT.pdf', './upload/SAMPLE DOCUMENT.pdf'], indexEntries, applicationProperties);
+
+    console.log(newCreatedDocument);
 }
 
 async function downloadDocument(specialDocument: DWRest.IDocument) {
     const fullLoadedDocument: DWRest.IDocument = await restWrapper.LoadFullObjectFromPlatform<DWRest.IDocument>(specialDocument);
     const downloadPath: string = await restWrapper.DownloadDocument(fullLoadedDocument, false, DWRest.TargetFileType.Auto);
+
+    console.log(downloadPath);
 }
 
 async function updateIndexEntry(specialDocument: DWRest.IDocument): Promise<DWRest.IFieldList> {

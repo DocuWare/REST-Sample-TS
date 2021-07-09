@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/timespan](types_timespan.md) / [TimeSpan](types_timespan.timespan.md) / subtractSeconds
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/timespan](types_timespan.md) / [TimeSpan](types_timespan.timespan.md) / subtractSeconds
 
 # Namespace: subtractSeconds
 
@@ -16,4 +16,4 @@
 
 • `Const` **prototype**: *object*
 
-Defined in: [types/timespan.d.ts:193](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/timespan.d.ts#L193)
+Defined in: types/timespan.d.ts:193

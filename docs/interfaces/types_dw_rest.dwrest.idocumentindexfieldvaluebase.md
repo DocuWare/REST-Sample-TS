@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IDocumentIndexFieldValueBase
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IDocumentIndexFieldValueBase
 
 # Interface: IDocumentIndexFieldValueBase
 
@@ -15,5 +15,3 @@ DocuWare Field Value Base
   ↳ [*IDocumentIndexFieldTable*](types_dw_rest.dwrest.idocumentindexfieldtable.md)
 
   ↳ [*IDocumentIndexFieldKeywords*](types_dw_rest.dwrest.idocumentindexfieldkeywords.md)
-
-## Table of contents

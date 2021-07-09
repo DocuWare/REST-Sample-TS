@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/timespan](../modules/types_timespan.md) / TimeSpan
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/timespan](../modules/types_timespan.md) / TimeSpan
 
 # Class: TimeSpan
 
@@ -54,7 +54,7 @@ Name | Type |
 
 **Returns:** [*TimeSpan*](types_timespan.timespan-1.md)
 
-Defined in: [types/timespan.d.ts:5](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/timespan.d.ts#L5)
+Defined in: types/timespan.d.ts:5
 
 ## Methods
 
@@ -70,7 +70,7 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: [types/timespan.d.ts:8](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/timespan.d.ts#L8)
+Defined in: types/timespan.d.ts:8
 
 ___
 
@@ -86,7 +86,7 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: [types/timespan.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/timespan.d.ts#L10)
+Defined in: types/timespan.d.ts:10
 
 ___
 
@@ -102,7 +102,7 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: [types/timespan.d.ts:12](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/timespan.d.ts#L12)
+Defined in: types/timespan.d.ts:12
 
 ___
 
@@ -118,7 +118,7 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: [types/timespan.d.ts:14](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/timespan.d.ts#L14)
+Defined in: types/timespan.d.ts:14
 
 ___
 
@@ -134,7 +134,7 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: [types/timespan.d.ts:16](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/timespan.d.ts#L16)
+Defined in: types/timespan.d.ts:16
 
 ___
 
@@ -150,7 +150,7 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: [types/timespan.d.ts:18](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/timespan.d.ts#L18)
+Defined in: types/timespan.d.ts:18
 
 ___
 
@@ -166,7 +166,7 @@ Name | Type |
 
 **Returns:** *any*
 
-Defined in: [types/timespan.d.ts:20](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/timespan.d.ts#L20)
+Defined in: types/timespan.d.ts:20
 
 ___
 
@@ -182,7 +182,7 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: [types/timespan.d.ts:22](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/timespan.d.ts#L22)
+Defined in: types/timespan.d.ts:22
 
 ___
 
@@ -198,7 +198,7 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: [types/timespan.d.ts:24](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/timespan.d.ts#L24)
+Defined in: types/timespan.d.ts:24
 
 ___
 
@@ -214,7 +214,7 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: [types/timespan.d.ts:26](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/timespan.d.ts#L26)
+Defined in: types/timespan.d.ts:26
 
 ___
 
@@ -230,7 +230,7 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: [types/timespan.d.ts:28](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/timespan.d.ts#L28)
+Defined in: types/timespan.d.ts:28
 
 ___
 
@@ -246,7 +246,7 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: [types/timespan.d.ts:30](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/timespan.d.ts#L30)
+Defined in: types/timespan.d.ts:30
 
 ___
 
@@ -262,7 +262,7 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: [types/timespan.d.ts:32](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/timespan.d.ts#L32)
+Defined in: types/timespan.d.ts:32
 
 ___
 
@@ -272,7 +272,7 @@ ___
 
 **Returns:** *any*
 
-Defined in: [types/timespan.d.ts:34](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/timespan.d.ts#L34)
+Defined in: types/timespan.d.ts:34
 
 ___
 
@@ -288,7 +288,7 @@ Name | Type |
 
 **Returns:** *any*
 
-Defined in: [types/timespan.d.ts:36](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/timespan.d.ts#L36)
+Defined in: types/timespan.d.ts:36
 
 ___
 
@@ -304,7 +304,7 @@ Name | Type |
 
 **Returns:** *any*
 
-Defined in: [types/timespan.d.ts:38](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/timespan.d.ts#L38)
+Defined in: types/timespan.d.ts:38
 
 ___
 
@@ -320,7 +320,7 @@ Name | Type |
 
 **Returns:** *any*
 
-Defined in: [types/timespan.d.ts:40](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/timespan.d.ts#L40)
+Defined in: types/timespan.d.ts:40
 
 ___
 
@@ -336,7 +336,7 @@ Name | Type |
 
 **Returns:** *any*
 
-Defined in: [types/timespan.d.ts:42](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/timespan.d.ts#L42)
+Defined in: types/timespan.d.ts:42
 
 ___
 
@@ -352,4 +352,4 @@ Name | Type |
 
 **Returns:** *any*
 
-Defined in: [types/timespan.d.ts:44](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/timespan.d.ts#L44)
+Defined in: types/timespan.d.ts:44

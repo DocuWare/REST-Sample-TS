@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IImportResultEntry
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IImportResultEntry
 
 # Interface: IImportResultEntry
 
@@ -26,15 +26,15 @@ Import results entry
 
 • **EntryVersions**: [*IImportEntryVersion*](types_dw_rest.dwrest.iimportentryversion.md)[]
 
-Defined in: [types/DW_Rest.d.ts:806](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L806)
+Defined in: types/DW_Rest.d.ts:792
 
 ___
 
 ### ErrorMessage
 
-• `Optional` **ErrorMessage**: *undefined* \| *string*
+• `Optional` **ErrorMessage**: *string*
 
-Defined in: [types/DW_Rest.d.ts:807](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L807)
+Defined in: types/DW_Rest.d.ts:793
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 • **Status**: [*ImportEntryStatus*](../enums/types_dw_rest.dwrest.importentrystatus.md)
 
-Defined in: [types/DW_Rest.d.ts:808](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L808)
+Defined in: types/DW_Rest.d.ts:794

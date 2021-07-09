@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / ILineEntry
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / ILineEntry
 
 # Interface: ILineEntry
 
@@ -41,35 +41,35 @@ Line entry
 
 Inherited from: [IEntryBase](types_dw_rest.dwrest.ientrybase.md).[$type](types_dw_rest.dwrest.ientrybase.md#$type)
 
-Defined in: [types/DW_Rest.d.ts:541](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L541)
+Defined in: types/DW_Rest.d.ts:526
 
 ___
 
 ### Arrow
 
-• `Optional` **Arrow**: *undefined* \| *boolean*
+• `Optional` **Arrow**: *boolean*
 
-Defined in: [types/DW_Rest.d.ts:640](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L640)
+Defined in: types/DW_Rest.d.ts:626
 
 ___
 
 ### Color
 
-• `Optional` **Color**: *undefined* \| *string*
+• `Optional` **Color**: *string*
 
 Inherited from: [IEntryBase](types_dw_rest.dwrest.ientrybase.md).[Color](types_dw_rest.dwrest.ientrybase.md#color)
 
-Defined in: [types/DW_Rest.d.ts:543](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L543)
+Defined in: types/DW_Rest.d.ts:528
 
 ___
 
 ### Created
 
-• `Optional` **Created**: *undefined* \| [*ICreateInfo*](types_dw_rest.dwrest.icreateinfo.md)
+• `Optional` **Created**: [*ICreateInfo*](types_dw_rest.dwrest.icreateinfo.md)
 
 Inherited from: [IEntryBase](types_dw_rest.dwrest.ientrybase.md).[Created](types_dw_rest.dwrest.ientrybase.md#created)
 
-Defined in: [types/DW_Rest.d.ts:542](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L542)
+Defined in: types/DW_Rest.d.ts:527
 
 ___
 
@@ -77,37 +77,37 @@ ___
 
 • **From**: [*IAnnotationPoint*](types_dw_rest.dwrest.iannotationpoint.md)
 
-Defined in: [types/DW_Rest.d.ts:638](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L638)
+Defined in: types/DW_Rest.d.ts:624
 
 ___
 
 ### Id
 
-• `Optional` **Id**: *undefined* \| *string*
+• `Optional` **Id**: *string*
 
 Inherited from: [IEntryBase](types_dw_rest.dwrest.ientrybase.md).[Id](types_dw_rest.dwrest.ientrybase.md#id)
 
-Defined in: [types/DW_Rest.d.ts:547](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L547)
+Defined in: types/DW_Rest.d.ts:532
 
 ___
 
 ### Rotation
 
-• `Optional` **Rotation**: *undefined* \| [*Zero*](../enums/types_dw_rest.dwrest.rotation.md#zero) \| [*Ninety*](../enums/types_dw_rest.dwrest.rotation.md#ninety) \| [*HundredEighty*](../enums/types_dw_rest.dwrest.rotation.md#hundredeighty) \| [*TwoHundredSeventy*](../enums/types_dw_rest.dwrest.rotation.md#twohundredseventy)
+• `Optional` **Rotation**: [*Zero*](../enums/types_dw_rest.dwrest.rotation.md#zero) \| [*Ninety*](../enums/types_dw_rest.dwrest.rotation.md#ninety) \| [*HundredEighty*](../enums/types_dw_rest.dwrest.rotation.md#hundredeighty) \| [*TwoHundredSeventy*](../enums/types_dw_rest.dwrest.rotation.md#twohundredseventy)
 
 Inherited from: [IEntryBase](types_dw_rest.dwrest.ientrybase.md).[Rotation](types_dw_rest.dwrest.ientrybase.md#rotation)
 
-Defined in: [types/DW_Rest.d.ts:544](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L544)
+Defined in: types/DW_Rest.d.ts:529
 
 ___
 
 ### StrokeWidth
 
-• `Optional` **StrokeWidth**: *undefined* \| *number*
+• `Optional` **StrokeWidth**: *number*
 
 Inherited from: [IEntryBase](types_dw_rest.dwrest.ientrybase.md).[StrokeWidth](types_dw_rest.dwrest.ientrybase.md#strokewidth)
 
-Defined in: [types/DW_Rest.d.ts:546](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L546)
+Defined in: types/DW_Rest.d.ts:531
 
 ___
 
@@ -115,14 +115,14 @@ ___
 
 • **To**: [*IAnnotationPoint*](types_dw_rest.dwrest.iannotationpoint.md)
 
-Defined in: [types/DW_Rest.d.ts:639](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L639)
+Defined in: types/DW_Rest.d.ts:625
 
 ___
 
 ### Transparent
 
-• `Optional` **Transparent**: *undefined* \| *boolean*
+• `Optional` **Transparent**: *boolean*
 
 Inherited from: [IEntryBase](types_dw_rest.dwrest.ientrybase.md).[Transparent](types_dw_rest.dwrest.ientrybase.md#transparent)
 
-Defined in: [types/DW_Rest.d.ts:545](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L545)
+Defined in: types/DW_Rest.d.ts:530

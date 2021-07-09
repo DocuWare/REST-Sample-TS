@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IMultiValueField
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IMultiValueField
 
 # Interface: IMultiValueField
 
@@ -43,7 +43,7 @@ Multi value field
 
 Inherited from: [ICommonFormField](types_dw_rest.dwrest.icommonformfield.md).[Description](types_dw_rest.dwrest.icommonformfield.md#description)
 
-Defined in: [types/DW_Rest.d.ts:1018](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1018)
+Defined in: types/DW_Rest.d.ts:1007
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 Inherited from: [ICommonFormField](types_dw_rest.dwrest.icommonformfield.md).[FormFieldType](types_dw_rest.dwrest.icommonformfield.md#formfieldtype)
 
-Defined in: [types/DW_Rest.d.ts:1005](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1005)
+Defined in: types/DW_Rest.d.ts:994
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 Inherited from: [ICommonFormField](types_dw_rest.dwrest.icommonformfield.md).[HasSelectList](types_dw_rest.dwrest.icommonformfield.md#hasselectlist)
 
-Defined in: [types/DW_Rest.d.ts:1019](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1019)
+Defined in: types/DW_Rest.d.ts:1008
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 Inherited from: [ICommonFormField](types_dw_rest.dwrest.icommonformfield.md).[Id](types_dw_rest.dwrest.icommonformfield.md#id)
 
-Defined in: [types/DW_Rest.d.ts:1007](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1007)
+Defined in: types/DW_Rest.d.ts:996
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 • **IsMultiselect**: *boolean*
 
-Defined in: [types/DW_Rest.d.ts:1032](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1032)
+Defined in: types/DW_Rest.d.ts:1021
 
 ___
 
@@ -91,7 +91,7 @@ ___
 
 Inherited from: [ICommonFormField](types_dw_rest.dwrest.icommonformfield.md).[IsReadonly](types_dw_rest.dwrest.icommonformfield.md#isreadonly)
 
-Defined in: [types/DW_Rest.d.ts:1020](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1020)
+Defined in: types/DW_Rest.d.ts:1009
 
 ___
 
@@ -101,7 +101,7 @@ ___
 
 Inherited from: [ICommonFormField](types_dw_rest.dwrest.icommonformfield.md).[IsSelectListOnly](types_dw_rest.dwrest.icommonformfield.md#isselectlistonly)
 
-Defined in: [types/DW_Rest.d.ts:1021](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1021)
+Defined in: types/DW_Rest.d.ts:1010
 
 ___
 
@@ -111,7 +111,7 @@ ___
 
 Inherited from: [ICommonFormField](types_dw_rest.dwrest.icommonformfield.md).[Label](types_dw_rest.dwrest.icommonformfield.md#label)
 
-Defined in: [types/DW_Rest.d.ts:1006](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1006)
+Defined in: types/DW_Rest.d.ts:995
 
 ___
 
@@ -121,7 +121,7 @@ ___
 
 Inherited from: [ICommonFormField](types_dw_rest.dwrest.icommonformfield.md).[Mandatory](types_dw_rest.dwrest.icommonformfield.md#mandatory)
 
-Defined in: [types/DW_Rest.d.ts:1017](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1017)
+Defined in: types/DW_Rest.d.ts:1006
 
 ___
 
@@ -131,4 +131,4 @@ ___
 
 Inherited from: [ICommonFormField](types_dw_rest.dwrest.icommonformfield.md).[SelectListGuid](types_dw_rest.dwrest.icommonformfield.md#selectlistguid)
 
-Defined in: [types/DW_Rest.d.ts:1022](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1022)
+Defined in: types/DW_Rest.d.ts:1011

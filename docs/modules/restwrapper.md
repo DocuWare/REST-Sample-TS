@@ -1,12 +1,8 @@
-[Typedoc project reference documentation](../README.md) / restWrapper
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / restWrapper
 
 # Module: restWrapper
 
 ## Table of contents
-
-### Enumerations
-
-- [ContentType](../enums/restwrapper.contenttype.md)
 
 ### Classes
 

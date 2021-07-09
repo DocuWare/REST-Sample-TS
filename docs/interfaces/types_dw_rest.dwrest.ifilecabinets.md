@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IFileCabinets
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IFileCabinets
 
 # Interface: IFileCabinets
 
@@ -24,4 +24,4 @@ FileCabinet Response
 
 • **FileCabinet**: [*IFileCabinet*](types_dw_rest.dwrest.ifilecabinet.md)[]
 
-Defined in: [types/DW_Rest.d.ts:97](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L97)
+Defined in: types/DW_Rest.d.ts:111

@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IFieldMask
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IFieldMask
 
 # Interface: IFieldMask
 
@@ -26,7 +26,7 @@ Task field mask
 
 • **ErrorText**: *string*
 
-Defined in: [types/DW_Rest.d.ts:1174](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1174)
+Defined in: types/DW_Rest.d.ts:1168
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 • **RegularExpression**: *string*
 
-Defined in: [types/DW_Rest.d.ts:1175](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1175)
+Defined in: types/DW_Rest.d.ts:1169
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 • **SampleEditText**: *string*
 
-Defined in: [types/DW_Rest.d.ts:1176](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1176)
+Defined in: types/DW_Rest.d.ts:1170

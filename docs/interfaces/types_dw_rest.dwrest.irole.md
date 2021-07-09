@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IRole
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IRole
 
 # Interface: IRole
 
@@ -30,25 +30,25 @@ A role
 
 • **Active**: *boolean*
 
-Defined in: [types/DW_Rest.d.ts:736](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L736)
+Defined in: types/DW_Rest.d.ts:722
 
 ___
 
 ### Id
 
-• `Optional` **Id**: *undefined* \| *string*
+• `Optional` **Id**: *string*
 
-Defined in: [types/DW_Rest.d.ts:734](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L734)
+Defined in: types/DW_Rest.d.ts:720
 
 ___
 
 ### Links
 
-• `Optional` **Links**: *undefined* \| [*ILink*](types_dw_rest.dwrest.ilink.md)[]
+• `Optional` **Links**: [*ILink*](types_dw_rest.dwrest.ilink.md)[]
 
 Inherited from: [ILinkModel](types_dw_rest.dwrest.ilinkmodel.md).[Links](types_dw_rest.dwrest.ilinkmodel.md#links)
 
-Defined in: [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L10)
+Defined in: types/DW_Rest.d.ts:10
 
 ___
 
@@ -56,12 +56,12 @@ ___
 
 • **Name**: *string*
 
-Defined in: [types/DW_Rest.d.ts:735](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L735)
+Defined in: types/DW_Rest.d.ts:721
 
 ___
 
 ### Type
 
-• `Optional` **Type**: *undefined* \| [*Standard*](../enums/types_dw_rest.dwrest.roletypes.md#standard) \| [*Default*](../enums/types_dw_rest.dwrest.roletypes.md#default) \| [*Administrator*](../enums/types_dw_rest.dwrest.roletypes.md#administrator)
+• `Optional` **Type**: [*Standard*](../enums/types_dw_rest.dwrest.roletypes.md#standard) \| [*Default*](../enums/types_dw_rest.dwrest.roletypes.md#default) \| [*Administrator*](../enums/types_dw_rest.dwrest.roletypes.md#administrator)
 
-Defined in: [types/DW_Rest.d.ts:737](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L737)
+Defined in: types/DW_Rest.d.ts:723

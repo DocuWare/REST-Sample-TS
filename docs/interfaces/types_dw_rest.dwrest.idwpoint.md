@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IDWPoint
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IDWPoint
 
 # Interface: IDWPoint
 
@@ -25,7 +25,7 @@ DWPoint
 
 • **X**: *number*
 
-Defined in: [types/DW_Rest.d.ts:466](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L466)
+Defined in: types/DW_Rest.d.ts:451
 
 ___
 
@@ -33,4 +33,4 @@ ___
 
 • **Y**: *number*
 
-Defined in: [types/DW_Rest.d.ts:467](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L467)
+Defined in: types/DW_Rest.d.ts:452

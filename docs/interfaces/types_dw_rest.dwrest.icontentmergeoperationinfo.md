@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IContentMergeOperationInfo
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IContentMergeOperationInfo
 
 # Interface: IContentMergeOperationInfo
 
@@ -26,7 +26,7 @@ Information for merging
 
 • **Documents**: *number*[]
 
-Defined in: [types/DW_Rest.d.ts:501](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L501)
+Defined in: types/DW_Rest.d.ts:486
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 • **Force**: *boolean*
 
-Defined in: [types/DW_Rest.d.ts:503](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L503)
+Defined in: types/DW_Rest.d.ts:488
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 • **Operation**: [*ContentMergeOperation*](../enums/types_dw_rest.dwrest.contentmergeoperation.md)
 
-Defined in: [types/DW_Rest.d.ts:502](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L502)
+Defined in: types/DW_Rest.d.ts:487

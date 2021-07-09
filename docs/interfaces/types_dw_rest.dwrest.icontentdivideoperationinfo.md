@@ -1,10 +1,10 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IContentDivideOperationInfo
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IContentDivideOperationInfo
 
 # Interface: IContentDivideOperationInfo
 
 [types/DW_Rest](../modules/types_dw_rest.md).[DWRest](../modules/types_dw_rest.dwrest.md).IContentDivideOperationInfo
 
-Information for deviding
+Information for dividing
 
 **`interface`** IContentDivideOperationInfo
 
@@ -25,7 +25,7 @@ Information for deviding
 
 • **Force**: *boolean*
 
-Defined in: [types/DW_Rest.d.ts:513](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L513)
+Defined in: types/DW_Rest.d.ts:498
 
 ___
 
@@ -33,4 +33,4 @@ ___
 
 • **Operation**: [*ContentDivideOperation*](../enums/types_dw_rest.dwrest.contentdivideoperation.md)
 
-Defined in: [types/DW_Rest.d.ts:512](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L512)
+Defined in: types/DW_Rest.d.ts:497

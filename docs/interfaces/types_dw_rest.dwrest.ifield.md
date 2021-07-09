@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IField
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IField
 
 # Interface: IField
 
@@ -28,9 +28,9 @@ DocuWare Field Model
 
 ### FieldLabel
 
-• `Optional` **FieldLabel**: *undefined* \| *string*
+• `Optional` **FieldLabel**: *string*
 
-Defined in: [types/DW_Rest.d.ts:198](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L198)
+Defined in: types/DW_Rest.d.ts:212
 
 ___
 
@@ -38,15 +38,15 @@ ___
 
 • **FieldName**: *string*
 
-Defined in: [types/DW_Rest.d.ts:197](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L197)
+Defined in: types/DW_Rest.d.ts:211
 
 ___
 
 ### IsNull
 
-• `Optional` **IsNull**: *undefined* \| *boolean*
+• `Optional` **IsNull**: *boolean*
 
-Defined in: [types/DW_Rest.d.ts:199](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L199)
+Defined in: types/DW_Rest.d.ts:213
 
 ___
 
@@ -54,28 +54,28 @@ ___
 
 • **Item**: *any*
 
-Defined in: [types/DW_Rest.d.ts:202](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L202)
+Defined in: types/DW_Rest.d.ts:216
 
 ___
 
 ### ItemElementName
 
-• `Optional` **ItemElementName**: *undefined* \| [*Int*](../enums/types_dw_rest.dwrest.itemchoicetype.md#int) \| [*DateTime*](../enums/types_dw_rest.dwrest.itemchoicetype.md#datetime) \| [*String*](../enums/types_dw_rest.dwrest.itemchoicetype.md#string) \| [*Decimal*](../enums/types_dw_rest.dwrest.itemchoicetype.md#decimal) \| [*Date*](../enums/types_dw_rest.dwrest.itemchoicetype.md#date) \| [*Table*](../enums/types_dw_rest.dwrest.itemchoicetype.md#table) \| [*Keywords*](../enums/types_dw_rest.dwrest.itemchoicetype.md#keywords)
+• `Optional` **ItemElementName**: [*Int*](../enums/types_dw_rest.dwrest.itemchoicetype.md#int) \| [*DateTime*](../enums/types_dw_rest.dwrest.itemchoicetype.md#datetime) \| [*String*](../enums/types_dw_rest.dwrest.itemchoicetype.md#string) \| [*Decimal*](../enums/types_dw_rest.dwrest.itemchoicetype.md#decimal) \| [*Date*](../enums/types_dw_rest.dwrest.itemchoicetype.md#date) \| [*Table*](../enums/types_dw_rest.dwrest.itemchoicetype.md#table) \| [*Keywords*](../enums/types_dw_rest.dwrest.itemchoicetype.md#keywords)
 
-Defined in: [types/DW_Rest.d.ts:203](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L203)
+Defined in: types/DW_Rest.d.ts:217
 
 ___
 
 ### ReadOnly
 
-• `Optional` **ReadOnly**: *undefined* \| *boolean*
+• `Optional` **ReadOnly**: *boolean*
 
-Defined in: [types/DW_Rest.d.ts:200](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L200)
+Defined in: types/DW_Rest.d.ts:214
 
 ___
 
 ### SystemField
 
-• `Optional` **SystemField**: *undefined* \| *boolean*
+• `Optional` **SystemField**: *boolean*
 
-Defined in: [types/DW_Rest.d.ts:201](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L201)
+Defined in: types/DW_Rest.d.ts:215

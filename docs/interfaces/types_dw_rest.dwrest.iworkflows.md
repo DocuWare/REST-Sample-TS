@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IWorkflows
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IWorkflows
 
 # Interface: IWorkflows
 
@@ -24,4 +24,4 @@ List of Workflows
 
 • **Workflow**: [*IWorkflow*](types_dw_rest.dwrest.iworkflow.md)[]
 
-Defined in: [types/DW_Rest.d.ts:873](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L873)
+Defined in: types/DW_Rest.d.ts:859

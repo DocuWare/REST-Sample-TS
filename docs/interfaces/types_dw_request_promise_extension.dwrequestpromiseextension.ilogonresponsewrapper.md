@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Request_Promise_Extension](../modules/types_dw_request_promise_extension.md) / [DWRequestPromiseExtension](../modules/types_dw_request_promise_extension.dwrequestpromiseextension.md) / ILogonResponseWrapper
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Request_Promise_Extension](../modules/types_dw_request_promise_extension.md) / [DWRequestPromiseExtension](../modules/types_dw_request_promise_extension.dwrequestpromiseextension.md) / ILogonResponseWrapper
 
 # Interface: ILogonResponseWrapper
 
@@ -24,6 +24,6 @@ Original IncomingMessage does not contain body property, so we enhance it
 
 ### body
 
-• **body**: [*ILogonResponse*](types_dw_rest.dwrest.ilogonresponse.md)
+• **body**: *any*
 
-Defined in: [types/DW_Request_Promise_Extension.d.ts:28](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Request_Promise_Extension.d.ts#L28)
+Defined in: types/DW_Request_Promise_Extension.d.ts:28

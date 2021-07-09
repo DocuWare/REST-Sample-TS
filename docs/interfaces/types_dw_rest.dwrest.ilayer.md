@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / ILayer
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / ILayer
 
 # Interface: ILayer
 
@@ -25,12 +25,12 @@ Layer
 
 • **Id**: *number*
 
-Defined in: [types/DW_Rest.d.ts:532](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L532)
+Defined in: types/DW_Rest.d.ts:517
 
 ___
 
 ### Items
 
-• `Optional` **Items**: *undefined* \| ([*IDeleteEntry*](types_dw_rest.dwrest.ideleteentry.md) \| [*ITextEntry*](types_dw_rest.dwrest.itextentry.md) \| [*ILineEntry*](types_dw_rest.dwrest.ilineentry.md) \| [*IRectEntry*](types_dw_rest.dwrest.irectentry.md) \| [*IPolyLineEntry*](types_dw_rest.dwrest.ipolylineentry.md))[]
+• `Optional` **Items**: ([*ITextEntry*](types_dw_rest.dwrest.itextentry.md) \| [*ILineEntry*](types_dw_rest.dwrest.ilineentry.md) \| [*IRectEntry*](types_dw_rest.dwrest.irectentry.md) \| [*IPolyLineEntry*](types_dw_rest.dwrest.ipolylineentry.md) \| [*IDeleteEntry*](types_dw_rest.dwrest.ideleteentry.md))[]
 
-Defined in: [types/DW_Rest.d.ts:531](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L531)
+Defined in: types/DW_Rest.d.ts:516

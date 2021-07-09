@@ -1,5 +1,4 @@
-/// <reference path="./types/DW_Rest.d.ts" />
-
+import * as DWRest from './types/DW_Rest';
 
 /**
  *

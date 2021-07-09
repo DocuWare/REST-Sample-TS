@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Annotations](../modules/annotations.md) / RectEntry
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [Annotations](../modules/annotations.md) / RectEntry
 
 # Class: RectEntry
 
@@ -14,7 +14,7 @@
 
 ## Implements
 
-* [*IRectEntry*](../interfaces/types_dw_rest.dwrest.irectentry.md)
+* [*IRectEntry*](../interfaces/types_dw_rest.irectentry.md)
 
 ## Table of contents
 
@@ -39,114 +39,114 @@
 
 ### constructor
 
-\+ **new RectEntry**(`location`: [*IAnnotationPoint*](../interfaces/types_dw_rest.dwrest.iannotationpoint.md)): [*RectEntry*](annotations.rectentry.md)
+\+ **new RectEntry**(`location`: [*IAnnotationPoint*](../interfaces/types_dw_rest.iannotationpoint.md)): [*RectEntry*](annotations.rectentry.md)
 
 #### Parameters:
 
 Name | Type |
 ------ | ------ |
-`location` | [*IAnnotationPoint*](../interfaces/types_dw_rest.dwrest.iannotationpoint.md) |
+`location` | [*IAnnotationPoint*](../interfaces/types_dw_rest.iannotationpoint.md) |
 
 **Returns:** [*RectEntry*](annotations.rectentry.md)
 
-Defined in: [Annotations.ts:77](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/Annotations.ts#L77)
+Defined in: Annotations.ts:76
 
 ## Properties
 
 ### $type
 
-• **$type**: *string*= 'DocuWare.DocumentContentProcessing.Annotations.RectEntry, DocuWare.DocumentContentProcessing.Annotations'
+• **$type**: *string*= 'RectEntry'
 
-Implementation of: [IRectEntry](../interfaces/types_dw_rest.dwrest.irectentry.md).[$type](../interfaces/types_dw_rest.dwrest.irectentry.md#$type)
+Implementation of: [IRectEntry](../interfaces/types_dw_rest.irectentry.md).[$type](../interfaces/types_dw_rest.irectentry.md#$type)
 
-Defined in: [Annotations.ts:68](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/Annotations.ts#L68)
+Defined in: Annotations.ts:67
 
 ___
 
 ### Color
 
-• `Optional` **Color**: *undefined* \| *string*
+• `Optional` **Color**: *string*
 
-Implementation of: [IRectEntry](../interfaces/types_dw_rest.dwrest.irectentry.md).[Color](../interfaces/types_dw_rest.dwrest.irectentry.md#color)
+Implementation of: [IRectEntry](../interfaces/types_dw_rest.irectentry.md).[Color](../interfaces/types_dw_rest.irectentry.md#color)
 
-Defined in: [Annotations.ts:73](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/Annotations.ts#L73)
+Defined in: Annotations.ts:72
 
 ___
 
 ### Created
 
-• `Optional` **Created**: *undefined* \| [*ICreateInfo*](../interfaces/types_dw_rest.dwrest.icreateinfo.md)
+• `Optional` **Created**: [*ICreateInfo*](../interfaces/types_dw_rest.icreateinfo.md)
 
-Implementation of: [IRectEntry](../interfaces/types_dw_rest.dwrest.irectentry.md).[Created](../interfaces/types_dw_rest.dwrest.irectentry.md#created)
+Implementation of: [IRectEntry](../interfaces/types_dw_rest.irectentry.md).[Created](../interfaces/types_dw_rest.irectentry.md#created)
 
-Defined in: [Annotations.ts:72](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/Annotations.ts#L72)
+Defined in: Annotations.ts:71
 
 ___
 
 ### Ellipse
 
-• `Optional` **Ellipse**: *undefined* \| *boolean*
+• `Optional` **Ellipse**: *boolean*
 
-Implementation of: [IRectEntry](../interfaces/types_dw_rest.dwrest.irectentry.md).[Ellipse](../interfaces/types_dw_rest.dwrest.irectentry.md#ellipse)
+Implementation of: [IRectEntry](../interfaces/types_dw_rest.irectentry.md).[Ellipse](../interfaces/types_dw_rest.irectentry.md#ellipse)
 
-Defined in: [Annotations.ts:71](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/Annotations.ts#L71)
+Defined in: Annotations.ts:70
 
 ___
 
 ### Filled
 
-• `Optional` **Filled**: *undefined* \| *boolean*
+• `Optional` **Filled**: *boolean*
 
-Implementation of: [IRectEntry](../interfaces/types_dw_rest.dwrest.irectentry.md).[Filled](../interfaces/types_dw_rest.dwrest.irectentry.md#filled)
+Implementation of: [IRectEntry](../interfaces/types_dw_rest.irectentry.md).[Filled](../interfaces/types_dw_rest.irectentry.md#filled)
 
-Defined in: [Annotations.ts:70](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/Annotations.ts#L70)
+Defined in: Annotations.ts:69
 
 ___
 
 ### Id
 
-• `Optional` **Id**: *undefined* \| *string*
+• `Optional` **Id**: *string*
 
-Implementation of: [IRectEntry](../interfaces/types_dw_rest.dwrest.irectentry.md).[Id](../interfaces/types_dw_rest.dwrest.irectentry.md#id)
+Implementation of: [IRectEntry](../interfaces/types_dw_rest.irectentry.md).[Id](../interfaces/types_dw_rest.irectentry.md#id)
 
-Defined in: [Annotations.ts:77](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/Annotations.ts#L77)
+Defined in: Annotations.ts:76
 
 ___
 
 ### Location
 
-• **Location**: [*IAnnotationPoint*](../interfaces/types_dw_rest.dwrest.iannotationpoint.md)
+• **Location**: [*IAnnotationPoint*](../interfaces/types_dw_rest.iannotationpoint.md)
 
-Implementation of: [IRectEntry](../interfaces/types_dw_rest.dwrest.irectentry.md).[Location](../interfaces/types_dw_rest.dwrest.irectentry.md#location)
+Implementation of: [IRectEntry](../interfaces/types_dw_rest.irectentry.md).[Location](../interfaces/types_dw_rest.irectentry.md#location)
 
-Defined in: [Annotations.ts:69](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/Annotations.ts#L69)
+Defined in: Annotations.ts:68
 
 ___
 
 ### Rotation
 
-• `Optional` **Rotation**: *undefined* \| [*Zero*](../enums/types_dw_rest.dwrest.rotation.md#zero) \| [*Ninety*](../enums/types_dw_rest.dwrest.rotation.md#ninety) \| [*HundredEighty*](../enums/types_dw_rest.dwrest.rotation.md#hundredeighty) \| [*TwoHundredSeventy*](../enums/types_dw_rest.dwrest.rotation.md#twohundredseventy)
+• `Optional` **Rotation**: [*Zero*](../enums/types_dw_rest.rotation.md#zero) \| [*Ninety*](../enums/types_dw_rest.rotation.md#ninety) \| [*HundredEighty*](../enums/types_dw_rest.rotation.md#hundredeighty) \| [*TwoHundredSeventy*](../enums/types_dw_rest.rotation.md#twohundredseventy)
 
-Implementation of: [IRectEntry](../interfaces/types_dw_rest.dwrest.irectentry.md).[Rotation](../interfaces/types_dw_rest.dwrest.irectentry.md#rotation)
+Implementation of: [IRectEntry](../interfaces/types_dw_rest.irectentry.md).[Rotation](../interfaces/types_dw_rest.irectentry.md#rotation)
 
-Defined in: [Annotations.ts:74](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/Annotations.ts#L74)
+Defined in: Annotations.ts:73
 
 ___
 
 ### StrokeWidth
 
-• `Optional` **StrokeWidth**: *undefined* \| *number*
+• `Optional` **StrokeWidth**: *number*
 
-Implementation of: [IRectEntry](../interfaces/types_dw_rest.dwrest.irectentry.md).[StrokeWidth](../interfaces/types_dw_rest.dwrest.irectentry.md#strokewidth)
+Implementation of: [IRectEntry](../interfaces/types_dw_rest.irectentry.md).[StrokeWidth](../interfaces/types_dw_rest.irectentry.md#strokewidth)
 
-Defined in: [Annotations.ts:76](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/Annotations.ts#L76)
+Defined in: Annotations.ts:75
 
 ___
 
 ### Transparent
 
-• `Optional` **Transparent**: *undefined* \| *boolean*
+• `Optional` **Transparent**: *boolean*
 
-Implementation of: [IRectEntry](../interfaces/types_dw_rest.dwrest.irectentry.md).[Transparent](../interfaces/types_dw_rest.dwrest.irectentry.md#transparent)
+Implementation of: [IRectEntry](../interfaces/types_dw_rest.irectentry.md).[Transparent](../interfaces/types_dw_rest.irectentry.md#transparent)
 
-Defined in: [Annotations.ts:75](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/Annotations.ts#L75)
+Defined in: Annotations.ts:74

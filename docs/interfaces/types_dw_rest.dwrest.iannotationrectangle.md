@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IAnnotationRectangle
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IAnnotationRectangle
 
 # Interface: IAnnotationRectangle
 
@@ -27,7 +27,7 @@ Annotation rectangle
 
 • **Height**: *number*
 
-Defined in: [types/DW_Rest.d.ts:591](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L591)
+Defined in: types/DW_Rest.d.ts:577
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 • **Left**: *number*
 
-Defined in: [types/DW_Rest.d.ts:588](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L588)
+Defined in: types/DW_Rest.d.ts:574
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 • **Top**: *number*
 
-Defined in: [types/DW_Rest.d.ts:589](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L589)
+Defined in: types/DW_Rest.d.ts:575
 
 ___
 
@@ -51,4 +51,4 @@ ___
 
 • **Width**: *number*
 
-Defined in: [types/DW_Rest.d.ts:590](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L590)
+Defined in: types/DW_Rest.d.ts:576

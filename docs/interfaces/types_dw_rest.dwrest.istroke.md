@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IStroke
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IStroke
 
 # Interface: IStroke
 
@@ -24,4 +24,4 @@ A stroke
 
 • **Point**: [*IAnnotation*](types_dw_rest.dwrest.iannotation.md)
 
-Defined in: [types/DW_Rest.d.ts:659](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L659)
+Defined in: types/DW_Rest.d.ts:645

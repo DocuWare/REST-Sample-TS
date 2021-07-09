@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IImportSettings
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IImportSettings
 
 # Interface: IImportSettings
 
@@ -25,12 +25,12 @@ Import Settings
 
 • **FieldMappings**: [*IFieldMapping*](types_dw_rest.dwrest.ifieldmapping.md)[]
 
-Defined in: [types/DW_Rest.d.ts:787](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L787)
+Defined in: types/DW_Rest.d.ts:773
 
 ___
 
 ### PreserveSystemFields
 
-• `Optional` **PreserveSystemFields**: *undefined* \| *boolean*
+• `Optional` **PreserveSystemFields**: *boolean*
 
-Defined in: [types/DW_Rest.d.ts:786](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L786)
+Defined in: types/DW_Rest.d.ts:772

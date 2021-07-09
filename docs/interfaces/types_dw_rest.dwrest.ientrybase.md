@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IEntryBase
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IEntryBase
 
 # Interface: IEntryBase
 
@@ -40,52 +40,52 @@ Entry base
 
 • **$type**: *string*
 
-Defined in: [types/DW_Rest.d.ts:541](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L541)
+Defined in: types/DW_Rest.d.ts:526
 
 ___
 
 ### Color
 
-• `Optional` **Color**: *undefined* \| *string*
+• `Optional` **Color**: *string*
 
-Defined in: [types/DW_Rest.d.ts:543](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L543)
+Defined in: types/DW_Rest.d.ts:528
 
 ___
 
 ### Created
 
-• `Optional` **Created**: *undefined* \| [*ICreateInfo*](types_dw_rest.dwrest.icreateinfo.md)
+• `Optional` **Created**: [*ICreateInfo*](types_dw_rest.dwrest.icreateinfo.md)
 
-Defined in: [types/DW_Rest.d.ts:542](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L542)
+Defined in: types/DW_Rest.d.ts:527
 
 ___
 
 ### Id
 
-• `Optional` **Id**: *undefined* \| *string*
+• `Optional` **Id**: *string*
 
-Defined in: [types/DW_Rest.d.ts:547](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L547)
+Defined in: types/DW_Rest.d.ts:532
 
 ___
 
 ### Rotation
 
-• `Optional` **Rotation**: *undefined* \| [*Zero*](../enums/types_dw_rest.dwrest.rotation.md#zero) \| [*Ninety*](../enums/types_dw_rest.dwrest.rotation.md#ninety) \| [*HundredEighty*](../enums/types_dw_rest.dwrest.rotation.md#hundredeighty) \| [*TwoHundredSeventy*](../enums/types_dw_rest.dwrest.rotation.md#twohundredseventy)
+• `Optional` **Rotation**: [*Zero*](../enums/types_dw_rest.dwrest.rotation.md#zero) \| [*Ninety*](../enums/types_dw_rest.dwrest.rotation.md#ninety) \| [*HundredEighty*](../enums/types_dw_rest.dwrest.rotation.md#hundredeighty) \| [*TwoHundredSeventy*](../enums/types_dw_rest.dwrest.rotation.md#twohundredseventy)
 
-Defined in: [types/DW_Rest.d.ts:544](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L544)
+Defined in: types/DW_Rest.d.ts:529
 
 ___
 
 ### StrokeWidth
 
-• `Optional` **StrokeWidth**: *undefined* \| *number*
+• `Optional` **StrokeWidth**: *number*
 
-Defined in: [types/DW_Rest.d.ts:546](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L546)
+Defined in: types/DW_Rest.d.ts:531
 
 ___
 
 ### Transparent
 
-• `Optional` **Transparent**: *undefined* \| *boolean*
+• `Optional` **Transparent**: *boolean*
 
-Defined in: [types/DW_Rest.d.ts:545](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L545)
+Defined in: types/DW_Rest.d.ts:530

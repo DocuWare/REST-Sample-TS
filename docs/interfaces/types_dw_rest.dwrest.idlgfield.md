@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IDlgField
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IDlgField
 
 # Interface: IDlgField
 
@@ -34,7 +34,7 @@ DocuWare Dialog Field Model
 
 • **AllowExtendedSearch**: *boolean*
 
-Defined in: [types/DW_Rest.d.ts:227](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L227)
+Defined in: types/DW_Rest.d.ts:241
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 • **AllowFiltering**: *boolean*
 
-Defined in: [types/DW_Rest.d.ts:228](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L228)
+Defined in: types/DW_Rest.d.ts:242
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 • **AssignedInternalSelectList**: *boolean*
 
-Defined in: [types/DW_Rest.d.ts:229](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L229)
+Defined in: types/DW_Rest.d.ts:243
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 • **DBFieldName**: *string*
 
-Defined in: [types/DW_Rest.d.ts:222](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L222)
+Defined in: types/DW_Rest.d.ts:236
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 • **DWFieldType**: [*ItemChoiceType*](../enums/types_dw_rest.dwrest.itemchoicetype.md)
 
-Defined in: [types/DW_Rest.d.ts:224](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L224)
+Defined in: types/DW_Rest.d.ts:238
 
 ___
 
@@ -74,25 +74,25 @@ ___
 
 • **DlgLabel**: *string*
 
-Defined in: [types/DW_Rest.d.ts:223](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L223)
+Defined in: types/DW_Rest.d.ts:237
 
 ___
 
 ### Length
 
-• `Optional` **Length**: *undefined* \| *number*
+• `Optional` **Length**: *number*
 
-Defined in: [types/DW_Rest.d.ts:226](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L226)
+Defined in: types/DW_Rest.d.ts:240
 
 ___
 
 ### Links
 
-• `Optional` **Links**: *undefined* \| [*ILink*](types_dw_rest.dwrest.ilink.md)[]
+• `Optional` **Links**: [*ILink*](types_dw_rest.dwrest.ilink.md)[]
 
 Inherited from: [ILinkModel](types_dw_rest.dwrest.ilinkmodel.md).[Links](types_dw_rest.dwrest.ilinkmodel.md#links)
 
-Defined in: [types/DW_Rest.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L10)
+Defined in: types/DW_Rest.d.ts:10
 
 ___
 
@@ -100,4 +100,4 @@ ___
 
 • **Visible**: *boolean*
 
-Defined in: [types/DW_Rest.d.ts:225](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L225)
+Defined in: types/DW_Rest.d.ts:239

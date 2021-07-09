@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IDialogExpression
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IDialogExpression
 
 # Interface: IDialogExpression
 
@@ -29,7 +29,7 @@ Dialog Expression
 
 • **Condition**: [*ICondition*](types_dw_rest.dwrest.icondition.md)[]
 
-Defined in: [types/DW_Rest.d.ts:388](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L388)
+Defined in: types/DW_Rest.d.ts:373
 
 ___
 
@@ -37,4 +37,4 @@ ___
 
 • **Operation**: [*Operation*](../enums/types_dw_rest.dwrest.operation.md)
 
-Defined in: [types/DW_Rest.d.ts:389](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L389)
+Defined in: types/DW_Rest.d.ts:374

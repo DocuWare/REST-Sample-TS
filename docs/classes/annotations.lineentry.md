@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Annotations](../modules/annotations.md) / LineEntry
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [Annotations](../modules/annotations.md) / LineEntry
 
 # Class: LineEntry
 
@@ -14,7 +14,7 @@
 
 ## Implements
 
-* [*ILineEntry*](../interfaces/types_dw_rest.dwrest.ilineentry.md)
+* [*ILineEntry*](../interfaces/types_dw_rest.ilineentry.md)
 
 ## Table of contents
 
@@ -39,115 +39,115 @@
 
 ### constructor
 
-\+ **new LineEntry**(`from`: [*IAnnotationPoint*](../interfaces/types_dw_rest.dwrest.iannotationpoint.md), `to`: [*IAnnotationPoint*](../interfaces/types_dw_rest.dwrest.iannotationpoint.md)): [*LineEntry*](annotations.lineentry.md)
+\+ **new LineEntry**(`from`: [*IAnnotationPoint*](../interfaces/types_dw_rest.iannotationpoint.md), `to`: [*IAnnotationPoint*](../interfaces/types_dw_rest.iannotationpoint.md)): [*LineEntry*](annotations.lineentry.md)
 
 #### Parameters:
 
 Name | Type |
 ------ | ------ |
-`from` | [*IAnnotationPoint*](../interfaces/types_dw_rest.dwrest.iannotationpoint.md) |
-`to` | [*IAnnotationPoint*](../interfaces/types_dw_rest.dwrest.iannotationpoint.md) |
+`from` | [*IAnnotationPoint*](../interfaces/types_dw_rest.iannotationpoint.md) |
+`to` | [*IAnnotationPoint*](../interfaces/types_dw_rest.iannotationpoint.md) |
 
 **Returns:** [*LineEntry*](annotations.lineentry.md)
 
-Defined in: [Annotations.ts:50](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/Annotations.ts#L50)
+Defined in: Annotations.ts:49
 
 ## Properties
 
 ### $type
 
-• **$type**: *string*= 'DocuWare.DocumentContentProcessing.Annotations.LineEntry, DocuWare.DocumentContentProcessing.Annotations'
+• **$type**: *string*= 'LineEntry'
 
-Implementation of: [ILineEntry](../interfaces/types_dw_rest.dwrest.ilineentry.md).[$type](../interfaces/types_dw_rest.dwrest.ilineentry.md#$type)
+Implementation of: [ILineEntry](../interfaces/types_dw_rest.ilineentry.md).[$type](../interfaces/types_dw_rest.ilineentry.md#$type)
 
-Defined in: [Annotations.ts:41](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/Annotations.ts#L41)
+Defined in: Annotations.ts:40
 
 ___
 
 ### Arrow
 
-• `Optional` **Arrow**: *undefined* \| *boolean*
+• `Optional` **Arrow**: *boolean*
 
-Implementation of: [ILineEntry](../interfaces/types_dw_rest.dwrest.ilineentry.md).[Arrow](../interfaces/types_dw_rest.dwrest.ilineentry.md#arrow)
+Implementation of: [ILineEntry](../interfaces/types_dw_rest.ilineentry.md).[Arrow](../interfaces/types_dw_rest.ilineentry.md#arrow)
 
-Defined in: [Annotations.ts:44](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/Annotations.ts#L44)
+Defined in: Annotations.ts:43
 
 ___
 
 ### Color
 
-• `Optional` **Color**: *undefined* \| *string*
+• `Optional` **Color**: *string*
 
-Implementation of: [ILineEntry](../interfaces/types_dw_rest.dwrest.ilineentry.md).[Color](../interfaces/types_dw_rest.dwrest.ilineentry.md#color)
+Implementation of: [ILineEntry](../interfaces/types_dw_rest.ilineentry.md).[Color](../interfaces/types_dw_rest.ilineentry.md#color)
 
-Defined in: [Annotations.ts:46](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/Annotations.ts#L46)
+Defined in: Annotations.ts:45
 
 ___
 
 ### Created
 
-• `Optional` **Created**: *undefined* \| [*ICreateInfo*](../interfaces/types_dw_rest.dwrest.icreateinfo.md)
+• `Optional` **Created**: [*ICreateInfo*](../interfaces/types_dw_rest.icreateinfo.md)
 
-Implementation of: [ILineEntry](../interfaces/types_dw_rest.dwrest.ilineentry.md).[Created](../interfaces/types_dw_rest.dwrest.ilineentry.md#created)
+Implementation of: [ILineEntry](../interfaces/types_dw_rest.ilineentry.md).[Created](../interfaces/types_dw_rest.ilineentry.md#created)
 
-Defined in: [Annotations.ts:45](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/Annotations.ts#L45)
+Defined in: Annotations.ts:44
 
 ___
 
 ### From
 
-• **From**: [*IAnnotationPoint*](../interfaces/types_dw_rest.dwrest.iannotationpoint.md)
+• **From**: [*IAnnotationPoint*](../interfaces/types_dw_rest.iannotationpoint.md)
 
-Implementation of: [ILineEntry](../interfaces/types_dw_rest.dwrest.ilineentry.md).[From](../interfaces/types_dw_rest.dwrest.ilineentry.md#from)
+Implementation of: [ILineEntry](../interfaces/types_dw_rest.ilineentry.md).[From](../interfaces/types_dw_rest.ilineentry.md#from)
 
-Defined in: [Annotations.ts:42](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/Annotations.ts#L42)
+Defined in: Annotations.ts:41
 
 ___
 
 ### Id
 
-• `Optional` **Id**: *undefined* \| *string*
+• `Optional` **Id**: *string*
 
-Implementation of: [ILineEntry](../interfaces/types_dw_rest.dwrest.ilineentry.md).[Id](../interfaces/types_dw_rest.dwrest.ilineentry.md#id)
+Implementation of: [ILineEntry](../interfaces/types_dw_rest.ilineentry.md).[Id](../interfaces/types_dw_rest.ilineentry.md#id)
 
-Defined in: [Annotations.ts:50](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/Annotations.ts#L50)
+Defined in: Annotations.ts:49
 
 ___
 
 ### Rotation
 
-• `Optional` **Rotation**: *undefined* \| [*Zero*](../enums/types_dw_rest.dwrest.rotation.md#zero) \| [*Ninety*](../enums/types_dw_rest.dwrest.rotation.md#ninety) \| [*HundredEighty*](../enums/types_dw_rest.dwrest.rotation.md#hundredeighty) \| [*TwoHundredSeventy*](../enums/types_dw_rest.dwrest.rotation.md#twohundredseventy)
+• `Optional` **Rotation**: [*Zero*](../enums/types_dw_rest.rotation.md#zero) \| [*Ninety*](../enums/types_dw_rest.rotation.md#ninety) \| [*HundredEighty*](../enums/types_dw_rest.rotation.md#hundredeighty) \| [*TwoHundredSeventy*](../enums/types_dw_rest.rotation.md#twohundredseventy)
 
-Implementation of: [ILineEntry](../interfaces/types_dw_rest.dwrest.ilineentry.md).[Rotation](../interfaces/types_dw_rest.dwrest.ilineentry.md#rotation)
+Implementation of: [ILineEntry](../interfaces/types_dw_rest.ilineentry.md).[Rotation](../interfaces/types_dw_rest.ilineentry.md#rotation)
 
-Defined in: [Annotations.ts:47](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/Annotations.ts#L47)
+Defined in: Annotations.ts:46
 
 ___
 
 ### StrokeWidth
 
-• `Optional` **StrokeWidth**: *undefined* \| *number*
+• `Optional` **StrokeWidth**: *number*
 
-Implementation of: [ILineEntry](../interfaces/types_dw_rest.dwrest.ilineentry.md).[StrokeWidth](../interfaces/types_dw_rest.dwrest.ilineentry.md#strokewidth)
+Implementation of: [ILineEntry](../interfaces/types_dw_rest.ilineentry.md).[StrokeWidth](../interfaces/types_dw_rest.ilineentry.md#strokewidth)
 
-Defined in: [Annotations.ts:49](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/Annotations.ts#L49)
+Defined in: Annotations.ts:48
 
 ___
 
 ### To
 
-• **To**: [*IAnnotationPoint*](../interfaces/types_dw_rest.dwrest.iannotationpoint.md)
+• **To**: [*IAnnotationPoint*](../interfaces/types_dw_rest.iannotationpoint.md)
 
-Implementation of: [ILineEntry](../interfaces/types_dw_rest.dwrest.ilineentry.md).[To](../interfaces/types_dw_rest.dwrest.ilineentry.md#to)
+Implementation of: [ILineEntry](../interfaces/types_dw_rest.ilineentry.md).[To](../interfaces/types_dw_rest.ilineentry.md#to)
 
-Defined in: [Annotations.ts:43](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/Annotations.ts#L43)
+Defined in: Annotations.ts:42
 
 ___
 
 ### Transparent
 
-• `Optional` **Transparent**: *undefined* \| *boolean*
+• `Optional` **Transparent**: *boolean*
 
-Implementation of: [ILineEntry](../interfaces/types_dw_rest.dwrest.ilineentry.md).[Transparent](../interfaces/types_dw_rest.dwrest.ilineentry.md#transparent)
+Implementation of: [ILineEntry](../interfaces/types_dw_rest.ilineentry.md).[Transparent](../interfaces/types_dw_rest.ilineentry.md#transparent)
 
-Defined in: [Annotations.ts:48](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/Annotations.ts#L48)
+Defined in: Annotations.ts:47

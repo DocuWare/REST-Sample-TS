@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / CheckInReturnedDocument
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / CheckInReturnedDocument
 
 # Enumeration: CheckInReturnedDocument
 
@@ -19,7 +19,7 @@ Expected return after checkin
 
 • **CheckedIn**: = "CheckedIn"
 
-Defined in: [types/DW_Rest.d.ts:1386](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1386)
+Defined in: types/DW_Rest.d.ts:1412
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **Original**: = "Original"
 
-Defined in: [types/DW_Rest.d.ts:1385](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L1385)
+Defined in: types/DW_Rest.d.ts:1411

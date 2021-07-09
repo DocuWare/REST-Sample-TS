@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IFileCabinetTransferInfo
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IFileCabinetTransferInfo
 
 # Interface: IFileCabinetTransferInfo
 
@@ -27,7 +27,7 @@ FileCabinet Transfer Info
 
 • **FillIntellix**: *boolean*
 
-Defined in: [types/DW_Rest.d.ts:492](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L492)
+Defined in: types/DW_Rest.d.ts:477
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 • **KeepSource**: *boolean*
 
-Defined in: [types/DW_Rest.d.ts:491](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L491)
+Defined in: types/DW_Rest.d.ts:476
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 • **SourceDocId**: *number*[]
 
-Defined in: [types/DW_Rest.d.ts:489](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L489)
+Defined in: types/DW_Rest.d.ts:474
 
 ___
 
@@ -51,4 +51,4 @@ ___
 
 • **SourceFileCabinetId**: *string*
 
-Defined in: [types/DW_Rest.d.ts:490](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L490)
+Defined in: types/DW_Rest.d.ts:475

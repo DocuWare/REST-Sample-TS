@@ -18,19 +18,19 @@ We've developed this project with [Visual Studio Code](https://code.visualstudio
 
 Startup: index.ts
 Javascript output dir: ./dist
-[The REST Wrapper class](./docs/classes/_restwrapper_.restcallwrapper.md)
+[The REST Wrapper class](./docs/modules/restwrapper.md)
 
 ### Custom typescript definition files
-- ["types/DW_Rest.d"](./docs/modules/_types_dw_rest_d_.md)
+- ["types/DW_Rest.d"](./docs/modules/types_dw_rest.md)
   Wrappes the REST Schema here, so you can work with interfaces in code
-- ["types/DW_Request_Promise_Extension.d"](./docs/modules/_types_dw_request_promise_extension_d_.md)
+- ["types/DW_Request_Promise_Extension.d"](./docs/modules/types_dw_request_promise_extension.md)
 Just a helper to work with node module 'request-promise'
-- ["types/timespan.d"](./docs/modules/_types_timespan_d_.md)
+- ["types/timespan.d"](./docs/modules/types_timespan.md)
   Definition for module 'timespan' so you can work better in typescript
 
 ## How to start
 1. Install node packages (run 'npm install')
-2. Take a look in ["index.ts"](./docs/modules/_index_.md) and [restWrapper.ts](./docs/classes/_restwrapper_.restcallwrapper.md)
+2. Take a look in ["index.ts"](./src/index.ts) and [restWrapper.ts](./docs/classes/restwrapper.restcallwrapper.md)
 3. Change credentials, organization and root URL
 4. Play around, find the functions you need
 5. Compile the code so it can be run (`npm run tsc`)

@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](types_dw_rest.md) / DWRest
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](types_dw_rest.md) / DWRest
 
 # Namespace: DWRest
 
@@ -14,7 +14,9 @@
 - [ContentDivideOperation](../enums/types_dw_rest.dwrest.contentdivideoperation.md)
 - [ContentMergeOperation](../enums/types_dw_rest.dwrest.contentmergeoperation.md)
 - [DialogType](../enums/types_dw_rest.dwrest.dialogtype.md)
+- [DocuWareSpecificContentType](../enums/types_dw_rest.dwrest.docuwarespecificcontenttype.md)
 - [DocumentAction](../enums/types_dw_rest.dwrest.documentaction.md)
+- [DocumentContentType](../enums/types_dw_rest.dwrest.documentcontenttype.md)
 - [FormTypeEnum](../enums/types_dw_rest.dwrest.formtypeenum.md)
 - [ImportEntryStatus](../enums/types_dw_rest.dwrest.importentrystatus.md)
 - [ImportEntryVersionStatus](../enums/types_dw_rest.dwrest.importentryversionstatus.md)
@@ -36,6 +38,7 @@
 - [IBaseForm](../interfaces/types_dw_rest.dwrest.ibaseform.md)
 - [IBaseTaskOperations](../interfaces/types_dw_rest.dwrest.ibasetaskoperations.md)
 - [ICheckInActionParameters](../interfaces/types_dw_rest.dwrest.icheckinactionparameters.md)
+- [IChunkUploadDocument](../interfaces/types_dw_rest.dwrest.ichunkuploaddocument.md)
 - [IColumnValue](../interfaces/types_dw_rest.dwrest.icolumnvalue.md)
 - [IColumnValues](../interfaces/types_dw_rest.dwrest.icolumnvalues.md)
 - [ICommonFormField](../interfaces/types_dw_rest.dwrest.icommonformfield.md)

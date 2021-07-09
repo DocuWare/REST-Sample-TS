@@ -1,4 +1,6 @@
-declare namespace DWRest {
+// import { IncomingMessage } from "http";
+
+// export class DWRest {
 
     /**
      * Most of DocuWare Objects contain links 
@@ -6,16 +8,16 @@ declare namespace DWRest {
      * 
      * @interface ILinkModel
      */
-    interface ILinkModel {
+    export export interface ILinkModel {
         Links?: ILink[]
     }
 
     /**
-     * Wraps all neccessary logon properties
+     * Wraps all necessary logon properties
      *
      * @interface ILogonModel
      */
-    interface ILogonModel {
+    export interface ILogonModel {
         Username: string;
         Password: string;
         Organization: string;
@@ -30,7 +32,7 @@ declare namespace DWRest {
      * @interface ILogonResponse
      * @extends {ILinkModel}
      */
-    interface ILogonResponse extends ILinkModel {
+    export interface ILogonResponse extends ILinkModel {
         Documentation: {
             Links: ILink[]
         }
@@ -41,7 +43,7 @@ declare namespace DWRest {
      *
      * @interface ILink
      */
-    interface ILink {
+    export interface ILink {
         rel: string;
         href: string;
     }
@@ -52,7 +54,7 @@ declare namespace DWRest {
      * @interface IOrganization
      * @extends {ILinkModel}
      */
-    interface IOrganization extends ILinkModel {
+    export interface IOrganization extends ILinkModel {
         Name: string;
         Guid: string;
         AdditionalInfo: {
@@ -69,8 +71,8 @@ declare namespace DWRest {
      *
      * @interface IOrganizations
      */
-    interface IOrganizations {
-        Organization: DWRest.IOrganization[];
+    export interface IOrganizations {
+        Organization: IOrganization[];
     }
 
     /**
@@ -79,13 +81,27 @@ declare namespace DWRest {
      * @interface IFileCabinet
      * @extends {ILinkModel}
      */
-    interface IFileCabinet extends ILinkModel {
+    export interface IFileCabinet extends ILinkModel {
         Name: string;
         Color: string;
         Id: string;
         IsBasket: boolean;
         Default: boolean;
-        Documents: [DWRest.IDocument]
+        Documents: [IDocument]
+    }
+
+    /**
+     *Upload document structure for chunk upload
+     *
+     * @interface IChunkUploadDocument
+     */
+    export interface IChunkUploadDocument {
+        FilesPath: string[];
+        UploadFileContentType: string | false;
+        UploadFilePath: string;
+        XFileName: string;
+        DocumentContent: string;
+        DocumentContentType: DocumentContentType
     }
 
     /**
@@ -93,8 +109,8 @@ declare namespace DWRest {
      *
      * @interface IFileCabinets
      */
-    interface IFileCabinets {
-        FileCabinet: DWRest.IFileCabinet[]
+    export interface IFileCabinets {
+        FileCabinet: IFileCabinet[]
     }
 
     /**
@@ -103,7 +119,7 @@ declare namespace DWRest {
      * @interface IDocument
      * @extends {ILinkModel}
      */
-    interface IDocument extends ILinkModel {
+    export interface IDocument extends ILinkModel {
         Fields?: IField[];
         Flags?: {
             IsCold: boolean;
@@ -116,7 +132,7 @@ declare namespace DWRest {
             IsDeleted: boolean;
             IsEmail: boolean;
         },
-        Sections?: DWRest.ISection[];
+        Sections?: ISection[];
         ContentType?: string;
         TotalPages?: number;
         Id?: number;
@@ -130,8 +146,8 @@ declare namespace DWRest {
         IntellixTrust?: string;
         VersionStatus?: string;
         FileCabinetId?: string;
-        Version?: DWRest.IDocumentVersion;
-        ApplicationProperties?: DWRest.IDocumentApplicationProperty[];
+        Version?: IDocumentVersion;
+        ApplicationProperties?: IDocumentApplicationProperty[];
     }
 
 
@@ -140,7 +156,7 @@ declare namespace DWRest {
      *
      * @interface ISection
      */
-    interface ISection extends DWRest.ILinkModel {
+    export interface ISection extends ILinkModel {
         Id: string;
         ContentType: string;
         HaveMorePages: boolean;
@@ -156,9 +172,9 @@ declare namespace DWRest {
      *DocuWare Page Model
      *
      * @interface IPage
-     * @extends {DWRest.ILinkModel}
+     * @extends {ILinkModel}
      */
-    interface IPage extends DWRest.ILinkModel {
+    export interface IPage extends ILinkModel {
         PageNum: number;
         Data: {
             DpiX: number;
@@ -182,10 +198,10 @@ declare namespace DWRest {
      * DocuWare Pages Model
      *
      * @interface IPages
-     * @extends {DWRest.ILinkModel}
+     * @extends {ILinkModel}
      */
-    interface IPages extends DWRest.ILinkModel {
-        Page: DWRest.IPage[];
+    export interface IPages extends ILinkModel {
+        Page: IPage[];
     }
 
     /**
@@ -193,7 +209,7 @@ declare namespace DWRest {
      *
      * @interface IField
      */
-    interface IField {
+    export interface IField {
         FieldName: string;
         FieldLabel?: string;
         IsNull?: boolean;
@@ -208,8 +224,8 @@ declare namespace DWRest {
      *
      * @interface IFieldList
      */
-    interface IFieldList {
-        Field: DWRest.IField[]
+    export interface IFieldList {
+        Field: IField[]
     }
 
     /** 
@@ -218,10 +234,10 @@ declare namespace DWRest {
      * @interface IDlgField
      * @extends {ILinkModel}
      */
-    interface IDlgField extends ILinkModel {
+    export interface IDlgField extends ILinkModel {
         DBFieldName: string;
         DlgLabel: string;
-        DWFieldType: DWRest.ItemChoiceType;
+        DWFieldType: ItemChoiceType;
         Visible: boolean;
         Length?: number;
         AllowExtendedSearch: boolean;
@@ -235,7 +251,7 @@ declare namespace DWRest {
      * @interface IDocumentIndexFieldTable
      * @extends {IDocumentIndexFieldValueBase}
      */
-    interface IDocumentIndexFieldTable extends IDocumentIndexFieldValueBase {
+    export interface IDocumentIndexFieldTable extends IDocumentIndexFieldValueBase {
         Rows: ITableFieldRow[]
     }
 
@@ -244,7 +260,7 @@ declare namespace DWRest {
      *
      * @interface ITableFieldRow
      */
-    interface ITableFieldRow {
+    export interface ITableFieldRow {
         Columns: ITableFieldColumn[]
     }
 
@@ -253,28 +269,19 @@ declare namespace DWRest {
      *
      * @interface ITableFieldColumn
      */
-    interface ITableFieldColumn {
+    export interface ITableFieldColumn {
         FieldName: string;
         FieldLabel?: string;
         Item: number | string | null;
     }
-
-    /**
-     * DocuWare Field Value Base
-     *
-     * @interface IDocumentIndexFieldValueBase
-     */
-    interface IDocumentIndexFieldValueBase {
-
-    }
+ 
 
     /**
      * Keywords
      *
      * @interface IDocumentIndexFieldKeywords
-     * @extends {IDocumentIndexFieldValueBase}
      */
-    interface IDocumentIndexFieldKeywords extends IDocumentIndexFieldValueBase {
+    export interface IDocumentIndexFieldKeywords {
         Keyword: string[]
     }
 
@@ -283,8 +290,8 @@ declare namespace DWRest {
      *
      * @interface IDocumentApplicationProperties
      */
-    interface IDocumentApplicationProperties {
-        DocumentApplicationProperty: DWRest.IDocumentApplicationProperty[];
+    export interface IDocumentApplicationProperties {
+        DocumentApplicationProperty: IDocumentApplicationProperty[];
     }
 
     /**
@@ -292,50 +299,20 @@ declare namespace DWRest {
      *
      * @interface IDocumentApplicationProperty
      */
-    interface IDocumentApplicationProperty {
+    export interface IDocumentApplicationProperty {
         Name: string;
         Value: string;
     }
-
-    /**
-     * DocuWare Field Type Enum
-     *
-     * @export
-     * @enum {number}
-     */
-    export const enum ItemChoiceType {
-        Int = 'Int',
-        DateTime = 'DateTime',
-        String = 'String',
-        Decimal = 'Decimal',
-        Date = 'Date',
-        Table = 'Table',
-        Keywords = 'Keywords'
-    }
-
-    /**
-     * DocuWare Dialog Types
-     *
-     * @export
-     * @enum {number}
-     */
-    export const enum DialogType {
-        Search = 'Search',
-        Store = 'Store',
-        ResultList = 'ResultList',
-        InfoDialog = 'InfoDialog',
-        TaskList = 'TaskList'
-    }
-
+    
     /**
      * DocuWare Query Result
      *
      * @interface IDocumentsQueryResult
      * @extends {ILinkModel}
      */
-    interface IDocumentsQueryResult extends ILinkModel {
+    export interface IDocumentsQueryResult extends ILinkModel {
         Count: number;
-        Items: DWRest.IDocument[];
+        Items: IDocument[];
         Next: string;
         Download: string;
     }
@@ -346,7 +323,7 @@ declare namespace DWRest {
      * @interface IDialog
      * @extends {ILinkModel}
      */
-    interface IDialog extends ILinkModel {
+    export interface IDialog extends ILinkModel {
         Id: string;
         FileCabinetId: string;
         FileCabinetName: string;
@@ -356,15 +333,15 @@ declare namespace DWRest {
         Color: string;
         IsDefault: boolean;
         Type: DialogType;
-        Fields: DWRest.IDlgField[];
+        Fields: IDlgField[];
         Query: {
             Expression: string;
             Fields: string[];
-            Links: DWRest.ILink[]
+            Links: ILink[]
         }
         Properties: {
             LogicalOperator: {
-                DefaultOperator: DWRest.Operation;
+                DefaultOperator: Operation;
                 Show: boolean;
             }
         }
@@ -375,7 +352,7 @@ declare namespace DWRest {
      *
      * @interface IDialogsResponse
      */
-    interface IDialogsResponse {
+    export interface IDialogsResponse {
         Dialog: IDialog[];
     }
 
@@ -384,9 +361,9 @@ declare namespace DWRest {
      *
      * @interface IDialogExpression
      */
-    interface IDialogExpression {
+    export interface IDialogExpression {
         Condition: ICondition[];
-        Operation: DWRest.Operation;
+        Operation: Operation;
     }
 
     /**
@@ -394,21 +371,21 @@ declare namespace DWRest {
      *
      * @interface ICondition
      */
-    interface ICondition {
+    export interface ICondition {
         Value: string[] | null;
         DBName: string;
     }
 
     /**
-     * Checkin parameters in case of versioning
+     * Check in parameters in case of versioning
      *
      * @interface ICheckInActionParameters
      */
-    interface ICheckInActionParameters {
-        DocumentAction: DWRest.DocumentAction
+    export interface ICheckInActionParameters {
+        DocumentAction: DocumentAction
         Comments: string;
-        DocumentVersion: DWRest.IDocumentVersion;
-        CheckInReturnDocument?: DWRest.CheckInReturnedDocument;
+        DocumentVersion: IDocumentVersion;
+        CheckInReturnDocument?: CheckInReturnedDocument;
     }
 
     /**
@@ -416,20 +393,20 @@ declare namespace DWRest {
      *
      * @interface IDocumentVersion
      */
-    interface IDocumentVersion {
+    export interface IDocumentVersion {
         Major: number;
         Minor: number;
     }
 
     /**
-     * Stamp Placment
+     * Stamp Placement
      *
      * @interface IStampPlacement
      */
-    interface IStampPlacement {
+    export interface IStampPlacement {
         StampId: string;
         Layer: number;
-        Location?: DWRest.IDWPoint;
+        Location?: IDWPoint;
         Field?: IFormFieldValue[];
         Password?: string;
     }
@@ -439,8 +416,8 @@ declare namespace DWRest {
      *
      * @interface IAnnotationPlacement
      */
-    interface IAnnotationPlacement {
-        Items: (DWRest.IAnnotation | DWRest.IStampPlacement)[];
+    export interface IAnnotationPlacement {
+        Items: (IAnnotation | IStampPlacement)[];
     }
 
     /**
@@ -448,7 +425,7 @@ declare namespace DWRest {
      *
      * @interface IFormFieldValue
      */
-    interface IFormFieldValue {
+    export interface IFormFieldValue {
         Name: string;
         Value: string;
         TypedValue: {
@@ -462,7 +439,7 @@ declare namespace DWRest {
      *
      * @interface IDWPoint
      */
-    interface IDWPoint {
+    export interface IDWPoint {
         X: number;
         Y: number;
     }
@@ -472,12 +449,12 @@ declare namespace DWRest {
      *
      * @interface IDocumentsTransferInfo
      */
-    interface IDocumentsTransferInfo {
+    export interface IDocumentsTransferInfo {
         SourceFileCabinetId: string;
         UseDefaultDialog: boolean;
         KeepSource: boolean;
         FillIntellix: boolean;
-        Documents: DWRest.IDocument[];
+        Documents: IDocument[];
     }
 
     /**
@@ -485,7 +462,7 @@ declare namespace DWRest {
      *
      * @interface IFileCabinetTransferInfo
      */
-    interface IFileCabinetTransferInfo {
+    export interface IFileCabinetTransferInfo {
         SourceDocId: number[];
         SourceFileCabinetId: string;
         KeepSource: boolean;
@@ -497,18 +474,18 @@ declare namespace DWRest {
      *
      * @interface IContentMergeOperationInfo
      */
-    interface IContentMergeOperationInfo {
+    export interface IContentMergeOperationInfo {
         Documents: number[],
         Operation: ContentMergeOperation,
         Force: boolean
     }
 
     /**
-     * Information for deviding
+     * Information for dividing
      *
      * @interface IContentDivideOperationInfo
      */
-    interface IContentDivideOperationInfo {
+    export interface IContentDivideOperationInfo {
         Operation: ContentDivideOperation,
         Force: boolean
     }
@@ -518,8 +495,8 @@ declare namespace DWRest {
      *
      * @interface IAnnotation
      */
-    interface IAnnotation {
-        Layer: DWRest.ILayer[];
+    export interface IAnnotation {
+        Layer: ILayer[];
     }
 
     /**
@@ -527,8 +504,8 @@ declare namespace DWRest {
      *
      * @interface ILayer
      */
-    interface ILayer {
-        Items?: (DWRest.IDeleteEntry | DWRest.ITextEntry | DWRest.ILineEntry | DWRest.IRectEntry | DWRest.IPolyLineEntry)[];
+    export interface ILayer {
+        Items?: (IDeleteEntry | ITextEntry | ILineEntry | IRectEntry | IPolyLineEntry)[];
         Id: number;
     }
 
@@ -537,11 +514,11 @@ declare namespace DWRest {
      *
      * @interface IEntryBase
      */
-    interface IEntryBase {
+    export interface IEntryBase {
         $type: string;
-        Created?: DWRest.ICreateInfo;
+        Created?: ICreateInfo;
         Color?: string; //#000000
-        Rotation?: DWRest.Rotation;
+        Rotation?: Rotation;
         Transparent?: boolean;
         StrokeWidth?: number;
         Id?: string
@@ -552,7 +529,7 @@ declare namespace DWRest {
      *
      * @interface ICreateInfo
      */
-    interface ICreateInfo {
+    export interface ICreateInfo {
         User: string;
         Time: string;
     }
@@ -563,7 +540,8 @@ declare namespace DWRest {
      * @interface IDeleteEntry
      * @extends {IEntryBase}
      */
-    interface IDeleteEntry extends IEntryBase {
+    // eslint-disable-next-line @typescript-eslint/no-empty-export interface
+    export interface IDeleteEntry extends IEntryBase {
 
     }
 
@@ -573,8 +551,8 @@ declare namespace DWRest {
      * @interface ITextEntry
      * @extends {IEntryBase}
      */
-    interface ITextEntry extends IEntryBase {
-        Font: DWRest.IFont;
+    export interface ITextEntry extends IEntryBase {
+        Font: IFont;
         Value: string;
         Location: IAnnotationRectangle
     }
@@ -584,7 +562,7 @@ declare namespace DWRest {
      *
      * @interface IAnnotationRectangle
      */
-    interface IAnnotationRectangle {
+    export interface IAnnotationRectangle {
         Left: number;
         Top: number;
         Width: number;
@@ -596,7 +574,7 @@ declare namespace DWRest {
      *
      * @interface IAnnotationPoint
      */
-    interface IAnnotationPoint {
+    export interface IAnnotationPoint {
         X: number;
         Y: number;
     }
@@ -606,7 +584,7 @@ declare namespace DWRest {
      *
      * @interface IFont
      */
-    interface IFont {
+    export interface IFont {
         FontName: string;
         Bold: boolean;
         Italic: boolean;
@@ -622,8 +600,8 @@ declare namespace DWRest {
      * @interface IRectEntry
      * @extends {IEntryBase}
      */
-    interface IRectEntry extends IEntryBase {
-        Location: DWRest.IAnnotationPoint;
+    export interface IRectEntry extends IEntryBase {
+        Location: IAnnotationPoint;
         Filled?: boolean;
         Ellipse?: boolean;
     }
@@ -634,9 +612,9 @@ declare namespace DWRest {
      * @interface ILineEntry
      * @extends {IEntryBase}
      */
-    interface ILineEntry extends IEntryBase {
-        From: DWRest.IAnnotationPoint;
-        To: DWRest.IAnnotationPoint;
+    export interface ILineEntry extends IEntryBase {
+        From: IAnnotationPoint;
+        To: IAnnotationPoint;
         Arrow?: boolean;
     }
 
@@ -646,8 +624,8 @@ declare namespace DWRest {
      * @interface IPolyLineEntry
      * @extends {IEntryBase}
      */
-    interface IPolyLineEntry extends IEntryBase {
-        Stroke: DWRest.IStroke[]
+    export interface IPolyLineEntry extends IEntryBase {
+        Stroke: IStroke[]
     }
 
     /**
@@ -655,8 +633,8 @@ declare namespace DWRest {
      *
      * @interface IStroke
      */
-    interface IStroke {
-        Point: DWRest.IAnnotation;
+    export interface IStroke {
+        Point: IAnnotation;
     }
 
     /**
@@ -664,7 +642,7 @@ declare namespace DWRest {
      *
      * @interface INewUser
      */
-    interface INewUser {
+    export interface INewUser {
         Name: string;
         DBName: string;
         Email: string;
@@ -676,9 +654,9 @@ declare namespace DWRest {
      * User
      *
      * @interface IUser
-     * @extends {DWRest.ILinkModel}
+     * @extends {ILinkModel}
      */
-    interface IUser extends DWRest.ILinkModel {
+    export interface IUser extends ILinkModel {
         Id: string;
         Name: string;
         FirstName: string;
@@ -689,7 +667,7 @@ declare namespace DWRest {
         NetworkID?: string;
         EMail: string;
         DefaultWebBasket: string;
-        OutOfOffice: DWRest.IOutOfOffice;
+        OutOfOffice: IOutOfOffice;
     }
 
     /**
@@ -697,7 +675,7 @@ declare namespace DWRest {
      *
      * @interface IRegionalSettings
      */
-    interface IRegionalSettings {
+    export interface IRegionalSettings {
         Language?: string;
         Culture?: string;
         Calendar?: string;
@@ -708,7 +686,7 @@ declare namespace DWRest {
      *
      * @interface IOutOfOffice
      */
-    interface IOutOfOffice {
+    export interface IOutOfOffice {
         IsOutOfOffice?: boolean;
         StartDateTime?: string;
         EndDateTime?: string;
@@ -719,7 +697,7 @@ declare namespace DWRest {
      *
      * @interface IAssignmentOperation
      */
-    interface IAssignmentOperation {
+    export interface IAssignmentOperation {
         Ids: string[],
         OperationType: AssignmentOperationType
     }
@@ -728,13 +706,13 @@ declare namespace DWRest {
      * A role
      *
      * @interface IRole
-     * @extends {DWRest.ILinkModel}
+     * @extends {ILinkModel}
      */
-    interface IRole extends DWRest.ILinkModel {
+    export interface IRole extends ILinkModel {
         Id?: string;
         Name: string;
         Active: boolean;
-        Type?: DWRest.RoleTypes
+        Type?: RoleTypes
     }
 
     /**
@@ -742,17 +720,17 @@ declare namespace DWRest {
      *
      * @interface IRoles
      */
-    interface IRoles {
-        Item: DWRest.IRole[];
+    export interface IRoles {
+        Item: IRole[];
     }
 
     /**
      * Group
      *
      * @interface IGroup
-     * @extends {DWRest.ILinkModel}
+     * @extends {ILinkModel}
      */
-    interface IGroup extends DWRest.ILinkModel {
+    export interface IGroup extends ILinkModel {
         Id?: string;
         Name: string;
         Active: boolean;
@@ -763,8 +741,8 @@ declare namespace DWRest {
      *
      * @interface IGroups
      */
-    interface IGroups {
-        Item: DWRest.IGroup[];
+    export interface IGroups {
+        Item: IGroup[];
     }
 
     /**
@@ -772,7 +750,7 @@ declare namespace DWRest {
      *
      * @interface IExportSettings
      */
-    interface IExportSettings {
+    export interface IExportSettings {
         ExportHistory?: boolean;
         ExportTextShots?: boolean;
     }
@@ -782,9 +760,9 @@ declare namespace DWRest {
      *
      * @interface IImportSettings
      */
-    interface IImportSettings {
+    export interface IImportSettings {
         PreserveSystemFields?: boolean;
-        FieldMappings: DWRest.IFieldMapping[];
+        FieldMappings: IFieldMapping[];
     }
 
     /**
@@ -792,9 +770,9 @@ declare namespace DWRest {
      *
      * @interface IImportResult
      */
-    interface IImportResult {
-        Results: DWRest.IImportResultEntry[];
-        FileChunk?: DWRest.IUploadedResultChunk;
+    export interface IImportResult {
+        Results: IImportResultEntry[];
+        FileChunk?: IUploadedResultChunk;
     }
 
     /**
@@ -802,10 +780,10 @@ declare namespace DWRest {
      *
      * @interface IImportResultEntry
      */
-    interface IImportResultEntry {
-        EntryVersions: DWRest.IImportEntryVersion[];
+    export interface IImportResultEntry {
+        EntryVersions: IImportEntryVersion[];
         ErrorMessage?: string;
-        Status: DWRest.ImportEntryStatus;
+        Status: ImportEntryStatus;
     }
 
     /**
@@ -813,18 +791,18 @@ declare namespace DWRest {
      *
      * @interface IImportEntryVersion
      */
-    interface IImportEntryVersion {
+    export interface IImportEntryVersion {
         Id: number;
-        Status: DWRest.ImportEntryStatus
+        Status: ImportEntryStatus
     }
 
     /**
      * Upload result chunk
      *
      * @interface IUploadedResultChunk
-     * @extends {DWRest.ILinkModel}
+     * @extends {ILinkModel}
      */
-    interface IUploadedResultChunk extends DWRest.ILinkModel {
+    export interface IUploadedResultChunk extends ILinkModel {
         Finished?: boolean;
         LastChunkId?: string;
         BytesWritten?: number;
@@ -835,7 +813,7 @@ declare namespace DWRest {
      *
      * @interface IFieldMapping
      */
-    interface IFieldMapping {
+    export interface IFieldMapping {
         Source: string;
         Destination?: string;
     }
@@ -845,7 +823,7 @@ declare namespace DWRest {
      *
      * @interface ILockInfo
      */
-    interface ILockInfo {
+    export interface ILockInfo {
         Operation?: string;
         Interval?: string; //http://msdn.microsoft.com/en-us/library/se73z7b9.aspx 
     }
@@ -854,9 +832,9 @@ declare namespace DWRest {
      * Workflow
      *
      * @interface IWorkflow
-     * @extends {DWRest.ILinkModel}
+     * @extends {ILinkModel}
      */
-    interface IWorkflow extends DWRest.ILinkModel {
+    export interface IWorkflow extends ILinkModel {
         Id: string;
         Name: string;
         TaskCount: number;
@@ -869,18 +847,18 @@ declare namespace DWRest {
      *
      * @interface IWorkflows
      */
-    interface IWorkflows {
-        Workflow: DWRest.IWorkflow[];
+    export interface IWorkflows {
+        Workflow: IWorkflow[];
     }
 
     /**
      * List of workflow tasks
      *
      * @interface IWorkflowTasks
-     * @extends {DWRest.ILinkModel}
+     * @extends {ILinkModel}
      */
-    interface IWorkflowTasks extends DWRest.ILinkModel {
-        Task: DWRest.IWorkflowTask[];
+    export interface IWorkflowTasks extends ILinkModel {
+        Task: IWorkflowTask[];
         Count: number;
         TimeStamp: string;
     }
@@ -889,12 +867,12 @@ declare namespace DWRest {
      * Workflow task
      *
      * @interface IWorkflowTask
-     * @extends {DWRest.ILinkModel}
+     * @extends {ILinkModel}
      */
-    interface IWorkflowTask extends DWRest.ILinkModel {
-        TaskOperations: DWRest.ITaskOperations;
+    export interface IWorkflowTask extends ILinkModel {
+        TaskOperations: ITaskOperations;
         ColumnValues: IColumnValues;
-        Decisions: DWRest.IDecision[];
+        Decisions: IDecision[];
         DefaultDecisionId: number;
         Id: string;
         InstanceId: string;
@@ -902,7 +880,7 @@ declare namespace DWRest {
         AllowDecisionStamp: boolean;
         ActivityDescription: string;
         DocId: number;
-        ActivityType: DWRest.ActivityTypeEnum;
+        ActivityType: ActivityTypeEnum;
         NodeId: number;
         WorkflowVersionId: string;
     }
@@ -911,12 +889,12 @@ declare namespace DWRest {
      * Task operations
      *
      * @interface ITaskOperations
-     * @extends {DWRest.ILinkModel}
+     * @extends {ILinkModel}
      */
-    interface ITaskOperations extends DWRest.ILinkModel {
-        BaseTaskOperations: DWRest.IBaseTaskOperations;
-        ExtendedControllerOperations: DWRest.IExtendedControllerOperations;
-        ExtendedUserOperations: DWRest.IExtendedUserOperations;
+    export interface ITaskOperations extends ILinkModel {
+        BaseTaskOperations: IBaseTaskOperations;
+        ExtendedControllerOperations: IExtendedControllerOperations;
+        ExtendedUserOperations: IExtendedUserOperations;
 
     }
 
@@ -924,9 +902,10 @@ declare namespace DWRest {
      * Base task operations
      *
      * @interface IBaseTaskOperations
-     * @extends {DWRest.ILinkModel}
+     * @extends {ILinkModel}
      */
-    interface IBaseTaskOperations extends DWRest.ILinkModel {
+    // eslint-disable-next-line @typescript-eslint/no-empty-export interface
+    export interface IBaseTaskOperations extends ILinkModel {
 
     }
 
@@ -934,9 +913,10 @@ declare namespace DWRest {
      * Extended controller operations
      *
      * @interface IExtendedControllerOperations
-     * @extends {DWRest.ILinkModel}
+     * @extends {ILinkModel}
      */
-    interface IExtendedControllerOperations extends DWRest.ILinkModel {
+    // eslint-disable-next-line @typescript-eslint/no-empty-export interface
+    export interface IExtendedControllerOperations extends ILinkModel {
 
     }
 
@@ -944,9 +924,10 @@ declare namespace DWRest {
      * Extended user operations
      *
      * @interface IExtendedUserOperations
-     * @extends {DWRest.ILinkModel}
+     * @extends {ILinkModel}
      */
-    interface IExtendedUserOperations extends DWRest.ILinkModel {
+    // eslint-disable-next-line @typescript-eslint/no-empty-export interface
+    export interface IExtendedUserOperations extends ILinkModel {
 
     }
 
@@ -955,8 +936,8 @@ declare namespace DWRest {
      *
      * @interface IColumnValues
      */
-    interface IColumnValues {
-        ColumnValue: DWRest.IColumnValue[];
+    export interface IColumnValues {
+        ColumnValue: IColumnValue[];
     }
 
     /**
@@ -964,7 +945,7 @@ declare namespace DWRest {
      *
      * @interface IColumnValue
      */
-    interface IColumnValue {
+    export interface IColumnValue {
         Id: string;
         Value: any;
     }
@@ -974,13 +955,13 @@ declare namespace DWRest {
      *
      * @interface IDecision
      */
-    interface IDecision {
+    export interface IDecision {
         Id: number;
         Description: string;
         Label: string;
         Color: string;
         TaskFormField: ITaskFormField[];
-        DecisionOperations: DWRest.IDecisionOperations;
+        DecisionOperations: IDecisionOperations;
     }
 
     /**
@@ -988,12 +969,12 @@ declare namespace DWRest {
      *
      * @interface ITaskFormField
      */
-    interface ITaskFormField {
-        Item: DWRest.ILinkForm | DWRest.IDescriptionFormField
-        | DWRest.ITaskTextField | DWRest.ITaskNumberField
-        | DWRest.ITaskDateTimeField | DWRest.IUserField
-        | DWRest.IRoleField | DWRest.ISubstitutionRuleField
-        | DWRest.IKeywordsField | DWRest.ITaskTableField;
+    export interface ITaskFormField {
+        Item: ILinkForm | IDescriptionFormField
+        | ITaskTextField | ITaskNumberField
+        | ITaskDateTimeField | IUserField
+        | IRoleField | ISubstitutionRuleField
+        | IKeywordsField | ITaskTableField;
     }
 
     /**
@@ -1001,8 +982,8 @@ declare namespace DWRest {
      *
      * @interface IBaseForm
      */
-    interface IBaseForm {
-        FormFieldType: DWRest.FormTypeEnum;
+    export interface IBaseForm {
+        FormFieldType: FormTypeEnum;
         Label: string;
         Id: number;
     }
@@ -1011,9 +992,9 @@ declare namespace DWRest {
      * Common form field
      *
      * @interface ICommonFormField
-     * @extends {DWRest.IBaseForm}
+     * @extends {IBaseForm}
      */
-    interface ICommonFormField extends DWRest.IBaseForm {
+    export interface ICommonFormField extends IBaseForm {
         Mandatory: boolean;
         Description: string;
         HasSelectList: boolean;
@@ -1026,9 +1007,9 @@ declare namespace DWRest {
      * Multi value field
      *
      * @interface IMultiValueField
-     * @extends {DWRest.ICommonFormField}
+     * @extends {ICommonFormField}
      */
-    interface IMultiValueField extends DWRest.ICommonFormField {
+    export interface IMultiValueField extends ICommonFormField {
         IsMultiselect: boolean;
     }
 
@@ -1037,7 +1018,7 @@ declare namespace DWRest {
      *
      * @interface ILinkParameter
      */
-    interface ILinkParameter {
+    export interface ILinkParameter {
         Url: string;
         Label: string;
     }
@@ -1046,9 +1027,9 @@ declare namespace DWRest {
      * Link form
      *
      * @interface ILinkForm
-     * @extends {DWRest.IBaseForm}
+     * @extends {IBaseForm}
      */
-    interface ILinkForm extends DWRest.IBaseForm {
+    export interface ILinkForm extends IBaseForm {
         Url: string;
     }
 
@@ -1056,10 +1037,10 @@ declare namespace DWRest {
      * Description form field
      *
      * @interface IDescriptionFormField
-     * @extends {DWRest.IBaseForm}
+     * @extends {IBaseForm}
      */
-    interface IDescriptionFormField extends DWRest.IBaseForm {
-        LinkParameters: DWRest.ILinkParameter[];
+    export interface IDescriptionFormField extends IBaseForm {
+        LinkParameters: ILinkParameter[];
         DescriptionText: string;
     }
 
@@ -1067,20 +1048,21 @@ declare namespace DWRest {
      * Task text field
      *
      * @interface ITaskTextField
-     * @extends {DWRest.ICommonFormField}
+     * @extends {ICommonFormField}
      */
-    interface ITaskTextField extends DWRest.ICommonFormField {
+    export interface ITaskTextField extends ICommonFormField {
         Length: number;
-        FieldMask: DWRest.IFieldMask;
+        FieldMask: IFieldMask;
     }
 
     /**
      * Task date field
      *
      * @interface ITaskDateTimeField
-     * @extends {DWRest.ICommonFormField}
+     * @extends {ICommonFormField}
      */
-    interface ITaskDateTimeField extends DWRest.ICommonFormField {
+    // eslint-disable-next-line @typescript-eslint/no-empty-export interface
+    export interface ITaskDateTimeField extends ICommonFormField {
 
     }
 
@@ -1088,9 +1070,10 @@ declare namespace DWRest {
      * Task keyword field
      *
      * @interface IKeywordsField
-     * @extends {DWRest.ITaskTextField}
+     * @extends {ITaskTextField}
      */
-    interface IKeywordsField extends DWRest.ITaskTextField {
+    // eslint-disable-next-line @typescript-eslint/no-empty-export interface
+    export interface IKeywordsField extends ITaskTextField {
 
     }
 
@@ -1098,9 +1081,9 @@ declare namespace DWRest {
      * Task number field
      *
      * @interface ITaskNumberField
-     * @extends {DWRest.ICommonFormField}
+     * @extends {ICommonFormField}
      */
-    interface ITaskNumberField extends DWRest.ICommonFormField {
+    export interface ITaskNumberField extends ICommonFormField {
         Precision: number;
     }
 
@@ -1108,10 +1091,10 @@ declare namespace DWRest {
      * Task table field
      *
      * @interface ITaskTableField
-     * @extends {DWRest.IBaseForm}
+     * @extends {IBaseForm}
      */
-    interface ITaskTableField extends DWRest.IBaseForm {
-        Columns: DWRest.ITaskTableColumn[];
+    export interface ITaskTableField extends IBaseForm {
+        Columns: ITaskTableColumn[];
     }
 
     /**
@@ -1119,8 +1102,8 @@ declare namespace DWRest {
      *
      * @interface ITaskTableColumn
      */
-    interface ITaskTableColumn {
-        BaseData: (DWRest.ITaskTextField | DWRest.ITaskTableNumberField | DWRest.ITaskDateTimeField | DWRest.ITaskNumberField);
+    export interface ITaskTableColumn {
+        BaseData: (ITaskTextField | ITaskTableNumberField | ITaskDateTimeField | ITaskNumberField);
         FieldName: string;
     }
 
@@ -1128,9 +1111,9 @@ declare namespace DWRest {
      * Task table number field
      *
      * @interface ITaskTableNumberField
-     * @extends {DWRest.ITaskNumberField}
+     * @extends {ITaskNumberField}
      */
-    interface ITaskTableNumberField extends DWRest.ITaskNumberField {
+    export interface ITaskTableNumberField extends ITaskNumberField {
         PrefillWithBalance: boolean;
         BalanceField: string;
     }
@@ -1139,9 +1122,10 @@ declare namespace DWRest {
      * Task user field
      *
      * @interface IUserField
-     * @extends {DWRest.IMultiValueField}
+     * @extends {IMultiValueField}
      */
-    interface IUserField extends DWRest.IMultiValueField {
+    // eslint-disable-next-line @typescript-eslint/no-empty-export interface
+    export interface IUserField extends IMultiValueField {
 
     }
 
@@ -1149,9 +1133,10 @@ declare namespace DWRest {
      * Task role field
      *
      * @interface IRoleField
-     * @extends {DWRest.IMultiValueField}
+     * @extends {IMultiValueField}
      */
-    interface IRoleField extends DWRest.IMultiValueField {
+    // eslint-disable-next-line @typescript-eslint/no-empty-export interface
+    export interface IRoleField extends IMultiValueField {
 
     }
 
@@ -1159,9 +1144,10 @@ declare namespace DWRest {
      * Task substitution field
      *
      * @interface ISubstitutionRuleField
-     * @extends {DWRest.IMultiValueField}
+     * @extends {IMultiValueField}
      */
-    interface ISubstitutionRuleField extends DWRest.IMultiValueField {
+    // eslint-disable-next-line @typescript-eslint/no-empty-export interface
+    export interface ISubstitutionRuleField extends IMultiValueField {
 
     }
 
@@ -1170,7 +1156,7 @@ declare namespace DWRest {
      *
      * @interface IFieldMask
      */
-    interface IFieldMask {
+    export interface IFieldMask {
         ErrorText: string;
         RegularExpression: string;
         SampleEditText: string;
@@ -1181,18 +1167,19 @@ declare namespace DWRest {
      *
      * @interface IDecisionOperations
      */
-    interface IDecisionOperations {
-        BaseDecisionOperations: DWRest.IBaseDecisionOperations;
-        ExtendedDecisionOperations: DWRest.IExtendedDecisionOperations;
+    export interface IDecisionOperations {
+        BaseDecisionOperations: IBaseDecisionOperations;
+        ExtendedDecisionOperations: IExtendedDecisionOperations;
     }
 
     /**
      * Task base decision operation
      *
      * @interface IBaseDecisionOperations
-     * @extends {DWRest.ILinkModel}
+     * @extends {ILinkModel}
      */
-    interface IBaseDecisionOperations extends DWRest.ILinkModel {
+    // eslint-disable-next-line @typescript-eslint/no-empty-export interface
+    export interface IBaseDecisionOperations extends ILinkModel {
 
     }
 
@@ -1200,9 +1187,10 @@ declare namespace DWRest {
      * Task extended decision operations
      *
      * @interface IExtendedDecisionOperations
-     * @extends {DWRest.ILinkModel}
+     * @extends {ILinkModel}
      */
-    interface IExtendedDecisionOperations extends DWRest.ILinkModel {
+    // eslint-disable-next-line @typescript-eslint/no-empty-export interface
+    export interface IExtendedDecisionOperations extends ILinkModel {
 
     }
 
@@ -1211,8 +1199,8 @@ declare namespace DWRest {
      *
      * @interface IConfirmedData
      */
-    interface IConfirmedData {
-        ConfirmedFields: DWRest.IConfirmedField[];
+    export interface IConfirmedData {
+        ConfirmedFields: IConfirmedField[];
     }
 
     /**
@@ -1220,7 +1208,7 @@ declare namespace DWRest {
      *
      * @interface IConfirmedField
      */
-    interface IConfirmedField {
+    export interface IConfirmedField {
         Id?: number;
         Value: {
             Item: any;
@@ -1229,11 +1217,39 @@ declare namespace DWRest {
     }
 
     /**
+     * DocuWare Field Type Enum
+     *
+     * @enum {number}
+     */
+     const enum ItemChoiceType {
+        Int = 'Int',
+        DateTime = 'DateTime',
+        String = 'String',
+        Decimal = 'Decimal',
+        Date = 'Date',
+        Table = 'Table',
+        Keywords = 'Keywords'
+    }
+
+    /**
+     * DocuWare Dialog Types
+     *
+     * @enum {number}
+     */
+    const enum DialogType {
+        Search = 'Search',
+        Store = 'Store',
+        ResultList = 'ResultList',
+        InfoDialog = 'InfoDialog',
+        TaskList = 'TaskList'
+    }
+
+    /**
      * Specifies the activity type of a task
      *
      * @enum {number}
      */
-    export const enum ActivityTypeEnum {
+     const enum ActivityTypeEnum {
         GeneralTask = 'GeneralTask',
         ParallelTask = 'ParallelTask',
         UserCredentials = 'UserCredentials',
@@ -1245,7 +1261,7 @@ declare namespace DWRest {
      *
      * @enum {number}
      */
-    export const enum FormTypeEnum {
+    const enum FormTypeEnum {
         Link = 'Link',
         Description = 'Description',
         Password = 'Password',
@@ -1265,7 +1281,7 @@ declare namespace DWRest {
      *
      * @enum {number}
      */
-    export const enum ImportEntryStatus {
+    const enum ImportEntryStatus {
         Succeeded = 'Succeeded',
         Failed = 'Failed',
     }
@@ -1275,7 +1291,7 @@ declare namespace DWRest {
      *
      * @enum {number}
      */
-    export const enum ImportEntryVersionStatus {
+    const enum ImportEntryVersionStatus {
         Succeeded = 'Succeeded',
         Failed = 'Failed',
         Aborted = 'Aborted'
@@ -1286,7 +1302,7 @@ declare namespace DWRest {
      *
      * @enum {number}
      */
-    export const enum RoleTypes {
+    const enum RoleTypes {
         Standard = 'Standard',
         Default = 'Default',
         Administrator = 'Administrator'
@@ -1297,7 +1313,7 @@ declare namespace DWRest {
      *
      * @enum {number}
      */
-    export const enum AssignmentOperationType {
+    const enum AssignmentOperationType {
         Add = 'Add',
         Remove = 'Remove'
     }
@@ -1307,7 +1323,7 @@ declare namespace DWRest {
      *
      * @enum {number}
      */
-    export const enum ContentMergeOperation {
+    const enum ContentMergeOperation {
         Clip = 'Clip',
         Staple = 'Staple'
     }
@@ -1317,7 +1333,7 @@ declare namespace DWRest {
      *
      * @enum {number}
      */
-    export const enum ContentDivideOperation {
+    const enum ContentDivideOperation {
         Unclip = 'Unclip',
         Unstaple = 'Unstaple',
         Split = 'Split'
@@ -1328,7 +1344,7 @@ declare namespace DWRest {
      *
      * @enum {number}
      */
-    export const enum Rotation {
+    const enum Rotation {
         Zero = 0,
         Ninety = 90,
         HundredEighty = 180,
@@ -1340,7 +1356,7 @@ declare namespace DWRest {
      *
      * @enum {number}
      */
-    export const enum Operation {
+    const enum Operation {
         And = 'And',
         Or = 'or'
     }
@@ -1350,7 +1366,7 @@ declare namespace DWRest {
      *
      * @enum {number}
      */
-    export const enum SortOrder {
+    const enum SortOrder {
         Asc = 'Asc',
         Desc = 'Desc'
     }
@@ -1360,7 +1376,7 @@ declare namespace DWRest {
      *
      * @enum {number}
      */
-    export const enum TargetFileType {
+    const enum TargetFileType {
         Auto = 'Auto',
         Zip = 'Zip',
         PDF = 'PDF'
@@ -1371,7 +1387,7 @@ declare namespace DWRest {
      *
      * @enum {number}
      */
-    export const enum DocumentAction {
+    const enum DocumentAction {
         CheckIn = 'CheckIn',
         CheckOut = 'CheckOut'
     }
@@ -1381,8 +1397,33 @@ declare namespace DWRest {
      *
      * @enum {number}
      */
-    export const enum CheckInReturnedDocument {
+    const enum CheckInReturnedDocument {
         Original = 'Original',
         CheckedIn = 'CheckedIn'
     }
-}
+
+    /**
+     * DocumentContentType Enum
+     *
+     * @enum {number}
+     */
+     const enum DocumentContentType {
+        XML = 'xml',
+        JSON = 'json',
+        Unknown = 'unknown'
+    }
+
+    /**
+     * DocuWareSpecificContentType Enum
+     *
+     * @enum {number}
+     */
+    const enum DocuWareSpecificContentType {
+        FilesContainerTar = 'application/vnd.docuware.platform.filescontainer+tar',
+        FileCabinetTransferInfoJson = 'application/vnd.docuware.platform.filecabinettransferinfo+json',
+        DocumentsTransferInfoJson = 'application/vnd.docuware.platform.documentstransferinfo+json',
+        CreateOrganizationUserJson = 'application/vnd.docuware.platform.createorganizationuser+json',
+        FilesContainerDwx = 'application/vnd.docuware.platform.filescontainer+dwx',
+        Unknown = 'unknown'
+    }
+// }

@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IDocumentIndexFieldTable
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / IDocumentIndexFieldTable
 
 # Interface: IDocumentIndexFieldTable
 
@@ -26,4 +26,4 @@ DocuWare Document Index Field Table
 
 • **Rows**: [*ITableFieldRow*](types_dw_rest.dwrest.itablefieldrow.md)[]
 
-Defined in: [types/DW_Rest.d.ts:239](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L239)
+Defined in: types/DW_Rest.d.ts:253

@@ -1,5 +1,4 @@
-/// <reference path="./types/DW_Rest.d.ts" />
-
+import * as DWRest from './types/DW_Rest';
 
 /**
  *
@@ -10,7 +9,7 @@
  */
 export class TextEntry implements DWRest.ITextEntry {
     //type has to be first!!!!
-    public $type = 'DocuWare.DocumentContentProcessing.Annotations.TextEntry, DocuWare.DocumentContentProcessing.Annotations';
+    public $type = 'TextEntry';
     public Value: string;
     public Font: DWRest.IFont;
     public Location: DWRest.IAnnotationRectangle;
@@ -38,7 +37,7 @@ export class TextEntry implements DWRest.ITextEntry {
  */
 export class LineEntry implements DWRest.ILineEntry {
     //type has to be first!!!!
-    public $type = 'DocuWare.DocumentContentProcessing.Annotations.LineEntry, DocuWare.DocumentContentProcessing.Annotations';
+    public $type = 'LineEntry';
     public From: DWRest.IAnnotationPoint;
     public To: DWRest.IAnnotationPoint
     public Arrow?: boolean | undefined;
@@ -65,7 +64,7 @@ export class LineEntry implements DWRest.ILineEntry {
  */
 export class RectEntry implements DWRest.IRectEntry {
     //type has to be first!!!!
-    public $type = 'DocuWare.DocumentContentProcessing.Annotations.RectEntry, DocuWare.DocumentContentProcessing.Annotations';
+    public $type = 'RectEntry';
     public Location: DWRest.IAnnotationPoint;
     public Filled?: boolean | undefined;
     public Ellipse?: boolean | undefined;
@@ -91,7 +90,7 @@ export class RectEntry implements DWRest.IRectEntry {
  */
 export class PolyLineEntry implements DWRest.IPolyLineEntry {
     //type has to be first!!!!
-    public $type = 'DocuWare.DocumentContentProcessing.Annotations.PolyLineEntry, DocuWare.DocumentContentProcessing.Annotations';
+    public $type = 'PolyLineEntry';
     public Stroke: DWRest.IStroke[];
     public Created?: DWRest.ICreateInfo | undefined;
     public Color?: string | undefined;

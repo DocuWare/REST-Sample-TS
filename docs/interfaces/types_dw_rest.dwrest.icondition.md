@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / ICondition
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / ICondition
 
 # Interface: ICondition
 
@@ -29,7 +29,7 @@ Dialog Condition
 
 • **DBName**: *string*
 
-Defined in: [types/DW_Rest.d.ts:399](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L399)
+Defined in: types/DW_Rest.d.ts:384
 
 ___
 
@@ -37,4 +37,4 @@ ___
 
 • **Value**: *null* \| *string*[]
 
-Defined in: [types/DW_Rest.d.ts:398](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L398)
+Defined in: types/DW_Rest.d.ts:383

@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / ICreateInfo
+[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / [DWRest](../modules/types_dw_rest.dwrest.md) / ICreateInfo
 
 # Interface: ICreateInfo
 
@@ -25,7 +25,7 @@ Info of creation
 
 • **Time**: *string*
 
-Defined in: [types/DW_Rest.d.ts:557](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L557)
+Defined in: types/DW_Rest.d.ts:542
 
 ___
 
@@ -33,4 +33,4 @@ ___
 
 • **User**: *string*
 
-Defined in: [types/DW_Rest.d.ts:556](https://github.com/DocuWare/REST-Sample-TS/blob/6f07cff/src/types/DW_Rest.d.ts#L556)
+Defined in: types/DW_Rest.d.ts:541
