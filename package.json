@@ -24,7 +24,7 @@
     "read-chunk": "^3.2.0",
     "request": "^2.88.2",
     "request-promise-native": "^1.0.9",
-    "tar": "^6.1.0",
+    "tar": "^6.1.6",
     "timespan": "^2.3.0",
     "tough-cookie": "^4.0.0",
     "typedoc-plugin-typescript-declaration": "^0.5.0"
