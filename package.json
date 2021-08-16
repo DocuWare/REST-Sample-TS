@@ -32,7 +32,7 @@
     "@microsoft/tsdoc": "^0.13.2",
     "@types/archiver": "^5.1.0",
     "@types/content-disposition": "^0.5.4",
-    "@types/mime-types": "^2.1.0",
+    "@types/mime-types": "^2.1.1",
     "@types/node": "^16.6.1",
     "@types/request": "^2.48.5",
     "@types/request-promise-native": "^1.0.17",
