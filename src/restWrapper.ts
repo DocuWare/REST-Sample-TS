@@ -315,7 +315,7 @@ class RestCallWrapper {
   GetDialogLink(
     fileCabinet: DWRest.IFileCabinet,
     dialogType: DWRest.DialogType
-  ): string | null {
+  ): string {
     const dialogs: any = {
       [DWRest.DialogType.Search]: "searches",
       [DWRest.DialogType.Store]: "stores",
@@ -350,9 +350,7 @@ class RestCallWrapper {
     fileCabinet: DWRest.IFileCabinet,
     dialogType: DWRest.DialogType
   ): Promise<DWRest.IDialog[]> {
-    let dialogLink: string | null = null;
-
-    dialogLink = this.GetDialogLink(fileCabinet, dialogType);
+    const dialogLink: string = this.GetDialogLink(fileCabinet, dialogType);
 
     return request
       .get(dialogLink, this.docuWare_request_config)
