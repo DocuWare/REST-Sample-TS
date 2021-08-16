@@ -26,8 +26,7 @@
     "request-promise-native": "^1.0.9",
     "tar": "^6.1.2",
     "timespan": "^2.3.0",
-    "tough-cookie": "^4.0.0",
-    "typedoc-plugin-typescript-declaration": "^0.5.0"
+    "tough-cookie": "^4.0.0"
   },
   "devDependencies": {
     "@microsoft/tsdoc": "^0.13.2",
