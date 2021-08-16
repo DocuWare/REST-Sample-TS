@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IRoles
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IRoles
 
 # Interface: IRoles
 
@@ -7,10 +7,6 @@
 Roles
 
 **`interface`** IRoles
-
-## Hierarchy
-
-* **IRoles**
 
 ## Table of contents
 
@@ -22,6 +18,8 @@ Roles
 
 ### Item
 
-• **Item**: [*IRole*](types_dw_rest.irole.md)[]
+• **Item**: [`IRole`](types_dw_rest.irole.md)[]
 
-Defined in: types/DW_Rest.d.ts:724
+#### Defined in
+
+[types/DW_Rest.d.ts:806](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L806)

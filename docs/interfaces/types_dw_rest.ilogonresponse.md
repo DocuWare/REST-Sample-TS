@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ILogonResponse
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ILogonResponse
 
 # Interface: ILogonResponse
 
@@ -10,9 +10,9 @@ The response after logon
 
 ## Hierarchy
 
-* [*ILinkModel*](types_dw_rest.ilinkmodel.md)
+- [`ILinkModel`](types_dw_rest.ilinkmodel.md)
 
-  ↳ **ILogonResponse**
+  ↳ **`ILogonResponse`**
 
 ## Table of contents
 
@@ -25,22 +25,28 @@ The response after logon
 
 ### Documentation
 
-• **Documentation**: { `Links`: [*ILink*](types_dw_rest.ilink.md)[]  }
+• **Documentation**: `Object`
 
-#### Type declaration:
+#### Type declaration
 
-Name | Type |
------- | ------ |
-`Links` | [*ILink*](types_dw_rest.ilink.md)[] |
+| Name | Type |
+| :------ | :------ |
+| `Links` | [`ILink`](types_dw_rest.ilink.md)[] |
 
-Defined in: types/DW_Rest.d.ts:36
+#### Defined in
+
+[types/DW_Rest.d.ts:32](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L32)
 
 ___
 
 ### Links
 
-• `Optional` **Links**: [*ILink*](types_dw_rest.ilink.md)[]
+• `Optional` **Links**: [`ILink`](types_dw_rest.ilink.md)[]
 
-Inherited from: [ILinkModel](types_dw_rest.ilinkmodel.md).[Links](types_dw_rest.ilinkmodel.md#links)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:12
+[ILinkModel](types_dw_rest.ilinkmodel.md).[Links](types_dw_rest.ilinkmodel.md#links)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:8](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L8)

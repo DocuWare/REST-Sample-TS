@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ILinkParameter
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ILinkParameter
 
 # Interface: ILinkParameter
 
@@ -7,10 +7,6 @@
 Link parameter
 
 **`interface`** ILinkParameter
-
-## Hierarchy
-
-* **ILinkParameter**
 
 ## Table of contents
 
@@ -23,14 +19,18 @@ Link parameter
 
 ### Label
 
-• **Label**: *string*
+• **Label**: `string`
 
-Defined in: types/DW_Rest.d.ts:1023
+#### Defined in
+
+[types/DW_Rest.d.ts:1104](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1104)
 
 ___
 
 ### Url
 
-• **Url**: *string*
+• **Url**: `string`
 
-Defined in: types/DW_Rest.d.ts:1022
+#### Defined in
+
+[types/DW_Rest.d.ts:1103](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1103)

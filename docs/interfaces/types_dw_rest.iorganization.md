@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IOrganization
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IOrganization
 
 # Interface: IOrganization
 
@@ -10,9 +10,9 @@ DocuWare Organization Model
 
 ## Hierarchy
 
-* [*ILinkModel*](types_dw_rest.ilinkmodel.md)
+- [`ILinkModel`](types_dw_rest.ilinkmodel.md)
 
-  ↳ **IOrganization**
+  ↳ **`IOrganization`**
 
 ## Table of contents
 
@@ -27,42 +27,52 @@ DocuWare Organization Model
 
 ### AdditionalInfo
 
-• **AdditionalInfo**: { `Administrator`: *string* ; `EMail`: *string* ; `OrganizationType`: *string* ; `RuntimeVersion`: *string* ; `SystemNumber`: *number*  }
+• **AdditionalInfo**: `Object`
 
-#### Type declaration:
+#### Type declaration
 
-Name | Type |
------- | ------ |
-`Administrator` | *string* |
-`EMail` | *string* |
-`OrganizationType` | *string* |
-`RuntimeVersion` | *string* |
-`SystemNumber` | *number* |
+| Name | Type |
+| :------ | :------ |
+| `Administrator` | `string` |
+| `EMail` | `string` |
+| `OrganizationType` | `string` |
+| `RuntimeVersion` | `string` |
+| `SystemNumber` | `number` |
 
-Defined in: types/DW_Rest.d.ts:60
+#### Defined in
+
+[types/DW_Rest.d.ts:57](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L57)
 
 ___
 
 ### Guid
 
-• **Guid**: *string*
+• **Guid**: `string`
 
-Defined in: types/DW_Rest.d.ts:59
+#### Defined in
+
+[types/DW_Rest.d.ts:56](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L56)
 
 ___
 
 ### Links
 
-• `Optional` **Links**: [*ILink*](types_dw_rest.ilink.md)[]
+• `Optional` **Links**: [`ILink`](types_dw_rest.ilink.md)[]
 
-Inherited from: [ILinkModel](types_dw_rest.ilinkmodel.md).[Links](types_dw_rest.ilinkmodel.md#links)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:12
+[ILinkModel](types_dw_rest.ilinkmodel.md).[Links](types_dw_rest.ilinkmodel.md#links)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:8](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L8)
 
 ___
 
 ### Name
 
-• **Name**: *string*
+• **Name**: `string`
 
-Defined in: types/DW_Rest.d.ts:58
+#### Defined in
+
+[types/DW_Rest.d.ts:55](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L55)

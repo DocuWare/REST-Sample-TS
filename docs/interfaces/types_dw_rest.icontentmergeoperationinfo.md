@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IContentMergeOperationInfo
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IContentMergeOperationInfo
 
 # Interface: IContentMergeOperationInfo
 
@@ -7,10 +7,6 @@
 Information for merging
 
 **`interface`** IContentMergeOperationInfo
-
-## Hierarchy
-
-* **IContentMergeOperationInfo**
 
 ## Table of contents
 
@@ -24,22 +20,28 @@ Information for merging
 
 ### Documents
 
-• **Documents**: *number*[]
+• **Documents**: `number`[]
 
-Defined in: types/DW_Rest.d.ts:478
+#### Defined in
+
+[types/DW_Rest.d.ts:556](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L556)
 
 ___
 
 ### Force
 
-• **Force**: *boolean*
+• **Force**: `boolean`
 
-Defined in: types/DW_Rest.d.ts:480
+#### Defined in
+
+[types/DW_Rest.d.ts:558](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L558)
 
 ___
 
 ### Operation
 
-• **Operation**: [*ContentMergeOperation*](../enums/types_dw_rest.contentmergeoperation.md)
+• **Operation**: [`ContentMergeOperation`](../enums/types_dw_rest.contentmergeoperation.md)
 
-Defined in: types/DW_Rest.d.ts:479
+#### Defined in
+
+[types/DW_Rest.d.ts:557](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L557)

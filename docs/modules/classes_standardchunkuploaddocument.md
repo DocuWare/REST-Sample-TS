@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / classes/StandardChunkUploadDocument
+[Typedoc project reference documentation](../README.md) / classes/StandardChunkUploadDocument
 
 # Module: classes/StandardChunkUploadDocument
 

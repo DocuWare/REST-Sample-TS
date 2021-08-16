@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IContentDivideOperationInfo
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IContentDivideOperationInfo
 
 # Interface: IContentDivideOperationInfo
 
@@ -7,10 +7,6 @@
 Information for dividing
 
 **`interface`** IContentDivideOperationInfo
-
-## Hierarchy
-
-* **IContentDivideOperationInfo**
 
 ## Table of contents
 
@@ -23,14 +19,18 @@ Information for dividing
 
 ### Force
 
-• **Force**: *boolean*
+• **Force**: `boolean`
 
-Defined in: types/DW_Rest.d.ts:490
+#### Defined in
+
+[types/DW_Rest.d.ts:568](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L568)
 
 ___
 
 ### Operation
 
-• **Operation**: [*ContentDivideOperation*](../enums/types_dw_rest.contentdivideoperation.md)
+• **Operation**: [`ContentDivideOperation`](../enums/types_dw_rest.contentdivideoperation.md)
 
-Defined in: types/DW_Rest.d.ts:489
+#### Defined in
+
+[types/DW_Rest.d.ts:567](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L567)

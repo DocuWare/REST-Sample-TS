@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / DialogType
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / DialogType
 
 # Enumeration: DialogType
 
@@ -20,38 +20,48 @@ DocuWare Dialog Types
 
 ### InfoDialog
 
-• **InfoDialog**: = "InfoDialog"
+• **InfoDialog** = `"InfoDialog"`
 
-Defined in: types/DW_Rest.d.ts:1243
+#### Defined in
+
+[types/DW_Rest.d.ts:1314](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1314)
 
 ___
 
 ### ResultList
 
-• **ResultList**: = "ResultList"
+• **ResultList** = `"ResultList"`
 
-Defined in: types/DW_Rest.d.ts:1242
+#### Defined in
+
+[types/DW_Rest.d.ts:1313](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1313)
 
 ___
 
 ### Search
 
-• **Search**: = "Search"
+• **Search** = `"Search"`
 
-Defined in: types/DW_Rest.d.ts:1240
+#### Defined in
+
+[types/DW_Rest.d.ts:1311](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1311)
 
 ___
 
 ### Store
 
-• **Store**: = "Store"
+• **Store** = `"Store"`
 
-Defined in: types/DW_Rest.d.ts:1241
+#### Defined in
+
+[types/DW_Rest.d.ts:1312](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1312)
 
 ___
 
 ### TaskList
 
-• **TaskList**: = "TaskList"
+• **TaskList** = `"TaskList"`
 
-Defined in: types/DW_Rest.d.ts:1244
+#### Defined in
+
+[types/DW_Rest.d.ts:1315](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1315)

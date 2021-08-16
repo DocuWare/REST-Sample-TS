@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ContentDivideOperation
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ContentDivideOperation
 
 # Enumeration: ContentDivideOperation
 
@@ -18,22 +18,28 @@ Kind of devide operation
 
 ### Split
 
-• **Split**: = "Split"
+• **Split** = `"Split"`
 
-Defined in: types/DW_Rest.d.ts:1339
+#### Defined in
+
+[types/DW_Rest.d.ts:1410](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1410)
 
 ___
 
 ### Unclip
 
-• **Unclip**: = "Unclip"
+• **Unclip** = `"Unclip"`
 
-Defined in: types/DW_Rest.d.ts:1337
+#### Defined in
+
+[types/DW_Rest.d.ts:1408](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1408)
 
 ___
 
 ### Unstaple
 
-• **Unstaple**: = "Unstaple"
+• **Unstaple** = `"Unstaple"`
 
-Defined in: types/DW_Rest.d.ts:1338
+#### Defined in
+
+[types/DW_Rest.d.ts:1409](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1409)

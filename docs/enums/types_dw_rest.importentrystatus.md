@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ImportEntryStatus
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ImportEntryStatus
 
 # Enumeration: ImportEntryStatus
 
@@ -17,14 +17,18 @@ Status of import entry
 
 ### Failed
 
-• **Failed**: = "Failed"
+• **Failed** = `"Failed"`
 
-Defined in: types/DW_Rest.d.ts:1286
+#### Defined in
+
+[types/DW_Rest.d.ts:1357](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1357)
 
 ___
 
 ### Succeeded
 
-• **Succeeded**: = "Succeeded"
+• **Succeeded** = `"Succeeded"`
 
-Defined in: types/DW_Rest.d.ts:1285
+#### Defined in
+
+[types/DW_Rest.d.ts:1356](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1356)

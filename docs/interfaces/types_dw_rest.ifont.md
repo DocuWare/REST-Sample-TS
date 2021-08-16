@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IFont
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IFont
 
 # Interface: IFont
 
@@ -7,10 +7,6 @@
 Font
 
 **`interface`** IFont
-
-## Hierarchy
-
-* **IFont**
 
 ## Table of contents
 
@@ -28,54 +24,68 @@ Font
 
 ### Bold
 
-• **Bold**: *boolean*
+• **Bold**: `boolean`
 
-Defined in: types/DW_Rest.d.ts:589
+#### Defined in
+
+[types/DW_Rest.d.ts:671](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L671)
 
 ___
 
 ### FontName
 
-• **FontName**: *string*
+• **FontName**: `string`
 
-Defined in: types/DW_Rest.d.ts:588
+#### Defined in
+
+[types/DW_Rest.d.ts:670](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L670)
 
 ___
 
 ### FontSize
 
-• **FontSize**: *number*
+• **FontSize**: `number`
 
-Defined in: types/DW_Rest.d.ts:593
+#### Defined in
+
+[types/DW_Rest.d.ts:675](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L675)
 
 ___
 
 ### Italic
 
-• **Italic**: *boolean*
+• **Italic**: `boolean`
 
-Defined in: types/DW_Rest.d.ts:590
+#### Defined in
+
+[types/DW_Rest.d.ts:672](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L672)
 
 ___
 
 ### Spacing
 
-• **Spacing**: *number*
+• **Spacing**: `number`
 
-Defined in: types/DW_Rest.d.ts:594
+#### Defined in
+
+[types/DW_Rest.d.ts:676](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L676)
 
 ___
 
 ### StrikeThrough
 
-• **StrikeThrough**: *boolean*
+• **StrikeThrough**: `boolean`
 
-Defined in: types/DW_Rest.d.ts:592
+#### Defined in
+
+[types/DW_Rest.d.ts:674](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L674)
 
 ___
 
 ### Underlinded
 
-• **Underlinded**: *boolean*
+• **Underlinded**: `boolean`
 
-Defined in: types/DW_Rest.d.ts:591
+#### Defined in
+
+[types/DW_Rest.d.ts:673](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L673)

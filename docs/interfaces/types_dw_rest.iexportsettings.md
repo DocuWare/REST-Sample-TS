@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IExportSettings
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IExportSettings
 
 # Interface: IExportSettings
 
@@ -7,10 +7,6 @@
 Export Settings
 
 **`interface`** IExportSettings
-
-## Hierarchy
-
-* **IExportSettings**
 
 ## Table of contents
 
@@ -23,14 +19,18 @@ Export Settings
 
 ### ExportHistory
 
-• `Optional` **ExportHistory**: *boolean*
+• `Optional` **ExportHistory**: `boolean`
 
-Defined in: types/DW_Rest.d.ts:754
+#### Defined in
+
+[types/DW_Rest.d.ts:836](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L836)
 
 ___
 
 ### ExportTextShots
 
-• `Optional` **ExportTextShots**: *boolean*
+• `Optional` **ExportTextShots**: `boolean`
 
-Defined in: types/DW_Rest.d.ts:755
+#### Defined in
+
+[types/DW_Rest.d.ts:837](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L837)

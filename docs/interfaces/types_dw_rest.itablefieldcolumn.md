@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ITableFieldColumn
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ITableFieldColumn
 
 # Interface: ITableFieldColumn
 
@@ -7,10 +7,6 @@
 A siongle column of DocuWare Table Field
 
 **`interface`** ITableFieldColumn
-
-## Hierarchy
-
-* **ITableFieldColumn**
 
 ## Table of contents
 
@@ -24,22 +20,28 @@ A siongle column of DocuWare Table Field
 
 ### FieldLabel
 
-• `Optional` **FieldLabel**: *string*
+• `Optional` **FieldLabel**: `string`
 
-Defined in: types/DW_Rest.d.ts:274
+#### Defined in
+
+[types/DW_Rest.d.ts:353](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L353)
 
 ___
 
 ### FieldName
 
-• **FieldName**: *string*
+• **FieldName**: `string`
 
-Defined in: types/DW_Rest.d.ts:273
+#### Defined in
+
+[types/DW_Rest.d.ts:352](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L352)
 
 ___
 
 ### Item
 
-• **Item**: *null* \| *string* \| *number*
+• **Item**: ``null`` \| `string` \| `number`
 
-Defined in: types/DW_Rest.d.ts:275
+#### Defined in
+
+[types/DW_Rest.d.ts:354](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L354)

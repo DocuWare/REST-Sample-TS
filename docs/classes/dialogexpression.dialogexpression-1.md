@@ -1,20 +1,16 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [DialogExpression](../modules/dialogexpression.md) / DialogExpression
+[Typedoc project reference documentation](../README.md) / [DialogExpression](../modules/dialogexpression.md) / DialogExpression
 
 # Class: DialogExpression
 
 [DialogExpression](../modules/dialogexpression.md).DialogExpression
 
-**`export`** 
+**`export`**
 
 **`implements`** {DWRest.IDialogExpression}
 
-## Hierarchy
-
-* **DialogExpression**
-
 ## Implements
 
-* [*IDialogExpression*](../interfaces/types_dw_rest.idialogexpression.md)
+- [`IDialogExpression`](../interfaces/types_dw_rest.idialogexpression.md)
 
 ## Table of contents
 
@@ -31,31 +27,35 @@
 
 ### constructor
 
-\+ **new DialogExpression**(`Operation`: [*Operation*](../enums/types_dw_rest.operation.md), `Condition`: [*ICondition*](../interfaces/types_dw_rest.icondition.md)[]): [*DialogExpression*](dialogexpression.dialogexpression-1.md)
+• **new DialogExpression**(`Operation`, `Condition`)
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`Operation` | [*Operation*](../enums/types_dw_rest.operation.md) |
-`Condition` | [*ICondition*](../interfaces/types_dw_rest.icondition.md)[] |
+| Name | Type |
+| :------ | :------ |
+| `Operation` | [`Operation`](../enums/types_dw_rest.operation.md) |
+| `Condition` | [`ICondition`](../interfaces/types_dw_rest.icondition.md)[] |
 
-**Returns:** [*DialogExpression*](dialogexpression.dialogexpression-1.md)
+#### Defined in
 
-Defined in: DialogExpression.ts:10
+[DialogExpression.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/DialogExpression.ts#L10)
 
 ## Properties
 
 ### Condition
 
-• **Condition**: [*ICondition*](../interfaces/types_dw_rest.icondition.md)[]
+• **Condition**: [`ICondition`](../interfaces/types_dw_rest.icondition.md)[]
 
-Implementation of: [IDialogExpression](../interfaces/types_dw_rest.idialogexpression.md).[Condition](../interfaces/types_dw_rest.idialogexpression.md#condition)
+#### Implementation of
+
+[IDialogExpression](../interfaces/types_dw_rest.idialogexpression.md).[Condition](../interfaces/types_dw_rest.idialogexpression.md#condition)
 
 ___
 
 ### Operation
 
-• **Operation**: [*Operation*](../enums/types_dw_rest.operation.md)
+• **Operation**: [`Operation`](../enums/types_dw_rest.operation.md)
 
-Implementation of: [IDialogExpression](../interfaces/types_dw_rest.idialogexpression.md).[Operation](../interfaces/types_dw_rest.idialogexpression.md#operation)
+#### Implementation of
+
+[IDialogExpression](../interfaces/types_dw_rest.idialogexpression.md).[Operation](../interfaces/types_dw_rest.idialogexpression.md#operation)

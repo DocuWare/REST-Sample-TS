@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IWorkflow
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IWorkflow
 
 # Interface: IWorkflow
 
@@ -10,9 +10,9 @@ Workflow
 
 ## Hierarchy
 
-* [*ILinkModel*](types_dw_rest.ilinkmodel.md)
+- [`ILinkModel`](types_dw_rest.ilinkmodel.md)
 
-  ↳ **IWorkflow**
+  ↳ **`IWorkflow`**
 
 ## Table of contents
 
@@ -29,48 +29,62 @@ Workflow
 
 ### FileCabinetId
 
-• **FileCabinetId**: *string*
+• **FileCabinetId**: `string`
 
-Defined in: types/DW_Rest.d.ts:841
+#### Defined in
+
+[types/DW_Rest.d.ts:923](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L923)
 
 ___
 
 ### Id
 
-• **Id**: *string*
+• **Id**: `string`
 
-Defined in: types/DW_Rest.d.ts:838
+#### Defined in
+
+[types/DW_Rest.d.ts:920](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L920)
 
 ___
 
 ### Links
 
-• `Optional` **Links**: [*ILink*](types_dw_rest.ilink.md)[]
+• `Optional` **Links**: [`ILink`](types_dw_rest.ilink.md)[]
 
-Inherited from: [ILinkModel](types_dw_rest.ilinkmodel.md).[Links](types_dw_rest.ilinkmodel.md#links)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:12
+[ILinkModel](types_dw_rest.ilinkmodel.md).[Links](types_dw_rest.ilinkmodel.md#links)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:8](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L8)
 
 ___
 
 ### Name
 
-• **Name**: *string*
+• **Name**: `string`
 
-Defined in: types/DW_Rest.d.ts:839
+#### Defined in
+
+[types/DW_Rest.d.ts:921](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L921)
 
 ___
 
 ### TaskCount
 
-• **TaskCount**: *number*
+• **TaskCount**: `number`
 
-Defined in: types/DW_Rest.d.ts:840
+#### Defined in
+
+[types/DW_Rest.d.ts:922](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L922)
 
 ___
 
 ### TimeStamp
 
-• **TimeStamp**: *string*
+• **TimeStamp**: `string`
 
-Defined in: types/DW_Rest.d.ts:842
+#### Defined in
+
+[types/DW_Rest.d.ts:924](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L924)

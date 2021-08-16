@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IFileCabinet
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IFileCabinet
 
 # Interface: IFileCabinet
 
@@ -10,9 +10,9 @@ DocuWare FileCabinet Model
 
 ## Hierarchy
 
-* [*ILinkModel*](types_dw_rest.ilinkmodel.md)
+- [`ILinkModel`](types_dw_rest.ilinkmodel.md)
 
-  ↳ **IFileCabinet**
+  ↳ **`IFileCabinet`**
 
 ## Table of contents
 
@@ -30,56 +30,72 @@ DocuWare FileCabinet Model
 
 ### Color
 
-• **Color**: *string*
+• **Color**: `string`
 
-Defined in: types/DW_Rest.d.ts:86
+#### Defined in
+
+[types/DW_Rest.d.ts:83](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L83)
 
 ___
 
 ### Default
 
-• **Default**: *boolean*
+• **Default**: `boolean`
 
-Defined in: types/DW_Rest.d.ts:89
+#### Defined in
+
+[types/DW_Rest.d.ts:86](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L86)
 
 ___
 
 ### Documents
 
-• **Documents**: [[*IDocument*](types_dw_rest.idocument.md)]
+• **Documents**: [[`IDocument`](types_dw_rest.idocument.md)]
 
-Defined in: types/DW_Rest.d.ts:90
+#### Defined in
+
+[types/DW_Rest.d.ts:87](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L87)
 
 ___
 
 ### Id
 
-• **Id**: *string*
+• **Id**: `string`
 
-Defined in: types/DW_Rest.d.ts:87
+#### Defined in
+
+[types/DW_Rest.d.ts:84](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L84)
 
 ___
 
 ### IsBasket
 
-• **IsBasket**: *boolean*
+• **IsBasket**: `boolean`
 
-Defined in: types/DW_Rest.d.ts:88
+#### Defined in
+
+[types/DW_Rest.d.ts:85](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L85)
 
 ___
 
 ### Links
 
-• `Optional` **Links**: [*ILink*](types_dw_rest.ilink.md)[]
+• `Optional` **Links**: [`ILink`](types_dw_rest.ilink.md)[]
 
-Inherited from: [ILinkModel](types_dw_rest.ilinkmodel.md).[Links](types_dw_rest.ilinkmodel.md#links)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:12
+[ILinkModel](types_dw_rest.ilinkmodel.md).[Links](types_dw_rest.ilinkmodel.md#links)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:8](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L8)
 
 ___
 
 ### Name
 
-• **Name**: *string*
+• **Name**: `string`
 
-Defined in: types/DW_Rest.d.ts:85
+#### Defined in
+
+[types/DW_Rest.d.ts:82](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L82)

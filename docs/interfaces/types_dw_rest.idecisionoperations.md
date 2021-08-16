@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IDecisionOperations
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IDecisionOperations
 
 # Interface: IDecisionOperations
 
@@ -7,10 +7,6 @@
 Task decision operation
 
 **`interface`** IDecisionOperations
-
-## Hierarchy
-
-* **IDecisionOperations**
 
 ## Table of contents
 
@@ -23,14 +19,18 @@ Task decision operation
 
 ### BaseDecisionOperations
 
-• **BaseDecisionOperations**: [*IBaseDecisionOperations*](types_dw_rest.ibasedecisionoperations.md)
+• **BaseDecisionOperations**: [`IBaseDecisionOperations`](types_dw_rest.ibasedecisionoperations.md)
 
-Defined in: types/DW_Rest.d.ts:1171
+#### Defined in
+
+[types/DW_Rest.d.ts:1246](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1246)
 
 ___
 
 ### ExtendedDecisionOperations
 
-• **ExtendedDecisionOperations**: [*IExtendedDecisionOperations*](types_dw_rest.iextendeddecisionoperations.md)
+• **ExtendedDecisionOperations**: [`IExtendedDecisionOperations`](types_dw_rest.iextendeddecisionoperations.md)
 
-Defined in: types/DW_Rest.d.ts:1172
+#### Defined in
+
+[types/DW_Rest.d.ts:1247](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1247)

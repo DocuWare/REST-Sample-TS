@@ -1,12 +1,8 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/timespan](../modules/types_timespan.md) / TimeSpan
+[Typedoc project reference documentation](../README.md) / [types/timespan](../modules/types_timespan.md) / TimeSpan
 
 # Class: TimeSpan
 
 [types/timespan](../modules/types_timespan.md).TimeSpan
-
-## Hierarchy
-
-* **TimeSpan**
 
 ## Table of contents
 
@@ -40,316 +36,392 @@
 
 ### constructor
 
-\+ **new TimeSpan**(`milliseconds`: *any*, `seconds`: *any*, `minutes`: *any*, `hours`: *any*, `days`: *any*): [*TimeSpan*](types_timespan.timespan-1.md)
+• **new TimeSpan**(`milliseconds`, `seconds`, `minutes`, `hours`, `days`)
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`milliseconds` | *any* |
-`seconds` | *any* |
-`minutes` | *any* |
-`hours` | *any* |
-`days` | *any* |
+| Name | Type |
+| :------ | :------ |
+| `milliseconds` | `any` |
+| `seconds` | `any` |
+| `minutes` | `any` |
+| `hours` | `any` |
+| `days` | `any` |
 
-**Returns:** [*TimeSpan*](types_timespan.timespan-1.md)
+#### Defined in
 
-Defined in: types/timespan.d.ts:5
+[types/timespan.d.ts:5](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L5)
 
 ## Methods
 
 ### add
 
-▸ **add**(`timeSpan`: *any*): *void*
+▸ **add**(`timeSpan`): `void`
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`timeSpan` | *any* |
+| Name | Type |
+| :------ | :------ |
+| `timeSpan` | `any` |
 
-**Returns:** *void*
+#### Returns
 
-Defined in: types/timespan.d.ts:8
+`void`
+
+#### Defined in
+
+[types/timespan.d.ts:8](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L8)
 
 ___
 
 ### addDays
 
-▸ **addDays**(`days`: *any*): *void*
+▸ **addDays**(`days`): `void`
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`days` | *any* |
+| Name | Type |
+| :------ | :------ |
+| `days` | `any` |
 
-**Returns:** *void*
+#### Returns
 
-Defined in: types/timespan.d.ts:10
+`void`
+
+#### Defined in
+
+[types/timespan.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L10)
 
 ___
 
 ### addHours
 
-▸ **addHours**(`hours`: *any*): *void*
+▸ **addHours**(`hours`): `void`
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`hours` | *any* |
+| Name | Type |
+| :------ | :------ |
+| `hours` | `any` |
 
-**Returns:** *void*
+#### Returns
 
-Defined in: types/timespan.d.ts:12
+`void`
+
+#### Defined in
+
+[types/timespan.d.ts:12](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L12)
 
 ___
 
 ### addMilliseconds
 
-▸ **addMilliseconds**(`milliseconds`: *any*): *void*
+▸ **addMilliseconds**(`milliseconds`): `void`
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`milliseconds` | *any* |
+| Name | Type |
+| :------ | :------ |
+| `milliseconds` | `any` |
 
-**Returns:** *void*
+#### Returns
 
-Defined in: types/timespan.d.ts:14
+`void`
+
+#### Defined in
+
+[types/timespan.d.ts:14](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L14)
 
 ___
 
 ### addMinutes
 
-▸ **addMinutes**(`minutes`: *any*): *void*
+▸ **addMinutes**(`minutes`): `void`
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`minutes` | *any* |
+| Name | Type |
+| :------ | :------ |
+| `minutes` | `any` |
 
-**Returns:** *void*
+#### Returns
 
-Defined in: types/timespan.d.ts:16
+`void`
+
+#### Defined in
+
+[types/timespan.d.ts:16](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L16)
 
 ___
 
 ### addSeconds
 
-▸ **addSeconds**(`seconds`: *any*): *void*
+▸ **addSeconds**(`seconds`): `void`
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`seconds` | *any* |
+| Name | Type |
+| :------ | :------ |
+| `seconds` | `any` |
 
-**Returns:** *void*
+#### Returns
 
-Defined in: types/timespan.d.ts:18
+`void`
+
+#### Defined in
+
+[types/timespan.d.ts:18](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L18)
 
 ___
 
 ### equals
 
-▸ **equals**(`timeSpan`: *any*): *any*
+▸ **equals**(`timeSpan`): `any`
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`timeSpan` | *any* |
+| Name | Type |
+| :------ | :------ |
+| `timeSpan` | `any` |
 
-**Returns:** *any*
+#### Returns
 
-Defined in: types/timespan.d.ts:20
+`any`
+
+#### Defined in
+
+[types/timespan.d.ts:20](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L20)
 
 ___
 
 ### subtract
 
-▸ **subtract**(`timeSpan`: *any*): *void*
+▸ **subtract**(`timeSpan`): `void`
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`timeSpan` | *any* |
+| Name | Type |
+| :------ | :------ |
+| `timeSpan` | `any` |
 
-**Returns:** *void*
+#### Returns
 
-Defined in: types/timespan.d.ts:22
+`void`
+
+#### Defined in
+
+[types/timespan.d.ts:22](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L22)
 
 ___
 
 ### subtractDays
 
-▸ **subtractDays**(`days`: *any*): *void*
+▸ **subtractDays**(`days`): `void`
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`days` | *any* |
+| Name | Type |
+| :------ | :------ |
+| `days` | `any` |
 
-**Returns:** *void*
+#### Returns
 
-Defined in: types/timespan.d.ts:24
+`void`
+
+#### Defined in
+
+[types/timespan.d.ts:24](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L24)
 
 ___
 
 ### subtractHours
 
-▸ **subtractHours**(`hours`: *any*): *void*
+▸ **subtractHours**(`hours`): `void`
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`hours` | *any* |
+| Name | Type |
+| :------ | :------ |
+| `hours` | `any` |
 
-**Returns:** *void*
+#### Returns
 
-Defined in: types/timespan.d.ts:26
+`void`
+
+#### Defined in
+
+[types/timespan.d.ts:26](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L26)
 
 ___
 
 ### subtractMilliseconds
 
-▸ **subtractMilliseconds**(`milliseconds`: *any*): *void*
+▸ **subtractMilliseconds**(`milliseconds`): `void`
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`milliseconds` | *any* |
+| Name | Type |
+| :------ | :------ |
+| `milliseconds` | `any` |
 
-**Returns:** *void*
+#### Returns
 
-Defined in: types/timespan.d.ts:28
+`void`
+
+#### Defined in
+
+[types/timespan.d.ts:28](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L28)
 
 ___
 
 ### subtractMinutes
 
-▸ **subtractMinutes**(`minutes`: *any*): *void*
+▸ **subtractMinutes**(`minutes`): `void`
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`minutes` | *any* |
+| Name | Type |
+| :------ | :------ |
+| `minutes` | `any` |
 
-**Returns:** *void*
+#### Returns
 
-Defined in: types/timespan.d.ts:30
+`void`
+
+#### Defined in
+
+[types/timespan.d.ts:30](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L30)
 
 ___
 
 ### subtractSeconds
 
-▸ **subtractSeconds**(`seconds`: *any*): *void*
+▸ **subtractSeconds**(`seconds`): `void`
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`seconds` | *any* |
+| Name | Type |
+| :------ | :------ |
+| `seconds` | `any` |
 
-**Returns:** *void*
+#### Returns
 
-Defined in: types/timespan.d.ts:32
+`void`
+
+#### Defined in
+
+[types/timespan.d.ts:32](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L32)
 
 ___
 
 ### toString
 
-▸ **toString**(): *any*
+▸ **toString**(): `any`
 
-**Returns:** *any*
+#### Returns
 
-Defined in: types/timespan.d.ts:34
+`any`
+
+#### Defined in
+
+[types/timespan.d.ts:34](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L34)
 
 ___
 
 ### totalDays
 
-▸ **totalDays**(`roundDown`: *any*): *any*
+▸ **totalDays**(`roundDown`): `any`
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`roundDown` | *any* |
+| Name | Type |
+| :------ | :------ |
+| `roundDown` | `any` |
 
-**Returns:** *any*
+#### Returns
 
-Defined in: types/timespan.d.ts:36
+`any`
+
+#### Defined in
+
+[types/timespan.d.ts:36](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L36)
 
 ___
 
 ### totalHours
 
-▸ **totalHours**(`roundDown`: *any*): *any*
+▸ **totalHours**(`roundDown`): `any`
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`roundDown` | *any* |
+| Name | Type |
+| :------ | :------ |
+| `roundDown` | `any` |
 
-**Returns:** *any*
+#### Returns
 
-Defined in: types/timespan.d.ts:38
+`any`
+
+#### Defined in
+
+[types/timespan.d.ts:38](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L38)
 
 ___
 
 ### totalMilliseconds
 
-▸ **totalMilliseconds**(`roundDown`: *any*): *any*
+▸ **totalMilliseconds**(`roundDown`): `any`
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`roundDown` | *any* |
+| Name | Type |
+| :------ | :------ |
+| `roundDown` | `any` |
 
-**Returns:** *any*
+#### Returns
 
-Defined in: types/timespan.d.ts:40
+`any`
+
+#### Defined in
+
+[types/timespan.d.ts:40](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L40)
 
 ___
 
 ### totalMinutes
 
-▸ **totalMinutes**(`roundDown`: *any*): *any*
+▸ **totalMinutes**(`roundDown`): `any`
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`roundDown` | *any* |
+| Name | Type |
+| :------ | :------ |
+| `roundDown` | `any` |
 
-**Returns:** *any*
+#### Returns
 
-Defined in: types/timespan.d.ts:42
+`any`
+
+#### Defined in
+
+[types/timespan.d.ts:42](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L42)
 
 ___
 
 ### totalSeconds
 
-▸ **totalSeconds**(`roundDown`: *any*): *any*
+▸ **totalSeconds**(`roundDown`): `any`
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`roundDown` | *any* |
+| Name | Type |
+| :------ | :------ |
+| `roundDown` | `any` |
 
-**Returns:** *any*
+#### Returns
 
-Defined in: types/timespan.d.ts:44
+`any`
+
+#### Defined in
+
+[types/timespan.d.ts:44](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L44)

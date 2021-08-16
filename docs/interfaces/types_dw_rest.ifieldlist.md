@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IFieldList
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IFieldList
 
 # Interface: IFieldList
 
@@ -7,10 +7,6 @@
 List of Fields
 
 **`interface`** IFieldList
-
-## Hierarchy
-
-* **IFieldList**
 
 ## Table of contents
 
@@ -22,6 +18,8 @@ List of Fields
 
 ### Field
 
-• **Field**: [*IField*](types_dw_rest.ifield.md)[]
+• **Field**: [`IDocumentIndexField`](types_dw_rest.idocumentindexfield.md)[]
 
-Defined in: types/DW_Rest.d.ts:228
+#### Defined in
+
+[types/DW_Rest.d.ts:307](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L307)

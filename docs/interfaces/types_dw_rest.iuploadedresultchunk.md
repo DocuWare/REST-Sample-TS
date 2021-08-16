@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IUploadedResultChunk
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IUploadedResultChunk
 
 # Interface: IUploadedResultChunk
 
@@ -10,9 +10,9 @@ Upload result chunk
 
 ## Hierarchy
 
-* [*ILinkModel*](types_dw_rest.ilinkmodel.md)
+- [`ILinkModel`](types_dw_rest.ilinkmodel.md)
 
-  ↳ **IUploadedResultChunk**
+  ↳ **`IUploadedResultChunk`**
 
 ## Table of contents
 
@@ -27,32 +27,42 @@ Upload result chunk
 
 ### BytesWritten
 
-• `Optional` **BytesWritten**: *number*
+• `Optional` **BytesWritten**: `number`
 
-Defined in: types/DW_Rest.d.ts:808
+#### Defined in
+
+[types/DW_Rest.d.ts:890](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L890)
 
 ___
 
 ### Finished
 
-• `Optional` **Finished**: *boolean*
+• `Optional` **Finished**: `boolean`
 
-Defined in: types/DW_Rest.d.ts:806
+#### Defined in
+
+[types/DW_Rest.d.ts:888](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L888)
 
 ___
 
 ### LastChunkId
 
-• `Optional` **LastChunkId**: *string*
+• `Optional` **LastChunkId**: `string`
 
-Defined in: types/DW_Rest.d.ts:807
+#### Defined in
+
+[types/DW_Rest.d.ts:889](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L889)
 
 ___
 
 ### Links
 
-• `Optional` **Links**: [*ILink*](types_dw_rest.ilink.md)[]
+• `Optional` **Links**: [`ILink`](types_dw_rest.ilink.md)[]
 
-Inherited from: [ILinkModel](types_dw_rest.ilinkmodel.md).[Links](types_dw_rest.ilinkmodel.md#links)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:12
+[ILinkModel](types_dw_rest.ilinkmodel.md).[Links](types_dw_rest.ilinkmodel.md#links)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:8](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L8)

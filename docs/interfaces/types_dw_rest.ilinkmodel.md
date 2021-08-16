@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ILinkModel
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ILinkModel
 
 # Interface: ILinkModel
 
@@ -11,53 +11,55 @@ so this is a base to be used
 
 ## Hierarchy
 
-* **ILinkModel**
+- **`ILinkModel`**
 
-  ↳ [*ILogonResponse*](types_dw_rest.ilogonresponse.md)
+  ↳ [`ILogonResponse`](types_dw_rest.ilogonresponse.md)
 
-  ↳ [*IOrganization*](types_dw_rest.iorganization.md)
+  ↳ [`IOrganization`](types_dw_rest.iorganization.md)
 
-  ↳ [*IFileCabinet*](types_dw_rest.ifilecabinet.md)
+  ↳ [`IFileCabinet`](types_dw_rest.ifilecabinet.md)
 
-  ↳ [*IDocument*](types_dw_rest.idocument.md)
+  ↳ [`IDocument`](types_dw_rest.idocument.md)
 
-  ↳ [*ISection*](types_dw_rest.isection.md)
+  ↳ [`IInputDocument`](types_dw_rest.iinputdocument.md)
 
-  ↳ [*IPage*](types_dw_rest.ipage.md)
+  ↳ [`ISection`](types_dw_rest.isection.md)
 
-  ↳ [*IPages*](types_dw_rest.ipages.md)
+  ↳ [`IPage`](types_dw_rest.ipage.md)
 
-  ↳ [*IDlgField*](types_dw_rest.idlgfield.md)
+  ↳ [`IPages`](types_dw_rest.ipages.md)
 
-  ↳ [*IDocumentsQueryResult*](types_dw_rest.idocumentsqueryresult.md)
+  ↳ [`IDlgField`](types_dw_rest.idlgfield.md)
 
-  ↳ [*IDialog*](types_dw_rest.idialog.md)
+  ↳ [`IDocumentsQueryResult`](types_dw_rest.idocumentsqueryresult.md)
 
-  ↳ [*IUser*](types_dw_rest.iuser.md)
+  ↳ [`IDialog`](types_dw_rest.idialog.md)
 
-  ↳ [*IRole*](types_dw_rest.irole.md)
+  ↳ [`IUser`](types_dw_rest.iuser.md)
 
-  ↳ [*IGroup*](types_dw_rest.igroup.md)
+  ↳ [`IRole`](types_dw_rest.irole.md)
 
-  ↳ [*IUploadedResultChunk*](types_dw_rest.iuploadedresultchunk.md)
+  ↳ [`IGroup`](types_dw_rest.igroup.md)
 
-  ↳ [*IWorkflow*](types_dw_rest.iworkflow.md)
+  ↳ [`IUploadedResultChunk`](types_dw_rest.iuploadedresultchunk.md)
 
-  ↳ [*IWorkflowTasks*](types_dw_rest.iworkflowtasks.md)
+  ↳ [`IWorkflow`](types_dw_rest.iworkflow.md)
 
-  ↳ [*IWorkflowTask*](types_dw_rest.iworkflowtask.md)
+  ↳ [`IWorkflowTasks`](types_dw_rest.iworkflowtasks.md)
 
-  ↳ [*ITaskOperations*](types_dw_rest.itaskoperations.md)
+  ↳ [`IWorkflowTask`](types_dw_rest.iworkflowtask.md)
 
-  ↳ [*IBaseTaskOperations*](types_dw_rest.ibasetaskoperations.md)
+  ↳ [`ITaskOperations`](types_dw_rest.itaskoperations.md)
 
-  ↳ [*IExtendedControllerOperations*](types_dw_rest.iextendedcontrolleroperations.md)
+  ↳ [`IBaseTaskOperations`](types_dw_rest.ibasetaskoperations.md)
 
-  ↳ [*IExtendedUserOperations*](types_dw_rest.iextendeduseroperations.md)
+  ↳ [`IExtendedControllerOperations`](types_dw_rest.iextendedcontrolleroperations.md)
 
-  ↳ [*IBaseDecisionOperations*](types_dw_rest.ibasedecisionoperations.md)
+  ↳ [`IExtendedUserOperations`](types_dw_rest.iextendeduseroperations.md)
 
-  ↳ [*IExtendedDecisionOperations*](types_dw_rest.iextendeddecisionoperations.md)
+  ↳ [`IBaseDecisionOperations`](types_dw_rest.ibasedecisionoperations.md)
+
+  ↳ [`IExtendedDecisionOperations`](types_dw_rest.iextendeddecisionoperations.md)
 
 ## Table of contents
 
@@ -69,6 +71,8 @@ so this is a base to be used
 
 ### Links
 
-• `Optional` **Links**: [*ILink*](types_dw_rest.ilink.md)[]
+• `Optional` **Links**: [`ILink`](types_dw_rest.ilink.md)[]
 
-Defined in: types/DW_Rest.d.ts:12
+#### Defined in
+
+[types/DW_Rest.d.ts:8](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L8)

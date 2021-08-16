@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IWorkflowTasks
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IWorkflowTasks
 
 # Interface: IWorkflowTasks
 
@@ -10,9 +10,9 @@ List of workflow tasks
 
 ## Hierarchy
 
-* [*ILinkModel*](types_dw_rest.ilinkmodel.md)
+- [`ILinkModel`](types_dw_rest.ilinkmodel.md)
 
-  ↳ **IWorkflowTasks**
+  ↳ **`IWorkflowTasks`**
 
 ## Table of contents
 
@@ -27,32 +27,42 @@ List of workflow tasks
 
 ### Count
 
-• **Count**: *number*
+• **Count**: `number`
 
-Defined in: types/DW_Rest.d.ts:862
+#### Defined in
+
+[types/DW_Rest.d.ts:944](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L944)
 
 ___
 
 ### Links
 
-• `Optional` **Links**: [*ILink*](types_dw_rest.ilink.md)[]
+• `Optional` **Links**: [`ILink`](types_dw_rest.ilink.md)[]
 
-Inherited from: [ILinkModel](types_dw_rest.ilinkmodel.md).[Links](types_dw_rest.ilinkmodel.md#links)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:12
+[ILinkModel](types_dw_rest.ilinkmodel.md).[Links](types_dw_rest.ilinkmodel.md#links)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:8](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L8)
 
 ___
 
 ### Task
 
-• **Task**: [*IWorkflowTask*](types_dw_rest.iworkflowtask.md)[]
+• **Task**: [`IWorkflowTask`](types_dw_rest.iworkflowtask.md)[]
 
-Defined in: types/DW_Rest.d.ts:861
+#### Defined in
+
+[types/DW_Rest.d.ts:943](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L943)
 
 ___
 
 ### TimeStamp
 
-• **TimeStamp**: *string*
+• **TimeStamp**: `string`
 
-Defined in: types/DW_Rest.d.ts:863
+#### Defined in
+
+[types/DW_Rest.d.ts:945](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L945)

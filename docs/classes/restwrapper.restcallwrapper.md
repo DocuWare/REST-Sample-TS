@@ -1,14 +1,10 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [restWrapper](../modules/restwrapper.md) / RestCallWrapper
+[Typedoc project reference documentation](../README.md) / [restWrapper](../modules/restwrapper.md) / RestCallWrapper
 
 # Class: RestCallWrapper
 
 [restWrapper](../modules/restwrapper.md).RestCallWrapper
 
 Sample wrapper for DocuWare REST API
-
-## Hierarchy
-
-* **RestCallWrapper**
 
 ## Table of contents
 
@@ -76,6 +72,7 @@ Sample wrapper for DocuWare REST API
 - [TransferFromFileCabinetToFileCabinet](restwrapper.restcallwrapper.md#transferfromfilecabinettofilecabinet)
 - [UpdateDocumentIndexValues](restwrapper.restcallwrapper.md#updatedocumentindexvalues)
 - [UploadBigDocumentBase](restwrapper.restcallwrapper.md#uploadbigdocumentbase)
+- [UploadBigDocumentJson](restwrapper.restcallwrapper.md#uploadbigdocumentjson)
 - [UploadBigDocumentJsonContextTypMultipleSection](restwrapper.restcallwrapper.md#uploadbigdocumentjsoncontexttypmultiplesection)
 - [UploadBigDocumentJsonContextTypeSingleSection](restwrapper.restcallwrapper.md#uploadbigdocumentjsoncontexttypesinglesection)
 - [UploadDocument](restwrapper.restcallwrapper.md#uploaddocument)
@@ -84,1112 +81,1365 @@ Sample wrapper for DocuWare REST API
 
 ### constructor
 
-\+ **new RestCallWrapper**(`rootOfPlatform`: *string*, `port?`: *number*): [*RestCallWrapper*](restwrapper.restcallwrapper.md)
+• **new RestCallWrapper**(`rootOfPlatform`, `port?`)
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`rootOfPlatform` | *string* |
-`port?` | *number* |
+| Name | Type |
+| :------ | :------ |
+| `rootOfPlatform` | `string` |
+| `port?` | `number` |
 
-**Returns:** [*RestCallWrapper*](restwrapper.restcallwrapper.md)
+#### Defined in
 
-Defined in: restWrapper.ts:29
+[restWrapper.ts:29](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L29)
 
 ## Properties
 
 ### docuWare\_request\_config
 
-• **docuWare\_request\_config**: RequestPromiseOptions
+• **docuWare\_request\_config**: `RequestPromiseOptions`
 
-Defined in: restWrapper.ts:29
+#### Defined in
+
+[restWrapper.ts:29](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L29)
 
 ___
 
 ### platformRoot
 
-• **platformRoot**: *string*
+• **platformRoot**: `string`
 
 Set root without /DocuWare/Platform because the rel links of platform responses will contain it
 
-Defined in: restWrapper.ts:28
+#### Defined in
+
+[restWrapper.ts:28](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L28)
 
 ## Methods
 
 ### AddApplicationProperties
 
-▸ **AddApplicationProperties**(`document`: [*IDocument*](../interfaces/types_dw_rest.idocument.md), `applicationProperties`: [*IDocumentApplicationProperty*](../interfaces/types_dw_rest.idocumentapplicationproperty.md)[]): *Promise*<[*IDocumentApplicationProperties*](../interfaces/types_dw_rest.idocumentapplicationproperties.md)\>
+▸ **AddApplicationProperties**(`document`, `applicationProperties`): `Promise`<[`IDocumentApplicationProperties`](../interfaces/types_dw_rest.idocumentapplicationproperties.md)\>
 
 Add application properties, those properties can be used to save custom meta data
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`document` | [*IDocument*](../interfaces/types_dw_rest.idocument.md) |
-`applicationProperties` | [*IDocumentApplicationProperty*](../interfaces/types_dw_rest.idocumentapplicationproperty.md)[] |
+| Name | Type |
+| :------ | :------ |
+| `document` | [`IDocument`](../interfaces/types_dw_rest.idocument.md) |
+| `applicationProperties` | [`IDocumentApplicationProperty`](../interfaces/types_dw_rest.idocumentapplicationproperty.md)[] |
 
-**Returns:** *Promise*<[*IDocumentApplicationProperties*](../interfaces/types_dw_rest.idocumentapplicationproperties.md)\>
+#### Returns
 
-Defined in: restWrapper.ts:1171
+`Promise`<[`IDocumentApplicationProperties`](../interfaces/types_dw_rest.idocumentapplicationproperties.md)\>
+
+#### Defined in
+
+[restWrapper.ts:1473](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1473)
 
 ___
 
 ### AssignUserToGroup
 
-▸ **AssignUserToGroup**(`user`: [*IUser*](../interfaces/types_dw_rest.iuser.md), `group`: [*IGroup*](../interfaces/types_dw_rest.igroup.md)): *Promise*<*void*\>
+▸ **AssignUserToGroup**(`user`, `group`): `Promise`<`void`\>
 
 Assign a dedicated user to a group
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`user` | [*IUser*](../interfaces/types_dw_rest.iuser.md) |
-`group` | [*IGroup*](../interfaces/types_dw_rest.igroup.md) |
+| Name | Type |
+| :------ | :------ |
+| `user` | [`IUser`](../interfaces/types_dw_rest.iuser.md) |
+| `group` | [`IGroup`](../interfaces/types_dw_rest.igroup.md) |
 
-**Returns:** *Promise*<*void*\>
+#### Returns
 
-Defined in: restWrapper.ts:965
+`Promise`<`void`\>
+
+#### Defined in
+
+[restWrapper.ts:1230](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1230)
 
 ___
 
 ### AssignUserToRole
 
-▸ **AssignUserToRole**(`user`: [*IUser*](../interfaces/types_dw_rest.iuser.md), `role`: [*IRole*](../interfaces/types_dw_rest.irole.md)): *Promise*<*void*\>
+▸ **AssignUserToRole**(`user`, `role`): `Promise`<`void`\>
 
 Assign a dedicated user to a role
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`user` | [*IUser*](../interfaces/types_dw_rest.iuser.md) |
-`role` | [*IRole*](../interfaces/types_dw_rest.irole.md) |
+| Name | Type |
+| :------ | :------ |
+| `user` | [`IUser`](../interfaces/types_dw_rest.iuser.md) |
+| `role` | [`IRole`](../interfaces/types_dw_rest.irole.md) |
 
-**Returns:** *Promise*<*void*\>
+#### Returns
 
-Defined in: restWrapper.ts:942
+`Promise`<`void`\>
+
+#### Defined in
+
+[restWrapper.ts:1203](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1203)
 
 ___
 
 ### BuildTimeSpanString
 
-▸ `Private`**BuildTimeSpanString**(`seconds`: *number*): *any*
+▸ `Private` **BuildTimeSpanString**(`seconds`): `any`
 
 Helper method for getting a TimeSpan string
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`seconds` | *number* |
+| Name | Type |
+| :------ | :------ |
+| `seconds` | `number` |
 
-**Returns:** *any*
+#### Returns
 
-Defined in: restWrapper.ts:1265
+`any`
+
+#### Defined in
+
+[restWrapper.ts:1585](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1585)
 
 ___
 
 ### CheckInFromFileSystem
 
-▸ **CheckInFromFileSystem**(`fullLoadedDocument`: [*IDocument*](../interfaces/types_dw_rest.idocument.md), `pathToFile`: *string*, `checkinParameters`: [*ICheckInActionParameters*](../interfaces/types_dw_rest.icheckinactionparameters.md)): *Promise*<[*IDocument*](../interfaces/types_dw_rest.idocument.md)\>
+▸ **CheckInFromFileSystem**(`fullLoadedDocument`, `pathToFile`, `checkinParameters`): `Promise`<[`IDocument`](../interfaces/types_dw_rest.idocument.md)\>
 
 Check in a checked out document
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`fullLoadedDocument` | [*IDocument*](../interfaces/types_dw_rest.idocument.md) |
-`pathToFile` | *string* |
-`checkinParameters` | [*ICheckInActionParameters*](../interfaces/types_dw_rest.icheckinactionparameters.md) |
+| Name | Type |
+| :------ | :------ |
+| `fullLoadedDocument` | [`IDocument`](../interfaces/types_dw_rest.idocument.md) |
+| `pathToFile` | `string` |
+| `checkinParameters` | [`ICheckInActionParameters`](../interfaces/types_dw_rest.icheckinactionparameters.md) |
 
-**Returns:** *Promise*<[*IDocument*](../interfaces/types_dw_rest.idocument.md)\>
+#### Returns
 
-Defined in: restWrapper.ts:693
+`Promise`<[`IDocument`](../interfaces/types_dw_rest.idocument.md)\>
+
+#### Defined in
+
+[restWrapper.ts:872](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L872)
 
 ___
 
 ### CheckoutToFileSystem
 
-▸ **CheckoutToFileSystem**(`fullLoadedDocument`: [*IDocument*](../interfaces/types_dw_rest.idocument.md)): *Promise*<*string*\>
+▸ **CheckoutToFileSystem**(`fullLoadedDocument`): `Promise`<`string`\>
 
 Check out a document to the file system
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`fullLoadedDocument` | [*IDocument*](../interfaces/types_dw_rest.idocument.md) |
+| Name | Type |
+| :------ | :------ |
+| `fullLoadedDocument` | [`IDocument`](../interfaces/types_dw_rest.idocument.md) |
 
-**Returns:** *Promise*<*string*\>
+#### Returns
 
-Defined in: restWrapper.ts:671
+`Promise`<`string`\>
+
+#### Defined in
+
+[restWrapper.ts:844](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L844)
 
 ___
 
 ### ConfirmWorkflowTask
 
-▸ **ConfirmWorkflowTask**(`task`: [*IWorkflowTask*](../interfaces/types_dw_rest.iworkflowtask.md)): *Promise*<*void*\>
+▸ **ConfirmWorkflowTask**(`task`): `Promise`<`void`\>
 
 Confirms a tasks, this example takes the first text form and confirms with demo string
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`task` | [*IWorkflowTask*](../interfaces/types_dw_rest.iworkflowtask.md) |
+| Name | Type |
+| :------ | :------ |
+| `task` | [`IWorkflowTask`](../interfaces/types_dw_rest.iworkflowtask.md) |
 
-**Returns:** *Promise*<*void*\>
+#### Returns
 
-Defined in: restWrapper.ts:1227
+`Promise`<`void`\>
+
+#### Defined in
+
+[restWrapper.ts:1538](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1538)
 
 ___
 
 ### CreateDirectoryIfNotExist
 
-▸ `Private`**CreateDirectoryIfNotExist**(`path`: *string*): *void*
+▸ `Private` **CreateDirectoryIfNotExist**(`path`): `void`
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`path` | *string* |
+| Name | Type |
+| :------ | :------ |
+| `path` | `string` |
 
-**Returns:** *void*
+#### Returns
 
-Defined in: restWrapper.ts:1343
+`void`
+
+#### Defined in
+
+[restWrapper.ts:1674](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1674)
 
 ___
 
 ### CreateLogonModel
 
-▸ **CreateLogonModel**(`user`: *string*, `pw`: *string*, `org`: *string*, `hostID`: *string*): [*ILogonModel*](../interfaces/types_dw_rest.ilogonmodel.md)
+▸ **CreateLogonModel**(`user`, `pw`, `org`, `hostID`): [`ILogonModel`](../interfaces/types_dw_rest.ilogonmodel.md)
 
 Helper function for preparing the logon
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`user` | *string* |
-`pw` | *string* |
-`org` | *string* |
-`hostID` | *string* |
+| Name | Type |
+| :------ | :------ |
+| `user` | `string` |
+| `pw` | `string` |
+| `org` | `string` |
+| `hostID` | `string` |
 
-**Returns:** [*ILogonModel*](../interfaces/types_dw_rest.ilogonmodel.md)
+#### Returns
 
-Defined in: restWrapper.ts:56
+[`ILogonModel`](../interfaces/types_dw_rest.ilogonmodel.md)
+
+#### Defined in
+
+[restWrapper.ts:58](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L58)
 
 ___
 
 ### CreateNewDocumentContent
 
-▸ **CreateNewDocumentContent**(`indexFields`: [*IField*](../interfaces/types_dw_rest.ifield.md)[], `applicationProperties`: [*IDocumentApplicationProperty*](../interfaces/types_dw_rest.idocumentapplicationproperty.md)[]): *Promise*<[*IDocument*](../interfaces/types_dw_rest.idocument.md)\>
+▸ **CreateNewDocumentContent**(`indexFields`, `applicationProperties`): `Promise`<[`IDocument`](../interfaces/types_dw_rest.idocument.md)\>
 
 Creates a new document with the needed keys depending on the given parameters
 
 **`memberof`** RestCallWrapper
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`indexFields` | [*IField*](../interfaces/types_dw_rest.ifield.md)[] |
-`applicationProperties` | [*IDocumentApplicationProperty*](../interfaces/types_dw_rest.idocumentapplicationproperty.md)[] |
+| Name | Type |
+| :------ | :------ |
+| `indexFields` | [`IDocumentIndexField`](../interfaces/types_dw_rest.idocumentindexfield.md)[] |
+| `applicationProperties` | [`IDocumentApplicationProperty`](../interfaces/types_dw_rest.idocumentapplicationproperty.md)[] |
 
-**Returns:** *Promise*<[*IDocument*](../interfaces/types_dw_rest.idocument.md)\>
+#### Returns
 
-Defined in: restWrapper.ts:508
+`Promise`<[`IDocument`](../interfaces/types_dw_rest.idocument.md)\>
+
+#### Defined in
+
+[restWrapper.ts:657](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L657)
 
 ___
 
 ### CreateUser
 
-▸ **CreateUser**(`organization`: [*IOrganization*](../interfaces/types_dw_rest.iorganization.md), `newUser`: [*INewUser*](../interfaces/types_dw_rest.inewuser.md)): *Promise*<[*IUser*](../interfaces/types_dw_rest.iuser.md)\>
+▸ **CreateUser**(`organization`, `newUser`): `Promise`<[`IUser`](../interfaces/types_dw_rest.iuser.md)\>
 
 Create a new user
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`organization` | [*IOrganization*](../interfaces/types_dw_rest.iorganization.md) |
-`newUser` | [*INewUser*](../interfaces/types_dw_rest.inewuser.md) |
+| Name | Type |
+| :------ | :------ |
+| `organization` | [`IOrganization`](../interfaces/types_dw_rest.iorganization.md) |
+| `newUser` | [`INewUser`](../interfaces/types_dw_rest.inewuser.md) |
 
-**Returns:** *Promise*<[*IUser*](../interfaces/types_dw_rest.iuser.md)\>
+#### Returns
 
-Defined in: restWrapper.ts:924
+`Promise`<[`IUser`](../interfaces/types_dw_rest.iuser.md)\>
+
+#### Defined in
+
+[restWrapper.ts:1178](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1178)
 
 ___
 
 ### DeleteDocumentLock
 
-▸ **DeleteDocumentLock**(`document`: [*IDocument*](../interfaces/types_dw_rest.idocument.md)): *Promise*<*void*\>
+▸ **DeleteDocumentLock**(`document`): `Promise`<`void`\>
 
 Remove a lock from a document
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`document` | [*IDocument*](../interfaces/types_dw_rest.idocument.md) |
+| Name | Type |
+| :------ | :------ |
+| `document` | [`IDocument`](../interfaces/types_dw_rest.idocument.md) |
 
-**Returns:** *Promise*<*void*\>
+#### Returns
 
-Defined in: restWrapper.ts:1157
+`Promise`<`void`\>
+
+#### Defined in
+
+[restWrapper.ts:1460](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1460)
 
 ___
 
 ### DivideDocument
 
-▸ **DivideDocument**(`document`: [*IDocument*](../interfaces/types_dw_rest.idocument.md), `operation`: [*ContentDivideOperation*](../enums/types_dw_rest.contentdivideoperation.md)): *Promise*<*any*\>
+▸ **DivideDocument**(`document`, `operation`): `Promise`<`any`\>
 
 Divide a document
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`document` | [*IDocument*](../interfaces/types_dw_rest.idocument.md) |
-`operation` | [*ContentDivideOperation*](../enums/types_dw_rest.contentdivideoperation.md) |
+| Name | Type |
+| :------ | :------ |
+| `document` | [`IDocument`](../interfaces/types_dw_rest.idocument.md) |
+| `operation` | [`ContentDivideOperation`](../enums/types_dw_rest.contentdivideoperation.md) |
 
-**Returns:** *Promise*<*any*\>
+#### Returns
 
-Defined in: restWrapper.ts:878
+`Promise`<`any`\>
+
+#### Defined in
+
+[restWrapper.ts:1117](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1117)
 
 ___
 
 ### DownloadDocument
 
-▸ **DownloadDocument**(`fullLoadedDocument`: [*IDocument*](../interfaces/types_dw_rest.idocument.md), `includeAnnotations`: *boolean*, `targetFileType`: [*TargetFileType*](../enums/types_dw_rest.targetfiletype.md)): *Promise*<*string*\>
+▸ **DownloadDocument**(`fullLoadedDocument`, `includeAnnotations`, `targetFileType`): `Promise`<`string`\>
 
 Download a single document
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`fullLoadedDocument` | [*IDocument*](../interfaces/types_dw_rest.idocument.md) |
-`includeAnnotations` | *boolean* |
-`targetFileType` | [*TargetFileType*](../enums/types_dw_rest.targetfiletype.md) |
+| Name | Type |
+| :------ | :------ |
+| `fullLoadedDocument` | [`IDocument`](../interfaces/types_dw_rest.idocument.md) |
+| `includeAnnotations` | `boolean` |
+| `targetFileType` | [`TargetFileType`](../enums/types_dw_rest.targetfiletype.md) |
 
-**Returns:** *Promise*<*string*\>
+#### Returns
 
-Defined in: restWrapper.ts:393
+`Promise`<`string`\>
+
+#### Defined in
+
+[restWrapper.ts:473](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L473)
 
 ___
 
 ### DownloadFile
 
-▸ `Private`**DownloadFile**(`request`: *RequestPromise*<*any*\>, `reject`: (`reason?`: *any*) => *void*, `resolve`: (`value?`: *any*) => *void*): *Promise*<*void*\>
+▸ `Private` **DownloadFile**(`request`, `reject`, `resolve`): `Promise`<`void`\>
 
 Helper method to download file from response
 
 **`memberof`** RestCallWrapper
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`request` | *RequestPromise*<*any*\> |
-`reject` | (`reason?`: *any*) => *void* |
-`resolve` | (`value?`: *any*) => *void* |
+| Name | Type |
+| :------ | :------ |
+| `request` | `RequestPromise`<`any`\> |
+| `reject` | (`reason?`: `any`) => `void` |
+| `resolve` | (`value?`: `any`) => `void` |
 
-**Returns:** *Promise*<*void*\>
+#### Returns
 
-Defined in: restWrapper.ts:1281
+`Promise`<`void`\>
+
+#### Defined in
+
+[restWrapper.ts:1600](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1600)
 
 ___
 
 ### EditDocumentSection
 
-▸ **EditDocumentSection**(`fullLoadedSection`: [*ISection*](../interfaces/types_dw_rest.isection.md), `pathToFileForReplace`: *string*): *Promise*<[*ISection*](../interfaces/types_dw_rest.isection.md)\>
+▸ **EditDocumentSection**(`fullLoadedSection`, `pathToFileForReplace`): `Promise`<[`ISection`](../interfaces/types_dw_rest.isection.md)\>
 
 Manipulate a document and upload it again
 In this example we make a zip out of it
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`fullLoadedSection` | [*ISection*](../interfaces/types_dw_rest.isection.md) |
-`pathToFileForReplace` | *string* |
+| Name | Type |
+| :------ | :------ |
+| `fullLoadedSection` | [`ISection`](../interfaces/types_dw_rest.isection.md) |
+| `pathToFileForReplace` | `string` |
 
-**Returns:** *Promise*<[*ISection*](../interfaces/types_dw_rest.isection.md)\>
+#### Returns
 
-Defined in: restWrapper.ts:646
+`Promise`<[`ISection`](../interfaces/types_dw_rest.isection.md)\>
+
+#### Defined in
+
+[restWrapper.ts:809](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L809)
 
 ___
 
 ### ExportDWXArchive
 
-▸ **ExportDWXArchive**(`documentOrDocuments`: [*IDocument*](../interfaces/types_dw_rest.idocument.md) \| [*IDocumentsQueryResult*](../interfaces/types_dw_rest.idocumentsqueryresult.md), `exportSettings`: [*IExportSettings*](../interfaces/types_dw_rest.iexportsettings.md)): *Promise*<*string*\>
+▸ **ExportDWXArchive**(`documentOrDocuments`, `exportSettings`): `Promise`<`string`\>
 
 Import a DWX. DWX is the exchange format of DocuWare
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`documentOrDocuments` | [*IDocument*](../interfaces/types_dw_rest.idocument.md) \| [*IDocumentsQueryResult*](../interfaces/types_dw_rest.idocumentsqueryresult.md) |
-`exportSettings` | [*IExportSettings*](../interfaces/types_dw_rest.iexportsettings.md) |
+| Name | Type |
+| :------ | :------ |
+| `documentOrDocuments` | [`IDocument`](../interfaces/types_dw_rest.idocument.md) \| [`IDocumentsQueryResult`](../interfaces/types_dw_rest.idocumentsqueryresult.md) |
+| `exportSettings` | [`IExportSettings`](../interfaces/types_dw_rest.iexportsettings.md) |
 
-**Returns:** *Promise*<*string*\>
+#### Returns
 
-Defined in: restWrapper.ts:1114
+`Promise`<`string`\>
+
+#### Defined in
+
+[restWrapper.ts:1407](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1407)
 
 ___
 
 ### GetAllDialogsFromFileCabinet
 
-▸ **GetAllDialogsFromFileCabinet**(`fileCabinet`: [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md)): *Promise*<[*IDialogsResponse*](../interfaces/types_dw_rest.idialogsresponse.md)\>
+▸ **GetAllDialogsFromFileCabinet**(`fileCabinet`): `Promise`<[`IDialogsResponse`](../interfaces/types_dw_rest.idialogsresponse.md)\>
 
 Returns all kind of dialogs of a fileCabinet
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`fileCabinet` | [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md) |
+| Name | Type |
+| :------ | :------ |
+| `fileCabinet` | [`IFileCabinet`](../interfaces/types_dw_rest.ifilecabinet.md) |
 
-**Returns:** *Promise*<[*IDialogsResponse*](../interfaces/types_dw_rest.idialogsresponse.md)\>
+#### Returns
 
-Defined in: restWrapper.ts:262
+`Promise`<[`IDialogsResponse`](../interfaces/types_dw_rest.idialogsresponse.md)\>
+
+#### Defined in
+
+[restWrapper.ts:307](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L307)
 
 ___
 
 ### GetAllFileCabinetsWithoutDocumentTrays
 
-▸ **GetAllFileCabinetsWithoutDocumentTrays**(`fileCabinets`: [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md)[]): [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md)[]
+▸ **GetAllFileCabinetsWithoutDocumentTrays**(`fileCabinets`): [`IFileCabinet`](../interfaces/types_dw_rest.ifilecabinet.md)[]
 
 Filters list of FileCabinet Objects and returns only FileCabinets
 Info: FileCabinet Object can be a document tray OR a FileCabinet
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`fileCabinets` | [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md)[] |
+| Name | Type |
+| :------ | :------ |
+| `fileCabinets` | [`IFileCabinet`](../interfaces/types_dw_rest.ifilecabinet.md)[] |
 
-**Returns:** [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md)[]
+#### Returns
 
-Defined in: restWrapper.ts:169
+[`IFileCabinet`](../interfaces/types_dw_rest.ifilecabinet.md)[]
+
+#### Defined in
+
+[restWrapper.ts:190](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L190)
 
 ___
 
 ### GetControllerWorkflows
 
-▸ **GetControllerWorkflows**(`organization`: [*IOrganization*](../interfaces/types_dw_rest.iorganization.md)): *Promise*<[*IWorkflows*](../interfaces/types_dw_rest.iworkflows.md)\>
+▸ **GetControllerWorkflows**(`organization`): `Promise`<[`IWorkflows`](../interfaces/types_dw_rest.iworkflows.md)\>
 
 Get controller workflows
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`organization` | [*IOrganization*](../interfaces/types_dw_rest.iorganization.md) |
+| Name | Type |
+| :------ | :------ |
+| `organization` | [`IOrganization`](../interfaces/types_dw_rest.iorganization.md) |
 
-**Returns:** *Promise*<[*IWorkflows*](../interfaces/types_dw_rest.iworkflows.md)\>
+#### Returns
 
-Defined in: restWrapper.ts:1201
+`Promise`<[`IWorkflows`](../interfaces/types_dw_rest.iworkflows.md)\>
+
+#### Defined in
+
+[restWrapper.ts:1509](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1509)
 
 ___
 
 ### GetDedicatedDialogsFromFileCabinet
 
-▸ **GetDedicatedDialogsFromFileCabinet**(`fileCabinet`: [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md), `dialogType`: [*DialogType*](../enums/types_dw_rest.dialogtype.md)): *Promise*<[*IDialog*](../interfaces/types_dw_rest.idialog.md)[]\>
+▸ **GetDedicatedDialogsFromFileCabinet**(`fileCabinet`, `dialogType`): `Promise`<[`IDialog`](../interfaces/types_dw_rest.idialog.md)[]\>
 
 Returns a list of specified dialogs
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`fileCabinet` | [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md) |
-`dialogType` | [*DialogType*](../enums/types_dw_rest.dialogtype.md) |
+| Name | Type |
+| :------ | :------ |
+| `fileCabinet` | [`IFileCabinet`](../interfaces/types_dw_rest.ifilecabinet.md) |
+| `dialogType` | [`DialogType`](../enums/types_dw_rest.dialogtype.md) |
 
-**Returns:** *Promise*<[*IDialog*](../interfaces/types_dw_rest.idialog.md)[]\>
+#### Returns
 
-Defined in: restWrapper.ts:300
+`Promise`<[`IDialog`](../interfaces/types_dw_rest.idialog.md)[]\>
+
+#### Defined in
+
+[restWrapper.ts:349](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L349)
 
 ___
 
 ### GetDefaultDocumentTray
 
-▸ **GetDefaultDocumentTray**(`fileCabinets`: [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md)[]): *undefined* \| [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md)
+▸ **GetDefaultDocumentTray**(`fileCabinets`): `undefined` \| [`IFileCabinet`](../interfaces/types_dw_rest.ifilecabinet.md)
 
   Filters list of FileCabinet Objects and returns only document trays
 Info: FileCabinet Object can be a document tray OR a FileCabinet
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`fileCabinets` | [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md)[] |
+| Name | Type |
+| :------ | :------ |
+| `fileCabinets` | [`IFileCabinet`](../interfaces/types_dw_rest.ifilecabinet.md)[] |
 
-**Returns:** *undefined* \| [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md)
+#### Returns
 
-Defined in: restWrapper.ts:180
+`undefined` \| [`IFileCabinet`](../interfaces/types_dw_rest.ifilecabinet.md)
+
+#### Defined in
+
+[restWrapper.ts:203](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L203)
 
 ___
 
 ### GetDialogLink
 
-▸ **GetDialogLink**(`fileCabinet`: [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md), `dialogType`: [*DialogType*](../enums/types_dw_rest.dialogtype.md)): *string*
+▸ **GetDialogLink**(`fileCabinet`, `dialogType`): `string`
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`fileCabinet` | [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md) |
-`dialogType` | [*DialogType*](../enums/types_dw_rest.dialogtype.md) |
+| Name | Type |
+| :------ | :------ |
+| `fileCabinet` | [`IFileCabinet`](../interfaces/types_dw_rest.ifilecabinet.md) |
+| `dialogType` | [`DialogType`](../enums/types_dw_rest.dialogtype.md) |
 
-**Returns:** *string*
+#### Returns
 
-Defined in: restWrapper.ts:269
+`string`
+
+#### Defined in
+
+[restWrapper.ts:315](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L315)
 
 ___
 
 ### GetDocumentByDocID
 
-▸ **GetDocumentByDocID**(`fileCabinet`: [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md), `docId`: *number*, `fullLoad?`: *boolean*): *Promise*<[*IDocument*](../interfaces/types_dw_rest.idocument.md)\>
+▸ **GetDocumentByDocID**(`fileCabinet`, `docId`, `fullLoad?`): `Promise`<[`IDocument`](../interfaces/types_dw_rest.idocument.md)\>
 
 Get a document by DocId
 
-#### Parameters:
+#### Parameters
 
-Name | Type | Default value |
------- | ------ | ------ |
-`fileCabinet` | [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md) | - |
-`docId` | *number* | - |
-`fullLoad` | *boolean* | false |
+| Name | Type | Default value |
+| :------ | :------ | :------ |
+| `fileCabinet` | [`IFileCabinet`](../interfaces/types_dw_rest.ifilecabinet.md) | `undefined` |
+| `docId` | `number` | `undefined` |
+| `fullLoad` | `boolean` | `false` |
 
-**Returns:** *Promise*<[*IDocument*](../interfaces/types_dw_rest.idocument.md)\>
+#### Returns
 
-Defined in: restWrapper.ts:210
+`Promise`<[`IDocument`](../interfaces/types_dw_rest.idocument.md)\>
+
+#### Defined in
+
+[restWrapper.ts:240](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L240)
 
 ___
 
 ### GetDocumentQueryResultForSpecifiedCountFromFileCabinet
 
-▸ **GetDocumentQueryResultForSpecifiedCountFromFileCabinet**(`fileCabinet`: [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md), `count`: *number*): *Promise*<[*IDocumentsQueryResult*](../interfaces/types_dw_rest.idocumentsqueryresult.md)\>
+▸ **GetDocumentQueryResultForSpecifiedCountFromFileCabinet**(`fileCabinet`, `count`): `Promise`<[`IDocumentsQueryResult`](../interfaces/types_dw_rest.idocumentsqueryresult.md)\>
 
 Get the first x documents from a file cabinet
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`fileCabinet` | [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md) |
-`count` | *number* |
+| Name | Type |
+| :------ | :------ |
+| `fileCabinet` | [`IFileCabinet`](../interfaces/types_dw_rest.ifilecabinet.md) |
+| `count` | `number` |
 
-**Returns:** *Promise*<[*IDocumentsQueryResult*](../interfaces/types_dw_rest.idocumentsqueryresult.md)\>
+#### Returns
 
-Defined in: restWrapper.ts:231
+`Promise`<[`IDocumentsQueryResult`](../interfaces/types_dw_rest.idocumentsqueryresult.md)\>
+
+#### Defined in
+
+[restWrapper.ts:268](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L268)
 
 ___
 
 ### GetDocumentsFromFileCabinet
 
-▸ **GetDocumentsFromFileCabinet**(`fileCabinet`: [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md)): *Promise*<[*IDocument*](../interfaces/types_dw_rest.idocument.md)[]\>
+▸ **GetDocumentsFromFileCabinet**(`fileCabinet`): `Promise`<[`IDocument`](../interfaces/types_dw_rest.idocument.md)[]\>
 
 Returns documents of FileCabinet without criteria
 Info: Is restricted to the first 1000 per default
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`fileCabinet` | [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md) |
+| Name | Type |
+| :------ | :------ |
+| `fileCabinet` | [`IFileCabinet`](../interfaces/types_dw_rest.ifilecabinet.md) |
 
-**Returns:** *Promise*<[*IDocument*](../interfaces/types_dw_rest.idocument.md)[]\>
+#### Returns
 
-Defined in: restWrapper.ts:192
+`Promise`<[`IDocument`](../interfaces/types_dw_rest.idocument.md)[]\>
+
+#### Defined in
+
+[restWrapper.ts:219](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L219)
 
 ___
 
 ### GetFileCabinet
 
-▸ **GetFileCabinet**(`fcGuid`: *string*): *Promise*<[*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md)\>
+▸ **GetFileCabinet**(`fcGuid`): `Promise`<[`IFileCabinet`](../interfaces/types_dw_rest.ifilecabinet.md)\>
 
 Returns a special FileCabinet by GUID
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`fcGuid` | *string* |
+| Name | Type |
+| :------ | :------ |
+| `fcGuid` | `string` |
 
-**Returns:** *Promise*<[*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md)\>
+#### Returns
 
-Defined in: restWrapper.ts:157
+`Promise`<[`IFileCabinet`](../interfaces/types_dw_rest.ifilecabinet.md)\>
+
+#### Defined in
+
+[restWrapper.ts:174](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L174)
 
 ___
 
 ### GetFileCabinets
 
-▸ **GetFileCabinets**(`org`: [*IOrganization*](../interfaces/types_dw_rest.iorganization.md)): *Promise*<[*IFileCabinets*](../interfaces/types_dw_rest.ifilecabinets.md)\>
+▸ **GetFileCabinets**(`org`): `Promise`<[`IFileCabinets`](../interfaces/types_dw_rest.ifilecabinets.md)\>
 
 Returns list of FileCabinets
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`org` | [*IOrganization*](../interfaces/types_dw_rest.iorganization.md) |
+| Name | Type |
+| :------ | :------ |
+| `org` | [`IOrganization`](../interfaces/types_dw_rest.iorganization.md) |
 
-**Returns:** *Promise*<[*IFileCabinets*](../interfaces/types_dw_rest.ifilecabinets.md)\>
+#### Returns
 
-Defined in: restWrapper.ts:142
+`Promise`<[`IFileCabinets`](../interfaces/types_dw_rest.ifilecabinets.md)\>
+
+#### Defined in
+
+[restWrapper.ts:161](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L161)
 
 ___
 
 ### GetGroupByName
 
-▸ **GetGroupByName**(`organization`: [*IOrganization*](../interfaces/types_dw_rest.iorganization.md), `name`: *string*): *Promise*<[*IGroup*](../interfaces/types_dw_rest.igroup.md)\>
+▸ **GetGroupByName**(`organization`, `name`): `Promise`<[`IGroup`](../interfaces/types_dw_rest.igroup.md)\>
 
 Get a group by it's name
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`organization` | [*IOrganization*](../interfaces/types_dw_rest.iorganization.md) |
-`name` | *string* |
+| Name | Type |
+| :------ | :------ |
+| `organization` | [`IOrganization`](../interfaces/types_dw_rest.iorganization.md) |
+| `name` | `string` |
 
-**Returns:** *Promise*<[*IGroup*](../interfaces/types_dw_rest.igroup.md)\>
+#### Returns
 
-Defined in: restWrapper.ts:1026
+`Promise`<[`IGroup`](../interfaces/types_dw_rest.igroup.md)\>
+
+#### Defined in
+
+[restWrapper.ts:1303](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1303)
 
 ___
 
 ### GetLink
 
-▸ `Private`**GetLink**(`linkModel`: [*ILinkModel*](../interfaces/types_dw_rest.ilinkmodel.md), `linkName`: *string*): *string*
+▸ `Private` **GetLink**(`linkModel`, `linkName`): `string`
 
 Helper method to check if link exists or not
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`linkModel` | [*ILinkModel*](../interfaces/types_dw_rest.ilinkmodel.md) |
-`linkName` | *string* |
+| Name | Type |
+| :------ | :------ |
+| `linkModel` | [`ILinkModel`](../interfaces/types_dw_rest.ilinkmodel.md) |
+| `linkName` | `string` |
 
-**Returns:** *string*
+#### Returns
 
-Defined in: restWrapper.ts:1314
+`string`
+
+#### Defined in
+
+[restWrapper.ts:1640](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1640)
 
 ___
 
 ### GetLinkFromModel
 
-▸ `Private`**GetLinkFromModel**(`linkModel`: [*ILinkModel*](../interfaces/types_dw_rest.ilinkmodel.md), `linkName`: *string*): *null* \| *string*
+▸ `Private` **GetLinkFromModel**(`linkModel`, `linkName`): ``null`` \| `string`
 
 Get link from object by name
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`linkModel` | [*ILinkModel*](../interfaces/types_dw_rest.ilinkmodel.md) |
-`linkName` | *string* |
+| Name | Type |
+| :------ | :------ |
+| `linkModel` | [`ILinkModel`](../interfaces/types_dw_rest.ilinkmodel.md) |
+| `linkName` | `string` |
 
-**Returns:** *null* \| *string*
+#### Returns
 
-Defined in: restWrapper.ts:1332
+``null`` \| `string`
+
+#### Defined in
+
+[restWrapper.ts:1658](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1658)
 
 ___
 
 ### GetNextResultFromDocumentQueryResult
 
-▸ **GetNextResultFromDocumentQueryResult**(`documentQueryResult`: [*IDocumentsQueryResult*](../interfaces/types_dw_rest.idocumentsqueryresult.md)): *Promise*<[*IDocumentsQueryResult*](../interfaces/types_dw_rest.idocumentsqueryresult.md)\>
+▸ **GetNextResultFromDocumentQueryResult**(`documentQueryResult`): `Promise`<[`IDocumentsQueryResult`](../interfaces/types_dw_rest.idocumentsqueryresult.md)\>
 
 Returns the next 'page' of document results
 Info: Be careful, the next result will contain same amount of results like the provided {DWRest.DocumentsQueryResult}!
 So if you searched for 2 results you will only get another 2!
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`documentQueryResult` | [*IDocumentsQueryResult*](../interfaces/types_dw_rest.idocumentsqueryresult.md) |
+| Name | Type |
+| :------ | :------ |
+| `documentQueryResult` | [`IDocumentsQueryResult`](../interfaces/types_dw_rest.idocumentsqueryresult.md) |
 
-**Returns:** *Promise*<[*IDocumentsQueryResult*](../interfaces/types_dw_rest.idocumentsqueryresult.md)\>
+#### Returns
 
-Defined in: restWrapper.ts:243
+`Promise`<[`IDocumentsQueryResult`](../interfaces/types_dw_rest.idocumentsqueryresult.md)\>
+
+#### Defined in
+
+[restWrapper.ts:287](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L287)
 
 ___
 
 ### GetOrganization
 
-▸ **GetOrganization**(): *Promise*<[*IOrganization*](../interfaces/types_dw_rest.iorganization.md)\>
+▸ **GetOrganization**(): `Promise`<[`IOrganization`](../interfaces/types_dw_rest.iorganization.md)\>
 
 Returns your Organization
 
-**Returns:** *Promise*<[*IOrganization*](../interfaces/types_dw_rest.iorganization.md)\>
+#### Returns
 
-Defined in: restWrapper.ts:116
+`Promise`<[`IOrganization`](../interfaces/types_dw_rest.iorganization.md)\>
+
+#### Defined in
+
+[restWrapper.ts:128](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L128)
 
 ___
 
 ### GetOrganizations
 
-▸ **GetOrganizations**(`logonResponse`: [*ILogonResponse*](../interfaces/types_dw_rest.ilogonresponse.md)): *Promise*<[*IOrganizations*](../interfaces/types_dw_rest.iorganizations.md)\>
+▸ **GetOrganizations**(`logonResponse`): `Promise`<[`IOrganizations`](../interfaces/types_dw_rest.iorganizations.md)\>
 
 Returns all organizations
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`logonResponse` | [*ILogonResponse*](../interfaces/types_dw_rest.ilogonresponse.md) |
+| Name | Type |
+| :------ | :------ |
+| `logonResponse` | [`ILogonResponse`](../interfaces/types_dw_rest.ilogonresponse.md) |
 
-**Returns:** *Promise*<[*IOrganizations*](../interfaces/types_dw_rest.iorganizations.md)\>
+#### Returns
 
-Defined in: restWrapper.ts:128
+`Promise`<[`IOrganizations`](../interfaces/types_dw_rest.iorganizations.md)\>
+
+#### Defined in
+
+[restWrapper.ts:141](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L141)
 
 ___
 
 ### GetPageByNumber
 
-▸ **GetPageByNumber**(`fullLoadedSection`: [*ISection*](../interfaces/types_dw_rest.isection.md), `pageNumber`: *number*, `fullLoad?`: *boolean*): *Promise*<[*IPage*](../interfaces/types_dw_rest.ipage.md)\>
+▸ **GetPageByNumber**(`fullLoadedSection`, `pageNumber`, `fullLoad?`): `Promise`<[`IPage`](../interfaces/types_dw_rest.ipage.md)\>
 
 Get a single page by section and page number
 
-#### Parameters:
+#### Parameters
 
-Name | Type | Default value |
------- | ------ | ------ |
-`fullLoadedSection` | [*ISection*](../interfaces/types_dw_rest.isection.md) | - |
-`pageNumber` | *number* | - |
-`fullLoad` | *boolean* | false |
+| Name | Type | Default value |
+| :------ | :------ | :------ |
+| `fullLoadedSection` | [`ISection`](../interfaces/types_dw_rest.isection.md) | `undefined` |
+| `pageNumber` | `number` | `undefined` |
+| `fullLoad` | `boolean` | `false` |
 
-**Returns:** *Promise*<[*IPage*](../interfaces/types_dw_rest.ipage.md)\>
+#### Returns
 
-Defined in: restWrapper.ts:750
+`Promise`<[`IPage`](../interfaces/types_dw_rest.ipage.md)\>
+
+#### Defined in
+
+[restWrapper.ts:940](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L940)
 
 ___
 
 ### GetQueryResults
 
-▸ **GetQueryResults**(`queryUrl`: *string*): *Promise*<[*IDocumentsQueryResult*](../interfaces/types_dw_rest.idocumentsqueryresult.md)\>
+▸ **GetQueryResults**(`queryUrl`): `Promise`<[`IDocumentsQueryResult`](../interfaces/types_dw_rest.idocumentsqueryresult.md)\>
 
 Send query to get results
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`queryUrl` | *string* |
+| Name | Type |
+| :------ | :------ |
+| `queryUrl` | `string` |
 
-**Returns:** *Promise*<[*IDocumentsQueryResult*](../interfaces/types_dw_rest.idocumentsqueryresult.md)\>
+#### Returns
 
-Defined in: restWrapper.ts:366
+`Promise`<[`IDocumentsQueryResult`](../interfaces/types_dw_rest.idocumentsqueryresult.md)\>
+
+#### Defined in
+
+[restWrapper.ts:440](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L440)
 
 ___
 
 ### GetQueryUrlFromFileCabinet
 
-▸ **GetQueryUrlFromFileCabinet**(`fileCabinet`: [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md), `dialogExpression`: [*IDialogExpression*](../interfaces/types_dw_rest.idialogexpression.md), `dialogId`: *string*, `fields`: *string*[], `fieldToSort`: *string*, `sortOrder`: [*SortOrder*](../enums/types_dw_rest.sortorder.md)): *Promise*<*string*\>
+▸ **GetQueryUrlFromFileCabinet**(`fileCabinet`, `dialogExpression`, `dialogId`, `fields`, `fieldToSort`, `sortOrder`): `Promise`<`string`\>
 
 Get a query build by DocuWare Platform for later execution
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`fileCabinet` | [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md) |
-`dialogExpression` | [*IDialogExpression*](../interfaces/types_dw_rest.idialogexpression.md) |
-`dialogId` | *string* |
-`fields` | *string*[] |
-`fieldToSort` | *string* |
-`sortOrder` | [*SortOrder*](../enums/types_dw_rest.sortorder.md) |
+| Name | Type |
+| :------ | :------ |
+| `fileCabinet` | [`IFileCabinet`](../interfaces/types_dw_rest.ifilecabinet.md) |
+| `dialogExpression` | [`IDialogExpression`](../interfaces/types_dw_rest.idialogexpression.md) |
+| `dialogId` | `string` |
+| `fields` | `string`[] |
+| `fieldToSort` | `string` |
+| `sortOrder` | [`SortOrder`](../enums/types_dw_rest.sortorder.md) |
 
-**Returns:** *Promise*<*string*\>
+#### Returns
 
-Defined in: restWrapper.ts:340
+`Promise`<`string`\>
+
+#### Defined in
+
+[restWrapper.ts:394](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L394)
 
 ___
 
 ### GetRoleByName
 
-▸ **GetRoleByName**(`organization`: [*IOrganization*](../interfaces/types_dw_rest.iorganization.md), `name`: *string*): *Promise*<[*IRole*](../interfaces/types_dw_rest.irole.md)\>
+▸ **GetRoleByName**(`organization`, `name`): `Promise`<[`IRole`](../interfaces/types_dw_rest.irole.md)\>
 
 Get a role by it's name
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`organization` | [*IOrganization*](../interfaces/types_dw_rest.iorganization.md) |
-`name` | *string* |
+| Name | Type |
+| :------ | :------ |
+| `organization` | [`IOrganization`](../interfaces/types_dw_rest.iorganization.md) |
+| `name` | `string` |
 
-**Returns:** *Promise*<[*IRole*](../interfaces/types_dw_rest.irole.md)\>
+#### Returns
 
-Defined in: restWrapper.ts:1052
+`Promise`<[`IRole`](../interfaces/types_dw_rest.irole.md)\>
+
+#### Defined in
+
+[restWrapper.ts:1335](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1335)
 
 ___
 
 ### GetWorkflowTasks
 
-▸ **GetWorkflowTasks**(`workflow`: [*IWorkflow*](../interfaces/types_dw_rest.iworkflow.md)): *Promise*<[*IWorkflowTasks*](../interfaces/types_dw_rest.iworkflowtasks.md)\>
+▸ **GetWorkflowTasks**(`workflow`): `Promise`<[`IWorkflowTasks`](../interfaces/types_dw_rest.iworkflowtasks.md)\>
 
 Get workflow tasks for dedicated workflow
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`workflow` | [*IWorkflow*](../interfaces/types_dw_rest.iworkflow.md) |
+| Name | Type |
+| :------ | :------ |
+| `workflow` | [`IWorkflow`](../interfaces/types_dw_rest.iworkflow.md) |
 
-**Returns:** *Promise*<[*IWorkflowTasks*](../interfaces/types_dw_rest.iworkflowtasks.md)\>
+#### Returns
 
-Defined in: restWrapper.ts:1214
+`Promise`<[`IWorkflowTasks`](../interfaces/types_dw_rest.iworkflowtasks.md)\>
+
+#### Defined in
+
+[restWrapper.ts:1526](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1526)
 
 ___
 
 ### GetWorkflows
 
-▸ **GetWorkflows**(`organization`: [*IOrganization*](../interfaces/types_dw_rest.iorganization.md)): *Promise*<[*IWorkflows*](../interfaces/types_dw_rest.iworkflows.md)\>
+▸ **GetWorkflows**(`organization`): `Promise`<[`IWorkflows`](../interfaces/types_dw_rest.iworkflows.md)\>
 
 Get workflows (The workflow needs to be triggered at least once before you'll get return values)
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`organization` | [*IOrganization*](../interfaces/types_dw_rest.iorganization.md) |
+| Name | Type |
+| :------ | :------ |
+| `organization` | [`IOrganization`](../interfaces/types_dw_rest.iorganization.md) |
 
-**Returns:** *Promise*<[*IWorkflows*](../interfaces/types_dw_rest.iworkflows.md)\>
+#### Returns
 
-Defined in: restWrapper.ts:1188
+`Promise`<[`IWorkflows`](../interfaces/types_dw_rest.iworkflows.md)\>
+
+#### Defined in
+
+[restWrapper.ts:1497](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1497)
 
 ___
 
 ### ImportDWXArchive
 
-▸ **ImportDWXArchive**(`pathOfDWX`: *string*, `fileCabinet`: [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md), `importSettings`: [*IImportSettings*](../interfaces/types_dw_rest.iimportsettings.md)): *Promise*<[*IImportResult*](../interfaces/types_dw_rest.iimportresult.md)\>
+▸ **ImportDWXArchive**(`pathOfDWX`, `fileCabinet`, `importSettings`): `Promise`<[`IImportResult`](../interfaces/types_dw_rest.iimportresult.md)\>
 
 Import a dwx archive. DWX is the exchange format of DocuWare
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`pathOfDWX` | *string* |
-`fileCabinet` | [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md) |
-`importSettings` | [*IImportSettings*](../interfaces/types_dw_rest.iimportsettings.md) |
+| Name | Type |
+| :------ | :------ |
+| `pathOfDWX` | `string` |
+| `fileCabinet` | [`IFileCabinet`](../interfaces/types_dw_rest.ifilecabinet.md) |
+| `importSettings` | [`IImportSettings`](../interfaces/types_dw_rest.iimportsettings.md) |
 
-**Returns:** *Promise*<[*IImportResult*](../interfaces/types_dw_rest.iimportresult.md)\>
+#### Returns
 
-Defined in: restWrapper.ts:1079
+`Promise`<[`IImportResult`](../interfaces/types_dw_rest.iimportresult.md)\>
+
+#### Defined in
+
+[restWrapper.ts:1368](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1368)
 
 ___
 
 ### LoadFullObjectFromPlatform
 
-▸ **LoadFullObjectFromPlatform**<T\>(`notYetFullLoadedObject`: [*ILinkModel*](../interfaces/types_dw_rest.ilinkmodel.md)): *Promise*<T\>
+▸ **LoadFullObjectFromPlatform**<`T`\>(`notYetFullLoadedObject`): `Promise`<`T`\>
 
 Gets the 'self' link of provided object and retrieves the full load of properties and data
 
-#### Type parameters:
+#### Type parameters
 
-Name |
------- |
-`T` |
+| Name |
+| :------ |
+| `T` |
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`notYetFullLoadedObject` | [*ILinkModel*](../interfaces/types_dw_rest.ilinkmodel.md) |
+| Name | Type |
+| :------ | :------ |
+| `notYetFullLoadedObject` | [`ILinkModel`](../interfaces/types_dw_rest.ilinkmodel.md) |
 
-**Returns:** *Promise*<T\>
+#### Returns
 
-Defined in: restWrapper.ts:319
+`Promise`<`T`\>
+
+#### Defined in
+
+[restWrapper.ts:370](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L370)
 
 ___
 
 ### LockDocument
 
-▸ **LockDocument**(`document`: [*IDocument*](../interfaces/types_dw_rest.idocument.md), `timeToLockInSeconds`: *number*): *Promise*<*void*\>
+▸ **LockDocument**(`document`, `timeToLockInSeconds`): `Promise`<`void`\>
 
 Do explicit lock of a document
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`document` | [*IDocument*](../interfaces/types_dw_rest.idocument.md) |
-`timeToLockInSeconds` | *number* |
+| Name | Type |
+| :------ | :------ |
+| `document` | [`IDocument`](../interfaces/types_dw_rest.idocument.md) |
+| `timeToLockInSeconds` | `number` |
 
-**Returns:** *Promise*<*void*\>
+#### Returns
 
-Defined in: restWrapper.ts:1138
+`Promise`<`void`\>
+
+#### Defined in
+
+[restWrapper.ts:1437](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1437)
 
 ___
 
 ### Logon
 
-▸ **Logon**(`model`: [*ILogonModel*](../interfaces/types_dw_rest.ilogonmodel.md)): *Promise*<[*ILogonResponse*](../interfaces/types_dw_rest.ilogonresponse.md)\>
+▸ **Logon**(`model`): `Promise`<[`ILogonResponse`](../interfaces/types_dw_rest.ilogonresponse.md)\>
 
 Handles logon and sets cookies to 'global' {RequestPromiseOptions}
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`model` | [*ILogonModel*](../interfaces/types_dw_rest.ilogonmodel.md) |
+| Name | Type |
+| :------ | :------ |
+| `model` | [`ILogonModel`](../interfaces/types_dw_rest.ilogonmodel.md) |
 
-**Returns:** *Promise*<[*ILogonResponse*](../interfaces/types_dw_rest.ilogonresponse.md)\>
+#### Returns
 
-Defined in: restWrapper.ts:74
+`Promise`<[`ILogonResponse`](../interfaces/types_dw_rest.ilogonresponse.md)\>
+
+#### Defined in
+
+[restWrapper.ts:81](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L81)
 
 ___
 
 ### MergeDocument
 
-▸ **MergeDocument**(`fileCabinet`: [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md), `docIds`: *number*[], `operation`: [*ContentMergeOperation*](../enums/types_dw_rest.contentmergeoperation.md)): *Promise*<[*IDocument*](../interfaces/types_dw_rest.idocument.md)\>
+▸ **MergeDocument**(`fileCabinet`, `docIds`, `operation`): `Promise`<[`IDocument`](../interfaces/types_dw_rest.idocument.md)\>
 
 Merges a document
 Info: Staple is only supported for document trays
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`fileCabinet` | [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md) |
-`docIds` | *number*[] |
-`operation` | [*ContentMergeOperation*](../enums/types_dw_rest.contentmergeoperation.md) |
+| Name | Type |
+| :------ | :------ |
+| `fileCabinet` | [`IFileCabinet`](../interfaces/types_dw_rest.ifilecabinet.md) |
+| `docIds` | `number`[] |
+| `operation` | [`ContentMergeOperation`](../enums/types_dw_rest.contentmergeoperation.md) |
 
-**Returns:** *Promise*<[*IDocument*](../interfaces/types_dw_rest.idocument.md)\>
+#### Returns
 
-Defined in: restWrapper.ts:899
+`Promise`<[`IDocument`](../interfaces/types_dw_rest.idocument.md)\>
+
+#### Defined in
+
+[restWrapper.ts:1141](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1141)
 
 ___
 
 ### PlaceAStampWithBestPosition
 
-▸ **PlaceAStampWithBestPosition**(`page`: [*IPage*](../interfaces/types_dw_rest.ipage.md), `stampPlacement`: [*IStampPlacement*](../interfaces/types_dw_rest.istampplacement.md)): *Promise*<*void*\>
+▸ **PlaceAStampWithBestPosition**(`page`, `stampPlacement`): `Promise`<`void`\>
 
 Gets the best position for a stamp an paces it
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`page` | [*IPage*](../interfaces/types_dw_rest.ipage.md) |
-`stampPlacement` | [*IStampPlacement*](../interfaces/types_dw_rest.istampplacement.md) |
+| Name | Type |
+| :------ | :------ |
+| `page` | [`IPage`](../interfaces/types_dw_rest.ipage.md) |
+| `stampPlacement` | [`IStampPlacement`](../interfaces/types_dw_rest.istampplacement.md) |
 
-**Returns:** *Promise*<*void*\>
+#### Returns
 
-Defined in: restWrapper.ts:788
+`Promise`<`void`\>
+
+#### Defined in
+
+[restWrapper.ts:986](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L986)
 
 ___
 
 ### PlaceAnnotation
 
-▸ **PlaceAnnotation**(`page`: [*IPage*](../interfaces/types_dw_rest.ipage.md), `annotation`: [*IAnnotation*](../interfaces/types_dw_rest.iannotation.md)): *Promise*<[*IAnnotation*](../interfaces/types_dw_rest.iannotation.md)\>
+▸ **PlaceAnnotation**(`page`, `annotation`): `Promise`<[`IAnnotation`](../interfaces/types_dw_rest.iannotation.md)\>
 
 Place an annotation to a single page
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`page` | [*IPage*](../interfaces/types_dw_rest.ipage.md) |
-`annotation` | [*IAnnotation*](../interfaces/types_dw_rest.iannotation.md) |
+| Name | Type |
+| :------ | :------ |
+| `page` | [`IPage`](../interfaces/types_dw_rest.ipage.md) |
+| `annotation` | [`IAnnotation`](../interfaces/types_dw_rest.iannotation.md) |
 
-**Returns:** *Promise*<[*IAnnotation*](../interfaces/types_dw_rest.iannotation.md)\>
+#### Returns
 
-Defined in: restWrapper.ts:864
+`Promise`<[`IAnnotation`](../interfaces/types_dw_rest.iannotation.md)\>
+
+#### Defined in
+
+[restWrapper.ts:1096](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1096)
 
 ___
 
 ### RemoveUserFromGroup
 
-▸ **RemoveUserFromGroup**(`user`: [*IUser*](../interfaces/types_dw_rest.iuser.md), `groupId`: *string*): *Promise*<*void*\>
+▸ **RemoveUserFromGroup**(`user`, `groupId`): `Promise`<`void`\>
 
  Remove a group from a user
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`user` | [*IUser*](../interfaces/types_dw_rest.iuser.md) |
-`groupId` | *string* |
+| Name | Type |
+| :------ | :------ |
+| `user` | [`IUser`](../interfaces/types_dw_rest.iuser.md) |
+| `groupId` | `string` |
 
-**Returns:** *Promise*<*void*\>
+#### Returns
 
-Defined in: restWrapper.ts:1007
+`Promise`<`void`\>
+
+#### Defined in
+
+[restWrapper.ts:1280](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1280)
 
 ___
 
 ### RemoveUserFromRole
 
-▸ **RemoveUserFromRole**(`user`: [*IUser*](../interfaces/types_dw_rest.iuser.md), `roleId`: *string*): *Promise*<*void*\>
+▸ **RemoveUserFromRole**(`user`, `roleId`): `Promise`<`void`\>
 
 Remove a role from a user
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`user` | [*IUser*](../interfaces/types_dw_rest.iuser.md) |
-`roleId` | *string* |
+| Name | Type |
+| :------ | :------ |
+| `user` | [`IUser`](../interfaces/types_dw_rest.iuser.md) |
+| `roleId` | `string` |
 
-**Returns:** *Promise*<*void*\>
+#### Returns
 
-Defined in: restWrapper.ts:988
+`Promise`<`void`\>
+
+#### Defined in
+
+[restWrapper.ts:1257](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1257)
 
 ___
 
 ### TransferFromDocumentTrayToFileCabinet
 
-▸ **TransferFromDocumentTrayToFileCabinet**(`docIds`: *number*[], `basketId`: *string*, `fileCabinet`: [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md), `keepSource`: *boolean*): *Promise*<[*IDocumentsQueryResult*](../interfaces/types_dw_rest.idocumentsqueryresult.md)\>
+▸ **TransferFromDocumentTrayToFileCabinet**(`docIds`, `basketId`, `fileCabinet`, `keepSource`): `Promise`<[`IDocumentsQueryResult`](../interfaces/types_dw_rest.idocumentsqueryresult.md)\>
 
 Transfer a number documents from document tray to FileCabinet
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`docIds` | *number*[] |
-`basketId` | *string* |
-`fileCabinet` | [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md) |
-`keepSource` | *boolean* |
+| Name | Type |
+| :------ | :------ |
+| `docIds` | `number`[] |
+| `basketId` | `string` |
+| `fileCabinet` | [`IFileCabinet`](../interfaces/types_dw_rest.ifilecabinet.md) |
+| `keepSource` | `boolean` |
 
-**Returns:** *Promise*<[*IDocumentsQueryResult*](../interfaces/types_dw_rest.idocumentsqueryresult.md)\>
+#### Returns
 
-Defined in: restWrapper.ts:811
+`Promise`<[`IDocumentsQueryResult`](../interfaces/types_dw_rest.idocumentsqueryresult.md)\>
+
+#### Defined in
+
+[restWrapper.ts:1022](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1022)
 
 ___
 
 ### TransferFromFileCabinetToFileCabinet
 
-▸ **TransferFromFileCabinetToFileCabinet**(`documents`: [*IDocument*](../interfaces/types_dw_rest.idocument.md)[], `sourceFileCabinetId`: *string*, `destinationFileCabinet`: [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md), `keepSource`: *boolean*): *Promise*<[*IDocumentsQueryResult*](../interfaces/types_dw_rest.idocumentsqueryresult.md)\>
+▸ **TransferFromFileCabinetToFileCabinet**(`documents`, `sourceFileCabinetId`, `destinationFileCabinet`, `keepSource`): `Promise`<[`IDocumentsQueryResult`](../interfaces/types_dw_rest.idocumentsqueryresult.md)\>
 
 Transfer a document from FileCabinet to another (or the same) FileCabinet
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`documents` | [*IDocument*](../interfaces/types_dw_rest.idocument.md)[] |
-`sourceFileCabinetId` | *string* |
-`destinationFileCabinet` | [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md) |
-`keepSource` | *boolean* |
+| Name | Type |
+| :------ | :------ |
+| `documents` | [`IDocument`](../interfaces/types_dw_rest.idocument.md)[] |
+| `sourceFileCabinetId` | `string` |
+| `destinationFileCabinet` | [`IFileCabinet`](../interfaces/types_dw_rest.ifilecabinet.md) |
+| `keepSource` | `boolean` |
 
-**Returns:** *Promise*<[*IDocumentsQueryResult*](../interfaces/types_dw_rest.idocumentsqueryresult.md)\>
+#### Returns
 
-Defined in: restWrapper.ts:838
+`Promise`<[`IDocumentsQueryResult`](../interfaces/types_dw_rest.idocumentsqueryresult.md)\>
+
+#### Defined in
+
+[restWrapper.ts:1058](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1058)
 
 ___
 
 ### UpdateDocumentIndexValues
 
-▸ **UpdateDocumentIndexValues**(`document`: [*IDocument*](../interfaces/types_dw_rest.idocument.md), `fieldsToUpdate`: [*IFieldList*](../interfaces/types_dw_rest.ifieldlist.md)): *Promise*<[*IFieldList*](../interfaces/types_dw_rest.ifieldlist.md)\>
+▸ **UpdateDocumentIndexValues**(`document`, `fieldsToUpdate`): `Promise`<[`IFieldList`](../interfaces/types_dw_rest.ifieldlist.md)\>
 
 Update index values of specified document
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`document` | [*IDocument*](../interfaces/types_dw_rest.idocument.md) |
-`fieldsToUpdate` | [*IFieldList*](../interfaces/types_dw_rest.ifieldlist.md) |
+| Name | Type |
+| :------ | :------ |
+| `document` | [`IDocument`](../interfaces/types_dw_rest.idocument.md) |
+| `fieldsToUpdate` | [`IFieldList`](../interfaces/types_dw_rest.ifieldlist.md) |
 
-**Returns:** *Promise*<[*IFieldList*](../interfaces/types_dw_rest.ifieldlist.md)\>
+#### Returns
 
-Defined in: restWrapper.ts:378
+`Promise`<[`IFieldList`](../interfaces/types_dw_rest.ifieldlist.md)\>
+
+#### Defined in
+
+[restWrapper.ts:451](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L451)
 
 ___
 
 ### UploadBigDocumentBase
 
-▸ **UploadBigDocumentBase**(`fileCabinet`: [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md), `uploadDocument`: [*IChunkUploadDocument*](../interfaces/types_dw_rest.ichunkuploaddocument.md)): *Promise*<[*IDocument*](../interfaces/types_dw_rest.idocument.md)\>
+▸ **UploadBigDocumentBase**(`fileCabinet`, `uploadDocument`): `Promise`<[`IDocument`](../interfaces/types_dw_rest.idocument.md)\>
 
 Store big document with optional index entries as xml or json string
 
 **`memberof`** RestCallWrapper
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`fileCabinet` | [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md) |
-`uploadDocument` | [*IChunkUploadDocument*](../interfaces/types_dw_rest.ichunkuploaddocument.md) |
+| Name | Type |
+| :------ | :------ |
+| `fileCabinet` | [`IFileCabinet`](../interfaces/types_dw_rest.ifilecabinet.md) |
+| `uploadDocument` | [`IChunkUploadDocument`](../interfaces/types_dw_rest.ichunkuploaddocument.md) |
 
-**Returns:** *Promise*<[*IDocument*](../interfaces/types_dw_rest.idocument.md)\>
+#### Returns
 
-Defined in: restWrapper.ts:534
+`Promise`<[`IDocument`](../interfaces/types_dw_rest.idocument.md)\>
+
+#### Defined in
+
+[restWrapper.ts:684](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L684)
+
+___
+
+### UploadBigDocumentJson
+
+▸ **UploadBigDocumentJson**(`fileCabinet`, `chunkUploadDocument`): `Promise`<[`IDocument`](../interfaces/types_dw_rest.idocument.md)\>
+
+Store big document with multiple sections, optional json index fields and/or single/multiple application properties
+
+**`memberof`** RestCallWrapper
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `fileCabinet` | [`IFileCabinet`](../interfaces/types_dw_rest.ifilecabinet.md) |
+| `chunkUploadDocument` | [`IChunkUploadDocument`](../interfaces/types_dw_rest.ichunkuploaddocument.md) |
+
+#### Returns
+
+`Promise`<[`IDocument`](../interfaces/types_dw_rest.idocument.md)\>
+
+#### Defined in
+
+[restWrapper.ts:632](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L632)
 
 ___
 
 ### UploadBigDocumentJsonContextTypMultipleSection
 
-▸ **UploadBigDocumentJsonContextTypMultipleSection**(`fileCabinet`: [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md), `pathToFiles`: *string*[], `indexFields`: [*IField*](../interfaces/types_dw_rest.ifield.md)[], `applicationProperties`: [*IDocumentApplicationProperty*](../interfaces/types_dw_rest.idocumentapplicationproperty.md)[]): *Promise*<[*IDocument*](../interfaces/types_dw_rest.idocument.md)\>
+▸ **UploadBigDocumentJsonContextTypMultipleSection**(`fileCabinet`, `pathToFiles`, `indexFields`, `applicationProperties`): `Promise`<[`IDocument`](../interfaces/types_dw_rest.idocument.md)\>
 
-Store big document with multiple sections, optional json index fields and/or application properties
+Store big document with multiple sections, optional json index fields and/or single application properties
 
 **`memberof`** RestCallWrapper
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`fileCabinet` | [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md) |
-`pathToFiles` | *string*[] |
-`indexFields` | [*IField*](../interfaces/types_dw_rest.ifield.md)[] |
-`applicationProperties` | [*IDocumentApplicationProperty*](../interfaces/types_dw_rest.idocumentapplicationproperty.md)[] |
+| Name | Type |
+| :------ | :------ |
+| `fileCabinet` | [`IFileCabinet`](../interfaces/types_dw_rest.ifilecabinet.md) |
+| `pathToFiles` | `string`[] |
+| `indexFields` | [`IDocumentIndexField`](../interfaces/types_dw_rest.idocumentindexfield.md)[] |
+| `applicationProperties` | [`IDocumentApplicationProperty`](../interfaces/types_dw_rest.idocumentapplicationproperty.md)[] |
 
-**Returns:** *Promise*<[*IDocument*](../interfaces/types_dw_rest.idocument.md)\>
+#### Returns
 
-Defined in: restWrapper.ts:482
+`Promise`<[`IDocument`](../interfaces/types_dw_rest.idocument.md)\>
+
+#### Defined in
+
+[restWrapper.ts:597](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L597)
 
 ___
 
 ### UploadBigDocumentJsonContextTypeSingleSection
 
-▸ **UploadBigDocumentJsonContextTypeSingleSection**(`fileCabinet`: [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md), `pathToFile`: *string*, `indexFields`: [*IField*](../interfaces/types_dw_rest.ifield.md)[], `applicationProperties`: [*IDocumentApplicationProperty*](../interfaces/types_dw_rest.idocumentapplicationproperty.md)[]): *Promise*<[*IDocument*](../interfaces/types_dw_rest.idocument.md)\>
+▸ **UploadBigDocumentJsonContextTypeSingleSection**(`fileCabinet`, `pathToFile`, `indexFields`, `applicationProperties`): `Promise`<[`IDocument`](../interfaces/types_dw_rest.idocument.md)\>
 
 Store big document with optional json index fields and/or application properties
 
 **`memberof`** RestCallWrapper
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`fileCabinet` | [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md) |
-`pathToFile` | *string* |
-`indexFields` | [*IField*](../interfaces/types_dw_rest.ifield.md)[] |
-`applicationProperties` | [*IDocumentApplicationProperty*](../interfaces/types_dw_rest.idocumentapplicationproperty.md)[] |
+| Name | Type |
+| :------ | :------ |
+| `fileCabinet` | [`IFileCabinet`](../interfaces/types_dw_rest.ifilecabinet.md) |
+| `pathToFile` | `string` |
+| `indexFields` | [`IDocumentIndexField`](../interfaces/types_dw_rest.idocumentindexfield.md)[] |
+| `applicationProperties` | [`IDocumentApplicationProperty`](../interfaces/types_dw_rest.idocumentapplicationproperty.md)[] |
 
-**Returns:** *Promise*<[*IDocument*](../interfaces/types_dw_rest.idocument.md)\>
+#### Returns
 
-Defined in: restWrapper.ts:468
+`Promise`<[`IDocument`](../interfaces/types_dw_rest.idocument.md)\>
+
+#### Defined in
+
+[restWrapper.ts:573](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L573)
 
 ___
 
 ### UploadDocument
 
-▸ **UploadDocument**(`fileCabinet`: [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md), `indexFields`: [*IField*](../interfaces/types_dw_rest.ifield.md)[], `pathToFile`: *string*): *Promise*<[*IDocument*](../interfaces/types_dw_rest.idocument.md)\>
+▸ **UploadDocument**(`fileCabinet`, `indexFields`, `pathToFile`): `Promise`<[`IDocument`](../interfaces/types_dw_rest.idocument.md)\>
 
 Store document with index entries
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`fileCabinet` | [*IFileCabinet*](../interfaces/types_dw_rest.ifilecabinet.md) |
-`indexFields` | [*IField*](../interfaces/types_dw_rest.ifield.md)[] |
-`pathToFile` | *string* |
+| Name | Type |
+| :------ | :------ |
+| `fileCabinet` | [`IFileCabinet`](../interfaces/types_dw_rest.ifilecabinet.md) |
+| `indexFields` | [`IDocumentIndexField`](../interfaces/types_dw_rest.idocumentindexfield.md)[] |
+| `pathToFile` | `string` |
 
-**Returns:** *Promise*<[*IDocument*](../interfaces/types_dw_rest.idocument.md)\>
+#### Returns
 
-Defined in: restWrapper.ts:414
+`Promise`<[`IDocument`](../interfaces/types_dw_rest.idocument.md)\>
+
+#### Defined in
+
+[restWrapper.ts:509](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L509)

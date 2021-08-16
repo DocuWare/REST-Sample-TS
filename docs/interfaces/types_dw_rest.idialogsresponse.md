@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IDialogsResponse
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IDialogsResponse
 
 # Interface: IDialogsResponse
 
@@ -7,10 +7,6 @@
 Dialog Response
 
 **`interface`** IDialogsResponse
-
-## Hierarchy
-
-* **IDialogsResponse**
 
 ## Table of contents
 
@@ -22,6 +18,8 @@ Dialog Response
 
 ### Dialog
 
-• **Dialog**: [*IDialog*](types_dw_rest.idialog.md)[]
+• **Dialog**: [`IDialog`](types_dw_rest.idialog.md)[]
 
-Defined in: types/DW_Rest.d.ts:356
+#### Defined in
+
+[types/DW_Rest.d.ts:434](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L434)

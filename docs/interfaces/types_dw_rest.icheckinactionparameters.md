@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ICheckInActionParameters
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ICheckInActionParameters
 
 # Interface: ICheckInActionParameters
 
@@ -7,10 +7,6 @@
 Check in parameters in case of versioning
 
 **`interface`** ICheckInActionParameters
-
-## Hierarchy
-
-* **ICheckInActionParameters**
 
 ## Table of contents
 
@@ -25,30 +21,38 @@ Check in parameters in case of versioning
 
 ### CheckInReturnDocument
 
-• `Optional` **CheckInReturnDocument**: [*Original*](../enums/types_dw_rest.checkinreturneddocument.md#original) \| [*CheckedIn*](../enums/types_dw_rest.checkinreturneddocument.md#checkedin)
+• `Optional` **CheckInReturnDocument**: [`Original`](../enums/types_dw_rest.checkinreturneddocument.md#original) \| [`CheckedIn`](../enums/types_dw_rest.checkinreturneddocument.md#checkedin)
 
-Defined in: types/DW_Rest.d.ts:388
+#### Defined in
+
+[types/DW_Rest.d.ts:466](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L466)
 
 ___
 
 ### Comments
 
-• **Comments**: *string*
+• **Comments**: `string`
 
-Defined in: types/DW_Rest.d.ts:386
+#### Defined in
+
+[types/DW_Rest.d.ts:464](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L464)
 
 ___
 
 ### DocumentAction
 
-• **DocumentAction**: [*DocumentAction*](../enums/types_dw_rest.documentaction.md)
+• **DocumentAction**: [`DocumentAction`](../enums/types_dw_rest.documentaction.md)
 
-Defined in: types/DW_Rest.d.ts:385
+#### Defined in
+
+[types/DW_Rest.d.ts:463](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L463)
 
 ___
 
 ### DocumentVersion
 
-• **DocumentVersion**: [*IDocumentVersion*](types_dw_rest.idocumentversion.md)
+• **DocumentVersion**: [`IDocumentVersion`](types_dw_rest.idocumentversion.md)
 
-Defined in: types/DW_Rest.d.ts:387
+#### Defined in
+
+[types/DW_Rest.d.ts:465](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L465)

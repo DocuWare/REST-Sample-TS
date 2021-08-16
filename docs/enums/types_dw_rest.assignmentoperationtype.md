@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / AssignmentOperationType
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / AssignmentOperationType
 
 # Enumeration: AssignmentOperationType
 
@@ -17,14 +17,18 @@ Assignment type
 
 ### Add
 
-• **Add**: = "Add"
+• **Add** = `"Add"`
 
-Defined in: types/DW_Rest.d.ts:1317
+#### Defined in
+
+[types/DW_Rest.d.ts:1388](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1388)
 
 ___
 
 ### Remove
 
-• **Remove**: = "Remove"
+• **Remove** = `"Remove"`
 
-Defined in: types/DW_Rest.d.ts:1318
+#### Defined in
+
+[types/DW_Rest.d.ts:1389](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1389)

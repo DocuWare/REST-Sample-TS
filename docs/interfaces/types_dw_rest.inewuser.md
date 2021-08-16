@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / INewUser
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / INewUser
 
 # Interface: INewUser
 
@@ -7,10 +7,6 @@
 New user
 
 **`interface`** INewUser
-
-## Hierarchy
-
-* **INewUser**
 
 ## Table of contents
 
@@ -26,38 +22,48 @@ New user
 
 ### DBName
 
-• **DBName**: *string*
+• **DBName**: `string`
 
-Defined in: types/DW_Rest.d.ts:647
+#### Defined in
+
+[types/DW_Rest.d.ts:729](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L729)
 
 ___
 
 ### Email
 
-• **Email**: *string*
+• **Email**: `string`
 
-Defined in: types/DW_Rest.d.ts:648
+#### Defined in
+
+[types/DW_Rest.d.ts:730](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L730)
 
 ___
 
 ### Name
 
-• **Name**: *string*
+• **Name**: `string`
 
-Defined in: types/DW_Rest.d.ts:646
+#### Defined in
+
+[types/DW_Rest.d.ts:728](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L728)
 
 ___
 
 ### NetworkId
 
-• `Optional` **NetworkId**: *string*
+• `Optional` **NetworkId**: `string`
 
-Defined in: types/DW_Rest.d.ts:650
+#### Defined in
+
+[types/DW_Rest.d.ts:732](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L732)
 
 ___
 
 ### Password
 
-• **Password**: *string*
+• **Password**: `string`
 
-Defined in: types/DW_Rest.d.ts:649
+#### Defined in
+
+[types/DW_Rest.d.ts:731](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L731)

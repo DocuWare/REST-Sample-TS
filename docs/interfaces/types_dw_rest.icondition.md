@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ICondition
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ICondition
 
 # Interface: ICondition
 
@@ -8,13 +8,9 @@ Dialog Condition
 
 **`interface`** ICondition
 
-## Hierarchy
-
-* **ICondition**
-
 ## Implemented by
 
-* [*DialogExpressionCondition*](../classes/dialogexpression.dialogexpressioncondition.md)
+- [`DialogExpressionCondition`](../classes/dialogexpression.dialogexpressioncondition.md)
 
 ## Table of contents
 
@@ -27,14 +23,18 @@ Dialog Condition
 
 ### DBName
 
-• **DBName**: *string*
+• **DBName**: `string`
 
-Defined in: types/DW_Rest.d.ts:376
+#### Defined in
+
+[types/DW_Rest.d.ts:454](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L454)
 
 ___
 
 ### Value
 
-• **Value**: *null* \| *string*[]
+• **Value**: ``null`` \| `string`[]
 
-Defined in: types/DW_Rest.d.ts:375
+#### Defined in
+
+[types/DW_Rest.d.ts:453](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L453)

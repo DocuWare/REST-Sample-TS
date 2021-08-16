@@ -1,20 +1,16 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [Annotations](../modules/annotations.md) / TextEntry
+[Typedoc project reference documentation](../README.md) / [Annotations](../modules/annotations.md) / TextEntry
 
 # Class: TextEntry
 
 [Annotations](../modules/annotations.md).TextEntry
 
-**`export`** 
+**`export`**
 
 **`implements`** {DWRest.ITextEntry}
 
-## Hierarchy
-
-* **TextEntry**
-
 ## Implements
 
-* [*ITextEntry*](../interfaces/types_dw_rest.itextentry.md)
+- [`ITextEntry`](../interfaces/types_dw_rest.itextentry.md)
 
 ## Table of contents
 
@@ -39,116 +35,156 @@
 
 ### constructor
 
-\+ **new TextEntry**(`value`: *string*, `font`: [*IFont*](../interfaces/types_dw_rest.ifont.md), `location`: [*IAnnotationRectangle*](../interfaces/types_dw_rest.iannotationrectangle.md)): [*TextEntry*](annotations.textentry.md)
+• **new TextEntry**(`value`, `font`, `location`)
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`value` | *string* |
-`font` | [*IFont*](../interfaces/types_dw_rest.ifont.md) |
-`location` | [*IAnnotationRectangle*](../interfaces/types_dw_rest.iannotationrectangle.md) |
+| Name | Type |
+| :------ | :------ |
+| `value` | `string` |
+| `font` | [`IFont`](../interfaces/types_dw_rest.ifont.md) |
+| `location` | [`IAnnotationRectangle`](../interfaces/types_dw_rest.iannotationrectangle.md) |
 
-**Returns:** [*TextEntry*](annotations.textentry.md)
+#### Defined in
 
-Defined in: Annotations.ts:21
+[Annotations.ts:21](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L21)
 
 ## Properties
 
 ### $type
 
-• **$type**: *string*= 'TextEntry'
+• **$type**: `string` = `'TextEntry'`
 
-Implementation of: [ITextEntry](../interfaces/types_dw_rest.itextentry.md).[$type](../interfaces/types_dw_rest.itextentry.md#$type)
+#### Implementation of
 
-Defined in: Annotations.ts:12
+[ITextEntry](../interfaces/types_dw_rest.itextentry.md).[$type](../interfaces/types_dw_rest.itextentry.md#$type)
+
+#### Defined in
+
+[Annotations.ts:12](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L12)
 
 ___
 
 ### Color
 
-• `Optional` **Color**: *string*
+• `Optional` **Color**: `string`
 
-Implementation of: [ITextEntry](../interfaces/types_dw_rest.itextentry.md).[Color](../interfaces/types_dw_rest.itextentry.md#color)
+#### Implementation of
 
-Defined in: Annotations.ts:17
+[ITextEntry](../interfaces/types_dw_rest.itextentry.md).[Color](../interfaces/types_dw_rest.itextentry.md#color)
+
+#### Defined in
+
+[Annotations.ts:17](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L17)
 
 ___
 
 ### Created
 
-• `Optional` **Created**: [*ICreateInfo*](../interfaces/types_dw_rest.icreateinfo.md)
+• `Optional` **Created**: [`ICreateInfo`](../interfaces/types_dw_rest.icreateinfo.md)
 
-Implementation of: [ITextEntry](../interfaces/types_dw_rest.itextentry.md).[Created](../interfaces/types_dw_rest.itextentry.md#created)
+#### Implementation of
 
-Defined in: Annotations.ts:16
+[ITextEntry](../interfaces/types_dw_rest.itextentry.md).[Created](../interfaces/types_dw_rest.itextentry.md#created)
+
+#### Defined in
+
+[Annotations.ts:16](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L16)
 
 ___
 
 ### Font
 
-• **Font**: [*IFont*](../interfaces/types_dw_rest.ifont.md)
+• **Font**: [`IFont`](../interfaces/types_dw_rest.ifont.md)
 
-Implementation of: [ITextEntry](../interfaces/types_dw_rest.itextentry.md).[Font](../interfaces/types_dw_rest.itextentry.md#font)
+#### Implementation of
 
-Defined in: Annotations.ts:14
+[ITextEntry](../interfaces/types_dw_rest.itextentry.md).[Font](../interfaces/types_dw_rest.itextentry.md#font)
+
+#### Defined in
+
+[Annotations.ts:14](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L14)
 
 ___
 
 ### Id
 
-• `Optional` **Id**: *string*
+• `Optional` **Id**: `string`
 
-Implementation of: [ITextEntry](../interfaces/types_dw_rest.itextentry.md).[Id](../interfaces/types_dw_rest.itextentry.md#id)
+#### Implementation of
 
-Defined in: Annotations.ts:21
+[ITextEntry](../interfaces/types_dw_rest.itextentry.md).[Id](../interfaces/types_dw_rest.itextentry.md#id)
+
+#### Defined in
+
+[Annotations.ts:21](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L21)
 
 ___
 
 ### Location
 
-• **Location**: [*IAnnotationRectangle*](../interfaces/types_dw_rest.iannotationrectangle.md)
+• **Location**: [`IAnnotationRectangle`](../interfaces/types_dw_rest.iannotationrectangle.md)
 
-Implementation of: [ITextEntry](../interfaces/types_dw_rest.itextentry.md).[Location](../interfaces/types_dw_rest.itextentry.md#location)
+#### Implementation of
 
-Defined in: Annotations.ts:15
+[ITextEntry](../interfaces/types_dw_rest.itextentry.md).[Location](../interfaces/types_dw_rest.itextentry.md#location)
+
+#### Defined in
+
+[Annotations.ts:15](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L15)
 
 ___
 
 ### Rotation
 
-• `Optional` **Rotation**: [*Zero*](../enums/types_dw_rest.rotation.md#zero) \| [*Ninety*](../enums/types_dw_rest.rotation.md#ninety) \| [*HundredEighty*](../enums/types_dw_rest.rotation.md#hundredeighty) \| [*TwoHundredSeventy*](../enums/types_dw_rest.rotation.md#twohundredseventy)
+• `Optional` **Rotation**: [`Zero`](../enums/types_dw_rest.rotation.md#zero) \| [`Ninety`](../enums/types_dw_rest.rotation.md#ninety) \| [`HundredEighty`](../enums/types_dw_rest.rotation.md#hundredeighty) \| [`TwoHundredSeventy`](../enums/types_dw_rest.rotation.md#twohundredseventy)
 
-Implementation of: [ITextEntry](../interfaces/types_dw_rest.itextentry.md).[Rotation](../interfaces/types_dw_rest.itextentry.md#rotation)
+#### Implementation of
 
-Defined in: Annotations.ts:18
+[ITextEntry](../interfaces/types_dw_rest.itextentry.md).[Rotation](../interfaces/types_dw_rest.itextentry.md#rotation)
+
+#### Defined in
+
+[Annotations.ts:18](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L18)
 
 ___
 
 ### StrokeWidth
 
-• `Optional` **StrokeWidth**: *number*
+• `Optional` **StrokeWidth**: `number`
 
-Implementation of: [ITextEntry](../interfaces/types_dw_rest.itextentry.md).[StrokeWidth](../interfaces/types_dw_rest.itextentry.md#strokewidth)
+#### Implementation of
 
-Defined in: Annotations.ts:20
+[ITextEntry](../interfaces/types_dw_rest.itextentry.md).[StrokeWidth](../interfaces/types_dw_rest.itextentry.md#strokewidth)
+
+#### Defined in
+
+[Annotations.ts:20](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L20)
 
 ___
 
 ### Transparent
 
-• `Optional` **Transparent**: *boolean*
+• `Optional` **Transparent**: `boolean`
 
-Implementation of: [ITextEntry](../interfaces/types_dw_rest.itextentry.md).[Transparent](../interfaces/types_dw_rest.itextentry.md#transparent)
+#### Implementation of
 
-Defined in: Annotations.ts:19
+[ITextEntry](../interfaces/types_dw_rest.itextentry.md).[Transparent](../interfaces/types_dw_rest.itextentry.md#transparent)
+
+#### Defined in
+
+[Annotations.ts:19](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L19)
 
 ___
 
 ### Value
 
-• **Value**: *string*
+• **Value**: `string`
 
-Implementation of: [ITextEntry](../interfaces/types_dw_rest.itextentry.md).[Value](../interfaces/types_dw_rest.itextentry.md#value)
+#### Implementation of
 
-Defined in: Annotations.ts:13
+[ITextEntry](../interfaces/types_dw_rest.itextentry.md).[Value](../interfaces/types_dw_rest.itextentry.md#value)
+
+#### Defined in
+
+[Annotations.ts:13](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L13)

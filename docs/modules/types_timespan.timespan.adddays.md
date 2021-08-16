@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/timespan](types_timespan.md) / [TimeSpan](types_timespan.timespan.md) / addDays
+[Typedoc project reference documentation](../README.md) / [types/timespan](types_timespan.md) / [TimeSpan](types_timespan.timespan.md) / addDays
 
 # Namespace: addDays
 
@@ -14,6 +14,8 @@
 
 ### prototype
 
-• `Const` **prototype**: *object*
+• `Const` **prototype**: `Object`
 
-Defined in: types/timespan.d.ts:127
+#### Defined in
+
+[types/timespan.d.ts:127](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L127)

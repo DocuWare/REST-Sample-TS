@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IAnnotation
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IAnnotation
 
 # Interface: IAnnotation
 
@@ -7,10 +7,6 @@
 Annotation
 
 **`interface`** IAnnotation
-
-## Hierarchy
-
-* **IAnnotation**
 
 ## Table of contents
 
@@ -22,6 +18,8 @@ Annotation
 
 ### Layer
 
-• **Layer**: [*ILayer*](types_dw_rest.ilayer.md)[]
+• **Layer**: [`ILayer`](types_dw_rest.ilayer.md)[]
 
-Defined in: types/DW_Rest.d.ts:499
+#### Defined in
+
+[types/DW_Rest.d.ts:577](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L577)

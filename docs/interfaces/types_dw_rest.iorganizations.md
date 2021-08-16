@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IOrganizations
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IOrganizations
 
 # Interface: IOrganizations
 
@@ -7,10 +7,6 @@
 Organization Response
 
 **`interface`** IOrganizations
-
-## Hierarchy
-
-* **IOrganizations**
 
 ## Table of contents
 
@@ -22,6 +18,8 @@ Organization Response
 
 ### Organization
 
-• **Organization**: [*IOrganization*](types_dw_rest.iorganization.md)[]
+• **Organization**: [`IOrganization`](types_dw_rest.iorganization.md)[]
 
-Defined in: types/DW_Rest.d.ts:75
+#### Defined in
+
+[types/DW_Rest.d.ts:72](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L72)

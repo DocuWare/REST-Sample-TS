@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IRole
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IRole
 
 # Interface: IRole
 
@@ -10,9 +10,9 @@ A role
 
 ## Hierarchy
 
-* [*ILinkModel*](types_dw_rest.ilinkmodel.md)
+- [`ILinkModel`](types_dw_rest.ilinkmodel.md)
 
-  ↳ **IRole**
+  ↳ **`IRole`**
 
 ## Table of contents
 
@@ -28,40 +28,52 @@ A role
 
 ### Active
 
-• **Active**: *boolean*
+• **Active**: `boolean`
 
-Defined in: types/DW_Rest.d.ts:714
+#### Defined in
+
+[types/DW_Rest.d.ts:796](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L796)
 
 ___
 
 ### Id
 
-• `Optional` **Id**: *string*
+• `Optional` **Id**: `string`
 
-Defined in: types/DW_Rest.d.ts:712
+#### Defined in
+
+[types/DW_Rest.d.ts:794](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L794)
 
 ___
 
 ### Links
 
-• `Optional` **Links**: [*ILink*](types_dw_rest.ilink.md)[]
+• `Optional` **Links**: [`ILink`](types_dw_rest.ilink.md)[]
 
-Inherited from: [ILinkModel](types_dw_rest.ilinkmodel.md).[Links](types_dw_rest.ilinkmodel.md#links)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:12
+[ILinkModel](types_dw_rest.ilinkmodel.md).[Links](types_dw_rest.ilinkmodel.md#links)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:8](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L8)
 
 ___
 
 ### Name
 
-• **Name**: *string*
+• **Name**: `string`
 
-Defined in: types/DW_Rest.d.ts:713
+#### Defined in
+
+[types/DW_Rest.d.ts:795](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L795)
 
 ___
 
 ### Type
 
-• `Optional` **Type**: [*Standard*](../enums/types_dw_rest.roletypes.md#standard) \| [*Default*](../enums/types_dw_rest.roletypes.md#default) \| [*Administrator*](../enums/types_dw_rest.roletypes.md#administrator)
+• `Optional` **Type**: [`Standard`](../enums/types_dw_rest.roletypes.md#standard) \| [`Default`](../enums/types_dw_rest.roletypes.md#default) \| [`Administrator`](../enums/types_dw_rest.roletypes.md#administrator)
 
-Defined in: types/DW_Rest.d.ts:715
+#### Defined in
+
+[types/DW_Rest.d.ts:797](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L797)

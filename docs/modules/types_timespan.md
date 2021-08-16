@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / types/timespan
+[Typedoc project reference documentation](../README.md) / types/timespan
 
 # Module: types/timespan
 
@@ -41,176 +41,220 @@
 
 ### clone
 
-▸ **clone**(`timeSpan`: *any*): *any*
+▸ **clone**(`timeSpan`): `any`
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`timeSpan` | *any* |
+| Name | Type |
+| :------ | :------ |
+| `timeSpan` | `any` |
 
-**Returns:** *any*
+#### Returns
 
-Defined in: types/timespan.d.ts:48
+`any`
+
+#### Defined in
+
+[types/timespan.d.ts:48](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L48)
 
 ___
 
 ### fromDates
 
-▸ **fromDates**(`start`: *any*, `end`: *any*, `abs`: *any*): *any*
+▸ **fromDates**(`start`, `end`, `abs`): `any`
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`start` | *any* |
-`end` | *any* |
-`abs` | *any* |
+| Name | Type |
+| :------ | :------ |
+| `start` | `any` |
+| `end` | `any` |
+| `abs` | `any` |
 
-**Returns:** *any*
+#### Returns
 
-Defined in: types/timespan.d.ts:50
+`any`
+
+#### Defined in
+
+[types/timespan.d.ts:50](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L50)
 
 ___
 
 ### fromDays
 
-▸ **fromDays**(`days`: *any*): *any*
+▸ **fromDays**(`days`): `any`
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`days` | *any* |
+| Name | Type |
+| :------ | :------ |
+| `days` | `any` |
 
-**Returns:** *any*
+#### Returns
 
-Defined in: types/timespan.d.ts:52
+`any`
+
+#### Defined in
+
+[types/timespan.d.ts:52](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L52)
 
 ___
 
 ### fromHours
 
-▸ **fromHours**(`hours`: *any*): *any*
+▸ **fromHours**(`hours`): `any`
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`hours` | *any* |
+| Name | Type |
+| :------ | :------ |
+| `hours` | `any` |
 
-**Returns:** *any*
+#### Returns
 
-Defined in: types/timespan.d.ts:54
+`any`
+
+#### Defined in
+
+[types/timespan.d.ts:54](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L54)
 
 ___
 
 ### fromMilliseconds
 
-▸ **fromMilliseconds**(`milliseconds`: *any*): *any*
+▸ **fromMilliseconds**(`milliseconds`): `any`
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`milliseconds` | *any* |
+| Name | Type |
+| :------ | :------ |
+| `milliseconds` | `any` |
 
-**Returns:** *any*
+#### Returns
 
-Defined in: types/timespan.d.ts:56
+`any`
+
+#### Defined in
+
+[types/timespan.d.ts:56](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L56)
 
 ___
 
 ### fromMinutes
 
-▸ **fromMinutes**(`minutes`: *any*): *any*
+▸ **fromMinutes**(`minutes`): `any`
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`minutes` | *any* |
+| Name | Type |
+| :------ | :------ |
+| `minutes` | `any` |
 
-**Returns:** *any*
+#### Returns
 
-Defined in: types/timespan.d.ts:58
+`any`
+
+#### Defined in
+
+[types/timespan.d.ts:58](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L58)
 
 ___
 
 ### fromSeconds
 
-▸ **fromSeconds**(`seconds`: *any*): *any*
+▸ **fromSeconds**(`seconds`): `any`
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`seconds` | *any* |
+| Name | Type |
+| :------ | :------ |
+| `seconds` | `any` |
 
-**Returns:** *any*
+#### Returns
 
-Defined in: types/timespan.d.ts:60
+`any`
+
+#### Defined in
+
+[types/timespan.d.ts:60](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L60)
 
 ___
 
 ### instanceOf
 
-▸ **instanceOf**(`timeSpan`: *any*): *any*
+▸ **instanceOf**(`timeSpan`): `any`
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`timeSpan` | *any* |
+| Name | Type |
+| :------ | :------ |
+| `timeSpan` | `any` |
 
-**Returns:** *any*
+#### Returns
 
-Defined in: types/timespan.d.ts:62
+`any`
+
+#### Defined in
+
+[types/timespan.d.ts:62](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L62)
 
 ___
 
 ### parse
 
-▸ **parse**(`str`: *any*): *any*
+▸ **parse**(`str`): `any`
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`str` | *any* |
+| Name | Type |
+| :------ | :------ |
+| `str` | `any` |
 
-**Returns:** *any*
+#### Returns
 
-Defined in: types/timespan.d.ts:64
+`any`
+
+#### Defined in
+
+[types/timespan.d.ts:64](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L64)
 
 ___
 
 ### parseDate
 
-▸ **parseDate**(`str`: *any*): *any*
+▸ **parseDate**(`str`): `any`
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`str` | *any* |
+| Name | Type |
+| :------ | :------ |
+| `str` | `any` |
 
-**Returns:** *any*
+#### Returns
 
-Defined in: types/timespan.d.ts:66
+`any`
+
+#### Defined in
+
+[types/timespan.d.ts:66](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L66)
 
 ___
 
 ### test
 
-▸ **test**(`str`: *any*): *any*
+▸ **test**(`str`): `any`
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`str` | *any* |
+| Name | Type |
+| :------ | :------ |
+| `str` | `any` |
 
-**Returns:** *any*
+#### Returns
 
-Defined in: types/timespan.d.ts:68
+`any`
+
+#### Defined in
+
+[types/timespan.d.ts:68](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L68)

@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IImportEntryVersion
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IImportEntryVersion
 
 # Interface: IImportEntryVersion
 
@@ -7,10 +7,6 @@
 Import Entry Version
 
 **`interface`** IImportEntryVersion
-
-## Hierarchy
-
-* **IImportEntryVersion**
 
 ## Table of contents
 
@@ -23,14 +19,18 @@ Import Entry Version
 
 ### Id
 
-• **Id**: *number*
+• **Id**: `number`
 
-Defined in: types/DW_Rest.d.ts:795
+#### Defined in
+
+[types/DW_Rest.d.ts:877](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L877)
 
 ___
 
 ### Status
 
-• **Status**: [*ImportEntryStatus*](../enums/types_dw_rest.importentrystatus.md)
+• **Status**: [`ImportEntryStatus`](../enums/types_dw_rest.importentrystatus.md)
 
-Defined in: types/DW_Rest.d.ts:796
+#### Defined in
+
+[types/DW_Rest.d.ts:878](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L878)

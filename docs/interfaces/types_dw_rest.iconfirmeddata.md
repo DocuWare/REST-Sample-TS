@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IConfirmedData
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IConfirmedData
 
 # Interface: IConfirmedData
 
@@ -7,10 +7,6 @@
 Task confirmed data object
 
 **`interface`** IConfirmedData
-
-## Hierarchy
-
-* **IConfirmedData**
 
 ## Table of contents
 
@@ -22,6 +18,8 @@ Task confirmed data object
 
 ### ConfirmedFields
 
-• **ConfirmedFields**: [*IConfirmedField*](types_dw_rest.iconfirmedfield.md)[]
+• **ConfirmedFields**: [`IConfirmedField`](types_dw_rest.iconfirmedfield.md)[]
 
-Defined in: types/DW_Rest.d.ts:1203
+#### Defined in
+
+[types/DW_Rest.d.ts:1274](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1274)

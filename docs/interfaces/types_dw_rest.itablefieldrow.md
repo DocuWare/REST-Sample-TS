@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ITableFieldRow
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ITableFieldRow
 
 # Interface: ITableFieldRow
 
@@ -7,10 +7,6 @@
 A single row of DocuWare table field
 
 **`interface`** ITableFieldRow
-
-## Hierarchy
-
-* **ITableFieldRow**
 
 ## Table of contents
 
@@ -22,6 +18,8 @@ A single row of DocuWare table field
 
 ### Columns
 
-• **Columns**: [*ITableFieldColumn*](types_dw_rest.itablefieldcolumn.md)[]
+• **Columns**: [`ITableFieldColumn`](types_dw_rest.itablefieldcolumn.md)[]
 
-Defined in: types/DW_Rest.d.ts:264
+#### Defined in
+
+[types/DW_Rest.d.ts:343](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L343)

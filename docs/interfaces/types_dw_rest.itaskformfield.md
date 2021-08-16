@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ITaskFormField
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ITaskFormField
 
 # Interface: ITaskFormField
 
@@ -7,10 +7,6 @@
 A task form field
 
 **`interface`** ITaskFormField
-
-## Hierarchy
-
-* **ITaskFormField**
 
 ## Table of contents
 
@@ -22,6 +18,8 @@ A task form field
 
 ### Item
 
-• **Item**: [*ILinkForm*](types_dw_rest.ilinkform.md) \| [*IDescriptionFormField*](types_dw_rest.idescriptionformfield.md) \| [*ITaskTextField*](types_dw_rest.itasktextfield.md) \| [*ITaskNumberField*](types_dw_rest.itasknumberfield.md) \| [*ITaskDateTimeField*](types_dw_rest.itaskdatetimefield.md) \| [*IUserField*](types_dw_rest.iuserfield.md) \| [*IRoleField*](types_dw_rest.irolefield.md) \| [*ISubstitutionRuleField*](types_dw_rest.isubstitutionrulefield.md) \| [*IKeywordsField*](types_dw_rest.ikeywordsfield.md) \| [*ITaskTableField*](types_dw_rest.itasktablefield.md)
+• **Item**: [`ILinkForm`](types_dw_rest.ilinkform.md) \| [`IDescriptionFormField`](types_dw_rest.idescriptionformfield.md) \| [`ITaskTextField`](types_dw_rest.itasktextfield.md) \| [`ITaskNumberField`](types_dw_rest.itasknumberfield.md) \| [`ITaskDateTimeField`](types_dw_rest.itaskdatetimefield.md) \| [`IUserField`](types_dw_rest.iuserfield.md) \| [`IRoleField`](types_dw_rest.irolefield.md) \| [`ISubstitutionRuleField`](types_dw_rest.isubstitutionrulefield.md) \| [`IKeywordsField`](types_dw_rest.ikeywordsfield.md) \| [`ITaskTableField`](types_dw_rest.itasktablefield.md)
 
-Defined in: types/DW_Rest.d.ts:973
+#### Defined in
+
+[types/DW_Rest.d.ts:1048](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1048)

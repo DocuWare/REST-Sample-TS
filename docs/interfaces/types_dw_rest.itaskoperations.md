@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ITaskOperations
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ITaskOperations
 
 # Interface: ITaskOperations
 
@@ -10,9 +10,9 @@ Task operations
 
 ## Hierarchy
 
-* [*ILinkModel*](types_dw_rest.ilinkmodel.md)
+- [`ILinkModel`](types_dw_rest.ilinkmodel.md)
 
-  ↳ **ITaskOperations**
+  ↳ **`ITaskOperations`**
 
 ## Table of contents
 
@@ -27,32 +27,42 @@ Task operations
 
 ### BaseTaskOperations
 
-• **BaseTaskOperations**: [*IBaseTaskOperations*](types_dw_rest.ibasetaskoperations.md)
+• **BaseTaskOperations**: [`IBaseTaskOperations`](types_dw_rest.ibasetaskoperations.md)
 
-Defined in: types/DW_Rest.d.ts:895
+#### Defined in
+
+[types/DW_Rest.d.ts:977](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L977)
 
 ___
 
 ### ExtendedControllerOperations
 
-• **ExtendedControllerOperations**: [*IExtendedControllerOperations*](types_dw_rest.iextendedcontrolleroperations.md)
+• **ExtendedControllerOperations**: [`IExtendedControllerOperations`](types_dw_rest.iextendedcontrolleroperations.md)
 
-Defined in: types/DW_Rest.d.ts:896
+#### Defined in
+
+[types/DW_Rest.d.ts:978](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L978)
 
 ___
 
 ### ExtendedUserOperations
 
-• **ExtendedUserOperations**: [*IExtendedUserOperations*](types_dw_rest.iextendeduseroperations.md)
+• **ExtendedUserOperations**: [`IExtendedUserOperations`](types_dw_rest.iextendeduseroperations.md)
 
-Defined in: types/DW_Rest.d.ts:897
+#### Defined in
+
+[types/DW_Rest.d.ts:979](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L979)
 
 ___
 
 ### Links
 
-• `Optional` **Links**: [*ILink*](types_dw_rest.ilink.md)[]
+• `Optional` **Links**: [`ILink`](types_dw_rest.ilink.md)[]
 
-Inherited from: [ILinkModel](types_dw_rest.ilinkmodel.md).[Links](types_dw_rest.ilinkmodel.md#links)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:12
+[ILinkModel](types_dw_rest.ilinkmodel.md).[Links](types_dw_rest.ilinkmodel.md#links)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:8](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L8)

@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / FormTypeEnum
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / FormTypeEnum
 
 # Enumeration: FormTypeEnum
 
@@ -27,94 +27,118 @@ Specifies the form type of a task input
 
 ### Date
 
-• **Date**: = "Date"
+• **Date** = `"Date"`
 
-Defined in: types/DW_Rest.d.ts:1270
+#### Defined in
+
+[types/DW_Rest.d.ts:1341](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1341)
 
 ___
 
 ### DateTime
 
-• **DateTime**: = "DateTime"
+• **DateTime** = `"DateTime"`
 
-Defined in: types/DW_Rest.d.ts:1271
+#### Defined in
+
+[types/DW_Rest.d.ts:1342](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1342)
 
 ___
 
 ### Decimal
 
-• **Decimal**: = "Decimal"
+• **Decimal** = `"Decimal"`
 
-Defined in: types/DW_Rest.d.ts:1269
+#### Defined in
+
+[types/DW_Rest.d.ts:1340](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1340)
 
 ___
 
 ### Description
 
-• **Description**: = "Description"
+• **Description** = `"Description"`
 
-Defined in: types/DW_Rest.d.ts:1266
+#### Defined in
+
+[types/DW_Rest.d.ts:1337](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1337)
 
 ___
 
 ### Keyword
 
-• **Keyword**: = "Keyword"
+• **Keyword** = `"Keyword"`
 
-Defined in: types/DW_Rest.d.ts:1275
+#### Defined in
+
+[types/DW_Rest.d.ts:1346](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1346)
 
 ___
 
 ### Link
 
-• **Link**: = "Link"
+• **Link** = `"Link"`
 
-Defined in: types/DW_Rest.d.ts:1265
+#### Defined in
+
+[types/DW_Rest.d.ts:1336](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1336)
 
 ___
 
 ### Password
 
-• **Password**: = "Password"
+• **Password** = `"Password"`
 
-Defined in: types/DW_Rest.d.ts:1267
+#### Defined in
+
+[types/DW_Rest.d.ts:1338](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1338)
 
 ___
 
 ### Role
 
-• **Role**: = "Role"
+• **Role** = `"Role"`
 
-Defined in: types/DW_Rest.d.ts:1273
+#### Defined in
+
+[types/DW_Rest.d.ts:1344](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1344)
 
 ___
 
 ### SubstitutionRule
 
-• **SubstitutionRule**: = "SubstituionRule"
+• **SubstitutionRule** = `"SubstituionRule"`
 
-Defined in: types/DW_Rest.d.ts:1274
+#### Defined in
+
+[types/DW_Rest.d.ts:1345](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1345)
 
 ___
 
 ### Table
 
-• **Table**: = "Table"
+• **Table** = `"Table"`
 
-Defined in: types/DW_Rest.d.ts:1276
+#### Defined in
+
+[types/DW_Rest.d.ts:1347](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1347)
 
 ___
 
 ### Text
 
-• **Text**: = "Text"
+• **Text** = `"Text"`
 
-Defined in: types/DW_Rest.d.ts:1268
+#### Defined in
+
+[types/DW_Rest.d.ts:1339](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1339)
 
 ___
 
 ### User
 
-• **User**: = "User"
+• **User** = `"User"`
 
-Defined in: types/DW_Rest.d.ts:1272
+#### Defined in
+
+[types/DW_Rest.d.ts:1343](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1343)

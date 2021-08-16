@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IDocumentApplicationProperties
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IDocumentApplicationProperties
 
 # Interface: IDocumentApplicationProperties
 
@@ -7,10 +7,6 @@
 Application properties
 
 **`interface`** IDocumentApplicationProperties
-
-## Hierarchy
-
-* **IDocumentApplicationProperties**
 
 ## Table of contents
 
@@ -22,6 +18,8 @@ Application properties
 
 ### DocumentApplicationProperty
 
-• **DocumentApplicationProperty**: [*IDocumentApplicationProperty*](types_dw_rest.idocumentapplicationproperty.md)[]
+• **DocumentApplicationProperty**: [`IDocumentApplicationProperty`](types_dw_rest.idocumentapplicationproperty.md)[]
 
-Defined in: types/DW_Rest.d.ts:294
+#### Defined in
+
+[types/DW_Rest.d.ts:372](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L372)

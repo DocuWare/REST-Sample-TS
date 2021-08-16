@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / SortOrder
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / SortOrder
 
 # Enumeration: SortOrder
 
@@ -17,14 +17,18 @@ Sort order
 
 ### Asc
 
-• **Asc**: = "Asc"
+• **Asc** = `"Asc"`
 
-Defined in: types/DW_Rest.d.ts:1370
+#### Defined in
+
+[types/DW_Rest.d.ts:1441](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1441)
 
 ___
 
 ### Desc
 
-• **Desc**: = "Desc"
+• **Desc** = `"Desc"`
 
-Defined in: types/DW_Rest.d.ts:1371
+#### Defined in
+
+[types/DW_Rest.d.ts:1442](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1442)

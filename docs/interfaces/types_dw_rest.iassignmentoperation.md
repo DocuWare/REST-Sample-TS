@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IAssignmentOperation
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IAssignmentOperation
 
 # Interface: IAssignmentOperation
 
@@ -7,10 +7,6 @@
 Operation about assignments
 
 **`interface`** IAssignmentOperation
-
-## Hierarchy
-
-* **IAssignmentOperation**
 
 ## Table of contents
 
@@ -23,14 +19,18 @@ Operation about assignments
 
 ### Ids
 
-• **Ids**: *string*[]
+• **Ids**: `string`[]
 
-Defined in: types/DW_Rest.d.ts:701
+#### Defined in
+
+[types/DW_Rest.d.ts:783](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L783)
 
 ___
 
 ### OperationType
 
-• **OperationType**: [*AssignmentOperationType*](../enums/types_dw_rest.assignmentoperationtype.md)
+• **OperationType**: [`AssignmentOperationType`](../enums/types_dw_rest.assignmentoperationtype.md)
 
-Defined in: types/DW_Rest.d.ts:702
+#### Defined in
+
+[types/DW_Rest.d.ts:784](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L784)

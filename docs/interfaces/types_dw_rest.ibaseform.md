@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IBaseForm
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IBaseForm
 
 # Interface: IBaseForm
 
@@ -10,15 +10,15 @@ Base form
 
 ## Hierarchy
 
-* **IBaseForm**
+- **`IBaseForm`**
 
-  ↳ [*ICommonFormField*](types_dw_rest.icommonformfield.md)
+  ↳ [`ICommonFormField`](types_dw_rest.icommonformfield.md)
 
-  ↳ [*ILinkForm*](types_dw_rest.ilinkform.md)
+  ↳ [`ILinkForm`](types_dw_rest.ilinkform.md)
 
-  ↳ [*IDescriptionFormField*](types_dw_rest.idescriptionformfield.md)
+  ↳ [`IDescriptionFormField`](types_dw_rest.idescriptionformfield.md)
 
-  ↳ [*ITaskTableField*](types_dw_rest.itasktablefield.md)
+  ↳ [`ITaskTableField`](types_dw_rest.itasktablefield.md)
 
 ## Table of contents
 
@@ -32,22 +32,28 @@ Base form
 
 ### FormFieldType
 
-• **FormFieldType**: [*FormTypeEnum*](../enums/types_dw_rest.formtypeenum.md)
+• **FormFieldType**: [`FormTypeEnum`](../enums/types_dw_rest.formtypeenum.md)
 
-Defined in: types/DW_Rest.d.ts:986
+#### Defined in
+
+[types/DW_Rest.d.ts:1067](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1067)
 
 ___
 
 ### Id
 
-• **Id**: *number*
+• **Id**: `number`
 
-Defined in: types/DW_Rest.d.ts:988
+#### Defined in
+
+[types/DW_Rest.d.ts:1069](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1069)
 
 ___
 
 ### Label
 
-• **Label**: *string*
+• **Label**: `string`
 
-Defined in: types/DW_Rest.d.ts:987
+#### Defined in
+
+[types/DW_Rest.d.ts:1068](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1068)

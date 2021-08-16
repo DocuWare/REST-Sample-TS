@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IPage
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IPage
 
 # Interface: IPage
 
@@ -10,9 +10,9 @@ DocuWare Page Model
 
 ## Hierarchy
 
-* [*ILinkModel*](types_dw_rest.ilinkmodel.md)
+- [`ILinkModel`](types_dw_rest.ilinkmodel.md)
 
-  ↳ **IPage**
+  ↳ **`IPage`**
 
 ## Table of contents
 
@@ -26,37 +26,49 @@ DocuWare Page Model
 
 ### Data
 
-• **Data**: { `ContentArea`: { `Height`: *number* ; `Left`: *number* ; `Top`: *number* ; `Width`: *number*  } ; `DpiX`: *number* ; `DpiY`: *number* ; `Height`: *number* ; `LowQualitySize`: *number* ; `RenderedImageFormat`: *string* ; `TileSize`: *number* ; `Width`: *number*  }
+• **Data**: `Object`
 
-#### Type declaration:
+#### Type declaration
 
-Name | Type |
------- | ------ |
-`ContentArea` | { `Height`: *number* ; `Left`: *number* ; `Top`: *number* ; `Width`: *number*  } |
-`DpiX` | *number* |
-`DpiY` | *number* |
-`Height` | *number* |
-`LowQualitySize` | *number* |
-`RenderedImageFormat` | *string* |
-`TileSize` | *number* |
-`Width` | *number* |
+| Name | Type |
+| :------ | :------ |
+| `ContentArea` | `Object` |
+| `ContentArea.Height` | `number` |
+| `ContentArea.Left` | `number` |
+| `ContentArea.Top` | `number` |
+| `ContentArea.Width` | `number` |
+| `DpiX` | `number` |
+| `DpiY` | `number` |
+| `Height` | `number` |
+| `LowQualitySize` | `number` |
+| `RenderedImageFormat` | `string` |
+| `TileSize` | `number` |
+| `Width` | `number` |
 
-Defined in: types/DW_Rest.d.ts:179
+#### Defined in
+
+[types/DW_Rest.d.ts:274](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L274)
 
 ___
 
 ### Links
 
-• `Optional` **Links**: [*ILink*](types_dw_rest.ilink.md)[]
+• `Optional` **Links**: [`ILink`](types_dw_rest.ilink.md)[]
 
-Inherited from: [ILinkModel](types_dw_rest.ilinkmodel.md).[Links](types_dw_rest.ilinkmodel.md#links)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:12
+[ILinkModel](types_dw_rest.ilinkmodel.md).[Links](types_dw_rest.ilinkmodel.md#links)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:8](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L8)
 
 ___
 
 ### PageNum
 
-• **PageNum**: *number*
+• **PageNum**: `number`
 
-Defined in: types/DW_Rest.d.ts:178
+#### Defined in
+
+[types/DW_Rest.d.ts:273](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L273)

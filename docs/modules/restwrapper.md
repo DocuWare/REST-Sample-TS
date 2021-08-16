@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / restWrapper
+[Typedoc project reference documentation](../README.md) / restWrapper
 
 # Module: restWrapper
 

@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IEntryBase
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IEntryBase
 
 # Interface: IEntryBase
 
@@ -10,17 +10,17 @@ Entry base
 
 ## Hierarchy
 
-* **IEntryBase**
+- **`IEntryBase`**
 
-  ↳ [*IDeleteEntry*](types_dw_rest.ideleteentry.md)
+  ↳ [`IDeleteEntry`](types_dw_rest.ideleteentry.md)
 
-  ↳ [*ITextEntry*](types_dw_rest.itextentry.md)
+  ↳ [`ITextEntry`](types_dw_rest.itextentry.md)
 
-  ↳ [*IRectEntry*](types_dw_rest.irectentry.md)
+  ↳ [`IRectEntry`](types_dw_rest.irectentry.md)
 
-  ↳ [*ILineEntry*](types_dw_rest.ilineentry.md)
+  ↳ [`ILineEntry`](types_dw_rest.ilineentry.md)
 
-  ↳ [*IPolyLineEntry*](types_dw_rest.ipolylineentry.md)
+  ↳ [`IPolyLineEntry`](types_dw_rest.ipolylineentry.md)
 
 ## Table of contents
 
@@ -38,54 +38,68 @@ Entry base
 
 ### $type
 
-• **$type**: *string*
+• **$type**: `string`
 
-Defined in: types/DW_Rest.d.ts:518
+#### Defined in
+
+[types/DW_Rest.d.ts:602](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L602)
 
 ___
 
 ### Color
 
-• `Optional` **Color**: *string*
+• `Optional` **Color**: `string`
 
-Defined in: types/DW_Rest.d.ts:520
+#### Defined in
+
+[types/DW_Rest.d.ts:604](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L604)
 
 ___
 
 ### Created
 
-• `Optional` **Created**: [*ICreateInfo*](types_dw_rest.icreateinfo.md)
+• `Optional` **Created**: [`ICreateInfo`](types_dw_rest.icreateinfo.md)
 
-Defined in: types/DW_Rest.d.ts:519
+#### Defined in
+
+[types/DW_Rest.d.ts:603](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L603)
 
 ___
 
 ### Id
 
-• `Optional` **Id**: *string*
+• `Optional` **Id**: `string`
 
-Defined in: types/DW_Rest.d.ts:524
+#### Defined in
+
+[types/DW_Rest.d.ts:608](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L608)
 
 ___
 
 ### Rotation
 
-• `Optional` **Rotation**: [*Zero*](../enums/types_dw_rest.rotation.md#zero) \| [*Ninety*](../enums/types_dw_rest.rotation.md#ninety) \| [*HundredEighty*](../enums/types_dw_rest.rotation.md#hundredeighty) \| [*TwoHundredSeventy*](../enums/types_dw_rest.rotation.md#twohundredseventy)
+• `Optional` **Rotation**: [`Zero`](../enums/types_dw_rest.rotation.md#zero) \| [`Ninety`](../enums/types_dw_rest.rotation.md#ninety) \| [`HundredEighty`](../enums/types_dw_rest.rotation.md#hundredeighty) \| [`TwoHundredSeventy`](../enums/types_dw_rest.rotation.md#twohundredseventy)
 
-Defined in: types/DW_Rest.d.ts:521
+#### Defined in
+
+[types/DW_Rest.d.ts:605](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L605)
 
 ___
 
 ### StrokeWidth
 
-• `Optional` **StrokeWidth**: *number*
+• `Optional` **StrokeWidth**: `number`
 
-Defined in: types/DW_Rest.d.ts:523
+#### Defined in
+
+[types/DW_Rest.d.ts:607](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L607)
 
 ___
 
 ### Transparent
 
-• `Optional` **Transparent**: *boolean*
+• `Optional` **Transparent**: `boolean`
 
-Defined in: types/DW_Rest.d.ts:522
+#### Defined in
+
+[types/DW_Rest.d.ts:606](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L606)

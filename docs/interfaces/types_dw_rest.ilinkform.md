@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ILinkForm
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ILinkForm
 
 # Interface: ILinkForm
 
@@ -10,9 +10,9 @@ Link form
 
 ## Hierarchy
 
-* [*IBaseForm*](types_dw_rest.ibaseform.md)
+- [`IBaseForm`](types_dw_rest.ibaseform.md)
 
-  ↳ **ILinkForm**
+  ↳ **`ILinkForm`**
 
 ## Table of contents
 
@@ -27,36 +27,50 @@ Link form
 
 ### FormFieldType
 
-• **FormFieldType**: [*FormTypeEnum*](../enums/types_dw_rest.formtypeenum.md)
+• **FormFieldType**: [`FormTypeEnum`](../enums/types_dw_rest.formtypeenum.md)
 
-Inherited from: [IBaseForm](types_dw_rest.ibaseform.md).[FormFieldType](types_dw_rest.ibaseform.md#formfieldtype)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:986
+[IBaseForm](types_dw_rest.ibaseform.md).[FormFieldType](types_dw_rest.ibaseform.md#formfieldtype)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:1067](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1067)
 
 ___
 
 ### Id
 
-• **Id**: *number*
+• **Id**: `number`
 
-Inherited from: [IBaseForm](types_dw_rest.ibaseform.md).[Id](types_dw_rest.ibaseform.md#id)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:988
+[IBaseForm](types_dw_rest.ibaseform.md).[Id](types_dw_rest.ibaseform.md#id)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:1069](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1069)
 
 ___
 
 ### Label
 
-• **Label**: *string*
+• **Label**: `string`
 
-Inherited from: [IBaseForm](types_dw_rest.ibaseform.md).[Label](types_dw_rest.ibaseform.md#label)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:987
+[IBaseForm](types_dw_rest.ibaseform.md).[Label](types_dw_rest.ibaseform.md#label)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:1068](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1068)
 
 ___
 
 ### Url
 
-• **Url**: *string*
+• **Url**: `string`
 
-Defined in: types/DW_Rest.d.ts:1033
+#### Defined in
+
+[types/DW_Rest.d.ts:1114](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1114)

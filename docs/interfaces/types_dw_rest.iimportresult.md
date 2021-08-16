@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IImportResult
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IImportResult
 
 # Interface: IImportResult
 
@@ -7,10 +7,6 @@
 Import results
 
 **`interface`** IImportResult
-
-## Hierarchy
-
-* **IImportResult**
 
 ## Table of contents
 
@@ -23,14 +19,18 @@ Import results
 
 ### FileChunk
 
-• `Optional` **FileChunk**: [*IUploadedResultChunk*](types_dw_rest.iuploadedresultchunk.md)
+• `Optional` **FileChunk**: [`IUploadedResultChunk`](types_dw_rest.iuploadedresultchunk.md)
 
-Defined in: types/DW_Rest.d.ts:775
+#### Defined in
+
+[types/DW_Rest.d.ts:857](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L857)
 
 ___
 
 ### Results
 
-• **Results**: [*IImportResultEntry*](types_dw_rest.iimportresultentry.md)[]
+• **Results**: [`IImportResultEntry`](types_dw_rest.iimportresultentry.md)[]
 
-Defined in: types/DW_Rest.d.ts:774
+#### Defined in
+
+[types/DW_Rest.d.ts:856](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L856)

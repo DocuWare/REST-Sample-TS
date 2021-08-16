@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IDocumentsQueryResult
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IDocumentsQueryResult
 
 # Interface: IDocumentsQueryResult
 
@@ -10,9 +10,9 @@ DocuWare Query Result
 
 ## Hierarchy
 
-* [*ILinkModel*](types_dw_rest.ilinkmodel.md)
+- [`ILinkModel`](types_dw_rest.ilinkmodel.md)
 
-  ↳ **IDocumentsQueryResult**
+  ↳ **`IDocumentsQueryResult`**
 
 ## Table of contents
 
@@ -28,40 +28,52 @@ DocuWare Query Result
 
 ### Count
 
-• **Count**: *number*
+• **Count**: `number`
 
-Defined in: types/DW_Rest.d.ts:314
+#### Defined in
+
+[types/DW_Rest.d.ts:392](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L392)
 
 ___
 
 ### Download
 
-• **Download**: *string*
+• **Download**: `string`
 
-Defined in: types/DW_Rest.d.ts:317
+#### Defined in
+
+[types/DW_Rest.d.ts:395](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L395)
 
 ___
 
 ### Items
 
-• **Items**: [*IDocument*](types_dw_rest.idocument.md)[]
+• **Items**: [`IDocument`](types_dw_rest.idocument.md)[]
 
-Defined in: types/DW_Rest.d.ts:315
+#### Defined in
+
+[types/DW_Rest.d.ts:393](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L393)
 
 ___
 
 ### Links
 
-• `Optional` **Links**: [*ILink*](types_dw_rest.ilink.md)[]
+• `Optional` **Links**: [`ILink`](types_dw_rest.ilink.md)[]
 
-Inherited from: [ILinkModel](types_dw_rest.ilinkmodel.md).[Links](types_dw_rest.ilinkmodel.md#links)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:12
+[ILinkModel](types_dw_rest.ilinkmodel.md).[Links](types_dw_rest.ilinkmodel.md#links)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:8](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L8)
 
 ___
 
 ### Next
 
-• **Next**: *string*
+• **Next**: `string`
 
-Defined in: types/DW_Rest.d.ts:316
+#### Defined in
+
+[types/DW_Rest.d.ts:394](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L394)

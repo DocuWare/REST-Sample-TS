@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IDocumentApplicationProperty
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IDocumentApplicationProperty
 
 # Interface: IDocumentApplicationProperty
 
@@ -7,10 +7,6 @@
 Application property
 
 **`interface`** IDocumentApplicationProperty
-
-## Hierarchy
-
-* **IDocumentApplicationProperty**
 
 ## Table of contents
 
@@ -23,14 +19,18 @@ Application property
 
 ### Name
 
-• **Name**: *string*
+• **Name**: `string`
 
-Defined in: types/DW_Rest.d.ts:303
+#### Defined in
+
+[types/DW_Rest.d.ts:381](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L381)
 
 ___
 
 ### Value
 
-• **Value**: *string*
+• **Value**: `string`
 
-Defined in: types/DW_Rest.d.ts:304
+#### Defined in
+
+[types/DW_Rest.d.ts:382](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L382)

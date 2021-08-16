@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ILogonModel
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ILogonModel
 
 # Interface: ILogonModel
 
@@ -7,10 +7,6 @@
 Wraps all necessary logon properties
 
 **`interface`** ILogonModel
-
-## Hierarchy
-
-* **ILogonModel**
 
 ## Table of contents
 
@@ -27,46 +23,58 @@ Wraps all necessary logon properties
 
 ### HostID
 
-• **HostID**: *string*
+• **HostID**: `string`
 
-Defined in: types/DW_Rest.d.ts:24
+#### Defined in
+
+[types/DW_Rest.d.ts:20](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L20)
 
 ___
 
 ### Organization
 
-• **Organization**: *string*
+• **Organization**: `string`
 
-Defined in: types/DW_Rest.d.ts:23
+#### Defined in
+
+[types/DW_Rest.d.ts:19](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L19)
 
 ___
 
 ### Password
 
-• **Password**: *string*
+• **Password**: `string`
 
-Defined in: types/DW_Rest.d.ts:22
+#### Defined in
+
+[types/DW_Rest.d.ts:18](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L18)
 
 ___
 
 ### RedirectToMyselfInCaseOfError
 
-• **RedirectToMyselfInCaseOfError**: *boolean*
+• **RedirectToMyselfInCaseOfError**: `boolean`
 
-Defined in: types/DW_Rest.d.ts:25
+#### Defined in
+
+[types/DW_Rest.d.ts:21](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L21)
 
 ___
 
 ### RememberMe
 
-• **RememberMe**: *boolean*
+• **RememberMe**: `boolean`
 
-Defined in: types/DW_Rest.d.ts:26
+#### Defined in
+
+[types/DW_Rest.d.ts:22](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L22)
 
 ___
 
 ### Username
 
-• **Username**: *string*
+• **Username**: `string`
 
-Defined in: types/DW_Rest.d.ts:21
+#### Defined in
+
+[types/DW_Rest.d.ts:17](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L17)

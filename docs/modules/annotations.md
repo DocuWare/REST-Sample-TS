@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / Annotations
+[Typedoc project reference documentation](../README.md) / Annotations
 
 # Module: Annotations
 

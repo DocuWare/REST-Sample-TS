@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / DialogExpression
+[Typedoc project reference documentation](../README.md) / DialogExpression
 
 # Module: DialogExpression
 

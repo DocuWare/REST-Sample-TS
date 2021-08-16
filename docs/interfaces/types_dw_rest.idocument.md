@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IDocument
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IDocument
 
 # Interface: IDocument
 
@@ -10,9 +10,9 @@ DocuWare Document Model
 
 ## Hierarchy
 
-* [*ILinkModel*](types_dw_rest.ilinkmodel.md)
+- [`ILinkModel`](types_dw_rest.ilinkmodel.md)
 
-  ↳ **IDocument**
+  ↳ **`IDocument`**
 
 ## Table of contents
 
@@ -42,166 +42,206 @@ DocuWare Document Model
 
 ### ApplicationProperties
 
-• `Optional` **ApplicationProperties**: [*IDocumentApplicationProperty*](types_dw_rest.idocumentapplicationproperty.md)[]
+• `Optional` **ApplicationProperties**: [`IDocumentApplicationProperty`](types_dw_rest.idocumentapplicationproperty.md)[]
 
-Defined in: types/DW_Rest.d.ts:150
+#### Defined in
+
+[types/DW_Rest.d.ts:150](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L150)
 
 ___
 
 ### ContentType
 
-• `Optional` **ContentType**: *string*
+• `Optional` **ContentType**: `string`
 
-Defined in: types/DW_Rest.d.ts:136
+#### Defined in
+
+[types/DW_Rest.d.ts:136](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L136)
 
 ___
 
 ### CreatedAt
 
-• `Optional` **CreatedAt**: *string*
+• `Optional` **CreatedAt**: `string`
 
-Defined in: types/DW_Rest.d.ts:142
+#### Defined in
+
+[types/DW_Rest.d.ts:142](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L142)
 
 ___
 
 ### CreatedAtSpecified
 
-• `Optional` **CreatedAtSpecified**: *boolean*
+• `Optional` **CreatedAtSpecified**: `boolean`
 
-Defined in: types/DW_Rest.d.ts:143
+#### Defined in
+
+[types/DW_Rest.d.ts:143](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L143)
 
 ___
 
 ### Fields
 
-• `Optional` **Fields**: [*IField*](types_dw_rest.ifield.md)[]
+• `Optional` **Fields**: [`IDocumentIndexField`](types_dw_rest.idocumentindexfield.md)[]
 
-Defined in: types/DW_Rest.d.ts:123
+#### Defined in
+
+[types/DW_Rest.d.ts:123](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L123)
 
 ___
 
 ### FileCabinetId
 
-• `Optional` **FileCabinetId**: *string*
+• `Optional` **FileCabinetId**: `string`
 
-Defined in: types/DW_Rest.d.ts:148
+#### Defined in
+
+[types/DW_Rest.d.ts:148](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L148)
 
 ___
 
 ### FileSize
 
-• `Optional` **FileSize**: *number*
+• `Optional` **FileSize**: `number`
 
-Defined in: types/DW_Rest.d.ts:144
+#### Defined in
+
+[types/DW_Rest.d.ts:144](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L144)
 
 ___
 
 ### Flags
 
-• `Optional` **Flags**: { `HasAppendedDocuments`: *boolean* ; `IsCheckedOut`: *boolean* ; `IsCold`: *boolean* ; `IsCopyRightProtected`: *boolean* ; `IsDBRecord`: *boolean* ; `IsDeleted`: *boolean* ; `IsEmail`: *boolean* ; `IsProtected`: *boolean* ; `IsVoiceAvailable`: *boolean*  }
+• `Optional` **Flags**: `Object`
 
-#### Type declaration:
+#### Type declaration
 
-Name | Type |
------- | ------ |
-`HasAppendedDocuments` | *boolean* |
-`IsCheckedOut` | *boolean* |
-`IsCold` | *boolean* |
-`IsCopyRightProtected` | *boolean* |
-`IsDBRecord` | *boolean* |
-`IsDeleted` | *boolean* |
-`IsEmail` | *boolean* |
-`IsProtected` | *boolean* |
-`IsVoiceAvailable` | *boolean* |
+| Name | Type |
+| :------ | :------ |
+| `HasAppendedDocuments` | `boolean` |
+| `IsCheckedOut` | `boolean` |
+| `IsCold` | `boolean` |
+| `IsCopyRightProtected` | `boolean` |
+| `IsDBRecord` | `boolean` |
+| `IsDeleted` | `boolean` |
+| `IsEmail` | `boolean` |
+| `IsProtected` | `boolean` |
+| `IsVoiceAvailable` | `boolean` |
 
-Defined in: types/DW_Rest.d.ts:124
+#### Defined in
+
+[types/DW_Rest.d.ts:124](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L124)
 
 ___
 
 ### Id
 
-• `Optional` **Id**: *number*
+• `Optional` **Id**: `number`
 
-Defined in: types/DW_Rest.d.ts:138
+#### Defined in
+
+[types/DW_Rest.d.ts:138](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L138)
 
 ___
 
 ### IntellixTrust
 
-• `Optional` **IntellixTrust**: *string*
+• `Optional` **IntellixTrust**: `string`
 
-Defined in: types/DW_Rest.d.ts:146
+#### Defined in
+
+[types/DW_Rest.d.ts:146](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L146)
 
 ___
 
 ### LastModified
 
-• `Optional` **LastModified**: *string*
+• `Optional` **LastModified**: `string`
 
-Defined in: types/DW_Rest.d.ts:140
+#### Defined in
+
+[types/DW_Rest.d.ts:140](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L140)
 
 ___
 
 ### LastModifiedSpecified
 
-• `Optional` **LastModifiedSpecified**: *boolean*
+• `Optional` **LastModifiedSpecified**: `boolean`
 
-Defined in: types/DW_Rest.d.ts:141
+#### Defined in
+
+[types/DW_Rest.d.ts:141](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L141)
 
 ___
 
 ### Links
 
-• `Optional` **Links**: [*ILink*](types_dw_rest.ilink.md)[]
+• `Optional` **Links**: [`ILink`](types_dw_rest.ilink.md)[]
 
-Inherited from: [ILinkModel](types_dw_rest.ilinkmodel.md).[Links](types_dw_rest.ilinkmodel.md#links)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:12
+[ILinkModel](types_dw_rest.ilinkmodel.md).[Links](types_dw_rest.ilinkmodel.md#links)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:8](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L8)
 
 ___
 
 ### SectionCount
 
-• `Optional` **SectionCount**: *number*
+• `Optional` **SectionCount**: `number`
 
-Defined in: types/DW_Rest.d.ts:145
+#### Defined in
+
+[types/DW_Rest.d.ts:145](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L145)
 
 ___
 
 ### Sections
 
-• `Optional` **Sections**: [*ISection*](types_dw_rest.isection.md)[]
+• `Optional` **Sections**: [`ISection`](types_dw_rest.isection.md)[]
 
-Defined in: types/DW_Rest.d.ts:135
+#### Defined in
+
+[types/DW_Rest.d.ts:135](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L135)
 
 ___
 
 ### Title
 
-• `Optional` **Title**: *string*
+• `Optional` **Title**: `string`
 
-Defined in: types/DW_Rest.d.ts:139
+#### Defined in
+
+[types/DW_Rest.d.ts:139](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L139)
 
 ___
 
 ### TotalPages
 
-• `Optional` **TotalPages**: *number*
+• `Optional` **TotalPages**: `number`
 
-Defined in: types/DW_Rest.d.ts:137
+#### Defined in
+
+[types/DW_Rest.d.ts:137](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L137)
 
 ___
 
 ### Version
 
-• `Optional` **Version**: [*IDocumentVersion*](types_dw_rest.idocumentversion.md)
+• `Optional` **Version**: [`IDocumentVersion`](types_dw_rest.idocumentversion.md)
 
-Defined in: types/DW_Rest.d.ts:149
+#### Defined in
+
+[types/DW_Rest.d.ts:149](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L149)
 
 ___
 
 ### VersionStatus
 
-• `Optional` **VersionStatus**: *string*
+• `Optional` **VersionStatus**: `string`
 
-Defined in: types/DW_Rest.d.ts:147
+#### Defined in
+
+[types/DW_Rest.d.ts:147](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L147)

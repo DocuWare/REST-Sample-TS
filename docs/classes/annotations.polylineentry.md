@@ -1,20 +1,16 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [Annotations](../modules/annotations.md) / PolyLineEntry
+[Typedoc project reference documentation](../README.md) / [Annotations](../modules/annotations.md) / PolyLineEntry
 
 # Class: PolyLineEntry
 
 [Annotations](../modules/annotations.md).PolyLineEntry
 
-**`export`** 
+**`export`**
 
 **`implements`** {DWRest.IPolyLineEntry}
 
-## Hierarchy
-
-* **PolyLineEntry**
-
 ## Implements
 
-* [*IPolyLineEntry*](../interfaces/types_dw_rest.ipolylineentry.md)
+- [`IPolyLineEntry`](../interfaces/types_dw_rest.ipolylineentry.md)
 
 ## Table of contents
 
@@ -37,94 +33,126 @@
 
 ### constructor
 
-\+ **new PolyLineEntry**(`stroke`: [*IStroke*](../interfaces/types_dw_rest.istroke.md)[]): [*PolyLineEntry*](annotations.polylineentry.md)
+• **new PolyLineEntry**(`stroke`)
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`stroke` | [*IStroke*](../interfaces/types_dw_rest.istroke.md)[] |
+| Name | Type |
+| :------ | :------ |
+| `stroke` | [`IStroke`](../interfaces/types_dw_rest.istroke.md)[] |
 
-**Returns:** [*PolyLineEntry*](annotations.polylineentry.md)
+#### Defined in
 
-Defined in: Annotations.ts:100
+[Annotations.ts:100](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L100)
 
 ## Properties
 
 ### $type
 
-• **$type**: *string*= 'PolyLineEntry'
+• **$type**: `string` = `'PolyLineEntry'`
 
-Implementation of: [IPolyLineEntry](../interfaces/types_dw_rest.ipolylineentry.md).[$type](../interfaces/types_dw_rest.ipolylineentry.md#$type)
+#### Implementation of
 
-Defined in: Annotations.ts:93
+[IPolyLineEntry](../interfaces/types_dw_rest.ipolylineentry.md).[$type](../interfaces/types_dw_rest.ipolylineentry.md#$type)
+
+#### Defined in
+
+[Annotations.ts:93](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L93)
 
 ___
 
 ### Color
 
-• `Optional` **Color**: *string*
+• `Optional` **Color**: `string`
 
-Implementation of: [IPolyLineEntry](../interfaces/types_dw_rest.ipolylineentry.md).[Color](../interfaces/types_dw_rest.ipolylineentry.md#color)
+#### Implementation of
 
-Defined in: Annotations.ts:96
+[IPolyLineEntry](../interfaces/types_dw_rest.ipolylineentry.md).[Color](../interfaces/types_dw_rest.ipolylineentry.md#color)
+
+#### Defined in
+
+[Annotations.ts:96](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L96)
 
 ___
 
 ### Created
 
-• `Optional` **Created**: [*ICreateInfo*](../interfaces/types_dw_rest.icreateinfo.md)
+• `Optional` **Created**: [`ICreateInfo`](../interfaces/types_dw_rest.icreateinfo.md)
 
-Implementation of: [IPolyLineEntry](../interfaces/types_dw_rest.ipolylineentry.md).[Created](../interfaces/types_dw_rest.ipolylineentry.md#created)
+#### Implementation of
 
-Defined in: Annotations.ts:95
+[IPolyLineEntry](../interfaces/types_dw_rest.ipolylineentry.md).[Created](../interfaces/types_dw_rest.ipolylineentry.md#created)
+
+#### Defined in
+
+[Annotations.ts:95](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L95)
 
 ___
 
 ### Id
 
-• `Optional` **Id**: *string*
+• `Optional` **Id**: `string`
 
-Implementation of: [IPolyLineEntry](../interfaces/types_dw_rest.ipolylineentry.md).[Id](../interfaces/types_dw_rest.ipolylineentry.md#id)
+#### Implementation of
 
-Defined in: Annotations.ts:100
+[IPolyLineEntry](../interfaces/types_dw_rest.ipolylineentry.md).[Id](../interfaces/types_dw_rest.ipolylineentry.md#id)
+
+#### Defined in
+
+[Annotations.ts:100](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L100)
 
 ___
 
 ### Rotation
 
-• `Optional` **Rotation**: [*Zero*](../enums/types_dw_rest.rotation.md#zero) \| [*Ninety*](../enums/types_dw_rest.rotation.md#ninety) \| [*HundredEighty*](../enums/types_dw_rest.rotation.md#hundredeighty) \| [*TwoHundredSeventy*](../enums/types_dw_rest.rotation.md#twohundredseventy)
+• `Optional` **Rotation**: [`Zero`](../enums/types_dw_rest.rotation.md#zero) \| [`Ninety`](../enums/types_dw_rest.rotation.md#ninety) \| [`HundredEighty`](../enums/types_dw_rest.rotation.md#hundredeighty) \| [`TwoHundredSeventy`](../enums/types_dw_rest.rotation.md#twohundredseventy)
 
-Implementation of: [IPolyLineEntry](../interfaces/types_dw_rest.ipolylineentry.md).[Rotation](../interfaces/types_dw_rest.ipolylineentry.md#rotation)
+#### Implementation of
 
-Defined in: Annotations.ts:97
+[IPolyLineEntry](../interfaces/types_dw_rest.ipolylineentry.md).[Rotation](../interfaces/types_dw_rest.ipolylineentry.md#rotation)
+
+#### Defined in
+
+[Annotations.ts:97](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L97)
 
 ___
 
 ### Stroke
 
-• **Stroke**: [*IStroke*](../interfaces/types_dw_rest.istroke.md)[]
+• **Stroke**: [`IStroke`](../interfaces/types_dw_rest.istroke.md)[]
 
-Implementation of: [IPolyLineEntry](../interfaces/types_dw_rest.ipolylineentry.md).[Stroke](../interfaces/types_dw_rest.ipolylineentry.md#stroke)
+#### Implementation of
 
-Defined in: Annotations.ts:94
+[IPolyLineEntry](../interfaces/types_dw_rest.ipolylineentry.md).[Stroke](../interfaces/types_dw_rest.ipolylineentry.md#stroke)
+
+#### Defined in
+
+[Annotations.ts:94](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L94)
 
 ___
 
 ### StrokeWidth
 
-• `Optional` **StrokeWidth**: *number*
+• `Optional` **StrokeWidth**: `number`
 
-Implementation of: [IPolyLineEntry](../interfaces/types_dw_rest.ipolylineentry.md).[StrokeWidth](../interfaces/types_dw_rest.ipolylineentry.md#strokewidth)
+#### Implementation of
 
-Defined in: Annotations.ts:99
+[IPolyLineEntry](../interfaces/types_dw_rest.ipolylineentry.md).[StrokeWidth](../interfaces/types_dw_rest.ipolylineentry.md#strokewidth)
+
+#### Defined in
+
+[Annotations.ts:99](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L99)
 
 ___
 
 ### Transparent
 
-• `Optional` **Transparent**: *boolean*
+• `Optional` **Transparent**: `boolean`
 
-Implementation of: [IPolyLineEntry](../interfaces/types_dw_rest.ipolylineentry.md).[Transparent](../interfaces/types_dw_rest.ipolylineentry.md#transparent)
+#### Implementation of
 
-Defined in: Annotations.ts:98
+[IPolyLineEntry](../interfaces/types_dw_rest.ipolylineentry.md).[Transparent](../interfaces/types_dw_rest.ipolylineentry.md#transparent)
+
+#### Defined in
+
+[Annotations.ts:98](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L98)

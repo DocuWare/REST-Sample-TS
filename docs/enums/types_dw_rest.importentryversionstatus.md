@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ImportEntryVersionStatus
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ImportEntryVersionStatus
 
 # Enumeration: ImportEntryVersionStatus
 
@@ -18,22 +18,28 @@ Status of import version entry
 
 ### Aborted
 
-• **Aborted**: = "Aborted"
+• **Aborted** = `"Aborted"`
 
-Defined in: types/DW_Rest.d.ts:1297
+#### Defined in
+
+[types/DW_Rest.d.ts:1368](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1368)
 
 ___
 
 ### Failed
 
-• **Failed**: = "Failed"
+• **Failed** = `"Failed"`
 
-Defined in: types/DW_Rest.d.ts:1296
+#### Defined in
+
+[types/DW_Rest.d.ts:1367](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1367)
 
 ___
 
 ### Succeeded
 
-• **Succeeded**: = "Succeeded"
+• **Succeeded** = `"Succeeded"`
 
-Defined in: types/DW_Rest.d.ts:1295
+#### Defined in
+
+[types/DW_Rest.d.ts:1366](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1366)

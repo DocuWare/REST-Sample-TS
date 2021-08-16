@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IWorkflowTask
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IWorkflowTask
 
 # Interface: IWorkflowTask
 
@@ -10,9 +10,9 @@ Workflow task
 
 ## Hierarchy
 
-* [*ILinkModel*](types_dw_rest.ilinkmodel.md)
+- [`ILinkModel`](types_dw_rest.ilinkmodel.md)
 
-  ↳ **IWorkflowTask**
+  ↳ **`IWorkflowTask`**
 
 ## Table of contents
 
@@ -37,112 +37,142 @@ Workflow task
 
 ### ActivityDescription
 
-• **ActivityDescription**: *string*
+• **ActivityDescription**: `string`
 
-Defined in: types/DW_Rest.d.ts:881
+#### Defined in
+
+[types/DW_Rest.d.ts:963](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L963)
 
 ___
 
 ### ActivityType
 
-• **ActivityType**: [*ActivityTypeEnum*](../enums/types_dw_rest.activitytypeenum.md)
+• **ActivityType**: [`ActivityTypeEnum`](../enums/types_dw_rest.activitytypeenum.md)
 
-Defined in: types/DW_Rest.d.ts:883
+#### Defined in
+
+[types/DW_Rest.d.ts:965](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L965)
 
 ___
 
 ### AllowDecisionStamp
 
-• **AllowDecisionStamp**: *boolean*
+• **AllowDecisionStamp**: `boolean`
 
-Defined in: types/DW_Rest.d.ts:880
+#### Defined in
+
+[types/DW_Rest.d.ts:962](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L962)
 
 ___
 
 ### ColumnValues
 
-• **ColumnValues**: [*IColumnValues*](types_dw_rest.icolumnvalues.md)
+• **ColumnValues**: [`IColumnValues`](types_dw_rest.icolumnvalues.md)
 
-Defined in: types/DW_Rest.d.ts:874
+#### Defined in
+
+[types/DW_Rest.d.ts:956](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L956)
 
 ___
 
 ### Decisions
 
-• **Decisions**: [*IDecision*](types_dw_rest.idecision.md)[]
+• **Decisions**: [`IDecision`](types_dw_rest.idecision.md)[]
 
-Defined in: types/DW_Rest.d.ts:875
+#### Defined in
+
+[types/DW_Rest.d.ts:957](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L957)
 
 ___
 
 ### DefaultDecisionId
 
-• **DefaultDecisionId**: *number*
+• **DefaultDecisionId**: `number`
 
-Defined in: types/DW_Rest.d.ts:876
+#### Defined in
+
+[types/DW_Rest.d.ts:958](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L958)
 
 ___
 
 ### DocId
 
-• **DocId**: *number*
+• **DocId**: `number`
 
-Defined in: types/DW_Rest.d.ts:882
+#### Defined in
+
+[types/DW_Rest.d.ts:964](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L964)
 
 ___
 
 ### Id
 
-• **Id**: *string*
+• **Id**: `string`
 
-Defined in: types/DW_Rest.d.ts:877
+#### Defined in
+
+[types/DW_Rest.d.ts:959](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L959)
 
 ___
 
 ### InstanceId
 
-• **InstanceId**: *string*
+• **InstanceId**: `string`
 
-Defined in: types/DW_Rest.d.ts:878
+#### Defined in
+
+[types/DW_Rest.d.ts:960](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L960)
 
 ___
 
 ### IsRead
 
-• **IsRead**: *boolean*
+• **IsRead**: `boolean`
 
-Defined in: types/DW_Rest.d.ts:879
+#### Defined in
+
+[types/DW_Rest.d.ts:961](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L961)
 
 ___
 
 ### Links
 
-• `Optional` **Links**: [*ILink*](types_dw_rest.ilink.md)[]
+• `Optional` **Links**: [`ILink`](types_dw_rest.ilink.md)[]
 
-Inherited from: [ILinkModel](types_dw_rest.ilinkmodel.md).[Links](types_dw_rest.ilinkmodel.md#links)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:12
+[ILinkModel](types_dw_rest.ilinkmodel.md).[Links](types_dw_rest.ilinkmodel.md#links)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:8](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L8)
 
 ___
 
 ### NodeId
 
-• **NodeId**: *number*
+• **NodeId**: `number`
 
-Defined in: types/DW_Rest.d.ts:884
+#### Defined in
+
+[types/DW_Rest.d.ts:966](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L966)
 
 ___
 
 ### TaskOperations
 
-• **TaskOperations**: [*ITaskOperations*](types_dw_rest.itaskoperations.md)
+• **TaskOperations**: [`ITaskOperations`](types_dw_rest.itaskoperations.md)
 
-Defined in: types/DW_Rest.d.ts:873
+#### Defined in
+
+[types/DW_Rest.d.ts:955](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L955)
 
 ___
 
 ### WorkflowVersionId
 
-• **WorkflowVersionId**: *string*
+• **WorkflowVersionId**: `string`
 
-Defined in: types/DW_Rest.d.ts:885
+#### Defined in
+
+[types/DW_Rest.d.ts:967](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L967)

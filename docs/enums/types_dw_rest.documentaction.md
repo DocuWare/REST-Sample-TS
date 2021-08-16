@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / DocumentAction
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / DocumentAction
 
 # Enumeration: DocumentAction
 
@@ -17,14 +17,18 @@ Action for document
 
 ### CheckIn
 
-• **CheckIn**: = "CheckIn"
+• **CheckIn** = `"CheckIn"`
 
-Defined in: types/DW_Rest.d.ts:1391
+#### Defined in
+
+[types/DW_Rest.d.ts:1462](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1462)
 
 ___
 
 ### CheckOut
 
-• **CheckOut**: = "CheckOut"
+• **CheckOut** = `"CheckOut"`
 
-Defined in: types/DW_Rest.d.ts:1392
+#### Defined in
+
+[types/DW_Rest.d.ts:1463](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1463)

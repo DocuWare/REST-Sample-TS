@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IFieldMapping
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IFieldMapping
 
 # Interface: IFieldMapping
 
@@ -7,10 +7,6 @@
 Field mapping
 
 **`interface`** IFieldMapping
-
-## Hierarchy
-
-* **IFieldMapping**
 
 ## Table of contents
 
@@ -23,14 +19,18 @@ Field mapping
 
 ### Destination
 
-• `Optional` **Destination**: *string*
+• `Optional` **Destination**: `string`
 
-Defined in: types/DW_Rest.d.ts:818
+#### Defined in
+
+[types/DW_Rest.d.ts:900](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L900)
 
 ___
 
 ### Source
 
-• **Source**: *string*
+• **Source**: `string`
 
-Defined in: types/DW_Rest.d.ts:817
+#### Defined in
+
+[types/DW_Rest.d.ts:899](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L899)

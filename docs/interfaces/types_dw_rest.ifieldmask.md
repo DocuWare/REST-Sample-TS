@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IFieldMask
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IFieldMask
 
 # Interface: IFieldMask
 
@@ -7,10 +7,6 @@
 Task field mask
 
 **`interface`** IFieldMask
-
-## Hierarchy
-
-* **IFieldMask**
 
 ## Table of contents
 
@@ -24,22 +20,28 @@ Task field mask
 
 ### ErrorText
 
-• **ErrorText**: *string*
+• **ErrorText**: `string`
 
-Defined in: types/DW_Rest.d.ts:1160
+#### Defined in
+
+[types/DW_Rest.d.ts:1235](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1235)
 
 ___
 
 ### RegularExpression
 
-• **RegularExpression**: *string*
+• **RegularExpression**: `string`
 
-Defined in: types/DW_Rest.d.ts:1161
+#### Defined in
+
+[types/DW_Rest.d.ts:1236](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1236)
 
 ___
 
 ### SampleEditText
 
-• **SampleEditText**: *string*
+• **SampleEditText**: `string`
 
-Defined in: types/DW_Rest.d.ts:1162
+#### Defined in
+
+[types/DW_Rest.d.ts:1237](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1237)

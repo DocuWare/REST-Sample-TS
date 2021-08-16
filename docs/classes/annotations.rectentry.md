@@ -1,20 +1,16 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [Annotations](../modules/annotations.md) / RectEntry
+[Typedoc project reference documentation](../README.md) / [Annotations](../modules/annotations.md) / RectEntry
 
 # Class: RectEntry
 
 [Annotations](../modules/annotations.md).RectEntry
 
-**`export`** 
+**`export`**
 
 **`implements`** {DWRest.RectEntry}
 
-## Hierarchy
-
-* **RectEntry**
-
 ## Implements
 
-* [*IRectEntry*](../interfaces/types_dw_rest.irectentry.md)
+- [`IRectEntry`](../interfaces/types_dw_rest.irectentry.md)
 
 ## Table of contents
 
@@ -39,114 +35,154 @@
 
 ### constructor
 
-\+ **new RectEntry**(`location`: [*IAnnotationPoint*](../interfaces/types_dw_rest.iannotationpoint.md)): [*RectEntry*](annotations.rectentry.md)
+• **new RectEntry**(`location`)
 
-#### Parameters:
+#### Parameters
 
-Name | Type |
------- | ------ |
-`location` | [*IAnnotationPoint*](../interfaces/types_dw_rest.iannotationpoint.md) |
+| Name | Type |
+| :------ | :------ |
+| `location` | [`IAnnotationPoint`](../interfaces/types_dw_rest.iannotationpoint.md) |
 
-**Returns:** [*RectEntry*](annotations.rectentry.md)
+#### Defined in
 
-Defined in: Annotations.ts:76
+[Annotations.ts:76](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L76)
 
 ## Properties
 
 ### $type
 
-• **$type**: *string*= 'RectEntry'
+• **$type**: `string` = `'RectEntry'`
 
-Implementation of: [IRectEntry](../interfaces/types_dw_rest.irectentry.md).[$type](../interfaces/types_dw_rest.irectentry.md#$type)
+#### Implementation of
 
-Defined in: Annotations.ts:67
+[IRectEntry](../interfaces/types_dw_rest.irectentry.md).[$type](../interfaces/types_dw_rest.irectentry.md#$type)
+
+#### Defined in
+
+[Annotations.ts:67](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L67)
 
 ___
 
 ### Color
 
-• `Optional` **Color**: *string*
+• `Optional` **Color**: `string`
 
-Implementation of: [IRectEntry](../interfaces/types_dw_rest.irectentry.md).[Color](../interfaces/types_dw_rest.irectentry.md#color)
+#### Implementation of
 
-Defined in: Annotations.ts:72
+[IRectEntry](../interfaces/types_dw_rest.irectentry.md).[Color](../interfaces/types_dw_rest.irectentry.md#color)
+
+#### Defined in
+
+[Annotations.ts:72](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L72)
 
 ___
 
 ### Created
 
-• `Optional` **Created**: [*ICreateInfo*](../interfaces/types_dw_rest.icreateinfo.md)
+• `Optional` **Created**: [`ICreateInfo`](../interfaces/types_dw_rest.icreateinfo.md)
 
-Implementation of: [IRectEntry](../interfaces/types_dw_rest.irectentry.md).[Created](../interfaces/types_dw_rest.irectentry.md#created)
+#### Implementation of
 
-Defined in: Annotations.ts:71
+[IRectEntry](../interfaces/types_dw_rest.irectentry.md).[Created](../interfaces/types_dw_rest.irectentry.md#created)
+
+#### Defined in
+
+[Annotations.ts:71](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L71)
 
 ___
 
 ### Ellipse
 
-• `Optional` **Ellipse**: *boolean*
+• `Optional` **Ellipse**: `boolean`
 
-Implementation of: [IRectEntry](../interfaces/types_dw_rest.irectentry.md).[Ellipse](../interfaces/types_dw_rest.irectentry.md#ellipse)
+#### Implementation of
 
-Defined in: Annotations.ts:70
+[IRectEntry](../interfaces/types_dw_rest.irectentry.md).[Ellipse](../interfaces/types_dw_rest.irectentry.md#ellipse)
+
+#### Defined in
+
+[Annotations.ts:70](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L70)
 
 ___
 
 ### Filled
 
-• `Optional` **Filled**: *boolean*
+• `Optional` **Filled**: `boolean`
 
-Implementation of: [IRectEntry](../interfaces/types_dw_rest.irectentry.md).[Filled](../interfaces/types_dw_rest.irectentry.md#filled)
+#### Implementation of
 
-Defined in: Annotations.ts:69
+[IRectEntry](../interfaces/types_dw_rest.irectentry.md).[Filled](../interfaces/types_dw_rest.irectentry.md#filled)
+
+#### Defined in
+
+[Annotations.ts:69](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L69)
 
 ___
 
 ### Id
 
-• `Optional` **Id**: *string*
+• `Optional` **Id**: `string`
 
-Implementation of: [IRectEntry](../interfaces/types_dw_rest.irectentry.md).[Id](../interfaces/types_dw_rest.irectentry.md#id)
+#### Implementation of
 
-Defined in: Annotations.ts:76
+[IRectEntry](../interfaces/types_dw_rest.irectentry.md).[Id](../interfaces/types_dw_rest.irectentry.md#id)
+
+#### Defined in
+
+[Annotations.ts:76](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L76)
 
 ___
 
 ### Location
 
-• **Location**: [*IAnnotationPoint*](../interfaces/types_dw_rest.iannotationpoint.md)
+• **Location**: [`IAnnotationPoint`](../interfaces/types_dw_rest.iannotationpoint.md)
 
-Implementation of: [IRectEntry](../interfaces/types_dw_rest.irectentry.md).[Location](../interfaces/types_dw_rest.irectentry.md#location)
+#### Implementation of
 
-Defined in: Annotations.ts:68
+[IRectEntry](../interfaces/types_dw_rest.irectentry.md).[Location](../interfaces/types_dw_rest.irectentry.md#location)
+
+#### Defined in
+
+[Annotations.ts:68](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L68)
 
 ___
 
 ### Rotation
 
-• `Optional` **Rotation**: [*Zero*](../enums/types_dw_rest.rotation.md#zero) \| [*Ninety*](../enums/types_dw_rest.rotation.md#ninety) \| [*HundredEighty*](../enums/types_dw_rest.rotation.md#hundredeighty) \| [*TwoHundredSeventy*](../enums/types_dw_rest.rotation.md#twohundredseventy)
+• `Optional` **Rotation**: [`Zero`](../enums/types_dw_rest.rotation.md#zero) \| [`Ninety`](../enums/types_dw_rest.rotation.md#ninety) \| [`HundredEighty`](../enums/types_dw_rest.rotation.md#hundredeighty) \| [`TwoHundredSeventy`](../enums/types_dw_rest.rotation.md#twohundredseventy)
 
-Implementation of: [IRectEntry](../interfaces/types_dw_rest.irectentry.md).[Rotation](../interfaces/types_dw_rest.irectentry.md#rotation)
+#### Implementation of
 
-Defined in: Annotations.ts:73
+[IRectEntry](../interfaces/types_dw_rest.irectentry.md).[Rotation](../interfaces/types_dw_rest.irectentry.md#rotation)
+
+#### Defined in
+
+[Annotations.ts:73](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L73)
 
 ___
 
 ### StrokeWidth
 
-• `Optional` **StrokeWidth**: *number*
+• `Optional` **StrokeWidth**: `number`
 
-Implementation of: [IRectEntry](../interfaces/types_dw_rest.irectentry.md).[StrokeWidth](../interfaces/types_dw_rest.irectentry.md#strokewidth)
+#### Implementation of
 
-Defined in: Annotations.ts:75
+[IRectEntry](../interfaces/types_dw_rest.irectentry.md).[StrokeWidth](../interfaces/types_dw_rest.irectentry.md#strokewidth)
+
+#### Defined in
+
+[Annotations.ts:75](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L75)
 
 ___
 
 ### Transparent
 
-• `Optional` **Transparent**: *boolean*
+• `Optional` **Transparent**: `boolean`
 
-Implementation of: [IRectEntry](../interfaces/types_dw_rest.irectentry.md).[Transparent](../interfaces/types_dw_rest.irectentry.md#transparent)
+#### Implementation of
 
-Defined in: Annotations.ts:74
+[IRectEntry](../interfaces/types_dw_rest.irectentry.md).[Transparent](../interfaces/types_dw_rest.irectentry.md#transparent)
+
+#### Defined in
+
+[Annotations.ts:74](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L74)

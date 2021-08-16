@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IStampPlacement
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IStampPlacement
 
 # Interface: IStampPlacement
 
@@ -7,10 +7,6 @@
 Stamp Placement
 
 **`interface`** IStampPlacement
-
-## Hierarchy
-
-* **IStampPlacement**
 
 ## Table of contents
 
@@ -26,38 +22,48 @@ Stamp Placement
 
 ### Field
 
-• `Optional` **Field**: [*IFormFieldValue*](types_dw_rest.iformfieldvalue.md)[]
+• `Optional` **Field**: [`IFormFieldValue`](types_dw_rest.iformfieldvalue.md)[]
 
-Defined in: types/DW_Rest.d.ts:410
+#### Defined in
+
+[types/DW_Rest.d.ts:488](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L488)
 
 ___
 
 ### Layer
 
-• **Layer**: *number*
+• **Layer**: `number`
 
-Defined in: types/DW_Rest.d.ts:408
+#### Defined in
+
+[types/DW_Rest.d.ts:486](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L486)
 
 ___
 
 ### Location
 
-• `Optional` **Location**: [*IDWPoint*](types_dw_rest.idwpoint.md)
+• `Optional` **Location**: [`IDWPoint`](types_dw_rest.idwpoint.md)
 
-Defined in: types/DW_Rest.d.ts:409
+#### Defined in
+
+[types/DW_Rest.d.ts:487](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L487)
 
 ___
 
 ### Password
 
-• `Optional` **Password**: *string*
+• `Optional` **Password**: `string`
 
-Defined in: types/DW_Rest.d.ts:411
+#### Defined in
+
+[types/DW_Rest.d.ts:489](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L489)
 
 ___
 
 ### StampId
 
-• **StampId**: *string*
+• **StampId**: `string`
 
-Defined in: types/DW_Rest.d.ts:407
+#### Defined in
+
+[types/DW_Rest.d.ts:485](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L485)

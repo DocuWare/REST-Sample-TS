@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IDocumentsTransferInfo
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IDocumentsTransferInfo
 
 # Interface: IDocumentsTransferInfo
 
@@ -7,10 +7,6 @@
 Documents Transfer Info
 
 **`interface`** IDocumentsTransferInfo
-
-## Hierarchy
-
-* **IDocumentsTransferInfo**
 
 ## Table of contents
 
@@ -26,38 +22,48 @@ Documents Transfer Info
 
 ### Documents
 
-• **Documents**: [*IDocument*](types_dw_rest.idocument.md)[]
+• **Documents**: [`IDocument`](types_dw_rest.idocument.md)[]
 
-Defined in: types/DW_Rest.d.ts:457
+#### Defined in
+
+[types/DW_Rest.d.ts:535](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L535)
 
 ___
 
 ### FillIntellix
 
-• **FillIntellix**: *boolean*
+• **FillIntellix**: `boolean`
 
-Defined in: types/DW_Rest.d.ts:456
+#### Defined in
+
+[types/DW_Rest.d.ts:534](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L534)
 
 ___
 
 ### KeepSource
 
-• **KeepSource**: *boolean*
+• **KeepSource**: `boolean`
 
-Defined in: types/DW_Rest.d.ts:455
+#### Defined in
+
+[types/DW_Rest.d.ts:533](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L533)
 
 ___
 
 ### SourceFileCabinetId
 
-• **SourceFileCabinetId**: *string*
+• **SourceFileCabinetId**: `string`
 
-Defined in: types/DW_Rest.d.ts:453
+#### Defined in
+
+[types/DW_Rest.d.ts:531](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L531)
 
 ___
 
 ### UseDefaultDialog
 
-• **UseDefaultDialog**: *boolean*
+• **UseDefaultDialog**: `boolean`
 
-Defined in: types/DW_Rest.d.ts:454
+#### Defined in
+
+[types/DW_Rest.d.ts:532](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L532)

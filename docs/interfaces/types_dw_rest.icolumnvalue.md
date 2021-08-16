@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IColumnValue
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IColumnValue
 
 # Interface: IColumnValue
 
@@ -7,10 +7,6 @@
 Column value
 
 **`interface`** IColumnValue
-
-## Hierarchy
-
-* **IColumnValue**
 
 ## Table of contents
 
@@ -23,14 +19,18 @@ Column value
 
 ### Id
 
-• **Id**: *string*
+• **Id**: `string`
 
-Defined in: types/DW_Rest.d.ts:949
+#### Defined in
+
+[types/DW_Rest.d.ts:1024](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1024)
 
 ___
 
 ### Value
 
-• **Value**: *any*
+• **Value**: `any`
 
-Defined in: types/DW_Rest.d.ts:950
+#### Defined in
+
+[types/DW_Rest.d.ts:1025](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1025)

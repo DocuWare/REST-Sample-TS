@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ITaskTextField
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ITaskTextField
 
 # Interface: ITaskTextField
 
@@ -10,11 +10,11 @@ Task text field
 
 ## Hierarchy
 
-* [*ICommonFormField*](types_dw_rest.icommonformfield.md)
+- [`ICommonFormField`](types_dw_rest.icommonformfield.md)
 
-  ↳ **ITaskTextField**
+  ↳ **`ITaskTextField`**
 
-  ↳↳ [*IKeywordsField*](types_dw_rest.ikeywordsfield.md)
+  ↳↳ [`IKeywordsField`](types_dw_rest.ikeywordsfield.md)
 
 ## Table of contents
 
@@ -36,104 +36,144 @@ Task text field
 
 ### Description
 
-• **Description**: *string*
+• **Description**: `string`
 
-Inherited from: [ICommonFormField](types_dw_rest.icommonformfield.md).[Description](types_dw_rest.icommonformfield.md#description)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:999
+[ICommonFormField](types_dw_rest.icommonformfield.md).[Description](types_dw_rest.icommonformfield.md#description)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:1080](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1080)
 
 ___
 
 ### FieldMask
 
-• **FieldMask**: [*IFieldMask*](types_dw_rest.ifieldmask.md)
+• **FieldMask**: [`IFieldMask`](types_dw_rest.ifieldmask.md)
 
-Defined in: types/DW_Rest.d.ts:1055
+#### Defined in
+
+[types/DW_Rest.d.ts:1136](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1136)
 
 ___
 
 ### FormFieldType
 
-• **FormFieldType**: [*FormTypeEnum*](../enums/types_dw_rest.formtypeenum.md)
+• **FormFieldType**: [`FormTypeEnum`](../enums/types_dw_rest.formtypeenum.md)
 
-Inherited from: [ICommonFormField](types_dw_rest.icommonformfield.md).[FormFieldType](types_dw_rest.icommonformfield.md#formfieldtype)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:986
+[ICommonFormField](types_dw_rest.icommonformfield.md).[FormFieldType](types_dw_rest.icommonformfield.md#formfieldtype)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:1067](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1067)
 
 ___
 
 ### HasSelectList
 
-• **HasSelectList**: *boolean*
+• **HasSelectList**: `boolean`
 
-Inherited from: [ICommonFormField](types_dw_rest.icommonformfield.md).[HasSelectList](types_dw_rest.icommonformfield.md#hasselectlist)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:1000
+[ICommonFormField](types_dw_rest.icommonformfield.md).[HasSelectList](types_dw_rest.icommonformfield.md#hasselectlist)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:1081](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1081)
 
 ___
 
 ### Id
 
-• **Id**: *number*
+• **Id**: `number`
 
-Inherited from: [ICommonFormField](types_dw_rest.icommonformfield.md).[Id](types_dw_rest.icommonformfield.md#id)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:988
+[ICommonFormField](types_dw_rest.icommonformfield.md).[Id](types_dw_rest.icommonformfield.md#id)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:1069](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1069)
 
 ___
 
 ### IsReadonly
 
-• **IsReadonly**: *boolean*
+• **IsReadonly**: `boolean`
 
-Inherited from: [ICommonFormField](types_dw_rest.icommonformfield.md).[IsReadonly](types_dw_rest.icommonformfield.md#isreadonly)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:1001
+[ICommonFormField](types_dw_rest.icommonformfield.md).[IsReadonly](types_dw_rest.icommonformfield.md#isreadonly)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:1082](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1082)
 
 ___
 
 ### IsSelectListOnly
 
-• **IsSelectListOnly**: *boolean*
+• **IsSelectListOnly**: `boolean`
 
-Inherited from: [ICommonFormField](types_dw_rest.icommonformfield.md).[IsSelectListOnly](types_dw_rest.icommonformfield.md#isselectlistonly)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:1002
+[ICommonFormField](types_dw_rest.icommonformfield.md).[IsSelectListOnly](types_dw_rest.icommonformfield.md#isselectlistonly)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:1083](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1083)
 
 ___
 
 ### Label
 
-• **Label**: *string*
+• **Label**: `string`
 
-Inherited from: [ICommonFormField](types_dw_rest.icommonformfield.md).[Label](types_dw_rest.icommonformfield.md#label)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:987
+[ICommonFormField](types_dw_rest.icommonformfield.md).[Label](types_dw_rest.icommonformfield.md#label)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:1068](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1068)
 
 ___
 
 ### Length
 
-• **Length**: *number*
+• **Length**: `number`
 
-Defined in: types/DW_Rest.d.ts:1054
+#### Defined in
+
+[types/DW_Rest.d.ts:1135](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1135)
 
 ___
 
 ### Mandatory
 
-• **Mandatory**: *boolean*
+• **Mandatory**: `boolean`
 
-Inherited from: [ICommonFormField](types_dw_rest.icommonformfield.md).[Mandatory](types_dw_rest.icommonformfield.md#mandatory)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:998
+[ICommonFormField](types_dw_rest.icommonformfield.md).[Mandatory](types_dw_rest.icommonformfield.md#mandatory)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:1079](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1079)
 
 ___
 
 ### SelectListGuid
 
-• **SelectListGuid**: *string*
+• **SelectListGuid**: `string`
 
-Inherited from: [ICommonFormField](types_dw_rest.icommonformfield.md).[SelectListGuid](types_dw_rest.icommonformfield.md#selectlistguid)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:1003
+[ICommonFormField](types_dw_rest.icommonformfield.md).[SelectListGuid](types_dw_rest.icommonformfield.md#selectlistguid)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:1084](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1084)

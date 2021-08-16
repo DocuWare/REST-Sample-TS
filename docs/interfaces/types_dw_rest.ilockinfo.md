@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ILockInfo
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ILockInfo
 
 # Interface: ILockInfo
 
@@ -7,10 +7,6 @@
 Lock information
 
 **`interface`** ILockInfo
-
-## Hierarchy
-
-* **ILockInfo**
 
 ## Table of contents
 
@@ -23,14 +19,18 @@ Lock information
 
 ### Interval
 
-• `Optional` **Interval**: *string*
+• `Optional` **Interval**: `string`
 
-Defined in: types/DW_Rest.d.ts:828
+#### Defined in
+
+[types/DW_Rest.d.ts:910](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L910)
 
 ___
 
 ### Operation
 
-• `Optional` **Operation**: *string*
+• `Optional` **Operation**: `string`
 
-Defined in: types/DW_Rest.d.ts:827
+#### Defined in
+
+[types/DW_Rest.d.ts:909](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L909)

@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ICommonFormField
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ICommonFormField
 
 # Interface: ICommonFormField
 
@@ -10,17 +10,17 @@ Common form field
 
 ## Hierarchy
 
-* [*IBaseForm*](types_dw_rest.ibaseform.md)
+- [`IBaseForm`](types_dw_rest.ibaseform.md)
 
-  ↳ **ICommonFormField**
+  ↳ **`ICommonFormField`**
 
-  ↳↳ [*IMultiValueField*](types_dw_rest.imultivaluefield.md)
+  ↳↳ [`IMultiValueField`](types_dw_rest.imultivaluefield.md)
 
-  ↳↳ [*ITaskTextField*](types_dw_rest.itasktextfield.md)
+  ↳↳ [`ITaskTextField`](types_dw_rest.itasktextfield.md)
 
-  ↳↳ [*ITaskDateTimeField*](types_dw_rest.itaskdatetimefield.md)
+  ↳↳ [`ITaskDateTimeField`](types_dw_rest.itaskdatetimefield.md)
 
-  ↳↳ [*ITaskNumberField*](types_dw_rest.itasknumberfield.md)
+  ↳↳ [`ITaskNumberField`](types_dw_rest.itasknumberfield.md)
 
 ## Table of contents
 
@@ -40,76 +40,100 @@ Common form field
 
 ### Description
 
-• **Description**: *string*
+• **Description**: `string`
 
-Defined in: types/DW_Rest.d.ts:999
+#### Defined in
+
+[types/DW_Rest.d.ts:1080](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1080)
 
 ___
 
 ### FormFieldType
 
-• **FormFieldType**: [*FormTypeEnum*](../enums/types_dw_rest.formtypeenum.md)
+• **FormFieldType**: [`FormTypeEnum`](../enums/types_dw_rest.formtypeenum.md)
 
-Inherited from: [IBaseForm](types_dw_rest.ibaseform.md).[FormFieldType](types_dw_rest.ibaseform.md#formfieldtype)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:986
+[IBaseForm](types_dw_rest.ibaseform.md).[FormFieldType](types_dw_rest.ibaseform.md#formfieldtype)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:1067](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1067)
 
 ___
 
 ### HasSelectList
 
-• **HasSelectList**: *boolean*
+• **HasSelectList**: `boolean`
 
-Defined in: types/DW_Rest.d.ts:1000
+#### Defined in
+
+[types/DW_Rest.d.ts:1081](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1081)
 
 ___
 
 ### Id
 
-• **Id**: *number*
+• **Id**: `number`
 
-Inherited from: [IBaseForm](types_dw_rest.ibaseform.md).[Id](types_dw_rest.ibaseform.md#id)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:988
+[IBaseForm](types_dw_rest.ibaseform.md).[Id](types_dw_rest.ibaseform.md#id)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:1069](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1069)
 
 ___
 
 ### IsReadonly
 
-• **IsReadonly**: *boolean*
+• **IsReadonly**: `boolean`
 
-Defined in: types/DW_Rest.d.ts:1001
+#### Defined in
+
+[types/DW_Rest.d.ts:1082](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1082)
 
 ___
 
 ### IsSelectListOnly
 
-• **IsSelectListOnly**: *boolean*
+• **IsSelectListOnly**: `boolean`
 
-Defined in: types/DW_Rest.d.ts:1002
+#### Defined in
+
+[types/DW_Rest.d.ts:1083](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1083)
 
 ___
 
 ### Label
 
-• **Label**: *string*
+• **Label**: `string`
 
-Inherited from: [IBaseForm](types_dw_rest.ibaseform.md).[Label](types_dw_rest.ibaseform.md#label)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:987
+[IBaseForm](types_dw_rest.ibaseform.md).[Label](types_dw_rest.ibaseform.md#label)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:1068](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1068)
 
 ___
 
 ### Mandatory
 
-• **Mandatory**: *boolean*
+• **Mandatory**: `boolean`
 
-Defined in: types/DW_Rest.d.ts:998
+#### Defined in
+
+[types/DW_Rest.d.ts:1079](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1079)
 
 ___
 
 ### SelectListGuid
 
-• **SelectListGuid**: *string*
+• **SelectListGuid**: `string`
 
-Defined in: types/DW_Rest.d.ts:1003
+#### Defined in
+
+[types/DW_Rest.d.ts:1084](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1084)

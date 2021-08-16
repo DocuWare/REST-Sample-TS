@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / Rotation
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / Rotation
 
 # Enumeration: Rotation
 
@@ -19,30 +19,38 @@ Rotation
 
 ### HundredEighty
 
-• **HundredEighty**: = 180
+• **HundredEighty** = `180`
 
-Defined in: types/DW_Rest.d.ts:1350
+#### Defined in
+
+[types/DW_Rest.d.ts:1421](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1421)
 
 ___
 
 ### Ninety
 
-• **Ninety**: = 90
+• **Ninety** = `90`
 
-Defined in: types/DW_Rest.d.ts:1349
+#### Defined in
+
+[types/DW_Rest.d.ts:1420](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1420)
 
 ___
 
 ### TwoHundredSeventy
 
-• **TwoHundredSeventy**: = 270
+• **TwoHundredSeventy** = `270`
 
-Defined in: types/DW_Rest.d.ts:1351
+#### Defined in
+
+[types/DW_Rest.d.ts:1422](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1422)
 
 ___
 
 ### Zero
 
-• **Zero**: = 0
+• **Zero** = `0`
 
-Defined in: types/DW_Rest.d.ts:1348
+#### Defined in
+
+[types/DW_Rest.d.ts:1419](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1419)

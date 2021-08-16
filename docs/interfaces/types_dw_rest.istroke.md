@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IStroke
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IStroke
 
 # Interface: IStroke
 
@@ -7,10 +7,6 @@
 A stroke
 
 **`interface`** IStroke
-
-## Hierarchy
-
-* **IStroke**
 
 ## Table of contents
 
@@ -22,6 +18,8 @@ A stroke
 
 ### Point
 
-• **Point**: [*IAnnotation*](types_dw_rest.iannotation.md)
+• **Point**: [`IAnnotation`](types_dw_rest.iannotation.md)
 
-Defined in: types/DW_Rest.d.ts:637
+#### Defined in
+
+[types/DW_Rest.d.ts:719](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L719)

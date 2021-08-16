@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / RoleTypes
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / RoleTypes
 
 # Enumeration: RoleTypes
 
@@ -18,22 +18,28 @@ Different kind of roles
 
 ### Administrator
 
-• **Administrator**: = "Administrator"
+• **Administrator** = `"Administrator"`
 
-Defined in: types/DW_Rest.d.ts:1308
+#### Defined in
+
+[types/DW_Rest.d.ts:1379](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1379)
 
 ___
 
 ### Default
 
-• **Default**: = "Default"
+• **Default** = `"Default"`
 
-Defined in: types/DW_Rest.d.ts:1307
+#### Defined in
+
+[types/DW_Rest.d.ts:1378](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1378)
 
 ___
 
 ### Standard
 
-• **Standard**: = "Standard"
+• **Standard** = `"Standard"`
 
-Defined in: types/DW_Rest.d.ts:1306
+#### Defined in
+
+[types/DW_Rest.d.ts:1377](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1377)

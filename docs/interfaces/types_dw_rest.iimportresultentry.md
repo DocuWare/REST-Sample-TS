@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IImportResultEntry
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IImportResultEntry
 
 # Interface: IImportResultEntry
 
@@ -7,10 +7,6 @@
 Import results entry
 
 **`interface`** IImportResultEntry
-
-## Hierarchy
-
-* **IImportResultEntry**
 
 ## Table of contents
 
@@ -24,22 +20,28 @@ Import results entry
 
 ### EntryVersions
 
-• **EntryVersions**: [*IImportEntryVersion*](types_dw_rest.iimportentryversion.md)[]
+• **EntryVersions**: [`IImportEntryVersion`](types_dw_rest.iimportentryversion.md)[]
 
-Defined in: types/DW_Rest.d.ts:784
+#### Defined in
+
+[types/DW_Rest.d.ts:866](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L866)
 
 ___
 
 ### ErrorMessage
 
-• `Optional` **ErrorMessage**: *string*
+• `Optional` **ErrorMessage**: `string`
 
-Defined in: types/DW_Rest.d.ts:785
+#### Defined in
+
+[types/DW_Rest.d.ts:867](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L867)
 
 ___
 
 ### Status
 
-• **Status**: [*ImportEntryStatus*](../enums/types_dw_rest.importentrystatus.md)
+• **Status**: [`ImportEntryStatus`](../enums/types_dw_rest.importentrystatus.md)
 
-Defined in: types/DW_Rest.d.ts:786
+#### Defined in
+
+[types/DW_Rest.d.ts:868](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L868)

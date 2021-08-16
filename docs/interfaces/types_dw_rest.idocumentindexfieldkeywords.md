@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IDocumentIndexFieldKeywords
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IDocumentIndexFieldKeywords
 
 # Interface: IDocumentIndexFieldKeywords
 
@@ -7,10 +7,6 @@
 Keywords
 
 **`interface`** IDocumentIndexFieldKeywords
-
-## Hierarchy
-
-* **IDocumentIndexFieldKeywords**
 
 ## Table of contents
 
@@ -22,6 +18,8 @@ Keywords
 
 ### Keyword
 
-• **Keyword**: *string*[]
+• **Keyword**: `string`[]
 
-Defined in: types/DW_Rest.d.ts:285
+#### Defined in
+
+[types/DW_Rest.d.ts:363](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L363)

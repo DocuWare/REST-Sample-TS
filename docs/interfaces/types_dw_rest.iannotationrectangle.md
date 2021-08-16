@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IAnnotationRectangle
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IAnnotationRectangle
 
 # Interface: IAnnotationRectangle
 
@@ -7,10 +7,6 @@
 Annotation rectangle
 
 **`interface`** IAnnotationRectangle
-
-## Hierarchy
-
-* **IAnnotationRectangle**
 
 ## Table of contents
 
@@ -25,30 +21,38 @@ Annotation rectangle
 
 ### Height
 
-• **Height**: *number*
+• **Height**: `number`
 
-Defined in: types/DW_Rest.d.ts:569
+#### Defined in
+
+[types/DW_Rest.d.ts:651](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L651)
 
 ___
 
 ### Left
 
-• **Left**: *number*
+• **Left**: `number`
 
-Defined in: types/DW_Rest.d.ts:566
+#### Defined in
+
+[types/DW_Rest.d.ts:648](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L648)
 
 ___
 
 ### Top
 
-• **Top**: *number*
+• **Top**: `number`
 
-Defined in: types/DW_Rest.d.ts:567
+#### Defined in
+
+[types/DW_Rest.d.ts:649](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L649)
 
 ___
 
 ### Width
 
-• **Width**: *number*
+• **Width**: `number`
 
-Defined in: types/DW_Rest.d.ts:568
+#### Defined in
+
+[types/DW_Rest.d.ts:650](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L650)

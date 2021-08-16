@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IGroups
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IGroups
 
 # Interface: IGroups
 
@@ -7,10 +7,6 @@
 Groups
 
 **`interface`** IGroups
-
-## Hierarchy
-
-* **IGroups**
 
 ## Table of contents
 
@@ -22,6 +18,8 @@ Groups
 
 ### Item
 
-• **Item**: [*IGroup*](types_dw_rest.igroup.md)[]
+• **Item**: [`IGroup`](types_dw_rest.igroup.md)[]
 
-Defined in: types/DW_Rest.d.ts:745
+#### Defined in
+
+[types/DW_Rest.d.ts:827](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L827)

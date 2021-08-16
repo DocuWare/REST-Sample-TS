@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / types/DW_Rest
+[Typedoc project reference documentation](../README.md) / types/DW_Rest
 
 # Module: types/DW\_Rest
 
@@ -14,7 +14,6 @@
 - [DialogType](../enums/types_dw_rest.dialogtype.md)
 - [DocuWareSpecificContentType](../enums/types_dw_rest.docuwarespecificcontenttype.md)
 - [DocumentAction](../enums/types_dw_rest.documentaction.md)
-- [DocumentContentType](../enums/types_dw_rest.documentcontenttype.md)
 - [FormTypeEnum](../enums/types_dw_rest.formtypeenum.md)
 - [ImportEntryStatus](../enums/types_dw_rest.importentrystatus.md)
 - [ImportEntryVersionStatus](../enums/types_dw_rest.importentryversionstatus.md)
@@ -47,6 +46,7 @@
 - [IContentMergeOperationInfo](../interfaces/types_dw_rest.icontentmergeoperationinfo.md)
 - [ICreateInfo](../interfaces/types_dw_rest.icreateinfo.md)
 - [IDWPoint](../interfaces/types_dw_rest.idwpoint.md)
+- [IDWRectangle](../interfaces/types_dw_rest.idwrectangle.md)
 - [IDecision](../interfaces/types_dw_rest.idecision.md)
 - [IDecisionOperations](../interfaces/types_dw_rest.idecisionoperations.md)
 - [IDeleteEntry](../interfaces/types_dw_rest.ideleteentry.md)
@@ -58,8 +58,10 @@
 - [IDocument](../interfaces/types_dw_rest.idocument.md)
 - [IDocumentApplicationProperties](../interfaces/types_dw_rest.idocumentapplicationproperties.md)
 - [IDocumentApplicationProperty](../interfaces/types_dw_rest.idocumentapplicationproperty.md)
+- [IDocumentIndexField](../interfaces/types_dw_rest.idocumentindexfield.md)
 - [IDocumentIndexFieldKeywords](../interfaces/types_dw_rest.idocumentindexfieldkeywords.md)
 - [IDocumentIndexFieldTable](../interfaces/types_dw_rest.idocumentindexfieldtable.md)
+- [IDocumentIndexFieldValueBase](../interfaces/types_dw_rest.idocumentindexfieldvaluebase.md)
 - [IDocumentVersion](../interfaces/types_dw_rest.idocumentversion.md)
 - [IDocumentsQueryResult](../interfaces/types_dw_rest.idocumentsqueryresult.md)
 - [IDocumentsTransferInfo](../interfaces/types_dw_rest.idocumentstransferinfo.md)
@@ -68,7 +70,6 @@
 - [IExtendedControllerOperations](../interfaces/types_dw_rest.iextendedcontrolleroperations.md)
 - [IExtendedDecisionOperations](../interfaces/types_dw_rest.iextendeddecisionoperations.md)
 - [IExtendedUserOperations](../interfaces/types_dw_rest.iextendeduseroperations.md)
-- [IField](../interfaces/types_dw_rest.ifield.md)
 - [IFieldList](../interfaces/types_dw_rest.ifieldlist.md)
 - [IFieldMapping](../interfaces/types_dw_rest.ifieldmapping.md)
 - [IFieldMask](../interfaces/types_dw_rest.ifieldmask.md)
@@ -83,6 +84,9 @@
 - [IImportResult](../interfaces/types_dw_rest.iimportresult.md)
 - [IImportResultEntry](../interfaces/types_dw_rest.iimportresultentry.md)
 - [IImportSettings](../interfaces/types_dw_rest.iimportsettings.md)
+- [IInputDocument](../interfaces/types_dw_rest.iinputdocument.md)
+- [IInputFlags](../interfaces/types_dw_rest.iinputflags.md)
+- [IInputSection](../interfaces/types_dw_rest.iinputsection.md)
 - [IKeywordsField](../interfaces/types_dw_rest.ikeywordsfield.md)
 - [ILayer](../interfaces/types_dw_rest.ilayer.md)
 - [ILineEntry](../interfaces/types_dw_rest.ilineentry.md)
@@ -100,6 +104,7 @@
 - [IOutOfOffice](../interfaces/types_dw_rest.ioutofoffice.md)
 - [IPage](../interfaces/types_dw_rest.ipage.md)
 - [IPages](../interfaces/types_dw_rest.ipages.md)
+- [IPointAndShootInfo](../interfaces/types_dw_rest.ipointandshootinfo.md)
 - [IPolyLineEntry](../interfaces/types_dw_rest.ipolylineentry.md)
 - [IRectEntry](../interfaces/types_dw_rest.irectentry.md)
 - [IRegionalSettings](../interfaces/types_dw_rest.iregionalsettings.md)
@@ -121,6 +126,7 @@
 - [ITaskTableNumberField](../interfaces/types_dw_rest.itasktablenumberfield.md)
 - [ITaskTextField](../interfaces/types_dw_rest.itasktextfield.md)
 - [ITextEntry](../interfaces/types_dw_rest.itextentry.md)
+- [IUploadedFileChunk](../interfaces/types_dw_rest.iuploadedfilechunk.md)
 - [IUploadedResultChunk](../interfaces/types_dw_rest.iuploadedresultchunk.md)
 - [IUser](../interfaces/types_dw_rest.iuser.md)
 - [IUserField](../interfaces/types_dw_rest.iuserfield.md)

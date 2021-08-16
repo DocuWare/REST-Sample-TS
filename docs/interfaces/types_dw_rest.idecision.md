@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IDecision
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IDecision
 
 # Interface: IDecision
 
@@ -7,10 +7,6 @@
 Workflow decision
 
 **`interface`** IDecision
-
-## Hierarchy
-
-* **IDecision**
 
 ## Table of contents
 
@@ -27,46 +23,58 @@ Workflow decision
 
 ### Color
 
-• **Color**: *string*
+• **Color**: `string`
 
-Defined in: types/DW_Rest.d.ts:962
+#### Defined in
+
+[types/DW_Rest.d.ts:1037](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1037)
 
 ___
 
 ### DecisionOperations
 
-• **DecisionOperations**: [*IDecisionOperations*](types_dw_rest.idecisionoperations.md)
+• **DecisionOperations**: [`IDecisionOperations`](types_dw_rest.idecisionoperations.md)
 
-Defined in: types/DW_Rest.d.ts:964
+#### Defined in
+
+[types/DW_Rest.d.ts:1039](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1039)
 
 ___
 
 ### Description
 
-• **Description**: *string*
+• **Description**: `string`
 
-Defined in: types/DW_Rest.d.ts:960
+#### Defined in
+
+[types/DW_Rest.d.ts:1035](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1035)
 
 ___
 
 ### Id
 
-• **Id**: *number*
+• **Id**: `number`
 
-Defined in: types/DW_Rest.d.ts:959
+#### Defined in
+
+[types/DW_Rest.d.ts:1034](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1034)
 
 ___
 
 ### Label
 
-• **Label**: *string*
+• **Label**: `string`
 
-Defined in: types/DW_Rest.d.ts:961
+#### Defined in
+
+[types/DW_Rest.d.ts:1036](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1036)
 
 ___
 
 ### TaskFormField
 
-• **TaskFormField**: [*ITaskFormField*](types_dw_rest.itaskformfield.md)[]
+• **TaskFormField**: [`ITaskFormField`](types_dw_rest.itaskformfield.md)[]
 
-Defined in: types/DW_Rest.d.ts:963
+#### Defined in
+
+[types/DW_Rest.d.ts:1038](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1038)

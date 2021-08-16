@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ILayer
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ILayer
 
 # Interface: ILayer
 
@@ -7,10 +7,6 @@
 Layer
 
 **`interface`** ILayer
-
-## Hierarchy
-
-* **ILayer**
 
 ## Table of contents
 
@@ -23,14 +19,18 @@ Layer
 
 ### Id
 
-• **Id**: *number*
+• **Id**: `number`
 
-Defined in: types/DW_Rest.d.ts:509
+#### Defined in
+
+[types/DW_Rest.d.ts:593](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L593)
 
 ___
 
 ### Items
 
-• `Optional` **Items**: ([*ITextEntry*](types_dw_rest.itextentry.md) \| [*ILineEntry*](types_dw_rest.ilineentry.md) \| [*IRectEntry*](types_dw_rest.irectentry.md) \| [*IPolyLineEntry*](types_dw_rest.ipolylineentry.md) \| [*IDeleteEntry*](types_dw_rest.ideleteentry.md))[]
+• `Optional` **Items**: ([`ITextEntry`](types_dw_rest.itextentry.md) \| [`ILineEntry`](types_dw_rest.ilineentry.md) \| [`IRectEntry`](types_dw_rest.irectentry.md) \| [`IPolyLineEntry`](types_dw_rest.ipolylineentry.md) \| [`IDeleteEntry`](types_dw_rest.ideleteentry.md))[]
 
-Defined in: types/DW_Rest.d.ts:508
+#### Defined in
+
+[types/DW_Rest.d.ts:586](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L586)

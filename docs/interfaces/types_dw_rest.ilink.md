@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ILink
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ILink
 
 # Interface: ILink
 
@@ -8,29 +8,40 @@ A link
 
 **`interface`** ILink
 
-## Hierarchy
-
-* **ILink**
-
 ## Table of contents
 
 ### Properties
 
 - [href](types_dw_rest.ilink.md#href)
 - [rel](types_dw_rest.ilink.md#rel)
+- [type](types_dw_rest.ilink.md#type)
 
 ## Properties
 
 ### href
 
-• **href**: *string*
+• **href**: `string`
 
-Defined in: types/DW_Rest.d.ts:48
+#### Defined in
+
+[types/DW_Rest.d.ts:44](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L44)
 
 ___
 
 ### rel
 
-• **rel**: *string*
+• **rel**: `string`
 
-Defined in: types/DW_Rest.d.ts:47
+#### Defined in
+
+[types/DW_Rest.d.ts:43](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L43)
+
+___
+
+### type
+
+• **type**: `string`
+
+#### Defined in
+
+[types/DW_Rest.d.ts:45](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L45)

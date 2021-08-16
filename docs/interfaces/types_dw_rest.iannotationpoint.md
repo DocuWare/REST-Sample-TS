@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IAnnotationPoint
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IAnnotationPoint
 
 # Interface: IAnnotationPoint
 
@@ -7,10 +7,6 @@
 Annotation point
 
 **`interface`** IAnnotationPoint
-
-## Hierarchy
-
-* **IAnnotationPoint**
 
 ## Table of contents
 
@@ -23,14 +19,18 @@ Annotation point
 
 ### X
 
-• **X**: *number*
+• **X**: `number`
 
-Defined in: types/DW_Rest.d.ts:578
+#### Defined in
+
+[types/DW_Rest.d.ts:660](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L660)
 
 ___
 
 ### Y
 
-• **Y**: *number*
+• **Y**: `number`
 
-Defined in: types/DW_Rest.d.ts:579
+#### Defined in
+
+[types/DW_Rest.d.ts:661](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L661)

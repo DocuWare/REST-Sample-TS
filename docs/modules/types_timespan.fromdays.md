@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/timespan](types_timespan.md) / fromDays
+[Typedoc project reference documentation](../README.md) / [types/timespan](types_timespan.md) / fromDays
 
 # Namespace: fromDays
 
@@ -14,6 +14,8 @@
 
 ### prototype
 
-• `Const` **prototype**: *object*
+• `Const` **prototype**: `Object`
 
-Defined in: types/timespan.d.ts:249
+#### Defined in
+
+[types/timespan.d.ts:249](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L249)

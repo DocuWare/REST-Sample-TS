@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ActivityTypeEnum
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ActivityTypeEnum
 
 # Enumeration: ActivityTypeEnum
 
@@ -19,30 +19,38 @@ Specifies the activity type of a task
 
 ### GeneralError
 
-• **GeneralError**: = "GeneralError"
+• **GeneralError** = `"GeneralError"`
 
-Defined in: types/DW_Rest.d.ts:1256
+#### Defined in
+
+[types/DW_Rest.d.ts:1327](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1327)
 
 ___
 
 ### GeneralTask
 
-• **GeneralTask**: = "GeneralTask"
+• **GeneralTask** = `"GeneralTask"`
 
-Defined in: types/DW_Rest.d.ts:1253
+#### Defined in
+
+[types/DW_Rest.d.ts:1324](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1324)
 
 ___
 
 ### ParallelTask
 
-• **ParallelTask**: = "ParallelTask"
+• **ParallelTask** = `"ParallelTask"`
 
-Defined in: types/DW_Rest.d.ts:1254
+#### Defined in
+
+[types/DW_Rest.d.ts:1325](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1325)
 
 ___
 
 ### UserCredentials
 
-• **UserCredentials**: = "UserCredentials"
+• **UserCredentials** = `"UserCredentials"`
 
-Defined in: types/DW_Rest.d.ts:1255
+#### Defined in
+
+[types/DW_Rest.d.ts:1326](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1326)

@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / TargetFileType
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / TargetFileType
 
 # Enumeration: TargetFileType
 
@@ -18,22 +18,28 @@ Target file type
 
 ### Auto
 
-• **Auto**: = "Auto"
+• **Auto** = `"Auto"`
 
-Defined in: types/DW_Rest.d.ts:1380
+#### Defined in
+
+[types/DW_Rest.d.ts:1451](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1451)
 
 ___
 
 ### PDF
 
-• **PDF**: = "PDF"
+• **PDF** = `"PDF"`
 
-Defined in: types/DW_Rest.d.ts:1382
+#### Defined in
+
+[types/DW_Rest.d.ts:1453](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1453)
 
 ___
 
 ### Zip
 
-• **Zip**: = "Zip"
+• **Zip** = `"Zip"`
 
-Defined in: types/DW_Rest.d.ts:1381
+#### Defined in
+
+[types/DW_Rest.d.ts:1452](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1452)

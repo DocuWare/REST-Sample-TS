@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ISection
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ISection
 
 # Interface: ISection
 
@@ -10,9 +10,9 @@ DocuWare Section Model
 
 ## Hierarchy
 
-* [*ILinkModel*](types_dw_rest.ilinkmodel.md)
+- [`ILinkModel`](types_dw_rest.ilinkmodel.md)
 
-  ↳ **ISection**
+  ↳ **`ISection`**
 
 ## Table of contents
 
@@ -32,72 +32,92 @@ DocuWare Section Model
 
 ### ContentModified
 
-• **ContentModified**: *string*
+• **ContentModified**: `string`
 
-Defined in: types/DW_Rest.d.ts:166
+#### Defined in
+
+[types/DW_Rest.d.ts:262](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L262)
 
 ___
 
 ### ContentType
 
-• **ContentType**: *string*
+• **ContentType**: `string`
 
-Defined in: types/DW_Rest.d.ts:161
+#### Defined in
+
+[types/DW_Rest.d.ts:257](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L257)
 
 ___
 
 ### FileSize
 
-• **FileSize**: *number*
+• **FileSize**: `number`
 
-Defined in: types/DW_Rest.d.ts:164
+#### Defined in
+
+[types/DW_Rest.d.ts:260](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L260)
 
 ___
 
 ### HaveMorePages
 
-• **HaveMorePages**: *boolean*
+• **HaveMorePages**: `boolean`
 
-Defined in: types/DW_Rest.d.ts:162
+#### Defined in
+
+[types/DW_Rest.d.ts:258](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L258)
 
 ___
 
 ### Id
 
-• **Id**: *string*
+• **Id**: `string`
 
-Defined in: types/DW_Rest.d.ts:160
+#### Defined in
+
+[types/DW_Rest.d.ts:256](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L256)
 
 ___
 
 ### Links
 
-• `Optional` **Links**: [*ILink*](types_dw_rest.ilink.md)[]
+• `Optional` **Links**: [`ILink`](types_dw_rest.ilink.md)[]
 
-Inherited from: [ILinkModel](types_dw_rest.ilinkmodel.md).[Links](types_dw_rest.ilinkmodel.md#links)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:12
+[ILinkModel](types_dw_rest.ilinkmodel.md).[Links](types_dw_rest.ilinkmodel.md#links)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:8](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L8)
 
 ___
 
 ### OriginalFileName
 
-• **OriginalFileName**: *string*
+• **OriginalFileName**: `string`
 
-Defined in: types/DW_Rest.d.ts:165
+#### Defined in
+
+[types/DW_Rest.d.ts:261](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L261)
 
 ___
 
 ### PageCount
 
-• **PageCount**: *number*
+• **PageCount**: `number`
 
-Defined in: types/DW_Rest.d.ts:163
+#### Defined in
+
+[types/DW_Rest.d.ts:259](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L259)
 
 ___
 
 ### Pages
 
-• **Pages**: [*ILinkModel*](types_dw_rest.ilinkmodel.md)
+• **Pages**: [`ILinkModel`](types_dw_rest.ilinkmodel.md)
 
-Defined in: types/DW_Rest.d.ts:167
+#### Defined in
+
+[types/DW_Rest.d.ts:263](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L263)

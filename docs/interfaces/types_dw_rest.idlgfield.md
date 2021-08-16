@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IDlgField
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IDlgField
 
 # Interface: IDlgField
 
@@ -10,9 +10,9 @@ DocuWare Dialog Field Model
 
 ## Hierarchy
 
-* [*ILinkModel*](types_dw_rest.ilinkmodel.md)
+- [`ILinkModel`](types_dw_rest.ilinkmodel.md)
 
-  ↳ **IDlgField**
+  ↳ **`IDlgField`**
 
 ## Table of contents
 
@@ -32,72 +32,92 @@ DocuWare Dialog Field Model
 
 ### AllowExtendedSearch
 
-• **AllowExtendedSearch**: *boolean*
+• **AllowExtendedSearch**: `boolean`
 
-Defined in: types/DW_Rest.d.ts:243
+#### Defined in
+
+[types/DW_Rest.d.ts:322](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L322)
 
 ___
 
 ### AllowFiltering
 
-• **AllowFiltering**: *boolean*
+• **AllowFiltering**: `boolean`
 
-Defined in: types/DW_Rest.d.ts:244
+#### Defined in
+
+[types/DW_Rest.d.ts:323](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L323)
 
 ___
 
 ### AssignedInternalSelectList
 
-• **AssignedInternalSelectList**: *boolean*
+• **AssignedInternalSelectList**: `boolean`
 
-Defined in: types/DW_Rest.d.ts:245
+#### Defined in
+
+[types/DW_Rest.d.ts:324](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L324)
 
 ___
 
 ### DBFieldName
 
-• **DBFieldName**: *string*
+• **DBFieldName**: `string`
 
-Defined in: types/DW_Rest.d.ts:238
+#### Defined in
+
+[types/DW_Rest.d.ts:317](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L317)
 
 ___
 
 ### DWFieldType
 
-• **DWFieldType**: [*ItemChoiceType*](../enums/types_dw_rest.itemchoicetype.md)
+• **DWFieldType**: [`ItemChoiceType`](../enums/types_dw_rest.itemchoicetype.md)
 
-Defined in: types/DW_Rest.d.ts:240
+#### Defined in
+
+[types/DW_Rest.d.ts:319](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L319)
 
 ___
 
 ### DlgLabel
 
-• **DlgLabel**: *string*
+• **DlgLabel**: `string`
 
-Defined in: types/DW_Rest.d.ts:239
+#### Defined in
+
+[types/DW_Rest.d.ts:318](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L318)
 
 ___
 
 ### Length
 
-• `Optional` **Length**: *number*
+• `Optional` **Length**: `number`
 
-Defined in: types/DW_Rest.d.ts:242
+#### Defined in
+
+[types/DW_Rest.d.ts:321](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L321)
 
 ___
 
 ### Links
 
-• `Optional` **Links**: [*ILink*](types_dw_rest.ilink.md)[]
+• `Optional` **Links**: [`ILink`](types_dw_rest.ilink.md)[]
 
-Inherited from: [ILinkModel](types_dw_rest.ilinkmodel.md).[Links](types_dw_rest.ilinkmodel.md#links)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:12
+[ILinkModel](types_dw_rest.ilinkmodel.md).[Links](types_dw_rest.ilinkmodel.md#links)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:8](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L8)
 
 ___
 
 ### Visible
 
-• **Visible**: *boolean*
+• **Visible**: `boolean`
 
-Defined in: types/DW_Rest.d.ts:241
+#### Defined in
+
+[types/DW_Rest.d.ts:320](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L320)

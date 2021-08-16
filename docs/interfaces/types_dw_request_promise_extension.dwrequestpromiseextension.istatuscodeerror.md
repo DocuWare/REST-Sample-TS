@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Request_Promise_Extension](../modules/types_dw_request_promise_extension.md) / [DWRequestPromiseExtension](../modules/types_dw_request_promise_extension.dwrequestpromiseextension.md) / IStatusCodeError
+[Typedoc project reference documentation](../README.md) / [types/DW_Request_Promise_Extension](../modules/types_dw_request_promise_extension.md) / [DWRequestPromiseExtension](../modules/types_dw_request_promise_extension.dwrequestpromiseextension.md) / IStatusCodeError
 
 # Interface: IStatusCodeError
 
@@ -7,10 +7,6 @@
 Just the definintion of StatusCodeError return
 
 **`interface`** IStatusCodeError
-
-## Hierarchy
-
-* **IStatusCodeError**
 
 ## Table of contents
 
@@ -28,54 +24,68 @@ Just the definintion of StatusCodeError return
 
 ### error
 
-• **error**: *string*
+• **error**: `string`
 
-Defined in: types/DW_Request_Promise_Extension.d.ts:12
+#### Defined in
+
+[types/DW_Request_Promise_Extension.d.ts:12](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Request_Promise_Extension.d.ts#L12)
 
 ___
 
 ### message
 
-• **message**: *string*
+• **message**: `string`
 
-Defined in: types/DW_Request_Promise_Extension.d.ts:13
+#### Defined in
+
+[types/DW_Request_Promise_Extension.d.ts:13](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Request_Promise_Extension.d.ts#L13)
 
 ___
 
 ### options
 
-• **options**: RequestPromiseOptions
+• **options**: `RequestPromiseOptions`
 
-Defined in: types/DW_Request_Promise_Extension.d.ts:14
+#### Defined in
+
+[types/DW_Request_Promise_Extension.d.ts:14](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Request_Promise_Extension.d.ts#L14)
 
 ___
 
 ### response
 
-• **response**: *IncomingMessage*
+• **response**: `IncomingMessage`
 
-Defined in: types/DW_Request_Promise_Extension.d.ts:15
+#### Defined in
+
+[types/DW_Request_Promise_Extension.d.ts:15](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Request_Promise_Extension.d.ts#L15)
 
 ___
 
 ### retryAfter
 
-• **retryAfter**: *undefined* \| *null* \| *number*
+• **retryAfter**: `undefined` \| ``null`` \| `number`
 
-Defined in: types/DW_Request_Promise_Extension.d.ts:18
+#### Defined in
+
+[types/DW_Request_Promise_Extension.d.ts:18](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Request_Promise_Extension.d.ts#L18)
 
 ___
 
 ### stack
 
-• **stack**: *string*
+• **stack**: `string`
 
-Defined in: types/DW_Request_Promise_Extension.d.ts:16
+#### Defined in
+
+[types/DW_Request_Promise_Extension.d.ts:16](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Request_Promise_Extension.d.ts#L16)
 
 ___
 
 ### statusCode
 
-• **statusCode**: *number*
+• **statusCode**: `number`
 
-Defined in: types/DW_Request_Promise_Extension.d.ts:17
+#### Defined in
+
+[types/DW_Request_Promise_Extension.d.ts:17](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Request_Promise_Extension.d.ts#L17)

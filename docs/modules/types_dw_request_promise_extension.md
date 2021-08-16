@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / types/DW_Request_Promise_Extension
+[Typedoc project reference documentation](../README.md) / types/DW_Request_Promise_Extension
 
 # Module: types/DW\_Request\_Promise\_Extension
 

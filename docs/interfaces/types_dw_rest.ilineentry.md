@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ILineEntry
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / ILineEntry
 
 # Interface: ILineEntry
 
@@ -10,13 +10,13 @@ Line entry
 
 ## Hierarchy
 
-* [*IEntryBase*](types_dw_rest.ientrybase.md)
+- [`IEntryBase`](types_dw_rest.ientrybase.md)
 
-  ↳ **ILineEntry**
+  ↳ **`ILineEntry`**
 
 ## Implemented by
 
-* [*LineEntry*](../classes/annotations.lineentry.md)
+- [`LineEntry`](../classes/annotations.lineentry.md)
 
 ## Table of contents
 
@@ -37,92 +37,126 @@ Line entry
 
 ### $type
 
-• **$type**: *string*
+• **$type**: `string`
 
-Inherited from: [IEntryBase](types_dw_rest.ientrybase.md).[$type](types_dw_rest.ientrybase.md#$type)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:518
+[IEntryBase](types_dw_rest.ientrybase.md).[$type](types_dw_rest.ientrybase.md#$type)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:602](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L602)
 
 ___
 
 ### Arrow
 
-• `Optional` **Arrow**: *boolean*
+• `Optional` **Arrow**: `boolean`
 
-Defined in: types/DW_Rest.d.ts:618
+#### Defined in
+
+[types/DW_Rest.d.ts:700](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L700)
 
 ___
 
 ### Color
 
-• `Optional` **Color**: *string*
+• `Optional` **Color**: `string`
 
-Inherited from: [IEntryBase](types_dw_rest.ientrybase.md).[Color](types_dw_rest.ientrybase.md#color)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:520
+[IEntryBase](types_dw_rest.ientrybase.md).[Color](types_dw_rest.ientrybase.md#color)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:604](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L604)
 
 ___
 
 ### Created
 
-• `Optional` **Created**: [*ICreateInfo*](types_dw_rest.icreateinfo.md)
+• `Optional` **Created**: [`ICreateInfo`](types_dw_rest.icreateinfo.md)
 
-Inherited from: [IEntryBase](types_dw_rest.ientrybase.md).[Created](types_dw_rest.ientrybase.md#created)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:519
+[IEntryBase](types_dw_rest.ientrybase.md).[Created](types_dw_rest.ientrybase.md#created)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:603](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L603)
 
 ___
 
 ### From
 
-• **From**: [*IAnnotationPoint*](types_dw_rest.iannotationpoint.md)
+• **From**: [`IAnnotationPoint`](types_dw_rest.iannotationpoint.md)
 
-Defined in: types/DW_Rest.d.ts:616
+#### Defined in
+
+[types/DW_Rest.d.ts:698](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L698)
 
 ___
 
 ### Id
 
-• `Optional` **Id**: *string*
+• `Optional` **Id**: `string`
 
-Inherited from: [IEntryBase](types_dw_rest.ientrybase.md).[Id](types_dw_rest.ientrybase.md#id)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:524
+[IEntryBase](types_dw_rest.ientrybase.md).[Id](types_dw_rest.ientrybase.md#id)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:608](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L608)
 
 ___
 
 ### Rotation
 
-• `Optional` **Rotation**: [*Zero*](../enums/types_dw_rest.rotation.md#zero) \| [*Ninety*](../enums/types_dw_rest.rotation.md#ninety) \| [*HundredEighty*](../enums/types_dw_rest.rotation.md#hundredeighty) \| [*TwoHundredSeventy*](../enums/types_dw_rest.rotation.md#twohundredseventy)
+• `Optional` **Rotation**: [`Zero`](../enums/types_dw_rest.rotation.md#zero) \| [`Ninety`](../enums/types_dw_rest.rotation.md#ninety) \| [`HundredEighty`](../enums/types_dw_rest.rotation.md#hundredeighty) \| [`TwoHundredSeventy`](../enums/types_dw_rest.rotation.md#twohundredseventy)
 
-Inherited from: [IEntryBase](types_dw_rest.ientrybase.md).[Rotation](types_dw_rest.ientrybase.md#rotation)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:521
+[IEntryBase](types_dw_rest.ientrybase.md).[Rotation](types_dw_rest.ientrybase.md#rotation)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:605](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L605)
 
 ___
 
 ### StrokeWidth
 
-• `Optional` **StrokeWidth**: *number*
+• `Optional` **StrokeWidth**: `number`
 
-Inherited from: [IEntryBase](types_dw_rest.ientrybase.md).[StrokeWidth](types_dw_rest.ientrybase.md#strokewidth)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:523
+[IEntryBase](types_dw_rest.ientrybase.md).[StrokeWidth](types_dw_rest.ientrybase.md#strokewidth)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:607](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L607)
 
 ___
 
 ### To
 
-• **To**: [*IAnnotationPoint*](types_dw_rest.iannotationpoint.md)
+• **To**: [`IAnnotationPoint`](types_dw_rest.iannotationpoint.md)
 
-Defined in: types/DW_Rest.d.ts:617
+#### Defined in
+
+[types/DW_Rest.d.ts:699](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L699)
 
 ___
 
 ### Transparent
 
-• `Optional` **Transparent**: *boolean*
+• `Optional` **Transparent**: `boolean`
 
-Inherited from: [IEntryBase](types_dw_rest.ientrybase.md).[Transparent](types_dw_rest.ientrybase.md#transparent)
+#### Inherited from
 
-Defined in: types/DW_Rest.d.ts:522
+[IEntryBase](types_dw_rest.ientrybase.md).[Transparent](types_dw_rest.ientrybase.md#transparent)
+
+#### Defined in
+
+[types/DW_Rest.d.ts:606](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L606)

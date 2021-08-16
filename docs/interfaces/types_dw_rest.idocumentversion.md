@@ -1,4 +1,4 @@
-[Typedoc project reference documentation](../README.md) / [Modules](../modules.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IDocumentVersion
+[Typedoc project reference documentation](../README.md) / [types/DW_Rest](../modules/types_dw_rest.md) / IDocumentVersion
 
 # Interface: IDocumentVersion
 
@@ -7,10 +7,6 @@
 Document version
 
 **`interface`** IDocumentVersion
-
-## Hierarchy
-
-* **IDocumentVersion**
 
 ## Table of contents
 
@@ -23,14 +19,18 @@ Document version
 
 ### Major
 
-• **Major**: *number*
+• **Major**: `number`
 
-Defined in: types/DW_Rest.d.ts:397
+#### Defined in
+
+[types/DW_Rest.d.ts:475](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L475)
 
 ___
 
 ### Minor
 
-• **Minor**: *number*
+• **Minor**: `number`
 
-Defined in: types/DW_Rest.d.ts:398
+#### Defined in
+
+[types/DW_Rest.d.ts:476](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L476)
