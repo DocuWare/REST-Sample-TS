@@ -36,7 +36,7 @@ DocuWare Dialog Field Model
 
 #### Defined in
 
-[types/DW_Rest.d.ts:322](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L322)
+[types/DW_Rest.d.ts:322](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L322)
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:323](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L323)
+[types/DW_Rest.d.ts:323](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L323)
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:324](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L324)
+[types/DW_Rest.d.ts:324](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L324)
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:317](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L317)
+[types/DW_Rest.d.ts:317](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L317)
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:319](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L319)
+[types/DW_Rest.d.ts:319](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L319)
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:318](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L318)
+[types/DW_Rest.d.ts:318](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L318)
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:321](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L321)
+[types/DW_Rest.d.ts:321](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L321)
 
 ___
 
@@ -110,7 +110,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:8](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L8)
+[types/DW_Rest.d.ts:8](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L8)
 
 ___
 
@@ -120,4 +120,4 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:320](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L320)
+[types/DW_Rest.d.ts:320](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L320)

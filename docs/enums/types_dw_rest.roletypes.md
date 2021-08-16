@@ -22,7 +22,7 @@ Different kind of roles
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1379](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1379)
+[types/DW_Rest.d.ts:1379](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1379)
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1378](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1378)
+[types/DW_Rest.d.ts:1378](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1378)
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1377](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1377)
+[types/DW_Rest.d.ts:1377](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1377)

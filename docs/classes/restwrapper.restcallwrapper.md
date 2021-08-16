@@ -92,7 +92,7 @@ Sample wrapper for DocuWare REST API
 
 #### Defined in
 
-[restWrapper.ts:29](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L29)
+[restWrapper.ts:29](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L29)
 
 ## Properties
 
@@ -102,7 +102,7 @@ Sample wrapper for DocuWare REST API
 
 #### Defined in
 
-[restWrapper.ts:29](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L29)
+[restWrapper.ts:29](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L29)
 
 ___
 
@@ -114,7 +114,7 @@ Set root without /DocuWare/Platform because the rel links of platform responses 
 
 #### Defined in
 
-[restWrapper.ts:28](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L28)
+[restWrapper.ts:28](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L28)
 
 ## Methods
 
@@ -137,7 +137,7 @@ Add application properties, those properties can be used to save custom meta dat
 
 #### Defined in
 
-[restWrapper.ts:1473](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1473)
+[restWrapper.ts:1473](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L1473)
 
 ___
 
@@ -160,7 +160,7 @@ Assign a dedicated user to a group
 
 #### Defined in
 
-[restWrapper.ts:1230](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1230)
+[restWrapper.ts:1230](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L1230)
 
 ___
 
@@ -183,7 +183,7 @@ Assign a dedicated user to a role
 
 #### Defined in
 
-[restWrapper.ts:1203](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1203)
+[restWrapper.ts:1203](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L1203)
 
 ___
 
@@ -205,7 +205,7 @@ Helper method for getting a TimeSpan string
 
 #### Defined in
 
-[restWrapper.ts:1585](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1585)
+[restWrapper.ts:1585](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L1585)
 
 ___
 
@@ -229,7 +229,7 @@ Check in a checked out document
 
 #### Defined in
 
-[restWrapper.ts:872](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L872)
+[restWrapper.ts:872](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L872)
 
 ___
 
@@ -251,7 +251,7 @@ Check out a document to the file system
 
 #### Defined in
 
-[restWrapper.ts:844](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L844)
+[restWrapper.ts:844](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L844)
 
 ___
 
@@ -273,7 +273,7 @@ Confirms a tasks, this example takes the first text form and confirms with demo 
 
 #### Defined in
 
-[restWrapper.ts:1538](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1538)
+[restWrapper.ts:1538](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L1538)
 
 ___
 
@@ -293,7 +293,7 @@ ___
 
 #### Defined in
 
-[restWrapper.ts:1674](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1674)
+[restWrapper.ts:1674](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L1674)
 
 ___
 
@@ -318,7 +318,7 @@ Helper function for preparing the logon
 
 #### Defined in
 
-[restWrapper.ts:58](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L58)
+[restWrapper.ts:58](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L58)
 
 ___
 
@@ -343,7 +343,7 @@ Creates a new document with the needed keys depending on the given parameters
 
 #### Defined in
 
-[restWrapper.ts:657](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L657)
+[restWrapper.ts:657](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L657)
 
 ___
 
@@ -366,7 +366,7 @@ Create a new user
 
 #### Defined in
 
-[restWrapper.ts:1178](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1178)
+[restWrapper.ts:1178](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L1178)
 
 ___
 
@@ -388,7 +388,7 @@ Remove a lock from a document
 
 #### Defined in
 
-[restWrapper.ts:1460](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1460)
+[restWrapper.ts:1460](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L1460)
 
 ___
 
@@ -411,7 +411,7 @@ Divide a document
 
 #### Defined in
 
-[restWrapper.ts:1117](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1117)
+[restWrapper.ts:1117](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L1117)
 
 ___
 
@@ -435,7 +435,7 @@ Download a single document
 
 #### Defined in
 
-[restWrapper.ts:473](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L473)
+[restWrapper.ts:473](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L473)
 
 ___
 
@@ -461,7 +461,7 @@ Helper method to download file from response
 
 #### Defined in
 
-[restWrapper.ts:1600](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1600)
+[restWrapper.ts:1600](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L1600)
 
 ___
 
@@ -485,7 +485,7 @@ In this example we make a zip out of it
 
 #### Defined in
 
-[restWrapper.ts:809](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L809)
+[restWrapper.ts:809](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L809)
 
 ___
 
@@ -508,7 +508,7 @@ Import a DWX. DWX is the exchange format of DocuWare
 
 #### Defined in
 
-[restWrapper.ts:1407](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1407)
+[restWrapper.ts:1407](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L1407)
 
 ___
 
@@ -530,7 +530,7 @@ Returns all kind of dialogs of a fileCabinet
 
 #### Defined in
 
-[restWrapper.ts:307](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L307)
+[restWrapper.ts:307](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L307)
 
 ___
 
@@ -553,7 +553,7 @@ Info: FileCabinet Object can be a document tray OR a FileCabinet
 
 #### Defined in
 
-[restWrapper.ts:190](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L190)
+[restWrapper.ts:190](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L190)
 
 ___
 
@@ -575,7 +575,7 @@ Get controller workflows
 
 #### Defined in
 
-[restWrapper.ts:1509](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1509)
+[restWrapper.ts:1509](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L1509)
 
 ___
 
@@ -598,7 +598,7 @@ Returns a list of specified dialogs
 
 #### Defined in
 
-[restWrapper.ts:349](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L349)
+[restWrapper.ts:349](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L349)
 
 ___
 
@@ -621,7 +621,7 @@ Info: FileCabinet Object can be a document tray OR a FileCabinet
 
 #### Defined in
 
-[restWrapper.ts:203](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L203)
+[restWrapper.ts:203](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L203)
 
 ___
 
@@ -642,7 +642,7 @@ ___
 
 #### Defined in
 
-[restWrapper.ts:315](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L315)
+[restWrapper.ts:315](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L315)
 
 ___
 
@@ -666,7 +666,7 @@ Get a document by DocId
 
 #### Defined in
 
-[restWrapper.ts:240](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L240)
+[restWrapper.ts:240](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L240)
 
 ___
 
@@ -689,7 +689,7 @@ Get the first x documents from a file cabinet
 
 #### Defined in
 
-[restWrapper.ts:268](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L268)
+[restWrapper.ts:268](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L268)
 
 ___
 
@@ -712,7 +712,7 @@ Info: Is restricted to the first 1000 per default
 
 #### Defined in
 
-[restWrapper.ts:219](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L219)
+[restWrapper.ts:219](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L219)
 
 ___
 
@@ -734,7 +734,7 @@ Returns a special FileCabinet by GUID
 
 #### Defined in
 
-[restWrapper.ts:174](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L174)
+[restWrapper.ts:174](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L174)
 
 ___
 
@@ -756,7 +756,7 @@ Returns list of FileCabinets
 
 #### Defined in
 
-[restWrapper.ts:161](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L161)
+[restWrapper.ts:161](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L161)
 
 ___
 
@@ -779,7 +779,7 @@ Get a group by it's name
 
 #### Defined in
 
-[restWrapper.ts:1303](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1303)
+[restWrapper.ts:1303](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L1303)
 
 ___
 
@@ -802,7 +802,7 @@ Helper method to check if link exists or not
 
 #### Defined in
 
-[restWrapper.ts:1640](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1640)
+[restWrapper.ts:1640](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L1640)
 
 ___
 
@@ -825,7 +825,7 @@ Get link from object by name
 
 #### Defined in
 
-[restWrapper.ts:1658](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1658)
+[restWrapper.ts:1658](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L1658)
 
 ___
 
@@ -849,7 +849,7 @@ So if you searched for 2 results you will only get another 2!
 
 #### Defined in
 
-[restWrapper.ts:287](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L287)
+[restWrapper.ts:287](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L287)
 
 ___
 
@@ -865,7 +865,7 @@ Returns your Organization
 
 #### Defined in
 
-[restWrapper.ts:128](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L128)
+[restWrapper.ts:128](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L128)
 
 ___
 
@@ -887,7 +887,7 @@ Returns all organizations
 
 #### Defined in
 
-[restWrapper.ts:141](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L141)
+[restWrapper.ts:141](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L141)
 
 ___
 
@@ -911,7 +911,7 @@ Get a single page by section and page number
 
 #### Defined in
 
-[restWrapper.ts:940](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L940)
+[restWrapper.ts:940](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L940)
 
 ___
 
@@ -933,7 +933,7 @@ Send query to get results
 
 #### Defined in
 
-[restWrapper.ts:440](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L440)
+[restWrapper.ts:440](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L440)
 
 ___
 
@@ -960,7 +960,7 @@ Get a query build by DocuWare Platform for later execution
 
 #### Defined in
 
-[restWrapper.ts:394](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L394)
+[restWrapper.ts:394](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L394)
 
 ___
 
@@ -983,7 +983,7 @@ Get a role by it's name
 
 #### Defined in
 
-[restWrapper.ts:1335](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1335)
+[restWrapper.ts:1335](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L1335)
 
 ___
 
@@ -1005,7 +1005,7 @@ Get workflow tasks for dedicated workflow
 
 #### Defined in
 
-[restWrapper.ts:1526](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1526)
+[restWrapper.ts:1526](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L1526)
 
 ___
 
@@ -1027,7 +1027,7 @@ Get workflows (The workflow needs to be triggered at least once before you'll ge
 
 #### Defined in
 
-[restWrapper.ts:1497](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1497)
+[restWrapper.ts:1497](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L1497)
 
 ___
 
@@ -1051,7 +1051,7 @@ Import a dwx archive. DWX is the exchange format of DocuWare
 
 #### Defined in
 
-[restWrapper.ts:1368](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1368)
+[restWrapper.ts:1368](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L1368)
 
 ___
 
@@ -1079,7 +1079,7 @@ Gets the 'self' link of provided object and retrieves the full load of propertie
 
 #### Defined in
 
-[restWrapper.ts:370](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L370)
+[restWrapper.ts:370](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L370)
 
 ___
 
@@ -1102,7 +1102,7 @@ Do explicit lock of a document
 
 #### Defined in
 
-[restWrapper.ts:1437](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1437)
+[restWrapper.ts:1437](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L1437)
 
 ___
 
@@ -1124,7 +1124,7 @@ Handles logon and sets cookies to 'global' {RequestPromiseOptions}
 
 #### Defined in
 
-[restWrapper.ts:81](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L81)
+[restWrapper.ts:81](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L81)
 
 ___
 
@@ -1149,7 +1149,7 @@ Info: Staple is only supported for document trays
 
 #### Defined in
 
-[restWrapper.ts:1141](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1141)
+[restWrapper.ts:1141](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L1141)
 
 ___
 
@@ -1172,7 +1172,7 @@ Gets the best position for a stamp an paces it
 
 #### Defined in
 
-[restWrapper.ts:986](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L986)
+[restWrapper.ts:986](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L986)
 
 ___
 
@@ -1195,7 +1195,7 @@ Place an annotation to a single page
 
 #### Defined in
 
-[restWrapper.ts:1096](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1096)
+[restWrapper.ts:1096](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L1096)
 
 ___
 
@@ -1218,7 +1218,7 @@ ___
 
 #### Defined in
 
-[restWrapper.ts:1280](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1280)
+[restWrapper.ts:1280](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L1280)
 
 ___
 
@@ -1241,7 +1241,7 @@ Remove a role from a user
 
 #### Defined in
 
-[restWrapper.ts:1257](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1257)
+[restWrapper.ts:1257](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L1257)
 
 ___
 
@@ -1266,7 +1266,7 @@ Transfer a number documents from document tray to FileCabinet
 
 #### Defined in
 
-[restWrapper.ts:1022](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1022)
+[restWrapper.ts:1022](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L1022)
 
 ___
 
@@ -1291,7 +1291,7 @@ Transfer a document from FileCabinet to another (or the same) FileCabinet
 
 #### Defined in
 
-[restWrapper.ts:1058](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L1058)
+[restWrapper.ts:1058](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L1058)
 
 ___
 
@@ -1314,7 +1314,7 @@ Update index values of specified document
 
 #### Defined in
 
-[restWrapper.ts:451](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L451)
+[restWrapper.ts:451](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L451)
 
 ___
 
@@ -1339,7 +1339,7 @@ Store big document with optional index entries as xml or json string
 
 #### Defined in
 
-[restWrapper.ts:684](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L684)
+[restWrapper.ts:684](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L684)
 
 ___
 
@@ -1364,7 +1364,7 @@ Store big document with multiple sections, optional json index fields and/or sin
 
 #### Defined in
 
-[restWrapper.ts:632](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L632)
+[restWrapper.ts:632](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L632)
 
 ___
 
@@ -1391,7 +1391,7 @@ Store big document with multiple sections, optional json index fields and/or sin
 
 #### Defined in
 
-[restWrapper.ts:597](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L597)
+[restWrapper.ts:597](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L597)
 
 ___
 
@@ -1418,7 +1418,7 @@ Store big document with optional json index fields and/or application properties
 
 #### Defined in
 
-[restWrapper.ts:573](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L573)
+[restWrapper.ts:573](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L573)
 
 ___
 
@@ -1442,4 +1442,4 @@ Store document with index entries
 
 #### Defined in
 
-[restWrapper.ts:509](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/restWrapper.ts#L509)
+[restWrapper.ts:509](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/restWrapper.ts#L509)

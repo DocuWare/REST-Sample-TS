@@ -47,7 +47,7 @@
 
 #### Defined in
 
-[Annotations.ts:21](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L21)
+[Annotations.ts:21](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/Annotations.ts#L21)
 
 ## Properties
 
@@ -61,7 +61,7 @@
 
 #### Defined in
 
-[Annotations.ts:12](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L12)
+[Annotations.ts:12](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/Annotations.ts#L12)
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 #### Defined in
 
-[Annotations.ts:17](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L17)
+[Annotations.ts:17](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/Annotations.ts#L17)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-[Annotations.ts:16](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L16)
+[Annotations.ts:16](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/Annotations.ts#L16)
 
 ___
 
@@ -103,7 +103,7 @@ ___
 
 #### Defined in
 
-[Annotations.ts:14](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L14)
+[Annotations.ts:14](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/Annotations.ts#L14)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-[Annotations.ts:21](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L21)
+[Annotations.ts:21](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/Annotations.ts#L21)
 
 ___
 
@@ -131,7 +131,7 @@ ___
 
 #### Defined in
 
-[Annotations.ts:15](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L15)
+[Annotations.ts:15](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/Annotations.ts#L15)
 
 ___
 
@@ -145,7 +145,7 @@ ___
 
 #### Defined in
 
-[Annotations.ts:18](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L18)
+[Annotations.ts:18](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/Annotations.ts#L18)
 
 ___
 
@@ -159,7 +159,7 @@ ___
 
 #### Defined in
 
-[Annotations.ts:20](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L20)
+[Annotations.ts:20](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/Annotations.ts#L20)
 
 ___
 
@@ -173,7 +173,7 @@ ___
 
 #### Defined in
 
-[Annotations.ts:19](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L19)
+[Annotations.ts:19](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/Annotations.ts#L19)
 
 ___
 
@@ -187,4 +187,4 @@ ___
 
 #### Defined in
 
-[Annotations.ts:13](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/Annotations.ts#L13)
+[Annotations.ts:13](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/Annotations.ts#L13)

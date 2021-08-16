@@ -27,7 +27,7 @@ DocuWare DWRectangle Model
 
 #### Defined in
 
-[types/DW_Rest.d.ts:214](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L214)
+[types/DW_Rest.d.ts:214](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L214)
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:211](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L211)
+[types/DW_Rest.d.ts:211](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L211)
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:212](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L212)
+[types/DW_Rest.d.ts:212](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L212)
 
 ___
 
@@ -57,4 +57,4 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:213](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L213)
+[types/DW_Rest.d.ts:213](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L213)

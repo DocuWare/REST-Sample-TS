@@ -23,7 +23,7 @@ Information for dividing
 
 #### Defined in
 
-[types/DW_Rest.d.ts:568](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L568)
+[types/DW_Rest.d.ts:568](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L568)
 
 ___
 
@@ -33,4 +33,4 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:567](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L567)
+[types/DW_Rest.d.ts:567](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L567)

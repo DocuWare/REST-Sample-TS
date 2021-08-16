@@ -23,7 +23,7 @@ Annotation point
 
 #### Defined in
 
-[types/DW_Rest.d.ts:660](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L660)
+[types/DW_Rest.d.ts:660](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L660)
 
 ___
 
@@ -33,4 +33,4 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:661](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L661)
+[types/DW_Rest.d.ts:661](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L661)

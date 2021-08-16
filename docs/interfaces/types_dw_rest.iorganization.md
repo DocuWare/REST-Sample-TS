@@ -41,7 +41,7 @@ DocuWare Organization Model
 
 #### Defined in
 
-[types/DW_Rest.d.ts:57](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L57)
+[types/DW_Rest.d.ts:57](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L57)
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:56](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L56)
+[types/DW_Rest.d.ts:56](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L56)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:8](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L8)
+[types/DW_Rest.d.ts:8](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L8)
 
 ___
 
@@ -75,4 +75,4 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:55](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L55)
+[types/DW_Rest.d.ts:55](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L55)

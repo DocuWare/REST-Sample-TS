@@ -43,7 +43,7 @@ Poly line entry
 
 #### Defined in
 
-[types/DW_Rest.d.ts:602](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L602)
+[types/DW_Rest.d.ts:602](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L602)
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:604](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L604)
+[types/DW_Rest.d.ts:604](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L604)
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:603](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L603)
+[types/DW_Rest.d.ts:603](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L603)
 
 ___
 
@@ -85,7 +85,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:608](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L608)
+[types/DW_Rest.d.ts:608](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L608)
 
 ___
 
@@ -99,7 +99,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:605](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L605)
+[types/DW_Rest.d.ts:605](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L605)
 
 ___
 
@@ -109,7 +109,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:710](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L710)
+[types/DW_Rest.d.ts:710](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L710)
 
 ___
 
@@ -123,7 +123,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:607](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L607)
+[types/DW_Rest.d.ts:607](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L607)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:606](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L606)
+[types/DW_Rest.d.ts:606](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L606)

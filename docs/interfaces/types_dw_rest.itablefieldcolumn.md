@@ -24,7 +24,7 @@ A siongle column of DocuWare Table Field
 
 #### Defined in
 
-[types/DW_Rest.d.ts:353](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L353)
+[types/DW_Rest.d.ts:353](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L353)
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:352](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L352)
+[types/DW_Rest.d.ts:352](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L352)
 
 ___
 
@@ -44,4 +44,4 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:354](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L354)
+[types/DW_Rest.d.ts:354](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L354)

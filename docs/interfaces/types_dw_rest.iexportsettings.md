@@ -23,7 +23,7 @@ Export Settings
 
 #### Defined in
 
-[types/DW_Rest.d.ts:836](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L836)
+[types/DW_Rest.d.ts:836](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L836)
 
 ___
 
@@ -33,4 +33,4 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:837](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L837)
+[types/DW_Rest.d.ts:837](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L837)

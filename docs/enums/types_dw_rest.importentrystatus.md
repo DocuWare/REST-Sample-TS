@@ -21,7 +21,7 @@ Status of import entry
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1357](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1357)
+[types/DW_Rest.d.ts:1357](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1357)
 
 ___
 
@@ -31,4 +31,4 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1356](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1356)
+[types/DW_Rest.d.ts:1356](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1356)

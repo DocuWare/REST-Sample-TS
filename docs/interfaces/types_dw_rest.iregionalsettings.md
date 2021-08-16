@@ -24,7 +24,7 @@ Regional Settings
 
 #### Defined in
 
-[types/DW_Rest.d.ts:763](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L763)
+[types/DW_Rest.d.ts:763](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L763)
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:762](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L762)
+[types/DW_Rest.d.ts:762](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L762)
 
 ___
 
@@ -44,4 +44,4 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:761](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L761)
+[types/DW_Rest.d.ts:761](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L761)

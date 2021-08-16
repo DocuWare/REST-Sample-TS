@@ -25,7 +25,7 @@ FileCabinet Transfer Info
 
 #### Defined in
 
-[types/DW_Rest.d.ts:547](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L547)
+[types/DW_Rest.d.ts:547](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L547)
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:546](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L546)
+[types/DW_Rest.d.ts:546](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L546)
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:544](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L544)
+[types/DW_Rest.d.ts:544](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L544)
 
 ___
 
@@ -55,4 +55,4 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:545](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L545)
+[types/DW_Rest.d.ts:545](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L545)

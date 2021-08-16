@@ -31,7 +31,7 @@ Upload result chunk
 
 #### Defined in
 
-[types/DW_Rest.d.ts:890](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L890)
+[types/DW_Rest.d.ts:890](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L890)
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:888](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L888)
+[types/DW_Rest.d.ts:888](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L888)
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:889](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L889)
+[types/DW_Rest.d.ts:889](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L889)
 
 ___
 
@@ -65,4 +65,4 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:8](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L8)
+[types/DW_Rest.d.ts:8](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L8)

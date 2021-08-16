@@ -23,7 +23,7 @@ Column value
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1024](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1024)
+[types/DW_Rest.d.ts:1024](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1024)
 
 ___
 
@@ -33,4 +33,4 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1025](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1025)
+[types/DW_Rest.d.ts:1025](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1025)

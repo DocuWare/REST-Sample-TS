@@ -21,7 +21,7 @@ Assignment type
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1388](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1388)
+[types/DW_Rest.d.ts:1388](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1388)
 
 ___
 
@@ -31,4 +31,4 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1389](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1389)
+[types/DW_Rest.d.ts:1389](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1389)

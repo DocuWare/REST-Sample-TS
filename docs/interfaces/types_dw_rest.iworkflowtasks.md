@@ -31,7 +31,7 @@ List of workflow tasks
 
 #### Defined in
 
-[types/DW_Rest.d.ts:944](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L944)
+[types/DW_Rest.d.ts:944](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L944)
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:8](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L8)
+[types/DW_Rest.d.ts:8](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L8)
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:943](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L943)
+[types/DW_Rest.d.ts:943](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L943)
 
 ___
 
@@ -65,4 +65,4 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:945](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L945)
+[types/DW_Rest.d.ts:945](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L945)

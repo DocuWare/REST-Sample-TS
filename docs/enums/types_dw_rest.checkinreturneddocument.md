@@ -21,7 +21,7 @@ Expected return after checkin
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1473](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1473)
+[types/DW_Rest.d.ts:1473](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1473)
 
 ___
 
@@ -31,4 +31,4 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1472](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1472)
+[types/DW_Rest.d.ts:1472](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1472)

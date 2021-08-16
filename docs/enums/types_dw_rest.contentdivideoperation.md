@@ -22,7 +22,7 @@ Kind of devide operation
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1410](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1410)
+[types/DW_Rest.d.ts:1410](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1410)
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1408](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1408)
+[types/DW_Rest.d.ts:1408](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1408)
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1409](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1409)
+[types/DW_Rest.d.ts:1409](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1409)

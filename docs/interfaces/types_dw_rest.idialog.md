@@ -40,7 +40,7 @@ DocuWare Dialog Model
 
 #### Defined in
 
-[types/DW_Rest.d.ts:410](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L410)
+[types/DW_Rest.d.ts:410](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L410)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:411](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L411)
+[types/DW_Rest.d.ts:411](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L411)
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:408](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L408)
+[types/DW_Rest.d.ts:408](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L408)
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:414](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L414)
+[types/DW_Rest.d.ts:414](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L414)
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:406](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L406)
+[types/DW_Rest.d.ts:406](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L406)
 
 ___
 
@@ -90,7 +90,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:407](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L407)
+[types/DW_Rest.d.ts:407](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L407)
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:405](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L405)
+[types/DW_Rest.d.ts:405](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L405)
 
 ___
 
@@ -110,7 +110,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:412](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L412)
+[types/DW_Rest.d.ts:412](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L412)
 
 ___
 
@@ -120,7 +120,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:409](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L409)
+[types/DW_Rest.d.ts:409](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L409)
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:8](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L8)
+[types/DW_Rest.d.ts:8](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L8)
 
 ___
 
@@ -152,7 +152,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:420](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L420)
+[types/DW_Rest.d.ts:420](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L420)
 
 ___
 
@@ -170,7 +170,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:415](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L415)
+[types/DW_Rest.d.ts:415](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L415)
 
 ___
 
@@ -180,4 +180,4 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:413](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L413)
+[types/DW_Rest.d.ts:413](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L413)

@@ -27,7 +27,7 @@ DocuWare UploadedFileChunk Model
 
 #### Defined in
 
-[types/DW_Rest.d.ts:247](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L247)
+[types/DW_Rest.d.ts:247](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L247)
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:245](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L245)
+[types/DW_Rest.d.ts:245](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L245)
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:246](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L246)
+[types/DW_Rest.d.ts:246](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L246)
 
 ___
 
@@ -57,4 +57,4 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:244](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L244)
+[types/DW_Rest.d.ts:244](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L244)

@@ -28,7 +28,7 @@ Font
 
 #### Defined in
 
-[types/DW_Rest.d.ts:671](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L671)
+[types/DW_Rest.d.ts:671](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L671)
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:670](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L670)
+[types/DW_Rest.d.ts:670](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L670)
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:675](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L675)
+[types/DW_Rest.d.ts:675](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L675)
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:672](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L672)
+[types/DW_Rest.d.ts:672](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L672)
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:676](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L676)
+[types/DW_Rest.d.ts:676](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L676)
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:674](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L674)
+[types/DW_Rest.d.ts:674](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L674)
 
 ___
 
@@ -88,4 +88,4 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:673](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L673)
+[types/DW_Rest.d.ts:673](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L673)

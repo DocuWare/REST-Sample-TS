@@ -76,7 +76,7 @@ Creates an instance of StandardChunkUploadDocument.
 
 #### Defined in
 
-[classes/StandardChunkUploadDocument.ts:267](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/classes/StandardChunkUploadDocument.ts#L267)
+[classes/StandardChunkUploadDocument.ts:267](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/classes/StandardChunkUploadDocument.ts#L267)
 
 • **new StandardChunkUploadDocument**(`filesPath`, `indexEntries?`, `inputSection?`)
 
@@ -90,7 +90,7 @@ Creates an instance of StandardChunkUploadDocument.
 
 #### Defined in
 
-[classes/StandardChunkUploadDocument.ts:276](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/classes/StandardChunkUploadDocument.ts#L276)
+[classes/StandardChunkUploadDocument.ts:276](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/classes/StandardChunkUploadDocument.ts#L276)
 
 ## Properties
 
@@ -100,7 +100,7 @@ Creates an instance of StandardChunkUploadDocument.
 
 #### Defined in
 
-[classes/StandardChunkUploadDocument.ts:33](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/classes/StandardChunkUploadDocument.ts#L33)
+[classes/StandardChunkUploadDocument.ts:33](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/classes/StandardChunkUploadDocument.ts#L33)
 
 ___
 
@@ -110,7 +110,7 @@ ___
 
 #### Defined in
 
-[classes/StandardChunkUploadDocument.ts:34](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/classes/StandardChunkUploadDocument.ts#L34)
+[classes/StandardChunkUploadDocument.ts:34](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/classes/StandardChunkUploadDocument.ts#L34)
 
 ___
 
@@ -120,7 +120,7 @@ ___
 
 #### Defined in
 
-[classes/StandardChunkUploadDocument.ts:35](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/classes/StandardChunkUploadDocument.ts#L35)
+[classes/StandardChunkUploadDocument.ts:35](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/classes/StandardChunkUploadDocument.ts#L35)
 
 ___
 
@@ -130,7 +130,7 @@ ___
 
 #### Defined in
 
-[classes/StandardChunkUploadDocument.ts:26](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/classes/StandardChunkUploadDocument.ts#L26)
+[classes/StandardChunkUploadDocument.ts:26](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/classes/StandardChunkUploadDocument.ts#L26)
 
 ___
 
@@ -140,7 +140,7 @@ ___
 
 #### Defined in
 
-[classes/StandardChunkUploadDocument.ts:28](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/classes/StandardChunkUploadDocument.ts#L28)
+[classes/StandardChunkUploadDocument.ts:28](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/classes/StandardChunkUploadDocument.ts#L28)
 
 ___
 
@@ -150,7 +150,7 @@ ___
 
 #### Defined in
 
-[classes/StandardChunkUploadDocument.ts:29](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/classes/StandardChunkUploadDocument.ts#L29)
+[classes/StandardChunkUploadDocument.ts:29](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/classes/StandardChunkUploadDocument.ts#L29)
 
 ___
 
@@ -160,7 +160,7 @@ ___
 
 #### Defined in
 
-[classes/StandardChunkUploadDocument.ts:27](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/classes/StandardChunkUploadDocument.ts#L27)
+[classes/StandardChunkUploadDocument.ts:27](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/classes/StandardChunkUploadDocument.ts#L27)
 
 ___
 
@@ -170,7 +170,7 @@ ___
 
 #### Defined in
 
-[classes/StandardChunkUploadDocument.ts:38](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/classes/StandardChunkUploadDocument.ts#L38)
+[classes/StandardChunkUploadDocument.ts:38](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/classes/StandardChunkUploadDocument.ts#L38)
 
 ___
 
@@ -180,7 +180,7 @@ ___
 
 #### Defined in
 
-[classes/StandardChunkUploadDocument.ts:19](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/classes/StandardChunkUploadDocument.ts#L19)
+[classes/StandardChunkUploadDocument.ts:19](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/classes/StandardChunkUploadDocument.ts#L19)
 
 ___
 
@@ -190,7 +190,7 @@ ___
 
 #### Defined in
 
-[classes/StandardChunkUploadDocument.ts:24](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/classes/StandardChunkUploadDocument.ts#L24)
+[classes/StandardChunkUploadDocument.ts:24](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/classes/StandardChunkUploadDocument.ts#L24)
 
 ___
 
@@ -200,7 +200,7 @@ ___
 
 #### Defined in
 
-[classes/StandardChunkUploadDocument.ts:25](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/classes/StandardChunkUploadDocument.ts#L25)
+[classes/StandardChunkUploadDocument.ts:25](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/classes/StandardChunkUploadDocument.ts#L25)
 
 ___
 
@@ -210,7 +210,7 @@ ___
 
 #### Defined in
 
-[classes/StandardChunkUploadDocument.ts:20](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/classes/StandardChunkUploadDocument.ts#L20)
+[classes/StandardChunkUploadDocument.ts:20](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/classes/StandardChunkUploadDocument.ts#L20)
 
 ___
 
@@ -220,7 +220,7 @@ ___
 
 #### Defined in
 
-[classes/StandardChunkUploadDocument.ts:21](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/classes/StandardChunkUploadDocument.ts#L21)
+[classes/StandardChunkUploadDocument.ts:21](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/classes/StandardChunkUploadDocument.ts#L21)
 
 ___
 
@@ -230,7 +230,7 @@ ___
 
 #### Defined in
 
-[classes/StandardChunkUploadDocument.ts:23](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/classes/StandardChunkUploadDocument.ts#L23)
+[classes/StandardChunkUploadDocument.ts:23](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/classes/StandardChunkUploadDocument.ts#L23)
 
 ___
 
@@ -240,7 +240,7 @@ ___
 
 #### Defined in
 
-[classes/StandardChunkUploadDocument.ts:22](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/classes/StandardChunkUploadDocument.ts#L22)
+[classes/StandardChunkUploadDocument.ts:22](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/classes/StandardChunkUploadDocument.ts#L22)
 
 ___
 
@@ -276,7 +276,7 @@ Returns the correct document format for the single or multiple section applicati
 
 #### Defined in
 
-[classes/StandardChunkUploadDocument.ts:182](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/classes/StandardChunkUploadDocument.ts#L182)
+[classes/StandardChunkUploadDocument.ts:182](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/classes/StandardChunkUploadDocument.ts#L182)
 
 ___
 
@@ -298,7 +298,7 @@ That property contains the document content like index values and/or application
 
 #### Defined in
 
-[classes/StandardChunkUploadDocument.ts:249](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/classes/StandardChunkUploadDocument.ts#L249)
+[classes/StandardChunkUploadDocument.ts:249](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/classes/StandardChunkUploadDocument.ts#L249)
 
 • `set` **DocumentContent**(`value`): `void`
 
@@ -320,7 +320,7 @@ That property contains the document content like index values and/or application
 
 #### Defined in
 
-[classes/StandardChunkUploadDocument.ts:252](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/classes/StandardChunkUploadDocument.ts#L252)
+[classes/StandardChunkUploadDocument.ts:252](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/classes/StandardChunkUploadDocument.ts#L252)
 
 ___
 
@@ -342,7 +342,7 @@ Contains the type of content like xml or json
 
 #### Defined in
 
-[classes/StandardChunkUploadDocument.ts:262](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/classes/StandardChunkUploadDocument.ts#L262)
+[classes/StandardChunkUploadDocument.ts:262](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/classes/StandardChunkUploadDocument.ts#L262)
 
 • `set` **DocumentContentType**(`value`): `void`
 
@@ -364,7 +364,7 @@ Contains the type of content like xml or json
 
 #### Defined in
 
-[classes/StandardChunkUploadDocument.ts:265](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/classes/StandardChunkUploadDocument.ts#L265)
+[classes/StandardChunkUploadDocument.ts:265](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/classes/StandardChunkUploadDocument.ts#L265)
 
 ___
 
@@ -388,7 +388,7 @@ Returns the document content-type
 
 #### Defined in
 
-[classes/StandardChunkUploadDocument.ts:228](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/classes/StandardChunkUploadDocument.ts#L228)
+[classes/StandardChunkUploadDocument.ts:228](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/classes/StandardChunkUploadDocument.ts#L228)
 
 ___
 
@@ -412,7 +412,7 @@ Returns a string array with all file path
 
 #### Defined in
 
-[classes/StandardChunkUploadDocument.ts:48](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/classes/StandardChunkUploadDocument.ts#L48)
+[classes/StandardChunkUploadDocument.ts:48](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/classes/StandardChunkUploadDocument.ts#L48)
 
 ___
 
@@ -426,7 +426,7 @@ ___
 
 #### Defined in
 
-[classes/StandardChunkUploadDocument.ts:215](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/classes/StandardChunkUploadDocument.ts#L215)
+[classes/StandardChunkUploadDocument.ts:215](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/classes/StandardChunkUploadDocument.ts#L215)
 
 ___
 
@@ -450,7 +450,7 @@ Returns the upload file content-type and in the case of multiple files the tarba
 
 #### Defined in
 
-[classes/StandardChunkUploadDocument.ts:59](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/classes/StandardChunkUploadDocument.ts#L59)
+[classes/StandardChunkUploadDocument.ts:59](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/classes/StandardChunkUploadDocument.ts#L59)
 
 ___
 
@@ -475,7 +475,7 @@ In case of multiple files a tarball will be created and its path returned.
 
 #### Defined in
 
-[classes/StandardChunkUploadDocument.ts:90](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/classes/StandardChunkUploadDocument.ts#L90)
+[classes/StandardChunkUploadDocument.ts:90](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/classes/StandardChunkUploadDocument.ts#L90)
 
 ___
 
@@ -499,7 +499,7 @@ Returns the necessary file name format for the chunk upload
 
 #### Defined in
 
-[classes/StandardChunkUploadDocument.ts:142](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/classes/StandardChunkUploadDocument.ts#L142)
+[classes/StandardChunkUploadDocument.ts:142](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/classes/StandardChunkUploadDocument.ts#L142)
 
 ___
 
@@ -517,7 +517,7 @@ ___
 
 #### Defined in
 
-[classes/StandardChunkUploadDocument.ts:113](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/classes/StandardChunkUploadDocument.ts#L113)
+[classes/StandardChunkUploadDocument.ts:113](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/classes/StandardChunkUploadDocument.ts#L113)
 
 ## Methods
 
@@ -537,7 +537,7 @@ The path to the created tarball
 
 #### Defined in
 
-[classes/StandardChunkUploadDocument.ts:309](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/classes/StandardChunkUploadDocument.ts#L309)
+[classes/StandardChunkUploadDocument.ts:309](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/classes/StandardChunkUploadDocument.ts#L309)
 
 ___
 
@@ -562,4 +562,4 @@ Concatenates the directory paths of the files path into a string separated by a 
 
 #### Defined in
 
-[classes/StandardChunkUploadDocument.ts:340](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/classes/StandardChunkUploadDocument.ts#L340)
+[classes/StandardChunkUploadDocument.ts:340](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/classes/StandardChunkUploadDocument.ts#L340)

@@ -22,7 +22,7 @@ Target file type
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1451](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1451)
+[types/DW_Rest.d.ts:1451](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1451)
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1453](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1453)
+[types/DW_Rest.d.ts:1453](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1453)
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1452](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1452)
+[types/DW_Rest.d.ts:1452](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1452)

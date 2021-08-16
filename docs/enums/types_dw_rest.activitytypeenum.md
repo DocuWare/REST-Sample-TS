@@ -23,7 +23,7 @@ Specifies the activity type of a task
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1327](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1327)
+[types/DW_Rest.d.ts:1327](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1327)
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1324](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1324)
+[types/DW_Rest.d.ts:1324](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1324)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1325](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1325)
+[types/DW_Rest.d.ts:1325](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1325)
 
 ___
 
@@ -53,4 +53,4 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1326](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1326)
+[types/DW_Rest.d.ts:1326](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1326)

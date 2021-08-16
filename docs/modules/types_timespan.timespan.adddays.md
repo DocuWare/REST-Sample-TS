@@ -18,4 +18,4 @@
 
 #### Defined in
 
-[types/timespan.d.ts:127](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L127)
+[types/timespan.d.ts:127](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/timespan.d.ts#L127)

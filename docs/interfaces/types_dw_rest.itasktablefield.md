@@ -31,7 +31,7 @@ Task table field
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1174](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1174)
+[types/DW_Rest.d.ts:1174](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1174)
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1067](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1067)
+[types/DW_Rest.d.ts:1067](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1067)
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1069](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1069)
+[types/DW_Rest.d.ts:1069](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1069)
 
 ___
 
@@ -73,4 +73,4 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1068](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1068)
+[types/DW_Rest.d.ts:1068](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1068)

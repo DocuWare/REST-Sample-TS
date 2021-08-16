@@ -30,7 +30,7 @@ DocuWareSpecificContentType Enum
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1485](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1485)
+[types/DW_Rest.d.ts:1485](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1485)
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1484](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1484)
+[types/DW_Rest.d.ts:1484](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1484)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1483](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1483)
+[types/DW_Rest.d.ts:1483](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1483)
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1486](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1486)
+[types/DW_Rest.d.ts:1486](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1486)
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1482](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1482)
+[types/DW_Rest.d.ts:1482](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1482)
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1487](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1487)
+[types/DW_Rest.d.ts:1487](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1487)
 
 ___
 
@@ -90,7 +90,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1488](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1488)
+[types/DW_Rest.d.ts:1488](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1488)
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1489](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1489)
+[types/DW_Rest.d.ts:1489](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1489)
 
 ___
 
@@ -110,7 +110,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1490](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1490)
+[types/DW_Rest.d.ts:1490](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1490)
 
 ___
 
@@ -120,7 +120,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1492](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1492)
+[types/DW_Rest.d.ts:1492](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1492)
 
 ___
 
@@ -130,4 +130,4 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1491](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1491)
+[types/DW_Rest.d.ts:1491](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1491)

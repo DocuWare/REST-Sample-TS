@@ -28,4 +28,4 @@ Original IncomingMessage does not contain body property, so we enhance it
 
 #### Defined in
 
-[types/DW_Request_Promise_Extension.d.ts:28](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Request_Promise_Extension.d.ts#L28)
+[types/DW_Request_Promise_Extension.d.ts:28](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Request_Promise_Extension.d.ts#L28)

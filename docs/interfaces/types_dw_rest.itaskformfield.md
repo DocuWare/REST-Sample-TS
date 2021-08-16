@@ -22,4 +22,4 @@ A task form field
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1048](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1048)
+[types/DW_Rest.d.ts:1048](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1048)

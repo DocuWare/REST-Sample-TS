@@ -27,7 +27,7 @@ Dialog Condition
 
 #### Defined in
 
-[types/DW_Rest.d.ts:454](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L454)
+[types/DW_Rest.d.ts:454](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L454)
 
 ___
 
@@ -37,4 +37,4 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:453](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L453)
+[types/DW_Rest.d.ts:453](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L453)

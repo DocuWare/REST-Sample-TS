@@ -21,7 +21,7 @@ Kind of merge operation
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1398](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1398)
+[types/DW_Rest.d.ts:1398](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1398)
 
 ___
 
@@ -31,4 +31,4 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1399](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1399)
+[types/DW_Rest.d.ts:1399](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1399)

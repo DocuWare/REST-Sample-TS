@@ -28,7 +28,7 @@ Just the definintion of StatusCodeError return
 
 #### Defined in
 
-[types/DW_Request_Promise_Extension.d.ts:12](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Request_Promise_Extension.d.ts#L12)
+[types/DW_Request_Promise_Extension.d.ts:12](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Request_Promise_Extension.d.ts#L12)
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 #### Defined in
 
-[types/DW_Request_Promise_Extension.d.ts:13](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Request_Promise_Extension.d.ts#L13)
+[types/DW_Request_Promise_Extension.d.ts:13](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Request_Promise_Extension.d.ts#L13)
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 #### Defined in
 
-[types/DW_Request_Promise_Extension.d.ts:14](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Request_Promise_Extension.d.ts#L14)
+[types/DW_Request_Promise_Extension.d.ts:14](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Request_Promise_Extension.d.ts#L14)
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 #### Defined in
 
-[types/DW_Request_Promise_Extension.d.ts:15](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Request_Promise_Extension.d.ts#L15)
+[types/DW_Request_Promise_Extension.d.ts:15](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Request_Promise_Extension.d.ts#L15)
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 #### Defined in
 
-[types/DW_Request_Promise_Extension.d.ts:18](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Request_Promise_Extension.d.ts#L18)
+[types/DW_Request_Promise_Extension.d.ts:18](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Request_Promise_Extension.d.ts#L18)
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 #### Defined in
 
-[types/DW_Request_Promise_Extension.d.ts:16](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Request_Promise_Extension.d.ts#L16)
+[types/DW_Request_Promise_Extension.d.ts:16](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Request_Promise_Extension.d.ts#L16)
 
 ___
 
@@ -88,4 +88,4 @@ ___
 
 #### Defined in
 
-[types/DW_Request_Promise_Extension.d.ts:17](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Request_Promise_Extension.d.ts#L17)
+[types/DW_Request_Promise_Extension.d.ts:17](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Request_Promise_Extension.d.ts#L17)

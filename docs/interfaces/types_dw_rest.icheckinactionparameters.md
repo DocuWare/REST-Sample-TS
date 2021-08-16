@@ -25,7 +25,7 @@ Check in parameters in case of versioning
 
 #### Defined in
 
-[types/DW_Rest.d.ts:466](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L466)
+[types/DW_Rest.d.ts:466](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L466)
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:464](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L464)
+[types/DW_Rest.d.ts:464](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L464)
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:463](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L463)
+[types/DW_Rest.d.ts:463](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L463)
 
 ___
 
@@ -55,4 +55,4 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:465](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L465)
+[types/DW_Rest.d.ts:465](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L465)

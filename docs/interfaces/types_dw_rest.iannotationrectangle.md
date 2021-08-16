@@ -25,7 +25,7 @@ Annotation rectangle
 
 #### Defined in
 
-[types/DW_Rest.d.ts:651](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L651)
+[types/DW_Rest.d.ts:651](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L651)
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:648](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L648)
+[types/DW_Rest.d.ts:648](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L648)
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:649](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L649)
+[types/DW_Rest.d.ts:649](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L649)
 
 ___
 
@@ -55,4 +55,4 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:650](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L650)
+[types/DW_Rest.d.ts:650](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L650)

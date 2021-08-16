@@ -50,7 +50,7 @@
 
 #### Defined in
 
-[types/timespan.d.ts:5](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L5)
+[types/timespan.d.ts:5](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/timespan.d.ts#L5)
 
 ## Methods
 
@@ -70,7 +70,7 @@
 
 #### Defined in
 
-[types/timespan.d.ts:8](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L8)
+[types/timespan.d.ts:8](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/timespan.d.ts#L8)
 
 ___
 
@@ -90,7 +90,7 @@ ___
 
 #### Defined in
 
-[types/timespan.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L10)
+[types/timespan.d.ts:10](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/timespan.d.ts#L10)
 
 ___
 
@@ -110,7 +110,7 @@ ___
 
 #### Defined in
 
-[types/timespan.d.ts:12](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L12)
+[types/timespan.d.ts:12](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/timespan.d.ts#L12)
 
 ___
 
@@ -130,7 +130,7 @@ ___
 
 #### Defined in
 
-[types/timespan.d.ts:14](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L14)
+[types/timespan.d.ts:14](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/timespan.d.ts#L14)
 
 ___
 
@@ -150,7 +150,7 @@ ___
 
 #### Defined in
 
-[types/timespan.d.ts:16](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L16)
+[types/timespan.d.ts:16](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/timespan.d.ts#L16)
 
 ___
 
@@ -170,7 +170,7 @@ ___
 
 #### Defined in
 
-[types/timespan.d.ts:18](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L18)
+[types/timespan.d.ts:18](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/timespan.d.ts#L18)
 
 ___
 
@@ -190,7 +190,7 @@ ___
 
 #### Defined in
 
-[types/timespan.d.ts:20](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L20)
+[types/timespan.d.ts:20](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/timespan.d.ts#L20)
 
 ___
 
@@ -210,7 +210,7 @@ ___
 
 #### Defined in
 
-[types/timespan.d.ts:22](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L22)
+[types/timespan.d.ts:22](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/timespan.d.ts#L22)
 
 ___
 
@@ -230,7 +230,7 @@ ___
 
 #### Defined in
 
-[types/timespan.d.ts:24](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L24)
+[types/timespan.d.ts:24](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/timespan.d.ts#L24)
 
 ___
 
@@ -250,7 +250,7 @@ ___
 
 #### Defined in
 
-[types/timespan.d.ts:26](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L26)
+[types/timespan.d.ts:26](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/timespan.d.ts#L26)
 
 ___
 
@@ -270,7 +270,7 @@ ___
 
 #### Defined in
 
-[types/timespan.d.ts:28](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L28)
+[types/timespan.d.ts:28](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/timespan.d.ts#L28)
 
 ___
 
@@ -290,7 +290,7 @@ ___
 
 #### Defined in
 
-[types/timespan.d.ts:30](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L30)
+[types/timespan.d.ts:30](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/timespan.d.ts#L30)
 
 ___
 
@@ -310,7 +310,7 @@ ___
 
 #### Defined in
 
-[types/timespan.d.ts:32](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L32)
+[types/timespan.d.ts:32](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/timespan.d.ts#L32)
 
 ___
 
@@ -324,7 +324,7 @@ ___
 
 #### Defined in
 
-[types/timespan.d.ts:34](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L34)
+[types/timespan.d.ts:34](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/timespan.d.ts#L34)
 
 ___
 
@@ -344,7 +344,7 @@ ___
 
 #### Defined in
 
-[types/timespan.d.ts:36](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L36)
+[types/timespan.d.ts:36](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/timespan.d.ts#L36)
 
 ___
 
@@ -364,7 +364,7 @@ ___
 
 #### Defined in
 
-[types/timespan.d.ts:38](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L38)
+[types/timespan.d.ts:38](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/timespan.d.ts#L38)
 
 ___
 
@@ -384,7 +384,7 @@ ___
 
 #### Defined in
 
-[types/timespan.d.ts:40](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L40)
+[types/timespan.d.ts:40](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/timespan.d.ts#L40)
 
 ___
 
@@ -404,7 +404,7 @@ ___
 
 #### Defined in
 
-[types/timespan.d.ts:42](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L42)
+[types/timespan.d.ts:42](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/timespan.d.ts#L42)
 
 ___
 
@@ -424,4 +424,4 @@ ___
 
 #### Defined in
 
-[types/timespan.d.ts:44](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/timespan.d.ts#L44)
+[types/timespan.d.ts:44](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/timespan.d.ts#L44)

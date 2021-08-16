@@ -22,7 +22,7 @@ Status of import version entry
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1368](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1368)
+[types/DW_Rest.d.ts:1368](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1368)
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1367](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1367)
+[types/DW_Rest.d.ts:1367](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1367)
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1366](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1366)
+[types/DW_Rest.d.ts:1366](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1366)

@@ -23,7 +23,7 @@ Rotation
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1421](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1421)
+[types/DW_Rest.d.ts:1421](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1421)
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1420](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1420)
+[types/DW_Rest.d.ts:1420](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1420)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1422](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1422)
+[types/DW_Rest.d.ts:1422](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1422)
 
 ___
 
@@ -53,4 +53,4 @@ ___
 
 #### Defined in
 
-[types/DW_Rest.d.ts:1419](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/types/DW_Rest.d.ts#L1419)
+[types/DW_Rest.d.ts:1419](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/types/DW_Rest.d.ts#L1419)

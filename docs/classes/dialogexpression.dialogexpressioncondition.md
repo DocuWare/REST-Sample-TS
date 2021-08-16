@@ -38,7 +38,7 @@
 
 #### Defined in
 
-[DialogExpression.ts:23](https://github.com/DocuWare/REST-Sample-TS/blob/beb3ada/src/DialogExpression.ts#L23)
+[DialogExpression.ts:23](https://github.com/DocuWare/REST-Sample-TS/blob/828b3d4/src/DialogExpression.ts#L23)
 
 ## Properties
 
