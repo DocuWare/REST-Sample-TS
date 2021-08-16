@@ -32,7 +32,7 @@
   "devDependencies": {
     "@microsoft/tsdoc": "^0.13.2",
     "@types/archiver": "^5.1.0",
-    "@types/content-disposition": "^0.5.3",
+    "@types/content-disposition": "^0.5.4",
     "@types/mime-types": "^2.1.0",
     "@types/node": "^11.15.44",
     "@types/request": "^2.48.5",
