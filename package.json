@@ -21,7 +21,7 @@
     "https": "^1.0.0",
     "mime-types": "^2.1.32",
     "polly-js": "^1.8.2",
-    "read-chunk": "^3.2.0",
+    "read-chunk": "^4.0.0",
     "request": "^2.88.2",
     "request-promise-native": "^1.0.9",
     "tar": "^6.1.2",
