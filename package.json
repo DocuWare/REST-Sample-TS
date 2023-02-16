@@ -15,7 +15,7 @@
   "author": "DocuWare GmbH - Dominik Peukert - Team SDK",
   "license": "MIT",
   "dependencies": {
-    "@types/tar": "^4.0.5",
+    "@types/tar": "^6.1.4",
     "archiver": "^5.3.0",
     "content-disposition": "^0.5.3",
     "https": "^1.0.0",
@@ -24,7 +24,7 @@
     "read-chunk": "^4.0.2",
     "request": "^2.88.2",
     "request-promise-native": "^1.0.9",
-    "tar": "^6.1.11",
+    "tar": "^6.1.13",
     "timespan": "^2.3.0",
     "tough-cookie": "^4.0.0"
   },
